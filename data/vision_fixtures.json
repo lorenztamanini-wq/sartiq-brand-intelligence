@@ -1,0 +1,17 @@
+{
+  "_note": "Held-out labelled product images for the vision spot-check (§12b). 'label' is the human-assigned truth; 'predicted' is a representative classify_images output from a prior run. Offline, agreement is derived from these (a recorded baseline); live, the classifier is re-run on the urls and compared to 'label'.",
+  "samples": [
+    {"url": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/catalog/dress-on-model-front.jpg", "label": "on_model", "predicted": "on_model"},
+    {"url": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/catalog/dress-on-model-back.jpg", "label": "on_model", "predicted": "on_model"},
+    {"url": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/catalog/shirt-on-model.jpg", "label": "on_model", "predicted": "on_model"},
+    {"url": "https://www.diesel.com/dw/image/v2/catalog/jeans-on-model.jpg", "label": "on_model", "predicted": "on_model"},
+    {"url": "https://www.ovs.it/dw/image/v2/catalog/tee-on-model.jpg", "label": "on_model", "predicted": "on_model"},
+    {"url": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/catalog/bag-still-life.jpg", "label": "still_life", "predicted": "still_life"},
+    {"url": "https://www.diesel.com/dw/image/v2/catalog/sneaker-packshot.jpg", "label": "still_life", "predicted": "still_life"},
+    {"url": "https://www.ovs.it/dw/image/v2/catalog/scarf-packshot.jpg", "label": "still_life", "predicted": "still_life"},
+    {"url": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/catalog/knit-flat-lay.jpg", "label": "flat_lay", "predicted": "still_life"},
+    {"url": "https://www.ovs.it/dw/image/v2/catalog/coat-ghost-mannequin.jpg", "label": "ghost_mannequin", "predicted": "ghost_mannequin"},
+    {"url": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/catalog/fabric-detail.jpg", "label": "detail", "predicted": "detail"},
+    {"url": "https://www.diesel.com/dw/image/v2/catalog/campaign-video-thumb.jpg", "label": "video", "predicted": "video"}
+  ]
+}

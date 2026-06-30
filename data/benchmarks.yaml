@@ -1,0 +1,44 @@
+# Editable cost benchmarks (2026). Sourced from industry cost breakdowns.
+# Every figure is a band, never a point — false precision is worse than an
+# honest range. Tune these and re-run; the economic model reads them directly.
+
+# Quoted catalog / packshot rate per final image (€).
+cost_per_image_traditional: { low: 40, high: 150 }
+
+# Effective cost runs 2-3x the quoted rate once retouching, studio, samples,
+# coordination and reshoots are included. (cost_per_image_traditional x this =
+# the naive flat "agency-rate" basis the AI applies tier-blind — the DRAFT.)
+effective_multiplier: { low: 2.0, high: 3.0 }
+
+# Tier-aware effective cost per final image — the DEFENSIBLE basis a fashion
+# operator would recognise. A value retailer runs a lean in-house studio; an
+# accessible-luxury maison pays for on-model + stylists; luxury pays the most.
+# This is the human-reframed basis; the flat agency rate above is the AI draft.
+cost_per_image_by_tier:
+  mass: { low: 15, high: 60 }              # in-house studio, high volume
+  accessible-luxury: { low: 60, high: 250 } # premium on-model + still-life blend
+  luxury: { low: 120, high: 400 }           # editorial on-model, top stylists
+
+# Traditional on-model (model + HMU + stylist), per SKU, 2-3 images (€).
+on_model_per_sku: { low: 120, high: 250 }
+
+# AI on-model / still-life at catalog scale (€ per image).
+price_per_image_sartiq: { low: 0.10, high: 3.00 }
+
+# Most PDPs need 4-6 images (hero, back, detail, on-model, size ref);
+# 5+ images convert ~30-40% better.
+images_per_pdp: { low: 4, high: 6 }
+
+# Apparel return rates; image accuracy reduces them — a second monetizable lever.
+return_rate: { low: 0.20, high: 0.30 }
+
+# Localization / market variants can multiply imagery cost 5-8x;
+# near-zero marginal cost with AI.
+localization_multiplier: { low: 5, high: 8 }
+
+# Top-down cross-check: visual content spend as a share of revenue
+# (McKinsey State of Fashion / industry estimate).
+visual_spend_pct_of_revenue: { low: 0.05, high: 0.08 }
+
+# Product / e-com imagery as a subset of total visual content spend.
+ecom_imagery_subset_pct: { low: 0.10, high: 0.25 }

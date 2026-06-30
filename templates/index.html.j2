@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sartiq — Brand Prioritization</title>
+  <style>
+    :root { --ink:#14110f; --paper:#fbfaf7; --muted:#6f6a63; --hair:#d9d4cc;
+            --accent:#b5331f; --soft:#f3e4df; --human:#2c5f4f;
+            --serif:"Iowan Old Style",Palatino,Georgia,serif;
+            --sans:"Helvetica Neue",Helvetica,Arial,sans-serif; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--paper); color:var(--ink);
+           font-family:var(--sans); font-size:15px; line-height:1.45; }
+    .wrap { max-width:1040px; margin:0 auto; padding:48px 28px 72px; }
+    .kicker { font-size:12px; letter-spacing:.22em; text-transform:uppercase;
+              color:var(--accent); font-weight:700; }
+    h1 { font-family:var(--serif); font-size:40px; line-height:1.04; margin:6px 0 4px; }
+    .sub { color:var(--muted); max-width:62ch; }
+    .rule { height:2px; background:var(--ink); margin:22px 0 8px; }
+    .row { display:grid; grid-template-columns:46px 64px 1fr 168px; gap:18px;
+           align-items:start; padding:18px 0; border-bottom:1px solid var(--hair); }
+    .rank { font-family:var(--serif); font-size:30px; color:var(--accent); line-height:1; }
+    .score { font-variant-numeric:tabular-nums; font-weight:700; font-size:20px; }
+    .score small { display:block; font-weight:400; font-size:11px; color:var(--muted);
+                   letter-spacing:.04em; text-transform:uppercase; }
+    .brand a { color:var(--ink); text-decoration:none; font-family:var(--serif);
+               font-size:23px; border-bottom:2px solid var(--soft); }
+    .brand a:hover { border-bottom-color:var(--accent); }
+    .pos { color:var(--muted); font-size:13px; margin-top:1px; }
+    .gap { margin-top:7px; font-size:13.5px; }
+    .gap b { font-variant:small-caps; letter-spacing:.04em; color:var(--accent); }
+    .opp { text-align:right; font-variant-numeric:tabular-nums; }
+    .opp .big { font-weight:700; }
+    .opp .cap { font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; }
+    .opp .partner { color:var(--human); font-size:13px; margin-top:4px; }
+    .tag { display:inline-block; font-size:10.5px; letter-spacing:.05em; text-transform:uppercase;
+           padding:1px 6px; border:1px solid var(--hair); border-radius:2px; color:var(--muted); margin-left:6px; }
+    footer { margin-top:26px; color:var(--muted); font-size:12.5px; }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <div class="kicker">Sartiq · Brand Intelligence</div>
+  <h1>Prioritization Sheet</h1>
+  <p class="sub">Fashion brands ranked by opportunity score (economic size, nudged by
+  strategic fit). Click a brand for its one-page brief. The € is computed, never
+  hallucinated; the human judgment is shown, not asserted.</p>
+  <div class="rule"></div>
+
+  {% for r in rows %}
+  <div class="row">
+    <div class="rank">{{ r.rank }}</div>
+    <div class="score">{{ r.score }}<small>/ 5</small></div>
+    <div>
+      <div class="brand"><a href="{{ r.slug }}.html">{{ r.brand }}</a>
+        <span class="tag">{{ r.momentum }}</span>
+        {% if 'live failed' in r.mode %}<span class="tag" style="color:var(--accent)">live failed</span>{% endif %}
+      </div>
+      <div class="pos">{{ r.positioning }} · {{ r.parent }}</div>
+      <div class="gap"><b>Gap —</b> {{ r.gap }}</div>
+    </div>
+    <div class="opp">
+      <div class="big">€{{ r.opp }}/yr</div>
+      <div class="cap">opportunity · brand</div>
+      <div class="partner">+€{{ r.partner }}/yr partners</div>
+    </div>
+  </div>
+  {% endfor %}
+
+  <footer>
+    {{ rows | length }} brand{{ "s" if rows | length != 1 else "" }} ·
+    mode: {{ rows[0].mode if rows else "—" }} ·
+    every claim sourced or flagged · economics triangulated two ways.
+  </footer>
+</div>
+</body>
+</html>

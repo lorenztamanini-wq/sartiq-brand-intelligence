@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sartiq — Brand Prioritization</title>
+  <style>
+    :root { --ink:#14110f; --paper:#fbfaf7; --muted:#6f6a63; --hair:#d9d4cc;
+            --accent:#b5331f; --soft:#f3e4df; --human:#2c5f4f;
+            --serif:"Iowan Old Style",Palatino,Georgia,serif;
+            --sans:"Helvetica Neue",Helvetica,Arial,sans-serif; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--paper); color:var(--ink);
+           font-family:var(--sans); font-size:15px; line-height:1.45; }
+    .wrap { max-width:1040px; margin:0 auto; padding:48px 28px 72px; }
+    .kicker { font-size:12px; letter-spacing:.22em; text-transform:uppercase;
+              color:var(--accent); font-weight:700; }
+    h1 { font-family:var(--serif); font-size:40px; line-height:1.04; margin:6px 0 4px; }
+    .sub { color:var(--muted); max-width:62ch; }
+    .rule { height:2px; background:var(--ink); margin:22px 0 8px; }
+    .row { display:grid; grid-template-columns:46px 64px 1fr 168px; gap:18px;
+           align-items:start; padding:18px 0; border-bottom:1px solid var(--hair); }
+    .rank { font-family:var(--serif); font-size:30px; color:var(--accent); line-height:1; }
+    .score { font-variant-numeric:tabular-nums; font-weight:700; font-size:20px; }
+    .score small { display:block; font-weight:400; font-size:11px; color:var(--muted);
+                   letter-spacing:.04em; text-transform:uppercase; }
+    .brand a { color:var(--ink); text-decoration:none; font-family:var(--serif);
+               font-size:23px; border-bottom:2px solid var(--soft); }
+    .brand a:hover { border-bottom-color:var(--accent); }
+    .pos { color:var(--muted); font-size:13px; margin-top:1px; }
+    .gap { margin-top:7px; font-size:13.5px; }
+    .gap b { font-variant:small-caps; letter-spacing:.04em; color:var(--accent); }
+    .opp { text-align:right; font-variant-numeric:tabular-nums; }
+    .opp .big { font-weight:700; }
+    .opp .cap { font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; }
+    .opp .partner { color:var(--human); font-size:13px; margin-top:4px; }
+    .tag { display:inline-block; font-size:10.5px; letter-spacing:.05em; text-transform:uppercase;
+           padding:1px 6px; border:1px solid var(--hair); border-radius:2px; color:var(--muted); margin-left:6px; }
+    footer { margin-top:26px; color:var(--muted); font-size:12.5px; }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <div class="kicker">Sartiq · Brand Intelligence</div>
+  <h1>Prioritization Sheet</h1>
+  <p class="sub">Fashion brands ranked by opportunity score (economic size, nudged by
+  strategic fit). Click a brand for its one-page brief. The € is computed, never
+  hallucinated; the human judgment is shown, not asserted.</p>
+  <div class="rule"></div>
+
+  <div class="row">
+    <div class="rank">1</div>
+    <div class="score">3.3<small>/ 5</small></div>
+    <div>
+      <div class="brand"><a href="diesel.html">Diesel</a>
+        <span class="tag">SPLIT</span>
+      </div>
+      <div class="pos">Denim-led, youth, repositioned as &#39;the true alternative to luxury&#39; · OTB Group (Diesel, Margiela, Marni, Jil Sander, Viktor&amp;Rolf + Brave Kid)</div>
+      <div class="gap"><b>Gap —</b> Diesel and OTB need OPPOSITE things from the same supplier — and no single vendor is currently serving both registers. The Diesel brand is winning (best profitability in a decade, youth-led, Berlin/Seoul flagships, new market entries) and is buying INNOVATION: distinctive AI on-model imagery to feed its digital-native DTC push, localized at near-zero marginal cost across Japan (~27% of group sales), NA (+5.9%) and Middle East (+9%). The OTB parent is buying EFFICIENCY: operating profit collapsed ~77%, wholesale down ~15%, margins hit by write-downs from new creative directors at Margiela/Jil Sander/Marni. The concrete wedge: Diesel&#39;s own PDPs are near-perfectly consistent (95.8% on-model, plain white, ~4 shots/SKU), but that coherence does NOT travel to the wholesale/marketplace channel (Farfetch et al.) or sister maisons. One partner plays both: premium AI imagery for the brand, commodity-cost consistency for the group&#39;s maisons, Brave Kid licensees, and a still-large but shrinking wholesale channel that needs cheap, on-brand assets.</div>
+    </div>
+    <div class="opp">
+      <div class="big">€3.1-15.6M/yr</div>
+      <div class="cap">opportunity · brand</div>
+      <div class="partner">+€12.5-62.4M/yr partners</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="rank">2</div>
+    <div class="score">3.2<small>/ 5</small></div>
+    <div>
+      <div class="brand"><a href="ovs.html">OVS</a>
+        <span class="tag">GROWING (brand and group aligned — OVS is standalone, so no brand-vs-parent split). FY2025 (year to Jan 2026)</span>
+      </div>
+      <div class="pos">Italy&#39;s leading value/mass apparel retailer, vertically integrated · OVS S.p.A. (standalone, Euronext Milan)</div>
+      <div class="gap"><b>Gap —</b> THROUGHPUT, not quality — and that&#39;s the whole point with OVS. They already shoot a clean, on-model-led studio set (~5 AI-amenable shots/SKU, ~67% on-model, consistent grey/white backgrounds) in-house, so &#39;cut your photo budget&#39; is the wrong wedge: per-image cost is already low. The real constraint is volume velocity — ~3,563 live women&#39;s-apparel SKUs and an estimated ~40k new SKUs/yr feeding an in-house, vertically integrated studio that is structurally at capacity, while three banners (OVS/Upim/Goldenpoint) plus franchise markets (Japan, Mexico, India, Dubai) each need their own variants. Sartiq&#39;s single wedge: elastic AI on-model + still-life capacity that absorbs new-arrival surges and produces marketplace/banner/localized variants at near-zero marginal cost, freeing the studio to lead on craft instead of grinding on volume.</div>
+    </div>
+    <div class="opp">
+      <div class="big">€8.0-47.2M/yr</div>
+      <div class="cap">opportunity · brand</div>
+      <div class="partner">+€9.7-56.6M/yr partners</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="rank">3</div>
+    <div class="score">3.2<small>/ 5</small></div>
+    <div>
+      <div class="brand"><a href="sandro.html">Sandro</a>
+        <span class="tag">RECOVERING (with a SPLIT nuance to flag). SMCP Group returned to profit in FY2025</span>
+      </div>
+      <div class="pos">Accessible-luxury Parisian ready-to-wear; full-price strategy · SMCP Group (Sandro, Maje, Claudie Pierlot, Fursac)</div>
+      <div class="gap"><b>Gap —</b> Sandro&#39;s equity is its tightly art-directed, studio-grey on-model house look — and that consistency shatters the moment product crosses into wholesale and marketplace channels, where partners show downgraded or off-brand shots. The single gap Sartiq fills is guaranteed garment fidelity at catalog scale held to Sandro&#39;s own art direction across EVERY channel and every localized country eshop — the one promise self-serve AI tools can&#39;t make. For a strict full-price house (in-season discount capped ~20%), each off-brand partner image is direct markdown risk, not a cosmetic nit.</div>
+    </div>
+    <div class="opp">
+      <div class="big">€2.7-12.9M/yr</div>
+      <div class="cap">opportunity · brand</div>
+      <div class="partner">+€8.2-38.8M/yr partners</div>
+    </div>
+  </div>
+
+  <footer>
+    3 brands ·
+    mode: live ·
+    every claim sourced or flagged · economics triangulated two ways.
+  </footer>
+</div>
+</body>
+</html>

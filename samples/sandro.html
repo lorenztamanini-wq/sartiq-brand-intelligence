@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brand Brief — Sandro</title>
+  <style>/* Brand Brief — editorial one-pager.
+   Swiss-International influence: a hard grid, a single accent, disciplined
+   type contrast. Tuned to fit A4 / Letter on one page for the PDF path. */
+
+:root {
+  --ink: #14110f;
+  --paper: #fbfaf7;
+  --muted: #6f6a63;
+  --hair: #d9d4cc;
+  --accent: #b5331f; /* oxide red */
+  --accent-soft: #f3e4df;
+  --flag: #9a6a00;
+  --human: #2c5f4f;
+
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --mono: "SF Mono", "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+
+@page {
+  size: A4;
+  margin: 12mm 14mm;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 9.4pt;
+  line-height: 1.4;
+}
+
+.sheet {
+  max-width: 200mm;
+  margin: 0 auto;
+  padding: 10mm 4mm;
+}
+
+/* ---- masthead ------------------------------------------------------------ */
+.masthead {
+  border-bottom: 2.5pt solid var(--ink);
+  padding-bottom: 6pt;
+  margin-bottom: 10pt;
+}
+
+.kicker {
+  font-family: var(--mono);
+  font-size: 7.5pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.masthead h1 {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 30pt;
+  line-height: 0.96;
+  margin: 2pt 0 5pt;
+  letter-spacing: -0.01em;
+}
+
+.scoreline {
+  display: flex;
+  align-items: baseline;
+  gap: 10pt;
+  flex-wrap: wrap;
+}
+
+.score {
+  font-family: var(--mono);
+  font-size: 12pt;
+  font-weight: 700;
+  color: var(--paper);
+  background: var(--accent);
+  padding: 1.5pt 6pt;
+  border-radius: 2pt;
+}
+
+.rank {
+  font-family: var(--mono);
+  font-size: 9pt;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+  text-transform: uppercase;
+}
+
+.positioning {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 11pt;
+  color: var(--ink);
+}
+
+.meta {
+  margin-top: 4pt;
+  font-size: 8.4pt;
+  color: var(--muted);
+}
+
+.meta .label {
+  font-family: var(--mono);
+  font-size: 7pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+/* ---- numbered answer grid ----------------------------------------------- */
+.answers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7pt 16pt;
+}
+
+.qa {
+  break-inside: avoid;
+  padding-bottom: 1pt;
+}
+
+.qa .num {
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 7.5pt;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  display: inline-block;
+  margin-right: 4pt;
+}
+
+.qa .label {
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 7.5pt;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.qa .body {
+  margin-top: 1.5pt;
+  font-size: 9pt;
+}
+
+.qa .src {
+  display: block;
+  margin-top: 1.5pt;
+  font-size: 7pt;
+  color: var(--muted);
+  font-style: italic;
+}
+
+/* tags ---------------------------------------------------------------------*/
+.tag {
+  font-family: var(--mono);
+  font-size: 6.5pt;
+  letter-spacing: 0.08em;
+  padding: 0.5pt 3pt;
+  border-radius: 2pt;
+  margin-left: 3pt;
+  vertical-align: 1pt;
+  white-space: nowrap;
+}
+
+.tag-human {
+  color: var(--human);
+  background: #e3efe9;
+}
+
+.tag-flag {
+  color: var(--paper);
+  background: var(--flag);
+}
+
+.tag-est {
+  color: var(--muted);
+  border: 0.5pt solid var(--hair);
+}
+
+/* ---- economics panel ----------------------------------------------------- */
+.econ {
+  grid-column: 1 / -1;
+  margin: 4pt 0;
+  border: 1pt solid var(--ink);
+  background: var(--accent-soft);
+  padding: 7pt 9pt;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3pt 14pt;
+  break-inside: avoid;
+}
+
+.econ .big {
+  grid-column: span 1;
+}
+
+.econ .figure {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 17pt;
+  line-height: 1;
+  color: var(--accent);
+}
+
+.econ .cap {
+  font-family: var(--mono);
+  font-size: 6.8pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.econ .cross {
+  grid-column: 1 / -1;
+  font-size: 7.6pt;
+  color: var(--muted);
+  border-top: 0.5pt dashed var(--hair);
+  padding-top: 3pt;
+}
+
+.gate-ok {
+  color: var(--human);
+  font-weight: 700;
+}
+
+.gate-bad {
+  color: var(--flag);
+  font-weight: 700;
+}
+
+/* ---- judgment block ------------------------------------------------------ */
+.judgment {
+  margin-top: 9pt;
+  border-top: 1.5pt solid var(--ink);
+  padding-top: 7pt;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7pt 16pt;
+}
+
+.block h2 {
+  font-family: var(--mono);
+  font-size: 8pt;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin: 0 0 2pt;
+  color: var(--accent);
+}
+
+.block p {
+  margin: 0;
+  font-size: 9pt;
+}
+
+.gap-wide,
+.approach-wide {
+  grid-column: 1 / -1;
+}
+
+.approach dl {
+  margin: 2pt 0 0;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 1.5pt 7pt;
+  font-size: 8.6pt;
+}
+
+.approach dt {
+  font-family: var(--mono);
+  font-size: 7pt;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.approach dd {
+  margin: 0;
+}
+
+.confidence {
+  grid-column: 1 / -1;
+  font-size: 8pt;
+  color: var(--muted);
+  border-top: 0.5pt dashed var(--hair);
+  padding-top: 5pt;
+}
+
+/* ---- footer / sources ---------------------------------------------------- */
+.colophon {
+  margin-top: 8pt;
+  border-top: 0.5pt solid var(--hair);
+  padding-top: 4pt;
+  font-size: 6.8pt;
+  color: var(--muted);
+  display: flex;
+  justify-content: space-between;
+  gap: 10pt;
+}
+
+.colophon .sources {
+  flex: 1;
+}
+
+.colophon .mode {
+  font-family: var(--mono);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* AI-draft -> human-override delta — the visible judgment moment (§11/§12b). */
+.delta {
+  margin-top: 5pt;
+  padding: 5pt 9pt;
+  border-left: 2.5pt solid var(--human);
+  background: #f3f6f4;
+}
+.delta .d-draft {
+  display: block;
+  color: var(--muted);
+  font-size: 8.6pt;
+  line-height: 1.36;
+}
+.delta .d-draft b,
+.delta .d-human b {
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+}
+.delta .d-draft b {
+  color: var(--muted);
+}
+.delta .d-human {
+  display: block;
+  margin-top: 3pt;
+  color: var(--human);
+  font-size: 8.8pt;
+  line-height: 1.38;
+}
+.econ-delta {
+  margin-top: 7pt;
+}
+
+/* operator-confirmed tag (the review form sets human_confirmed). */
+.tag-ok {
+  color: #1f7a4d;
+  border-color: #bfe0cd;
+  background: #eef7f1;
+}
+
+</style>
+</head>
+<body>
+<main class="sheet">
+
+  <header class="masthead">
+    <div class="kicker">Brand Brief</div>
+    <h1>Sandro</h1>
+    <div class="scoreline">
+      <span class="score">3.2/5</span>
+<span class="rank">Rank #1</span>      <span class="positioning">Accessible-luxury Parisian ready-to-wear; full-price strategy</span>
+    </div>
+    <div class="meta">
+      <span class="label">Parent</span> SMCP Group (Sandro, Maje, Claudie Pierlot, Fursac)
+      &nbsp;·&nbsp; <span class="label">Markets</span> France core; global DTC + wholesale; ~1,600 stores (group)
+<br><span class="label">Partners</span> Maje, Claudie Pierlot, Fursac, wholesale partners in new markets    </div>
+  </header>
+
+  <section class="answers">
+    <div class="qa">
+  <div><span class="num">1</span><span class="label">Who</span></div>
+  <div class="body">Sandro is an accessible-luxury Parisian ready-to-wear house (founded 1984 by Evelyne Chetrite, who still provides creative direction) and the largest brand within SMCP Group, alongside Maje, Claudie Pierlot and Fursac. Tier: accessible-luxury — live PDPs show full-price points of ~$300–480 (e.g. $480 knit dress, $315 polo). Channel mix is DTC-led (own eshops across many country/market sites: US, FR, etc.) plus selective wholesale and marketplace partners; the group runs a strict full-price strategy. SMCP is a global accessible-luxury leader present in 59 countries with 1,600+ stores; the group is listed on Euronext Paris (ticker SMCP).</div>
+  <span class="src">SMCP 2025 FY Results press release — https://www.globenewswire.com/news-release/2026/02/26/3245863/0/en/SMCP-2025-FY-Results.html · Sandro US PDP (JSON-LD price/positioning) — https://us.sandro-paris.com/en/p/ribbed-knit-midi-dress/SFPRO04930_20.html</span>
+  
+</div>
+    <div class="qa">
+  <div><span class="num">2</span><span class="label">Direction</span></div>
+  <div class="body">AHEAD ON CRAFT — lead with consistency, not innovation-for-its-own-sake. Wayback then-vs-now shows Sandro has run a tightly art-directed, on-model studio house look for years: the 2022 snapshot already presents a polished seasonal-collection eshop (titled &#34;Fall/Winter 2021 Collection&#34;), and the live 2026 PDPs show the same disciplined studio-grey on-model + still-life + per-PDP video standard. So the brand is not visually behind and does not need a new creative direction — the opening is protecting that hard-won consistency across channels (off-brand wholesale/marketplace imagery is markdown risk), not proposing reinvention. No new-creative-director/rebrand/replatform trigger observed; platform remains Salesforce Commerce Cloud (demandware).</div>
+  <span class="src">Wayback snapshot — Sandro eshop, Jan 2022 — https://web.archive.org/web/20220106143233/http://sandro-paris.com/ · Live Sandro PDP image classification (2026) — https://us.sandro-paris.com/en/p/ribbed-knit-midi-dress/SFPRO04930_20.html</span>
+  
+</div>
+    <div class="qa">
+  <div><span class="num">3</span><span class="label">Momentum</span><span class="tag tag-flag">needs human</span></div>
+  <div class="body">RECOVERING (with a SPLIT nuance to flag). SMCP Group returned to profit in FY2025: sales €1,217.4m (+1.7% organic), net income €17m (a +€40m swing from −€24m in 2024), adjusted EBIT €95m (+80%, 7.8% margin), record free cash flow €91m and net debt cut 38% to €148m. Strict full-price strategy (in-season discount down to ~20%). SPLIT nuance: France (core market, ~€411m) was DOWN 1.6% organically with a weak H2 amid political/social uncertainty, while EMEA-ex-France and the Americas drove growth; and ownership is in flux (results note potential costs tied to &#34;a potential capital transaction at SMCP&#34; / disputed DTG–ETS stake). Sandro-brand-specific revenue (~€609m) is an estimate, not separately disclosed in these results — flagged for human verification.</div>
+  <span class="src">SMCP 2025 FY Results (Oui Speak Fashion summary) — https://ouispeakfashion.com/smcp-parent-company-of-sandro-and-maje-returns-to-profit-in-2025/ · SMCP 2025 FY Results press release — https://www.globenewswire.com/news-release/2026/02/26/3245863/0/en/SMCP-2025-FY-Results.html · SMCP H1 2025 interim report — https://www.smcp.com/app/uploads/2025/07/interim-financial-report-2025.pdf</span>
+  
+</div>
+    <div class="qa">
+  <div><span class="num">5</span><span class="label">On the PDPs</span></div>
+  <div class="body">Measured from a live PDP sample (women&#39;s dress, men&#39;s polo, men&#39;s shirt, women&#39;s sneakers) audited and image-classified. Each SKU carries a consistent media set: ~5 hi-res shots + 1 still-life packshot + 1 product video (VideoObject present in JSON-LD on every PDP), i.e. ~5–7 assets/SKU. Classified mix across the sample: ~60% on-model, ~30% still-life/packshot, plus flat-lay/detail and per-PDP video. Art direction is highly consistent — uniform studio-grey backgrounds, same framing and model-styling language across categories. Consistency IS the brand asset on Sandro&#39;s own DTC. The exposure is cross-channel: wholesale and marketplace partners frequently show downgraded or off-brand imagery, breaking that fidelity (concrete, demoable pain). Platform: Salesforce Commerce Cloud (demandware) across localized country eshops.</div>
+  <span class="src">Live PDP image classification (10-image sample) — https://us.sandro-paris.com/en/p/ribbed-knit-midi-dress/SFPRO04930_20.html · PDP JSON-LD shows per-product VideoObject — https://us.sandro-paris.com/en/p/loose-fit-floral-shirt/SHPCM01648_11.html</span>
+  
+</div>
+    <div class="qa">
+  <div><span class="num">4</span><span class="label">Content need</span><span class="tag tag-human">░ human ░</span><span class="tag tag-flag">needs human</span><span class="tag tag-est">est</span></div>
+  <div class="body">~48,375–51,750 images/yr across own site + marketplace + market/localization variants (new SKUs + seasonal refresh)</div>
+  
+  <div class="delta"><span class="d-draft"><b>⟲ AI draft —</b> Inputs supplied to compute_opportunity (model output, not asserted by me): ~3,000 new SKUs/yr; 5.0 shots/SKU (measured); 3.0 channel variants; 0.3 refresh on 1,500 carryover SKUs; €609m revenue cross-check; partner multiplier 4.0 (Sandro+Maje+Claudie Pierlot+Fursac under one relationship); accessible-luxury tier. The model returned ~48k–52k images/yr (mid ~50k) for Sandro alone, a brand-level annu</span><span class="d-human"><b>░ human ░ why I changed it —</b> operator sharpened the AI draft with industry judgment</span></div>
+</div>
+
+    <div class="econ">
+      <div class="big">
+        <div class="figure">€2.7-12.9M</div>
+        <div class="cap">Opportunity · brand / yr</div>
+      </div>
+      <div class="big">
+        <div class="figure">€8.2-38.8M</div>
+        <div class="cap">Partners upside / yr</div>
+      </div>
+      <div class="cross">
+        Top-down cross-check €3.0-12.2M/yr ·
+        sanity gate <span class="gate-ok">OK</span>        · levers: speed (weeks -&gt; hours) · return-rate reduction (image accuracy) · localization at near-zero marginal cost
+      </div>
+<div class="delta econ-delta"><span class="d-draft"><b>⟲ AI draft —</b> €3.7-23.3M/yr (flat agency rate, tier-blind)</span><span class="d-human"><b>░ human ░ reframed —</b> accessible-luxury-tier production runs €60-250/image, not the flat agency rate — so the defensible opportunity is the tier-aware band above, not the ~€13M draft.</span></div>    </div>
+
+    <div class="qa">
+  <div><span class="num">6</span><span class="label">Decision-maker</span><span class="tag tag-human">░ human ░</span><span class="tag tag-flag">needs human</span></div>
+  <div class="body">Group/Brand Head of E-commerce; Image / Digital Content Director</div>
+  <span class="src">SMCP / Sandro LinkedIn — https://www.linkedin.com/company/smcp</span>
+  <div class="delta"><span class="d-draft"><b>⟲ AI draft —</b> Target a group-level digital/visual-content owner at SMCP (one relationship covers all four brands), with a brand-level counterpart at Sandro. Priority roles: Group Head of E-commerce / Digital Director, and an Image / Digital Content (Creative Content) Director who owns PDP and campaign imagery standards. Enrichment returned the target titles only — no names (no people-data provider configured). </span><span class="d-human"><b>░ human ░ why I changed it —</b> operator sharpened the AI draft with industry judgment</span></div>
+</div>
+    <div class="qa">
+  <div><span class="num">7</span><span class="label">Contact</span><span class="tag tag-human">░ human ░</span><span class="tag tag-flag">needs human</span><span class="tag tag-est">est</span></div>
+  <div class="body">Full-price + premiumness =&gt; brand-consistent, accurate on-model imagery is non-negotiable, exactly what self-serve tools can&#39;t promise. Lead with consistency + garment fidelity; price/efficiency is the second sentence, never the first. Profit focus =&gt; frame as ROI/efficiency WITHOUT quality loss.  Warm path: cold entry (no known warm path with evidence).</div>
+  <span class="src">SMCP / Sandro LinkedIn — https://www.linkedin.com/company/smcp</span>
+  <div class="delta"><span class="d-draft"><b>⟲ AI draft —</b> Cold entry (no evidenced warm path). Angle — lead with consistency and garment fidelity, never price first: &#34;Full-price only means off-brand imagery is real money — every inconsistent marketplace/wholesale shot is markdown risk. We hold your art direction and garment fidelity across on-model and still-life at catalog scale, consistent on every wholesale and localized channel — one relationship cov</span><span class="d-human"><b>░ human ░ why I changed it —</b> operator sharpened the AI draft with industry judgment</span></div>
+</div>
+  </section>
+
+  <section class="judgment">
+    <div class="block gap-wide">
+      <h2>The gap we fill <span class="tag tag-human">░ human ░</span></h2>
+      <p>Sandro&#39;s equity is its tightly art-directed, studio-grey on-model house look — and that consistency shatters the moment product crosses into wholesale and marketplace channels, where partners show downgraded or off-brand shots. The single gap Sartiq fills is guaranteed garment fidelity at catalog scale held to Sandro&#39;s own art direction across EVERY channel and every localized country eshop — the one promise self-serve AI tools can&#39;t make. For a strict full-price house (in-season discount capped ~20%), each off-brand partner image is direct markdown risk, not a cosmetic nit.</p>
+      
+    </div>
+    <div class="block">
+      <h2>Strategy <span class="tag tag-human">░ human ░</span></h2>
+      <p>Win it consistency-first, group-wide. Lead with brand-consistent, garment-accurate on-model + still-life imagery held to Sandro&#39;s standard across DTC, wholesale, marketplace and localized markets; make price the second sentence, never the first — framed as ROI/efficiency without quality loss, matching SMCP&#39;s FY2025 profit-and-cash turnaround (EBIT +80%, record €91m FCF). Sell one relationship across all four SMCP brands (Sandro, Maje, Claudie Pierlot, Fursac) to size the partner upside, not the single brand. Quantify the localization lever explicitly — localized imagery at near-zero marginal cost across SMCP&#39;s 59-country eshop footprint is a concrete number to put on the table. Do NOT pitch reinvention: there is no new-CD/rebrand/replatform trigger and the brand is already ahead on craft — the play is protecting hard-won consistency, not proposing a new look.</p>
+      
+    </div>
+    <div class="block approach">
+      <h2>Approach <span class="tag tag-human">░ human ░</span></h2>
+      <dl>
+        <dt>Hook</dt><dd>A side-by-side screenshot: a Sandro PDP (uniform studio-grey, ~5 hi-res + packshot + video per SKU) next to the same product downgraded on a marketplace/wholesale partner — making markdown risk on a full-price house tangible in one image.</dd>
+        <dt>Channel</dt><dd>Cold LinkedIn / warm intro at group level (no evidenced warm path — verify before use).</dd>
+        <dt>To whom</dt><dd>A group-level digital/visual-content owner at SMCP — Group Head of E-commerce / Digital Director and/or Image / Creative Content Director who owns PDP and campaign imagery standards — with a Sandro brand-level counterpart. NAMES NOT SOURCED; human must identify and validate before outreach.</dd>
+        <dt>Opening</dt><dd>&#34;Full-price only means off-brand imagery is real money — every inconsistent marketplace or wholesale shot is markdown risk. We hold your art direction and garment fidelity across on-model and still-life at catalog scale, consistent on every wholesale and localized channel — and one relationship covers Sandro, Maje, Claudie Pierlot and Fursac.&#34;</dd>
+      </dl>
+    </div>
+    <div class="confidence">
+      <strong>Confidence —</strong> Medium overall. High confidence on who/positioning (full-price ~$300–480 PDPs, four-brand SMCP group, Euronext-listed) and on PDP reality (live image-classification: ~5–7 assets/SKU, ~60% on-model/~30% still-life, per-PDP video, high studio-grey consistency on Salesforce Commerce Cloud). The consistency-led wedge and group-level strategy are well-supported. SOFT SPOTS flagged for human: (1) the ~50k images/yr volume and €2.7m–12.9m brand / €8.2m–38.8m partner ranges rest on tier-based SKU estimates (catalog not fully enumerable) — model sanity_ok but verify SKU count; (2) Sandro-brand revenue (~€609m) is an estimate, not separately disclosed; (3) SPLIT nuance — France core market (~€411m) was DOWN 1.6% with a weak H2, growth came from EMEA-ex-France and Americas, and ownership is in flux (potential SMCP capital transaction / disputed DTG–ETS 15.5% stake), which could move the buyer; (4) decision-maker is TITLES ONLY — no names; and (5) contact path is cold with no verified warm intro. needs_human = TRUE on: named decision-maker, contact/warm path, SKU-volume refinement, brand-level revenue, and ownership-transaction status. Vision spot-check: 92% classifier agreement on 12 labelled samples (held-out baseline).
+    </div>
+  </section>
+
+  <footer class="colophon">
+    <div class="sources">
+<strong>Sources:</strong>
+SMCP 2025 FY Results press release (https://www.globenewswire.com/news-release/2026/02/26/3245863/0/en/SMCP-2025-FY-Results.html) · Sandro US PDP (JSON-LD price/positioning) (https://us.sandro-paris.com/en/p/ribbed-knit-midi-dress/SFPRO04930_20.html) · Wayback snapshot — Sandro eshop, Jan 2022 (https://web.archive.org/web/20220106143233/http://sandro-paris.com/) · Live Sandro PDP image classification (2026) (https://us.sandro-paris.com/en/p/ribbed-knit-midi-dress/SFPRO04930_20.html) · SMCP 2025 FY Results (Oui Speak Fashion summary) (https://ouispeakfashion.com/smcp-parent-company-of-sandro-and-maje-returns-to-profit-in-2025/) · SMCP H1 2025 interim report (https://www.smcp.com/app/uploads/2025/07/interim-financial-report-2025.pdf) · Live PDP image classification (10-image sample) (https://us.sandro-paris.com/en/p/ribbed-knit-midi-dress/SFPRO04930_20.html) · PDP JSON-LD shows per-product VideoObject (https://us.sandro-paris.com/en/p/loose-fit-floral-shirt/SHPCM01648_11.html) · SMCP / Sandro LinkedIn (https://www.linkedin.com/company/smcp)    </div>
+    <div class="mode">Mode · live</div>
+  </footer>
+
+</main>
+</body>
+</html>

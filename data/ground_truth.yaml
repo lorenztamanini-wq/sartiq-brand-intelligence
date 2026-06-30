@@ -1,0 +1,301 @@
+# Pre-loaded ground truth + recommended angle for the three targets.
+# Seeds the agent so it starts grounded and *verifies* rather than discovers
+# from zero. All figures FY2025 unless noted; the agent re-verifies live.
+#
+# Sources point at real, stable corporate/IR domains. Specific figures are
+# transcribed from the §10 brief and flagged for live re-verification — no
+# fabricated deep links.
+
+brands:
+
+  # ----------------------------------------------------------------------- #
+  ovs:
+    name: "OVS"
+    aliases: ["ovs", "ovs s.p.a.", "ovs spa"]
+    site: "ovs.it"
+    parent_group: "OVS S.p.A. (standalone, Euronext Milan)"
+    positioning: "Italy's leading value/mass apparel retailer, vertically integrated"
+    tier: "mass"
+    markets: "Italy core; franchise in Japan, Mexico, India"
+    channel_mix: "DTC-led (~2,600 stores) + e-commerce + franchise/wholesale"
+    who_sources:
+      - { title: "OVS corporate / investor relations", url: "https://www.ovscorporate.it", note: "positioning, store count, banners — re-verify live" }
+      - { title: "Wikipedia: OVS (company)", url: "https://en.wikipedia.org/wiki/OVS_(company)", note: "background" }
+    momentum:
+      verdict: "GROWING"
+      detail: >-
+        ~€1.74bn revenue, +7% (≈3% organic + Goldenpoint acquisition),
+        EBITDA ~€216-218m. Already investing ~€33m in a digital/AI/innovation
+        hub in Puglia.
+      sources:
+        - { title: "OVS FY2025 results (investor relations)", url: "https://www.ovscorporate.it", note: "revenue, EBITDA, growth — re-verify live" }
+    direction:
+      verdict: "ahead / investing — copy what works, then propose scale"
+      detail: >-
+        Wayback then-vs-now: OVS PDP imagery moved from largely packshot/still-life
+        (~2022-23) toward more on-model and lifestyle shots with cleaner, more
+        consistent art direction (2024-25) — a brand investing in its imagery, not
+        behind. So: copy what works, lead with scale rather than a visual overhaul.
+      sources:
+        - { title: "OVS digital/AI hub announcement", url: "https://www.ovscorporate.it", note: "Puglia innovation hub — re-verify live" }
+        - { title: "Wayback snapshot — ovs.it ~2023 vs live ~2025", url: "https://web.archive.org/web/2023/https://www.ovs.it/", note: "then-vs-now imagery trend; the live agent re-runs this comparison" }
+    content_profile:
+      avg_shots_per_sku: 4.0
+      pct_on_model: 0.45
+      pct_still_life: 0.45
+      pct_video: 0.05
+      consistency: "moderate — high throughput, some variance across banners"
+      cross_channel_note: "imagery reused on marketplaces; occasional downgrade vs own site"
+    content_sources:
+      - { title: "ovs.it live product pages", url: "https://www.ovs.it", note: "PDP audit target — sampled live; offline profile is a tier-based estimate" }
+    econ_inputs:
+      new_skus_per_year: 40000
+      shots_per_sku: 4.0
+      channel_variants: 3.0
+      refresh_factor: 0.5
+      carryover_skus: 25000
+      revenue_eur: 1740000000
+      partner_multiplier: 2.2
+      tier: mass
+      assumptions:
+        - "Value retailer => high catalog turnover; ~40k new SKUs/yr is a tier-based estimate"
+        - "AI-amenable shots/SKU = on-model + still-life; pure editorial hero excluded"
+        - "Partner multiplier = multi-banner portfolio + franchise/wholesale (×2.2)"
+        - "Brand-level revenue used for the top-down cross-check"
+        - "HUMAN-REFRAME: the headline range applies standard agency-rate benchmarks to a value retailer that runs an in-house studio, so it OVERSTATES pure cost displacement. The real OVS opportunity is studio scale, new-arrival surge capacity and near-zero-cost localization — not raw cost savings. Treat the € as an upper-bound draft for the human to reframe."
+    decision_maker: "Head of E-commerce / Digital; Image / Studio Production lead"
+    decision_maker_sources:
+      - { title: "OVS LinkedIn company page", url: "https://www.linkedin.com/company/ovs-spa", note: "function mapping — enrich to a named person via Apollo, human-validate" }
+    contact_angle: >-
+      Vertically integrated => almost certainly an in-house studio. Do NOT pitch
+      'replace your shoots' — pitch 'scale and speed up your studio' (overflow
+      capacity, new-arrival surges, marketplace variants). Budget owner sits
+      closer to operations than creative.
+    contact_warm_path: "cold entry (no known warm path with evidence)"
+    partners:
+      ["Upim", "Piombo", "Les Copains", "Stefanel", "Croff", "Blukids",
+       "Goldenpoint", "OVS Kids", "franchise partners (Japan / Mexico / India)"]
+    gap: >-
+      OVS runs the largest, fastest-turning catalog of the three with an
+      in-house studio at capacity — the gap is throughput, not quality: AI
+      on-model + still-life to absorb new-arrival surges and marketplace
+      localization at near-zero marginal cost.
+    strategy: "innovation / scale (brand and group aligned — both GROWING)"
+    approach:
+      hook: "Your studio is the bottleneck on new-arrival velocity, not the budget."
+      channel: "warm intro if available, else direct email to Head of E-commerce"
+      to_whom: "Head of E-commerce / Studio & Image Production lead"
+      opening: >-
+        "You ship more new SKUs per week than almost anyone in Italian retail,
+        and your in-house studio is the constraint. We add elastic on-model and
+        still-life capacity that absorbs new-arrival surges and spins up
+        marketplace/localized variants at ~zero marginal cost — so the studio
+        leads on craft instead of grinding on volume. Worth 20 minutes?"
+    fit_weight: 0.6
+    human_fields: ["q4_content_need", "q6_decision_maker", "q7_contact", "gap", "strategy", "approach"]
+    overrides:
+      gap:
+        ai_draft: "OVS spends heavily on product photography — Sartiq can cut that cost."
+        rationale: >-
+          Wrong wedge. OVS runs an in-house studio, so 'cut your photo budget'
+          doesn't land — their per-image cost is already low (see the € reframe).
+          From retail ops the real pain is throughput and new-arrival velocity, so
+          the wedge is studio SCALE + near-zero-cost localization, not cost savings.
+
+  # ----------------------------------------------------------------------- #
+  sandro:
+    name: "Sandro"
+    aliases: ["sandro", "sandro paris", "smcp"]
+    site: "sandro-paris.com"
+    parent_group: "SMCP Group (Sandro, Maje, Claudie Pierlot, Fursac)"
+    positioning: "Accessible-luxury Parisian ready-to-wear; full-price strategy"
+    tier: "accessible-luxury"
+    markets: "France core; global DTC + wholesale; ~1,600 stores (group)"
+    channel_mix: "DTC-led, premium on-model imagery core to the brand; selective wholesale"
+    who_sources:
+      - { title: "SMCP corporate / investor relations", url: "https://www.smcp.com", note: "group structure, brands, store count — re-verify live" }
+      - { title: "sandro-paris.com (brand site)", url: "https://us.sandro-paris.com", note: "positioning, price tier" }
+    momentum:
+      verdict: "RECOVERING"
+      detail: >-
+        Group ~€1.22bn (+1.7% organic), back to net profit (€16.6m vs −€23.6m),
+        adjusted EBIT €95m (+80%). Sandro brand ~€609m. Strict full-price
+        strategy. Ownership in flux (majority holders exploring a transaction).
+      sources:
+        - { title: "SMCP FY2025 results (investor relations)", url: "https://www.smcp.com", note: "revenue, profit, EBIT — re-verify live" }
+    direction:
+      verdict: "ahead on craft — lead with consistency, not innovation-for-its-own-sake"
+      detail: >-
+        Wayback then-vs-now: Sandro's product imagery has been a tightly
+        art-directed, on-model house look for years (consistent ~2022 -> 2025) —
+        ahead on craft, not behind. The opening is protecting that consistency
+        across channels, not proposing a new visual direction; off-brand imagery
+        is markdown risk.
+      sources:
+        - { title: "sandro-paris.com PDPs", url: "https://us.sandro-paris.com", note: "imagery standard reference" }
+        - { title: "Wayback snapshot — sandro-paris.com ~2022 vs live ~2025", url: "https://web.archive.org/web/2022/https://www.sandro-paris.com/", note: "then-vs-now consistency; the live agent re-runs this comparison" }
+    content_profile:
+      avg_shots_per_sku: 5.0
+      pct_on_model: 0.6
+      pct_still_life: 0.3
+      pct_video: 0.1
+      consistency: "high — tightly art-directed; consistency IS the brand asset"
+      cross_channel_note: "wholesale/marketplace partners often show downgraded or off-brand imagery — concrete, demoable pain"
+    content_sources:
+      - { title: "sandro-paris.com live product pages", url: "https://us.sandro-paris.com", note: "PDP audit target; offline profile is a tier-based estimate" }
+    econ_inputs:
+      new_skus_per_year: 3000
+      shots_per_sku: 5.0
+      channel_variants: 3.0
+      refresh_factor: 0.3
+      carryover_skus: 1500
+      revenue_eur: 609000000
+      partner_multiplier: 4.0
+      tier: accessible-luxury
+      assumptions:
+        - "Accessible-luxury => lower turnover; ~3k new SKUs/yr is a tier-based estimate"
+        - "Premium on-model fidelity raises shots/SKU vs value retail"
+        - "Partner multiplier = ×4 SMCP brands under one relationship"
+        - "Sandro brand revenue (~€609m) used for the top-down cross-check"
+    decision_maker: "Group/Brand Head of E-commerce; Image / Digital Content Director"
+    decision_maker_sources:
+      - { title: "SMCP / Sandro LinkedIn", url: "https://www.linkedin.com/company/smcp", note: "function mapping — enrich + human-validate" }
+    contact_angle: >-
+      Full-price + premiumness => brand-consistent, accurate on-model imagery is
+      non-negotiable, exactly what self-serve tools can't promise. Lead with
+      consistency + garment fidelity; price/efficiency is the second sentence,
+      never the first. Profit focus => frame as ROI/efficiency WITHOUT quality loss.
+    contact_warm_path: "cold entry (no known warm path with evidence)"
+    partners: ["Maje", "Claudie Pierlot", "Fursac", "wholesale partners in new markets"]
+    gap: >-
+      Sandro's brand equity lives in consistent, accurate on-model imagery —
+      and that consistency breaks the moment it hits wholesale and marketplace
+      channels. The gap is guaranteed garment fidelity at scale across every
+      channel, which generic self-serve AI cannot promise.
+    strategy: "consistency-led (premium); ROI/efficiency without quality loss (profit focus)"
+    approach:
+      hook: "Screenshot your own product on a marketplace partner next to your PDP — the imagery doesn't match. That's markdown risk."
+      channel: "LinkedIn or warm intro to Group Head of Digital/Image"
+      to_whom: "Group/Brand Head of E-commerce or Image/Digital Content Director"
+      opening: >-
+        "Full-price only means off-brand imagery is real money — every
+        inconsistent marketplace shot is markdown risk. We hold garment fidelity
+        and your art direction across on-model and still-life at catalog scale,
+        and keep it consistent on every wholesale and localized channel. One
+        relationship covers Sandro, Maje, Claudie Pierlot and Fursac. 20 minutes?"
+    fit_weight: 0.9
+    human_fields: ["q4_content_need", "q6_decision_maker", "q7_contact", "gap", "strategy", "approach"]
+    overrides:
+      gap:
+        ai_draft: "Sandro could save money on photography by switching to AI imagery."
+        rationale: >-
+          Wrong lead for full-price accessible-luxury — price is the second
+          sentence, never the first. The wedge is brand-consistent garment FIDELITY
+          across every channel (which generic self-serve AI can't promise);
+          off-brand marketplace imagery is markdown risk, and that is the real money.
+
+  # ----------------------------------------------------------------------- #
+  diesel:
+    name: "Diesel"
+    aliases: ["diesel", "diesel s.p.a.", "otb", "otb group"]
+    site: "diesel.com"
+    parent_group: "OTB Group (Diesel, Margiela, Marni, Jil Sander, Viktor&Rolf + Brave Kid)"
+    positioning: "Denim-led, youth, repositioned as 'the true alternative to luxury'"
+    tier: "accessible-luxury"
+    markets: "Global; flagships opening (Berlin, Seoul); ~600+ stores (group)"
+    channel_mix: "DTC growth + significant (declining) wholesale; group runs coordinated digital"
+    who_sources:
+      - { title: "OTB Group corporate", url: "https://www.otb.net", note: "group structure, maisons — re-verify live" }
+      - { title: "diesel.com (brand site)", url: "https://www.diesel.com", note: "positioning, youth/digital-native" }
+    momentum:
+      verdict: "SPLIT"
+      detail: >-
+        Group OTB ~€1.7bn, −4.8%, EBIT squeezed to ~€10m by creative-director
+        changes / write-downs, wholesale −14.7%. BUT Diesel itself posted its
+        best profitability in 10 years, youth-led, opening flagships. The brand
+        and the group need OPPOSITE pitches — the sharpest read in the set.
+      sources:
+        - { title: "OTB FY2025 results / press", url: "https://www.otb.net", note: "group revenue, EBIT, wholesale trend — re-verify live" }
+        - { title: "FashionNetwork / Modaes coverage", url: "https://www.fashionnetwork.com", note: "Diesel brand profitability, repositioning — re-verify live" }
+    direction:
+      verdict: "Diesel ahead (innovation); OTB group behind on efficiency"
+      detail: >-
+        Wayback then-vs-now: Diesel's imagery shifted hard from heritage-denim
+        packshot toward bold, youth-led on-model + campaign-style shots since the
+        ~2021 repositioning (a visible jump) — the brand is innovating. The OTB
+        group, by contrast, has a bleeding wholesale channel that needs cheap,
+        consistent assets (efficiency).
+      sources:
+        - { title: "diesel.com campaigns / PDPs", url: "https://www.diesel.com", note: "innovation signal reference" }
+        - { title: "Wayback snapshot — diesel.com ~2021 vs live ~2025", url: "https://web.archive.org/web/2021/https://www.diesel.com/", note: "then-vs-now imagery jump; the live agent re-runs this comparison" }
+    content_profile:
+      avg_shots_per_sku: 5.0
+      pct_on_model: 0.55
+      pct_still_life: 0.35
+      pct_video: 0.1
+      consistency: "good at brand level; uneven across maisons and wholesale partners"
+      cross_channel_note: "wholesale partners (the −14.7% channel) still need cheap, consistent assets — a separate cost-cutting wedge"
+    content_sources:
+      - { title: "diesel.com live product pages", url: "https://www.diesel.com", note: "PDP audit target; offline profile is a tier-based estimate" }
+    econ_inputs:
+      new_skus_per_year: 4000
+      shots_per_sku: 5.0
+      channel_variants: 3.0
+      refresh_factor: 0.4
+      carryover_skus: 3000
+      revenue_eur: 700000000
+      partner_multiplier: 5.0
+      tier: accessible-luxury
+      assumptions:
+        - "Diesel brand revenue (~€700m) is an ESTIMATE — OTB group is ~€1.7bn; Diesel brand figure not publicly broken out"
+        - "Denim/youth => moderate turnover, premium-ish shots/SKU"
+        - "Partner multiplier = ×5 maisons + Brave Kid licensees + wholesale (largest, most complex)"
+        - "Brand-level revenue estimate used for the top-down cross-check"
+    decision_maker: "Diesel Digital/E-commerce lead AND OTB central digital (coordinated group strategy)"
+    decision_maker_sources:
+      - { title: "OTB / Diesel LinkedIn", url: "https://www.linkedin.com/company/otb-group", note: "two functions — brand + group; enrich + human-validate" }
+    contact_angle: >-
+      DUAL pitch. To Diesel: INNOVATION (it's winning, investing, youth/digital-native).
+      To OTB group / central digital: EFFICIENCY / cost-cutting (margin pressure,
+      write-downs, a bleeding wholesale channel whose partners need cheap,
+      consistent assets). State the split explicitly — the machine wouldn't infer it.
+    contact_warm_path: "cold entry (no known warm path with evidence)"
+    partners:
+      ["Maison Margiela", "Marni", "Jil Sander", "Viktor&Rolf",
+       "Brave Kid licensees (Diesel Kid, Dsquared², Marni, N21, Trussardi)",
+       "Amiri (OTB strategic stake)", "wholesale partners"]
+    gap: >-
+      Diesel and OTB need opposite things from the same supplier: Diesel wants
+      innovation to feed a winning, youth-led digital push; the group wants
+      cheap, consistent assets to stop the bleed on a −14.7% wholesale channel.
+      The gap is one partner that can play both — premium AI imagery for the
+      brand, commodity-cost consistency for the group and its wholesale partners.
+    strategy: "DUAL — innovation to the Diesel brand, efficiency/cost to the OTB group (state the split explicitly)"
+    approach:
+      hook: "Diesel is having its best year in a decade while OTB's wholesale is down 14.7% — same group, opposite problems."
+      channel: "two parallel threads: Diesel digital lead (innovation) + OTB central digital (efficiency)"
+      to_whom: "Diesel Digital/E-commerce lead AND OTB central digital"
+      opening: >-
+        "Diesel is winning — best profitability in ten years, youth-led, opening
+        flagships — so to your team we bring innovation: distinctive AI on-model
+        that keeps pace with a digital-native audience. To OTB central, a different
+        conversation: with wholesale down ~15%, your partners need consistent
+        assets at commodity cost. One supplier, two playbooks. Which thread first?"
+    fit_weight: 0.8
+    human_fields: ["q3_momentum", "q4_content_need", "q6_decision_maker", "q7_contact", "gap", "strategy", "approach"]
+    overrides:
+      q3_momentum:
+        ai_draft: "STRUGGLING — OTB group −4.8%, EBIT squeezed to ~€10m, wholesale −14.7%: the group is in decline."
+        rationale: >-
+          The machine reads the group P&L and calls it struggling. But
+          Diesel-the-brand posted its best profitability in 10 years — so the read
+          is SPLIT, not struggling: the brand is winning while the group is
+          pressured, and they need OPPOSITE pitches (innovation to Diesel,
+          efficiency to OTB). The operator knows the brand story the group number hides.
+      gap:
+        ai_draft: "Diesel and OTB need cheaper product imagery — Sartiq can lower their costs."
+        rationale: >-
+          Too flat — it misses that Diesel and OTB need OPPOSITE things from the
+          same supplier. Diesel (winning, youth-led) wants innovation; OTB
+          (margin-pressured, wholesale −14.7%) wants cheap consistent assets. One
+          partner, two playbooks — that split is the gap.

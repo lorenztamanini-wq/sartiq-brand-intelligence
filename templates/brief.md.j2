@@ -1,0 +1,79 @@
+{%- macro tags(fv) -%}
+{%- if fv.human_sharpened %} ░ human ░{% endif %}{% if fv.human_confirmed %} ✓ confirmed{% elif fv.needs_human %} ⚑ needs human{% endif %}{% if fv.is_estimate %} ~est{% endif %}
+{%- endmacro -%}
+{%- macro srcs(fv) -%}
+{%- if fv.sources %} _[{% for s in fv.sources %}{{ s.title }}{% if s.url %} <{{ s.url }}>{% endif %}{% if not loop.last %}; {% endif %}{% endfor %}]_{% endif %}
+{%- endmacro -%}
+{%- macro delta(fv) -%}
+{% if fv.ai_draft %}
+
+> ⟲ **AI draft —** {{ fv.ai_draft }}
+>
+> ░ human ░ **why I changed it —** {{ fv.sharpen_rationale }}
+{% endif %}
+{%- endmacro -%}
+# BRAND BRIEF — {{ brief.brand }}
+
+**Opportunity {{ brief.opportunity_score }}/5**{% if brief.rank %} · rank #{{ brief.rank }}{% endif %} · {{ brief.positioning }}
+Parent: {{ brief.parent_group }} · Markets: {{ brief.markets }}
+{% if brief.partners %}Partners / sister brands: {{ brief.partners | join(", ") }}{% endif %}
+
+---
+
+**1 · WHO**{{ tags(brief.q1_who) }}
+{{ brief.q1_who.value }}{{ srcs(brief.q1_who) }}
+
+**2 · DIRECTION**{{ tags(brief.q2_direction) }}
+{{ brief.q2_direction.value }}{{ srcs(brief.q2_direction) }}
+
+**3 · MOMENTUM**{{ tags(brief.q3_momentum) }}
+{{ brief.q3_momentum.value }}{{ srcs(brief.q3_momentum) }}{{ delta(brief.q3_momentum) }}
+
+**5 · ON THE PDPs**{{ tags(brief.q5_pdp) }}
+{{ brief.q5_pdp.value }}{{ srcs(brief.q5_pdp) }}
+
+**4 · CONTENT NEED**{{ tags(brief.q4_content_need) }}
+{{ brief.q4_content_need.value }}{{ srcs(brief.q4_content_need) }}
+
+> **OPPORTUNITY (brand):** €{{ brief.economics.annual_opportunity_range.low | euro_range(brief.economics.annual_opportunity_range.high) }}/yr
+> **PARTNERS upside:** €{{ brief.economics.partner_upside_range.low | euro_range(brief.economics.partner_upside_range.high) }}/yr
+> Top-down cross-check: €{{ brief.economics.topdown_range.low | euro_range(brief.economics.topdown_range.high) }}/yr · sanity gate: {{ "OK" if brief.economics.sanity_ok else "⚑ DIVERGES — needs human" }}
+> Levers: {{ brief.economics.levers | join(" · ") }}
+{% if brief.economics.reframe_note %}>
+> ⟲ **AI draft —** €{{ brief.economics.draft_opportunity_range.low | euro_range(brief.economics.draft_opportunity_range.high) }}/yr (flat agency rate, tier-blind)
+> ░ human ░ **reframed —** {{ brief.economics.reframe_note }}
+{% endif %}
+
+**6 · DECISION-MAKER**{{ tags(brief.q6_decision_maker) }}
+{{ brief.q6_decision_maker.value }}{{ srcs(brief.q6_decision_maker) }}
+
+**7 · CONTACT**{{ tags(brief.q7_contact) }}
+{{ brief.q7_contact.value }}{{ srcs(brief.q7_contact) }}
+
+---
+
+### THE GAP WE FILL{{ tags(brief.gap) }}
+{{ brief.gap.value }}{{ delta(brief.gap) }}
+
+### STRATEGY{{ tags(brief.strategy) }}
+{{ brief.strategy.value }}{{ delta(brief.strategy) }}
+
+### APPROACH{% if brief.approach.human_sharpened %} ░ human ░{% endif %}{% if brief.approach.human_confirmed %} ✓ confirmed{% endif %}
+
+- **Hook:** {{ brief.approach.hook }}
+- **Channel:** {{ brief.approach.channel }}
+- **To whom:** {{ brief.approach.to_whom }}
+- **Opening:** {{ brief.approach.opening }}
+
+### CONFIDENCE
+{{ brief.confidence_note }}
+
+---
+
+_Mode: {{ brief.generated_mode }}_
+{% if brief.sources %}
+**Sources**
+{% for s in brief.sources %}
+- {{ s.title }}{{ " — " ~ s.url if s.url else "" }}{{ " (" ~ s.note ~ ")" if s.note else "" }}
+{% endfor %}
+{% endif %}

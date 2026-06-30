@@ -1,0 +1,358 @@
+/* Brand Brief — editorial one-pager.
+   Swiss-International influence: a hard grid, a single accent, disciplined
+   type contrast. Tuned to fit A4 / Letter on one page for the PDF path. */
+
+:root {
+  --ink: #14110f;
+  --paper: #fbfaf7;
+  --muted: #6f6a63;
+  --hair: #d9d4cc;
+  --accent: #b5331f; /* oxide red */
+  --accent-soft: #f3e4df;
+  --flag: #9a6a00;
+  --human: #2c5f4f;
+
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --mono: "SF Mono", "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+
+@page {
+  size: A4;
+  margin: 12mm 14mm;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 9.4pt;
+  line-height: 1.4;
+}
+
+.sheet {
+  max-width: 200mm;
+  margin: 0 auto;
+  padding: 10mm 4mm;
+}
+
+/* ---- masthead ------------------------------------------------------------ */
+.masthead {
+  border-bottom: 2.5pt solid var(--ink);
+  padding-bottom: 6pt;
+  margin-bottom: 10pt;
+}
+
+.kicker {
+  font-family: var(--mono);
+  font-size: 7.5pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.masthead h1 {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 30pt;
+  line-height: 0.96;
+  margin: 2pt 0 5pt;
+  letter-spacing: -0.01em;
+}
+
+.scoreline {
+  display: flex;
+  align-items: baseline;
+  gap: 10pt;
+  flex-wrap: wrap;
+}
+
+.score {
+  font-family: var(--mono);
+  font-size: 12pt;
+  font-weight: 700;
+  color: var(--paper);
+  background: var(--accent);
+  padding: 1.5pt 6pt;
+  border-radius: 2pt;
+}
+
+.rank {
+  font-family: var(--mono);
+  font-size: 9pt;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+  text-transform: uppercase;
+}
+
+.positioning {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 11pt;
+  color: var(--ink);
+}
+
+.meta {
+  margin-top: 4pt;
+  font-size: 8.4pt;
+  color: var(--muted);
+}
+
+.meta .label {
+  font-family: var(--mono);
+  font-size: 7pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+/* ---- numbered answer grid ----------------------------------------------- */
+.answers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7pt 16pt;
+}
+
+.qa {
+  break-inside: avoid;
+  padding-bottom: 1pt;
+}
+
+.qa .num {
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 7.5pt;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  display: inline-block;
+  margin-right: 4pt;
+}
+
+.qa .label {
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 7.5pt;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.qa .body {
+  margin-top: 1.5pt;
+  font-size: 9pt;
+}
+
+.qa .src {
+  display: block;
+  margin-top: 1.5pt;
+  font-size: 7pt;
+  color: var(--muted);
+  font-style: italic;
+}
+
+/* tags ---------------------------------------------------------------------*/
+.tag {
+  font-family: var(--mono);
+  font-size: 6.5pt;
+  letter-spacing: 0.08em;
+  padding: 0.5pt 3pt;
+  border-radius: 2pt;
+  margin-left: 3pt;
+  vertical-align: 1pt;
+  white-space: nowrap;
+}
+
+.tag-human {
+  color: var(--human);
+  background: #e3efe9;
+}
+
+.tag-flag {
+  color: var(--paper);
+  background: var(--flag);
+}
+
+.tag-est {
+  color: var(--muted);
+  border: 0.5pt solid var(--hair);
+}
+
+/* ---- economics panel ----------------------------------------------------- */
+.econ {
+  grid-column: 1 / -1;
+  margin: 4pt 0;
+  border: 1pt solid var(--ink);
+  background: var(--accent-soft);
+  padding: 7pt 9pt;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3pt 14pt;
+  break-inside: avoid;
+}
+
+.econ .big {
+  grid-column: span 1;
+}
+
+.econ .figure {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 17pt;
+  line-height: 1;
+  color: var(--accent);
+}
+
+.econ .cap {
+  font-family: var(--mono);
+  font-size: 6.8pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.econ .cross {
+  grid-column: 1 / -1;
+  font-size: 7.6pt;
+  color: var(--muted);
+  border-top: 0.5pt dashed var(--hair);
+  padding-top: 3pt;
+}
+
+.gate-ok {
+  color: var(--human);
+  font-weight: 700;
+}
+
+.gate-bad {
+  color: var(--flag);
+  font-weight: 700;
+}
+
+/* ---- judgment block ------------------------------------------------------ */
+.judgment {
+  margin-top: 9pt;
+  border-top: 1.5pt solid var(--ink);
+  padding-top: 7pt;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7pt 16pt;
+}
+
+.block h2 {
+  font-family: var(--mono);
+  font-size: 8pt;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin: 0 0 2pt;
+  color: var(--accent);
+}
+
+.block p {
+  margin: 0;
+  font-size: 9pt;
+}
+
+.gap-wide,
+.approach-wide {
+  grid-column: 1 / -1;
+}
+
+.approach dl {
+  margin: 2pt 0 0;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 1.5pt 7pt;
+  font-size: 8.6pt;
+}
+
+.approach dt {
+  font-family: var(--mono);
+  font-size: 7pt;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.approach dd {
+  margin: 0;
+}
+
+.confidence {
+  grid-column: 1 / -1;
+  font-size: 8pt;
+  color: var(--muted);
+  border-top: 0.5pt dashed var(--hair);
+  padding-top: 5pt;
+}
+
+/* ---- footer / sources ---------------------------------------------------- */
+.colophon {
+  margin-top: 8pt;
+  border-top: 0.5pt solid var(--hair);
+  padding-top: 4pt;
+  font-size: 6.8pt;
+  color: var(--muted);
+  display: flex;
+  justify-content: space-between;
+  gap: 10pt;
+}
+
+.colophon .sources {
+  flex: 1;
+}
+
+.colophon .mode {
+  font-family: var(--mono);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* AI-draft -> human-override delta — the visible judgment moment (§11/§12b). */
+.delta {
+  margin-top: 5pt;
+  padding: 5pt 9pt;
+  border-left: 2.5pt solid var(--human);
+  background: #f3f6f4;
+}
+.delta .d-draft {
+  display: block;
+  color: var(--muted);
+  font-size: 8.6pt;
+  line-height: 1.36;
+}
+.delta .d-draft b,
+.delta .d-human b {
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+}
+.delta .d-draft b {
+  color: var(--muted);
+}
+.delta .d-human {
+  display: block;
+  margin-top: 3pt;
+  color: var(--human);
+  font-size: 8.8pt;
+  line-height: 1.38;
+}
+.econ-delta {
+  margin-top: 7pt;
+}
+
+/* operator-confirmed tag (the review form sets human_confirmed). */
+.tag-ok {
+  color: #1f7a4d;
+  border-color: #bfe0cd;
+  background: #eef7f1;
+}
+

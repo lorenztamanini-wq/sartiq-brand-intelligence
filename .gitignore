@@ -1,0 +1,23 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+
+# Generated briefs / sheets (live working dir + local backups/scratch).
+# Committed example briefs live in samples/ instead.
+output/
+output_*/
+
+# Python
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# OS
+.DS_Store
+
+# Local agent/tooling config (session-generated)
+.claude/

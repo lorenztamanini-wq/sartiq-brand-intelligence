@@ -1,0 +1,111 @@
+{%- macro tags(fv) -%}
+{% if fv.human_sharpened %}<span class="tag tag-human">░ human ░</span>{% endif %}
+{%- if fv.human_confirmed %}<span class="tag tag-ok">✓ confirmed</span>{% elif fv.needs_human %}<span class="tag tag-flag">needs human</span>{% endif %}
+{%- if fv.is_estimate %}<span class="tag tag-est">est</span>{% endif %}
+{%- endmacro -%}
+{%- macro srcs(fv) -%}
+{% if fv.sources %}<span class="src">{% for s in fv.sources %}{{ s.title }}{% if s.url %} — {{ s.url }}{% endif %}{% if not loop.last %} · {% endif %}{% endfor %}</span>{% endif %}
+{%- endmacro -%}
+{%- macro delta(fv) -%}
+{% if fv.ai_draft %}<div class="delta"><span class="d-draft"><b>⟲ AI draft —</b> {{ fv.ai_draft }}</span><span class="d-human"><b>░ human ░ why I changed it —</b> {{ fv.sharpen_rationale }}</span></div>{% endif %}
+{%- endmacro -%}
+{%- macro qa(num, label, fv) -%}
+<div class="qa">
+  <div><span class="num">{{ num }}</span><span class="label">{{ label }}</span>{{ tags(fv) }}</div>
+  <div class="body">{{ fv.value }}</div>
+  {{ srcs(fv) }}
+  {{ delta(fv) }}
+</div>
+{%- endmacro -%}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brand Brief — {{ brief.brand }}</title>
+  <style>{{ inline_css | safe }}</style>
+</head>
+<body>
+<main class="sheet">
+
+  <header class="masthead">
+    <div class="kicker">Brand Brief</div>
+    <h1>{{ brief.brand }}</h1>
+    <div class="scoreline">
+      <span class="score">{{ brief.opportunity_score }}/5</span>
+      {% if brief.rank %}<span class="rank">Rank #{{ brief.rank }}</span>{% endif %}
+      <span class="positioning">{{ brief.positioning }}</span>
+    </div>
+    <div class="meta">
+      <span class="label">Parent</span> {{ brief.parent_group }}
+      &nbsp;·&nbsp; <span class="label">Markets</span> {{ brief.markets }}
+      {% if brief.partners %}<br><span class="label">Partners</span> {{ brief.partners | join(", ") }}{% endif %}
+    </div>
+  </header>
+
+  <section class="answers">
+    {{ qa("1", "Who", brief.q1_who) }}
+    {{ qa("2", "Direction", brief.q2_direction) }}
+    {{ qa("3", "Momentum", brief.q3_momentum) }}
+    {{ qa("5", "On the PDPs", brief.q5_pdp) }}
+    {{ qa("4", "Content need", brief.q4_content_need) }}
+
+    {% set e = brief.economics %}
+    <div class="econ">
+      <div class="big">
+        <div class="figure">€{{ e.annual_opportunity_range.low | euro_range(e.annual_opportunity_range.high) }}</div>
+        <div class="cap">Opportunity · brand / yr</div>
+      </div>
+      <div class="big">
+        <div class="figure">€{{ e.partner_upside_range.low | euro_range(e.partner_upside_range.high) }}</div>
+        <div class="cap">Partners upside / yr</div>
+      </div>
+      <div class="cross">
+        Top-down cross-check €{{ e.topdown_range.low | euro_range(e.topdown_range.high) }}/yr ·
+        sanity gate {% if e.sanity_ok %}<span class="gate-ok">OK</span>{% else %}<span class="gate-bad">diverges — needs human</span>{% endif %}
+        · levers: {{ e.levers | join(" · ") }}
+      </div>
+      {% if e.reframe_note %}<div class="delta econ-delta"><span class="d-draft"><b>⟲ AI draft —</b> €{{ e.draft_opportunity_range.low | euro_range(e.draft_opportunity_range.high) }}/yr (flat agency rate, tier-blind)</span><span class="d-human"><b>░ human ░ reframed —</b> {{ e.reframe_note }}</span></div>{% endif %}
+    </div>
+
+    {{ qa("6", "Decision-maker", brief.q6_decision_maker) }}
+    {{ qa("7", "Contact", brief.q7_contact) }}
+  </section>
+
+  <section class="judgment">
+    <div class="block gap-wide">
+      <h2>The gap we fill{% if brief.gap.human_sharpened %} <span class="tag tag-human">░ human ░</span>{% endif %}{% if brief.gap.human_confirmed %} <span class="tag tag-ok">✓ confirmed</span>{% endif %}</h2>
+      <p>{{ brief.gap.value }}</p>
+      {{ delta(brief.gap) }}
+    </div>
+    <div class="block">
+      <h2>Strategy{% if brief.strategy.human_sharpened %} <span class="tag tag-human">░ human ░</span>{% endif %}{% if brief.strategy.human_confirmed %} <span class="tag tag-ok">✓ confirmed</span>{% endif %}</h2>
+      <p>{{ brief.strategy.value }}</p>
+      {{ delta(brief.strategy) }}
+    </div>
+    <div class="block approach">
+      <h2>Approach{% if brief.approach.human_sharpened %} <span class="tag tag-human">░ human ░</span>{% endif %}{% if brief.approach.human_confirmed %} <span class="tag tag-ok">✓ confirmed</span>{% endif %}</h2>
+      <dl>
+        <dt>Hook</dt><dd>{{ brief.approach.hook }}</dd>
+        <dt>Channel</dt><dd>{{ brief.approach.channel }}</dd>
+        <dt>To whom</dt><dd>{{ brief.approach.to_whom }}</dd>
+        <dt>Opening</dt><dd>{{ brief.approach.opening }}</dd>
+      </dl>
+    </div>
+    <div class="confidence">
+      <strong>Confidence —</strong> {{ brief.confidence_note }}
+    </div>
+  </section>
+
+  <footer class="colophon">
+    <div class="sources">
+      {% if brief.sources %}<strong>Sources:</strong>
+      {% for s in brief.sources %}{{ s.title }}{% if s.url %} ({{ s.url }}){% endif %}{% if not loop.last %} · {% endif %}{% endfor %}
+      {% endif %}
+    </div>
+    <div class="mode">Mode · {{ brief.generated_mode }}</div>
+  </footer>
+
+</main>
+</body>
+</html>
