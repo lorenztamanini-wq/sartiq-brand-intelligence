@@ -1,0 +1,1804 @@
+{
+  "brand": "Sandro",
+  "parent_group": "SMCP Group (Sandro, Maje, Claudie Pierlot, Fursac)",
+  "positioning": "Accessible-luxury Parisian ready-to-wear; full-price strategy",
+  "markets": "France core; global DTC + wholesale; ~1,600 stores (group)",
+  "q1_who": {
+    "name": "q1_who",
+    "value": "Sandro is an accessible-luxury Parisian ready-to-wear brand (Women & Men), the largest brand in the SMCP group (alongside Maje, Claudie Pierlot and Fursac). Positioning is premium \"Parisian chic\" priced below true luxury — live PDPs show ~$229 loafers, ~$525 leather bags and ~$1,130 leather jackets. Channel mix is DTC-led (own e-commerce + directly operated stores) with selective and growing wholesale/partner distribution. SMCP operates 1,600+ stores across 59 countries; Sandro alone had 547 directly operated points of sale (H1 2025). Founded 1984 by Evelyne Chetrite, who still provides creative direction.",
+    "confidence": "high",
+    "sources": [
+      {
+        "title": "SMCP 2025 FY Results press release (GlobeNewswire)",
+        "url": "https://www.globenewswire.com/news-release/2026/02/26/3245863/0/en/SMCP-2025-FY-Results.html",
+        "note": "4 brands, accessible luxury, 1,600+ stores, 59 countries, founders/creative direction"
+      },
+      {
+        "title": "SMCP Interim Financial Report H1 2025",
+        "url": "https://www.smcp.com/app/uploads/2025/07/interim-financial-report-2025.pdf",
+        "note": "547 Sandro directly operated POS; DTC + partner channel structure"
+      },
+      {
+        "title": "us.sandro-paris.com live PDPs",
+        "url": "https://us.sandro-paris.com",
+        "note": "price points confirming accessible-luxury tier"
+      }
+    ],
+    "is_estimate": false,
+    "assumption": null,
+    "needs_human": false,
+    "human_sharpened": false,
+    "human_confirmed": false,
+    "ai_draft": null,
+    "sharpen_rationale": null
+  },
+  "q2_direction": {
+    "name": "q2_direction",
+    "value": "AHEAD ON CRAFT — lead with consistency, not innovation-for-its-own-sake. Sandro's product imagery has been a tightly art-directed house look for years (Wayback homepage snapshots 2022→2026 confirm a stable premium aesthetic), and the live PDP audit confirms the same disciplined studio system today: clean plain-white / studio-grey backgrounds, on-model + detail + ghost-mannequin packshot for apparel, consistent still-life for accessories, and product video now embedded on apparel PDPs (VideoObject in PDP JSON-LD, uploaded 2025–2026). The trigger to watch is channel expansion: SMCP is aggressively adding wholesale/marketplace partners (10 new countries in 2025; Samsung distributing SMCP in South Korea from SS26), which is exactly where a tightly-controlled house look is hardest to hold. The opening is protecting that consistency across channels, not proposing a new direction — off-brand partner imagery is the risk.",
+    "confidence": "med",
+    "sources": [
+      {
+        "title": "Wayback snapshots — sandro-paris.com homepage 2022 vs 2026",
+        "url": "https://web.archive.org/web/20220106143233/http://sandro-paris.com/",
+        "note": "then; compared to live 2026 snapshot https://web.archive.org/web/20260120214058/http://www.sandro-paris.com/"
+      },
+      {
+        "title": "Live PDP audit — video embedded on apparel",
+        "url": "https://us.sandro-paris.com/en/p/smooth-leather-jacket/SFPBL01286_20.html",
+        "note": "VideoObject in JSON-LD, uploadDate 2025; bodysuit PDP video uploaded Jan 2026"
+      },
+      {
+        "title": "SMCP Q3 2025 results (WWD)",
+        "url": "https://wwd.com/business-news/financial/smcp-q3-2025-sales-growth-us-expansion-full-price-strategy-1238321928/",
+        "note": "Samsung Korea distribution + partner/market expansion trigger"
+      }
+    ],
+    "is_estimate": false,
+    "assumption": null,
+    "needs_human": false,
+    "human_sharpened": false,
+    "human_confirmed": false,
+    "ai_draft": null,
+    "sharpen_rationale": null
+  },
+  "q3_momentum": {
+    "name": "q3_momentum",
+    "value": "RECOVERING (with a SPLIT nuance — needs human validation). The Sandro brand is stable/resilient: FY2025 sales €608.8m, +2.0% organic, ~50% of group revenue. The SMCP parent returned to profit in 2025 — revenue €1,217m (+1.7% organic), net income €16.6m (vs −€24m in 2024), adjusted EBIT €95.2m (+80%, 7.8% margin), record free cash flow >€90m and net debt down 38% to <€150m. Recovery is driven by a strict full-price strategy (discount rate cut ~3pts to ~20%) and strength in Americas (+10%) and EMEA, offsetting a soft France (−1.6%) and China network optimization. SPLIT flag: ownership is in flux — majority holders are exploring a capital transaction (2026 guidance explicitly excludes exceptional costs \"related to a potential transaction on SMCP's capital\"), so brand health and shareholder/parent situation diverge. Mark needs_human.",
+    "confidence": "high",
+    "sources": [
+      {
+        "title": "Oui Speak Fashion — SMCP returns to profit 2025",
+        "url": "https://ouispeakfashion.com/smcp-parent-company-of-sandro-and-maje-returns-to-profit-in-2025/",
+        "note": "Sandro €608.8m +2.0%; group €1,217.4m +1.7%; EBIT €95.2m +80%; full-price 20% discount"
+      },
+      {
+        "title": "SMCP 2025 FY Results (GlobeNewswire)",
+        "url": "https://www.globenewswire.com/news-release/2026/02/26/3245863/0/en/SMCP-2025-FY-Results.html",
+        "note": "net income +; 2026 guidance excludes costs related to a potential capital transaction"
+      },
+      {
+        "title": "FashionUnited — SMCP returns to profit",
+        "url": "https://fashionunited.com/news/business/fashion-group-smcp-returns-to-profit-in-2025/2026022770837",
+        "note": "net profit €16.6m; shareholder 'saga'; France −1.6%; Asia −11.9%"
+      }
+    ],
+    "is_estimate": false,
+    "assumption": null,
+    "needs_human": false,
+    "human_sharpened": true,
+    "human_confirmed": true,
+    "ai_draft": null,
+    "sharpen_rationale": null
+  },
+  "q5_pdp": {
+    "name": "q5_pdp",
+    "value": "Measured from a live audit of 4 PDPs across categories + classification of 11 primary images. Shots per SKU run 5–9 (bag 8 hi-res + packshot; jacket 6 + video + packshot; loafers 4 + packshot; bodysuit 5 + video + packshot). Image system is category-specific and highly disciplined: APPAREL = on-model lead shot + on-model detail crops + a ghost-mannequin/packshot, plus an embedded product video (Vimeo, in JSON-LD). ACCESSORIES (bags, shoes) = clean still-life/packshot on plain-white or studio-grey, no model. Across the classified sample the mix skewed still-life ~55% / on-model ~27% / detail + ghost-mannequin the remainder because accessories dominated the sample; on the apparel PDPs specifically the lead imagery is consistently on-model. Art direction is tight and coherent on the DTC site — consistency is the brand asset. The known weak point (not yet audited here) is wholesale/marketplace partner pages, where imagery is frequently downgraded or off-brand — a concrete, demoable gap.",
+    "confidence": "high",
+    "sources": [
+      {
+        "title": "classify_images — 11 Sandro PDP images",
+        "url": "https://us.sandro-paris.com",
+        "note": "on-model 27%, still-life 55%, consistent plain-white/studio-grey; sample accessory-weighted"
+      },
+      {
+        "title": "audit_pdp — jacket / bag / loafers / bodysuit",
+        "url": "https://us.sandro-paris.com/en/p/le-mambo-suede-bag/SFASA01638_20.html",
+        "note": "5-9 shots/SKU; video on apparel via VideoObject"
+      }
+    ],
+    "is_estimate": false,
+    "assumption": null,
+    "needs_human": false,
+    "human_sharpened": false,
+    "human_confirmed": false,
+    "ai_draft": null,
+    "sharpen_rationale": null
+  },
+  "q4_content_need": {
+    "name": "q4_content_need",
+    "value": "~48,375–51,750 images/yr across own site + marketplace + market/localization variants (new SKUs + seasonal refresh)",
+    "confidence": "low",
+    "sources": [],
+    "is_estimate": true,
+    "assumption": "Accessible-luxury => lower turnover; ~3k new SKUs/yr is a tier-based estimate; Premium on-model fidelity raises shots/SKU vs value retail; Partner multiplier = ×4 SMCP brands under one relationship; Sandro brand revenue (~€609m) used for the top-down cross-check",
+    "needs_human": false,
+    "human_sharpened": true,
+    "human_confirmed": true,
+    "ai_draft": "Economic inputs supplied to compute_opportunity (model returns the counts/€, not me): new_skus_per_year=3,000; shots_per_sku=5.0; channel_variants=3.0; refresh_factor=0.3; carryover_skus=1,500; revenue_eur=608.8m (Sandro brand); partner_multiplier=4.0 (Sandro+Maje+Claudie Pierlot+Fursac under one SMCP relationship); tier=accessible-luxury. Model output: ~48,000–52,000 images/year (mid ~50,000); br",
+    "sharpen_rationale": "operator sharpened the AI draft with industry judgment"
+  },
+  "economics": {
+    "annual_images_range": {
+      "low": 48375.0,
+      "high": 51750.0
+    },
+    "cost_today_range": {
+      "low": 2902500.0,
+      "high": 12937500.0
+    },
+    "cost_sartiq_range": {
+      "low": 580500.0,
+      "high": 2587500.0
+    },
+    "annual_opportunity_range": {
+      "low": 580500.0,
+      "high": 2587500.0
+    },
+    "partner_upside_range": {
+      "low": 1741500.0,
+      "high": 7762500.0
+    },
+    "partner_breakdown": [
+      {
+        "name": "Maje",
+        "opportunity": {
+          "low": 435375.0,
+          "high": 1940625.0
+        }
+      },
+      {
+        "name": "Claudie Pierlot",
+        "opportunity": {
+          "low": 435375.0,
+          "high": 1940625.0
+        }
+      },
+      {
+        "name": "Fursac",
+        "opportunity": {
+          "low": 435375.0,
+          "high": 1940625.0
+        }
+      },
+      {
+        "name": "wholesale partners in new markets",
+        "opportunity": {
+          "low": 435375.0,
+          "high": 1940625.0
+        }
+      }
+    ],
+    "topdown_range": {
+      "low": 609000.0,
+      "high": 2436000.0
+    },
+    "levers": [
+      "speed (weeks -> hours)",
+      "return-rate reduction (image accuracy)",
+      "localization at near-zero marginal cost"
+    ],
+    "assumptions": [
+      "New SKUs/yr (~3,000) is a tier-based estimate for accessible-luxury turnover; live US catalog sample ~2,176 URLs supports order of magnitude",
+      "shots/SKU=5.0 confirmed from live PDP audit: apparel 6-7 incl. video + ghost-mannequin packshot, accessories ~5 still-life",
+      "channel_variants=3.0 for DTC + wholesale + localized market sites (US/FR/EU/APAC)",
+      "refresh_factor=0.3 seasonal reshoot of carryover",
+      "carryover_skus=1,500 eligible for seasonal refresh",
+      "revenue_eur=608.8m Sandro brand FY2025 (SMCP) for top-down cross-check",
+      "partner_multiplier=4.0 = one relationship covering Sandro, Maje, Claudie Pierlot, Fursac under SMCP",
+      "tier=accessible-luxury per SMCP positioning and €525 bag / €1,130 jacket price points observed live"
+    ],
+    "sanity_ok": true,
+    "needs_human": false,
+    "draft_opportunity_range": {
+      "low": 774000.0,
+      "high": 4657500.0
+    },
+    "reframe_note": "accessible-luxury-tier production runs €60-250/image, not the flat agency rate — so the studio spend (and Sartiq's ~20% of it) rests on the tier-aware band, not the ~€3M draft.",
+    "tier": "accessible-luxury"
+  },
+  "q6_decision_maker": {
+    "name": "q6_decision_maker",
+    "value": "Chief Marketing officer (Augustin lettelier); Image / Digital Content Director (Esther Beaumont) ",
+    "confidence": "med",
+    "sources": [
+      {
+        "title": "SMCP / Sandro LinkedIn",
+        "url": "https://www.linkedin.com/company/smcp",
+        "note": "function mapping — enrich + human-validate"
+      }
+    ],
+    "is_estimate": false,
+    "assumption": null,
+    "needs_human": false,
+    "human_sharpened": true,
+    "human_confirmed": true,
+    "ai_draft": "Target the group-level owner of digital/visual content, since one relationship spans all four SMCP brands. Priority roles: Group/Brand Head of E-commerce, and Image / Digital Content Director (or Creative Content Director). Enrichment returned target titles only — no names available from the configured provider, so specific individuals must be sourced and validated by a human (LinkedIn/SMCP org ma",
+    "sharpen_rationale": "operator sharpened the AI draft with industry judgment"
+  },
+  "q7_contact": {
+    "name": "q7_contact",
+    "value": "Full-price + premiumness => brand-consistent, accurate on-model imagery is non-negotiable, exactly what self-serve tools can't promise. Lead with consistency + garment fidelity; price/efficiency is the second sentence, never the first. Profit focus => frame as ROI/efficiency WITHOUT quality loss.  cold entry if we do not have any way around it ",
+    "confidence": "low",
+    "sources": [
+      {
+        "title": "SMCP / Sandro LinkedIn",
+        "url": "https://www.linkedin.com/company/smcp",
+        "note": "function mapping — enrich + human-validate"
+      }
+    ],
+    "is_estimate": true,
+    "assumption": "contact angle is judgment; named person + warm path require human validation (enrichment API, not LinkedIn scraping) — never assert a warm intro without evidence",
+    "needs_human": false,
+    "human_sharpened": true,
+    "human_confirmed": true,
+    "ai_draft": "Cold entry — no evidenced warm path. Angle: because Sandro runs a strict full-price strategy, off-brand imagery is real money — every inconsistent marketplace/wholesale shot is markdown risk. Lead with garment fidelity + art-direction consistency held across on-model, still-life and localized channels at catalog scale (the thing generic self-serve AI cannot promise); price/efficiency is the second",
+    "sharpen_rationale": "operator sharpened the AI draft with industry judgment"
+  },
+  "gap": {
+    "name": "gap",
+    "value": "Sandro's entire equity is a tightly art-directed house look — on-model apparel, clean still-life accessories, product video — held with real discipline on its own DTC PDPs. That control breaks the instant product lands on wholesale and marketplace partner pages, and SMCP is expanding precisely that footprint right now (10 new partner countries in 2025, Samsung distributing in South Korea from SS26). Under Sandro's strict full-price strategy (~20% discount rate), every downgraded or off-brand partner image is direct markdown risk. THE ONE GAP Sartiq fills: guaranteed garment fidelity and Sandro's house art-direction reproduced at catalog scale across every channel and every localized market — the one promise generic self-serve AI imagery cannot make.",
+    "confidence": "med",
+    "sources": [],
+    "is_estimate": true,
+    "assumption": "operator synthesis over the live module outputs (the judgment layer)",
+    "needs_human": false,
+    "human_sharpened": true,
+    "human_confirmed": true,
+    "ai_draft": null,
+    "sharpen_rationale": null
+  },
+  "strategy": {
+    "name": "strategy",
+    "value": "Consistency-led, group-scale. Do NOT pitch a new visual direction (they are ahead on craft) and do NOT open on cost. Lead with protecting brand-consistent garment fidelity across the expanding partner/marketplace footprint, framed as markdown-risk reduction under the full-price strategy — the argument a premium, margin-recovering brand actually feels. Second beat only: same house quality at a fraction of studio cost and time, plus localization at near-zero marginal cost as SMCP adds markets. Sell once at group level — a single relationship spans Sandro, Maje, Claudie Pierlot and Fursac, turning a ~€1.58m brand opportunity into ~€4.75m of portfolio upside. Note the ownership SPLIT: SMCP's majority holders are exploring a capital transaction, so keep the pitch operational (to the digital/image owner) and avoid tying it to shareholder-level timing.",
+    "confidence": "med",
+    "sources": [],
+    "is_estimate": true,
+    "assumption": "operator synthesis over the live module outputs (the judgment layer)",
+    "needs_human": false,
+    "human_sharpened": true,
+    "human_confirmed": true,
+    "ai_draft": null,
+    "sharpen_rationale": null
+  },
+  "approach": {
+    "hook": "Your full-price positioning rests on flawless, on-brand imagery — and that control breaks the moment product hits the wholesale and marketplace partners SMCP is expanding right now (10 new countries in 2025, Samsung/Korea from SS26). Under a strict full-price strategy, every off-brand partner shot is markdown risk. We reproduce Sandro's house art-direction and garment fidelity at catalog scale — every channel, every new market — the one thing self-serve AI can't promise.",
+    "channel": "Warm outbound if we have a path in, otherwise cold — LinkedIn + email. Keep it operational (to the image/digital owner); do not tie it to SMCP's shareholder / capital-transaction timing.",
+    "to_whom": "Primary: Sandro's Image / Digital Content Director (Esther Beaumont) — operational owner of PDP + campaign imagery. Sponsor: CMO (Augustin Lettelier). Then scale a single relationship to SMCP group digital, spanning Maje, Claudie Pierlot and Fursac (~€1.6M brand → ~€4.8M portfolio)",
+    "opening": "to be discussed",
+    "human_sharpened": true,
+    "human_confirmed": true
+  },
+  "confidence_note": "Moderate overall. Brand identity, momentum and DTC imagery discipline are HIGH confidence and well-sourced. Weaker points: (1) the cross-channel degradation that anchors the whole wedge is INFERRED from strong DTC discipline plus rapid partner expansion — no off-brand partner example has been captured yet; a human must screenshot real mismatches before outreach. (2) The opportunity €-ranges rest on tier-based SKU/refresh/channel estimates (shots/SKU and revenue are sourced); treat as order-of-magnitude. (3) Decision-maker is a ROLE only — no named individual. (4) SPLIT/ownership flux (potential capital transaction) means brand health and shareholder situation diverge — validate timing before engaging. needs_human flags carried forward on: momentum/ownership (q3), opportunity sizing (q4), decision-maker name (q6), contact path (q7), and the gap's partner-imagery evidence. Vision self-consistency: 100% label agreement across two independent passes on 5 images from this run.",
+  "opportunity_score": 3.2,
+  "rank": null,
+  "partners": [
+    "Maje",
+    "Claudie Pierlot",
+    "Fursac",
+    "wholesale partners in new markets"
+  ],
+  "sources": [
+    {
+      "title": "SMCP 2025 FY Results press release (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2026/02/26/3245863/0/en/SMCP-2025-FY-Results.html",
+      "note": "4 brands, accessible luxury, 1,600+ stores, 59 countries, founders/creative direction"
+    },
+    {
+      "title": "SMCP Interim Financial Report H1 2025",
+      "url": "https://www.smcp.com/app/uploads/2025/07/interim-financial-report-2025.pdf",
+      "note": "547 Sandro directly operated POS; DTC + partner channel structure"
+    },
+    {
+      "title": "us.sandro-paris.com live PDPs",
+      "url": "https://us.sandro-paris.com",
+      "note": "price points confirming accessible-luxury tier"
+    },
+    {
+      "title": "Wayback snapshots — sandro-paris.com homepage 2022 vs 2026",
+      "url": "https://web.archive.org/web/20220106143233/http://sandro-paris.com/",
+      "note": "then; compared to live 2026 snapshot https://web.archive.org/web/20260120214058/http://www.sandro-paris.com/"
+    },
+    {
+      "title": "Live PDP audit — video embedded on apparel",
+      "url": "https://us.sandro-paris.com/en/p/smooth-leather-jacket/SFPBL01286_20.html",
+      "note": "VideoObject in JSON-LD, uploadDate 2025; bodysuit PDP video uploaded Jan 2026"
+    },
+    {
+      "title": "SMCP Q3 2025 results (WWD)",
+      "url": "https://wwd.com/business-news/financial/smcp-q3-2025-sales-growth-us-expansion-full-price-strategy-1238321928/",
+      "note": "Samsung Korea distribution + partner/market expansion trigger"
+    },
+    {
+      "title": "Oui Speak Fashion — SMCP returns to profit 2025",
+      "url": "https://ouispeakfashion.com/smcp-parent-company-of-sandro-and-maje-returns-to-profit-in-2025/",
+      "note": "Sandro €608.8m +2.0%; group €1,217.4m +1.7%; EBIT €95.2m +80%; full-price 20% discount"
+    },
+    {
+      "title": "SMCP 2025 FY Results (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2026/02/26/3245863/0/en/SMCP-2025-FY-Results.html",
+      "note": "net income +; 2026 guidance excludes costs related to a potential capital transaction"
+    },
+    {
+      "title": "FashionUnited — SMCP returns to profit",
+      "url": "https://fashionunited.com/news/business/fashion-group-smcp-returns-to-profit-in-2025/2026022770837",
+      "note": "net profit €16.6m; shareholder 'saga'; France −1.6%; Asia −11.9%"
+    },
+    {
+      "title": "classify_images — 11 Sandro PDP images",
+      "url": "https://us.sandro-paris.com",
+      "note": "on-model 27%, still-life 55%, consistent plain-white/studio-grey; sample accessory-weighted"
+    },
+    {
+      "title": "audit_pdp — jacket / bag / loafers / bodysuit",
+      "url": "https://us.sandro-paris.com/en/p/le-mambo-suede-bag/SFASA01638_20.html",
+      "note": "5-9 shots/SKU; video on apparel via VideoObject"
+    },
+    {
+      "title": "SMCP / Sandro LinkedIn",
+      "url": "https://www.linkedin.com/company/smcp",
+      "note": "function mapping — enrich + human-validate"
+    }
+  ],
+  "generated_mode": "live",
+  "trace": [
+    {
+      "step": "list_catalog",
+      "input": {
+        "site": "https://us.sandro-paris.com"
+      },
+      "result": {
+        "catalog_size_estimate": 2176,
+        "product_urls": [
+          "https://us.sandro-paris.com/en/p/slim-leather-belt/SFACE00434_20.html",
+          "https://us.sandro-paris.com/en/p/leather-belt/SFACE00453_20.html",
+          "https://us.sandro-paris.com/en/p/smooth-leather-belt-metal-buckle/SFACE00474_10.html",
+          "https://us.sandro-paris.com/en/p/smooth-leather-belt-metal-buckle/SFACE00474_34.html",
+          "https://us.sandro-paris.com/en/p/smooth-leather-belt/SFACE00481_20.html",
+          "https://us.sandro-paris.com/en/p/leather-belt-with-metal-buckle/SFACE00482_16.html",
+          "https://us.sandro-paris.com/en/p/leather-belt-with-metal-buckle/SFACE00483_10.html",
+          "https://us.sandro-paris.com/en/p/leather-and-metal-belt/SFACE00488_34.html",
+          "https://us.sandro-paris.com/en/p/croc-effect-leather-belt/SFACE00501_20.html",
+          "https://us.sandro-paris.com/en/p/suede-leather-belt/SFACE00502_16.html",
+          "https://us.sandro-paris.com/en/p/sandals-with-narrow-straps/SFACH00437_20.html",
+          "https://us.sandro-paris.com/en/p/multi-buckle-mary-jane-loafers/SFACH01152_20.html",
+          "https://us.sandro-paris.com/en/p/sandals-with-straps/SFACH01178_20.html",
+          "https://us.sandro-paris.com/en/p/chelsea-boots/SFACH01309_20.html",
+          "https://us.sandro-paris.com/en/p/smooth-leather-heeled-mules/SFACH01313_10.html",
+          "https://us.sandro-paris.com/en/p/leather-loafers-with-buckles/SFACH01375_20.html",
+          "https://us.sandro-paris.com/en/p/light-wave-suede-sneakers/SFACH01379_16.html",
+          "https://us.sandro-paris.com/en/p/suede-boat-shoes/SFACH01409_16.html",
+          "https://us.sandro-paris.com/en/p/suede-boat-shoe-loafers/SFACH01418_60.html",
+          "https://us.sandro-paris.com/en/p/leather-loafers/SFACH01439_10.html",
+          "https://us.sandro-paris.com/en/p/glitter-heel-sandals/SFACH01460_20.html",
+          "https://us.sandro-paris.com/en/p/shearling-boat-shoes/SFACH01481_13.html",
+          "https://us.sandro-paris.com/en/p/light-wave-leather-sneakers/SFACH01490_11.html",
+          "https://us.sandro-paris.com/en/p/light-wave-mixed-material-sneakers/SFACH01493_47.html",
+          "https://us.sandro-paris.com/en/p/suede-loafers/SFACH01508_16.html",
+          "https://us.sandro-paris.com/en/p/suede-wedge-sandals/SFACH01524_20.html",
+          "https://us.sandro-paris.com/en/p/crochet-small-accessory/SFAPM00312_40.html",
+          "https://us.sandro-paris.com/en/p/tangoso-suede-and-leather-bucket-bag/SFASA01387_13.html",
+          "https://us.sandro-paris.com/en/p/tangoso-mini-leather-bag/SFASA01481_20.html",
+          "https://us.sandro-paris.com/en/p/le-mambo-plain-leather-bag/SFASA01546_20.html",
+          "https://us.sandro-paris.com/en/p/tangoso-mini-suede-and-leather-bag/SFASA01564_20.html",
+          "https://us.sandro-paris.com/en/p/tangoso-suede-and-leather-bucket-bag/SFASA01565_20.html",
+          "https://us.sandro-paris.com/en/p/le-mambo-suede-leather-bag/SFASA01582_16.html",
+          "https://us.sandro-paris.com/en/p/tangolino-leather-and-suede-vanity-bag/SFASA01588_13.html",
+          "https://us.sandro-paris.com/en/p/le-mambo-suede-bag/SFASA01638_20.html",
+          "https://us.sandro-paris.com/en/p/grained-leather-tangolino-bag/SFASA01642_11.html",
+          "https://us.sandro-paris.com/en/p/ezmeh-suede-bag/SFASA01649_20.html",
+          "https://us.sandro-paris.com/en/p/mini-mambo-suede-bag/SFASA01653_72.html",
+          "https://us.sandro-paris.com/en/p/mini-mambo-suede-bag/SFASA01654_20.html",
+          "https://us.sandro-paris.com/en/p/ezmeh-suede-bag/SFASA01682_72.html",
+          "https://us.sandro-paris.com/en/p/crochet-bag-with-charms/SFASA01690_11.html",
+          "https://us.sandro-paris.com/en/p/studded-crochet-bag/SFASA01692_30.html",
+          "https://us.sandro-paris.com/en/p/studded-net-mesh-bag/SFASA01704_20.html",
+          "https://us.sandro-paris.com/en/p/ezmehralda-suede-bag/SFASA01739_16.html",
+          "https://us.sandro-paris.com/en/p/le-grand-bazaar-suede-bag/SFASA01777_16.html",
+          "https://us.sandro-paris.com/en/p/knit-bodysuit/SFPBD00028_40.html",
+          "https://us.sandro-paris.com/en/p/jewelry-detail-knit-bodysuit/SFPBD00042_20.html",
+          "https://us.sandro-paris.com/en/p/fringed-suede-jacket/SFPBL01261_16.html",
+          "https://us.sandro-paris.com/en/p/studded-suede-jacket/SFPBL01274_13.html",
+          "https://us.sandro-paris.com/en/p/smooth-leather-jacket/SFPBL01286_20.html",
+          "https://us.sandro-paris.com/en/p/embroidered-collar-oversized-jacket/SFPBL01288_40.html",
+          "https://us.sandro-paris.com/en/p/embroidered-collar-oversized-jacket/SFPBL01288_44.html",
+          "https://us.sandro-paris.com/en/p/denim-jacket/SFPBL01323_16.html",
+          "https://us.sandro-paris.com/en/p/lamb-leather-jacket/SFPBL01329_20.html",
+          "https://us.sandro-paris.com/en/p/wide-cotton-linen-zip-jacket/SFPBL01335_60.html",
+          "https://us.sandro-paris.com/en/p/oversized-leather-jacket/SFPBL01374_20.html",
+          "https://us.sandro-paris.com/en/p/oversized-leather-collar-jacket/SFPBL01383_34.html",
+          "https://us.sandro-paris.com/en/p/oversized-leather-collar-jacket/SFPBL01384_24.html",
+          "https://us.sandro-paris.com/en/p/leather-jacket/SFPBL01396_30.html",
+          "https://us.sandro-paris.com/en/p/ruffled-cardigan/SFPCA01025_20.html"
+        ],
+        "source": "sitemap_usp",
+        "error": null
+      }
+    },
+    {
+      "step": "wayback_snapshots",
+      "input": {
+        "url": "https://www.sandro-paris.com/"
+      },
+      "result": {
+        "snapshots": [
+          {
+            "year": 2022,
+            "timestamp": "20220106143233",
+            "url": "https://web.archive.org/web/20220106143233/http://sandro-paris.com/"
+          },
+          {
+            "year": 2023,
+            "timestamp": "20230129100049",
+            "url": "https://web.archive.org/web/20230129100049/https://www.sandro-paris.com/"
+          },
+          {
+            "year": 2024,
+            "timestamp": "20240101001041",
+            "url": "https://web.archive.org/web/20240101001041/http://sandro-paris.com/"
+          },
+          {
+            "year": 2025,
+            "timestamp": "20250102173020",
+            "url": "https://web.archive.org/web/20250102173020/https://www.sandro-paris.com/"
+          },
+          {
+            "year": 2026,
+            "timestamp": "20260120214058",
+            "url": "https://web.archive.org/web/20260120214058/http://www.sandro-paris.com/"
+          }
+        ],
+        "coverage": "5 yearly snapshots (2022–2026)",
+        "error": null
+      }
+    },
+    {
+      "step": "audit_pdp",
+      "input": {
+        "url": "https://us.sandro-paris.com/en/p/smooth-leather-jacket/SFPBL01286_20.html"
+      },
+      "result": {
+        "url": "https://us.sandro-paris.com/en/p/smooth-leather-jacket/SFPBL01286_20.html",
+        "images": [
+          "https://us.sandro-paris.com/on/demandware.static/Sites-Sandro-US-Site/-/default/dw3a9eac4a/images/brand-logo/logo-sandro-white.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwe35c00da/Megamenu/IN_MENU_JULY4_F.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwf03b8da9/Megamenu/HP_IM_PRECO_F.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwff7d96aa/Megamenu/IN_MENU_SUMMER_CLOTHING_F.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw0c286270/Megamenu/IN_MENU_SUMMER_SETS_F.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwda54cb70/Megamenu/HP_LOOKBOKK_IMAGEMENU-F-CHAUSSURE.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwbc9d9aa1/Megamenu/HP_IMMENU_SACS_FEMME.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwd0dfaee0/Megamenu/ACCESSOIRES_F_SS26.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw4459e043/Megamenu/INMENU_SECONDHAND.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw3e1cb74e/Megamenu/IN_MENU_JULY4_H.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw7ad061b4/Megamenu/HP_IM_PRECO_H.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwaaaee479/Megamenu/HP_SUMMER_IMAGEMENU-H_COLLECTION.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwce26ae98/Megamenu/IN_MENU_SUMMER_SHOES_H.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwdb867854/Megamenu/HP_IM_HOMME_SACS.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw1394ed0b/Megamenu/ACCESSOIRE_H.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwd1204967/Megamenu/CAMPAGNE-SS26_IMAGE-MENU_UNIVERS.png",
+          "https://us.sandro-paris.com/on/demandware.static/Sites-Sandro-US-Site/-/default/dwc3734760/images/accessibility.png",
+          "https://us.sandro-paris.com/on/demandware.static/Sites-Sandro-US-Site/-/default/dwea89db75/images/brand-logo/logo-sandro-black.svg",
+          "https://us.sandro-paris.com/on/demandware.static/Sites-Sandro-US-Site/-/default/dw1a773807/images/flags/US.png",
+          "https://us.sandro-paris.com/on/demandware.static/-/Sites/default/dw9e40405f/RSE/picto-RSE-vide.png",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwbbb0506d/images/hi-res/Sandro_SFPBL01286-20_F_1.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw4c76c433/images/hi-res/Sandro_SFPBL01286-20_H_V.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0301ae4d/images/hi-res/Sandro_SFPBL01286-20_F_3.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw176bd645/images/hi-res/Sandro_SFPBL01286-20_F_4.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwb9c92221/images/hi-res/Sandro_SFPBL01286-20_F_5.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw308f168f/images/hi-res/Sandro_SFPBL01286-20_F_6.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwc281e5db/images/packshot/Sandro_SFPBL01286-20_F_P.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwbbb0506d/images/hi-res/Sandro_SFPBL01286-20_F_1.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw4c76c433/images/hi-res/Sandro_SFPBL01286-20_H_V.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0301ae4d/images/hi-res/Sandro_SFPBL01286-20_F_3.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw176bd645/images/hi-res/Sandro_SFPBL01286-20_F_4.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwb9c92221/images/hi-res/Sandro_SFPBL01286-20_F_5.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw308f168f/images/hi-res/Sandro_SFPBL01286-20_F_6.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwc281e5db/images/packshot/Sandro_SFPBL01286-20_F_P.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf5c67500/images/hi-res/Sandro_SFPBL01286-20_F_2.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw4ad471f7/images/packshot/Sandro_SFACH01439-10_F_P.jpg?sw=650&sh=650",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwf97c1de2/Footer/freeshipping.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw306dabb4/Footer/freereturns.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwd0b752c6/Footer/securepayment.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwa0561347/Footer/ordertracking.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwc25f5913/Footer/instagram.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwf72bd805/Footer/tiktok.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwc587ade0/Footer/spotify.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw563001e0/Footer/pinterest.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw4cf9943f/Footer/facebook.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Sites/default/dwd6c2b31a/Footer/Vector-black.png",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwbbb0506d/images/hi-res/Sandro_SFPBL01286-20_F_1.jpg"
+        ],
+        "json_ld": [
+          {
+            "@context": "http://schema.org/",
+            "@type": "Product",
+            "name": "Smooth leather jacket",
+            "description": "<p>Loose-fit jacket in plain, smooth leather with a shirt collar, long raglan sleeves and a zip fastening under a covered placket.<br><br></p><ul><li>Sandro Women's lambskin leather jacket</li><li>Loose fit</li><li>Shirt collar</li><li>Long raglan sleeves with press-stud cuffs</li><li>Zip fastening </li><li>Covered placket with press studs</li><li>Diagonal welt pockets and tone-on-tone flap pockets</li><li>Internal drawstring with metal tips</li><li>Designed for a baggy fit</li></ul>",
+            "inProductGroupWithID": "SFPBL01286_20",
+            "gtin14": "SFPBL01286_20",
+            "sku": "SFPBL01286_20",
+            "brand": {
+              "@type": "Brand",
+              "name": "Sandro – Official Website"
+            },
+            "color": "Black",
+            "image": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwbbb0506d/images/hi-res/Sandro_SFPBL01286-20_F_1.jpg",
+            "offers": {
+              "@type": "Offer",
+              "url": "https://us.sandro-paris.com/en/p/smooth-leather-jacket/SFPBL01286_20.html",
+              "availability": "https://schema.org/InStock",
+              "itemCondition": "https://schema.org/NewCondition",
+              "seller": {
+                "@type": "Organization",
+                "name": "Sandro – Official Website"
+              },
+              "priceCurrency": "USD",
+              "price": "1130.00",
+              "shippingDetails": {
+                "@type": "OfferShippingDetails",
+                "shippingRate": {
+                  "@type": "MonetaryAmount",
+                  "currency": "USD",
+                  "value": 0
+                },
+                "deliveryTime": {
+                  "@type": "ShippingDeliveryTime",
+                  "transitTime": {
+                    "@type": "QuantitativeValue",
+                    "minValue": "1",
+                    "maxValue": "1",
+                    "unitCode": "DAY"
+                  }
+                },
+                "shippingDestination": {
+                  "@type": "DefinedRegion",
+                  "addressCountry": "\"US\""
+                }
+              }
+            }
+          },
+          {
+            "@context": "http://schema.org/",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://us.sandro-paris.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Women",
+                "item": "https://us.sandro-paris.com/en/womens/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Clothing",
+                "item": "https://us.sandro-paris.com/en/womens/clothing/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "Jackets & Blazers",
+                "item": "https://us.sandro-paris.com/en/womens/clothing/jackets-blazers/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 5,
+                "name": "Smooth leather jacket",
+                "item": "https://us.sandro-paris.com/en/p/smooth-leather-jacket/SFPBL01286_20.html"
+              }
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "itemListElement": [
+              {
+                "@type": "ImageObject",
+                "name": "Smooth leather jacket",
+                "description": "Discover the must-have of the season: Smooth leather jacket in black / gray for women (SFPBL01286_20) on the official Sandro Paris website. Free delivery and exchanges.",
+                "caption": "Smooth leather jacket Sandro – Official Website",
+                "contentUrl": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwbbb0506d/images/hi-res/Sandro_SFPBL01286-20_F_1.jpg"
+              }
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "VideoObject",
+            "name": "Smooth leather jacket",
+            "description": "<p>Loose-fit jacket in plain, smooth leather with a shirt collar, long raglan sleeves and a zip fastening under a covered placket.<br><br></p><ul><li>Sandro Women's lambskin leather jacket</li><li>Loose fit</li><li>Shirt collar</li><li>Long raglan sleeves with press-stud cuffs</li><li>Zip fastening </li><li>Covered placket with press studs</li><li>Diagonal welt pockets and tone-on-tone flap pockets</li><li>Internal drawstring with metal tips</li><li>Designed for a baggy fit</li></ul>",
+            "uploadDate": "04-09-2025",
+            "contentUrl": "https://player.vimeo.com/progressive_redirect/playback/1141472227/rendition/1080p/file.mp4?loc=external&signature=90967b333fbb31f975268c7f168d49db34875dd6d6ffdd266d9fa3fba18d01dd",
+            "embedUrl": "https://us.sandro-paris.com/on/demandware.store/Sites-Sandro-US-Site/en_US/Product-Show?pid=SFPBL01286_20",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Sandro – Official Website",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://us.sandro-paris.com/on/demandware.static/Sites-Sandro-US-Site/-/default/dwea89db75/images/brand-logo/logo-sandro-black.svg",
+                "width": 283,
+                "height": 599
+              }
+            },
+            "thumbnailUrl": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwbbb0506d/images/hi-res/Sandro_SFPBL01286-20_F_1.jpg"
+          },
+          {
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "Corporation",
+                "name": "Sandro – Official Website",
+                "alternateName": "Sandro Paris",
+                "url": "https://us.sandro-paris.com/",
+                "logo": "https://us.sandro-paris.com/on/demandware.static/Sites-Sandro-US-Site/-/default/dwea89db75/images/brand-logo/logo-sandro-black.svg",
+                "sameAs": [
+                  "https://www.facebook.com/sandrofrance",
+                  "https://www.instagram.com/sandroparis/",
+                  "https://www.youtube.com/channel/UCFk8xiAaPK4B4p4vedRbOFg",
+                  "https://www.linkedin.com/company/sandro/?originalSubdomain=us",
+                  "https://fr.sandro-paris.com/",
+                  "https://pinterest.com/sandroofficial/"
+                ]
+              },
+              {
+                "@type": "WebSite",
+                "name": "Sandro – Official Website",
+                "url": "https://us.sandro-paris.com/",
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "Sandro – Official Website"
+                }
+              }
+            ]
+          }
+        ],
+        "rendered_with": "httpx",
+        "error": null
+      }
+    },
+    {
+      "step": "audit_pdp",
+      "input": {
+        "url": "https://us.sandro-paris.com/en/p/le-mambo-suede-bag/SFASA01638_20.html"
+      },
+      "result": {
+        "url": "https://us.sandro-paris.com/en/p/le-mambo-suede-bag/SFASA01638_20.html",
+        "images": [
+          "https://us.sandro-paris.com/on/demandware.static/Sites-Sandro-US-Site/-/default/dw3a9eac4a/images/brand-logo/logo-sandro-white.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwe35c00da/Megamenu/IN_MENU_JULY4_F.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwf03b8da9/Megamenu/HP_IM_PRECO_F.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwff7d96aa/Megamenu/IN_MENU_SUMMER_CLOTHING_F.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw0c286270/Megamenu/IN_MENU_SUMMER_SETS_F.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwda54cb70/Megamenu/HP_LOOKBOKK_IMAGEMENU-F-CHAUSSURE.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwbc9d9aa1/Megamenu/HP_IMMENU_SACS_FEMME.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwd0dfaee0/Megamenu/ACCESSOIRES_F_SS26.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw4459e043/Megamenu/INMENU_SECONDHAND.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw3e1cb74e/Megamenu/IN_MENU_JULY4_H.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw7ad061b4/Megamenu/HP_IM_PRECO_H.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwaaaee479/Megamenu/HP_SUMMER_IMAGEMENU-H_COLLECTION.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwce26ae98/Megamenu/IN_MENU_SUMMER_SHOES_H.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwdb867854/Megamenu/HP_IM_HOMME_SACS.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw1394ed0b/Megamenu/ACCESSOIRE_H.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwd1204967/Megamenu/CAMPAGNE-SS26_IMAGE-MENU_UNIVERS.png",
+          "https://us.sandro-paris.com/on/demandware.static/Sites-Sandro-US-Site/-/default/dwc3734760/images/accessibility.png",
+          "https://us.sandro-paris.com/on/demandware.static/Sites-Sandro-US-Site/-/default/dwea89db75/images/brand-logo/logo-sandro-black.svg",
+          "https://us.sandro-paris.com/on/demandware.static/Sites-Sandro-US-Site/-/default/dw1a773807/images/flags/US.png",
+          "https://us.sandro-paris.com/on/demandware.static/-/Sites/default/dw9e40405f/RSE/picto-RSE-vide.png",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf06b38c8/images/hi-res/Sandro_SFASA01638-20_F_1.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwc9b4149d/images/hi-res/Sandro_SFASA01638-20_F_2.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw3c484b32/images/hi-res/Sandro_SFASA01638-20_F_3.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0e96fb69/images/hi-res/Sandro_SFASA01638-20_F_4.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw30d5380f/images/hi-res/Sandro_SFASA01638-20_F_5.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwca78ba18/images/hi-res/Sandro_SFASA01638-20_F_6.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw2f383b90/images/hi-res/Sandro_SFASA01638-20_F_7.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw38363c5e/images/hi-res/Sandro_SFASA01638-20_F_8.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwd4cc9b6f/images/packshot/Sandro_SFASA01638-20_F_P.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf06b38c8/images/hi-res/Sandro_SFASA01638-20_F_1.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwc9b4149d/images/hi-res/Sandro_SFASA01638-20_F_2.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw3c484b32/images/hi-res/Sandro_SFASA01638-20_F_3.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0e96fb69/images/hi-res/Sandro_SFASA01638-20_F_4.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw30d5380f/images/hi-res/Sandro_SFASA01638-20_F_5.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwca78ba18/images/hi-res/Sandro_SFASA01638-20_F_6.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw2f383b90/images/hi-res/Sandro_SFASA01638-20_F_7.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw38363c5e/images/hi-res/Sandro_SFASA01638-20_F_8.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwd4cc9b6f/images/packshot/Sandro_SFASA01638-20_F_P.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwc4c0e68c/LWG_sandro.png",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwf97c1de2/Footer/freeshipping.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw306dabb4/Footer/freereturns.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwd0b752c6/Footer/securepayment.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwa0561347/Footer/ordertracking.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwc25f5913/Footer/instagram.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwf72bd805/Footer/tiktok.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwc587ade0/Footer/spotify.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw563001e0/Footer/pinterest.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw4cf9943f/Footer/facebook.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Sites/default/dwd6c2b31a/Footer/Vector-black.png",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf06b38c8/images/hi-res/Sandro_SFASA01638-20_F_1.jpg"
+        ],
+        "json_ld": [
+          {
+            "@context": "http://schema.org/",
+            "@type": "Product",
+            "name": "LE MAMBO suede bag",
+            "description": "<p>Suede leather bag with a double flap, a swivel clasp and a shoulder strap for carrying on the shoulder or across the body.<br><br></p><ul><li>LE MAMBO Sandro Women's suede leather bag</li><li>Double flap with swivel clasp</li><li>SANDRO-branded buckles for adjusting the shoulder strap</li><li>Multiple compartments and a small inside pocket</li><li>Back pocket</li><li>Can be worn on the shoulder or across the body</li><li>31 x 10.5 x 15 cm </li><li>Strap length: 38 cm </li></ul>",
+            "inProductGroupWithID": "3607172148942",
+            "gtin14": "3607172148942",
+            "sku": "3607172148942",
+            "brand": {
+              "@type": "Brand",
+              "name": "Sandro – Official Website"
+            },
+            "color": "Black",
+            "image": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf06b38c8/images/hi-res/Sandro_SFASA01638-20_F_1.jpg",
+            "offers": {
+              "@type": "Offer",
+              "url": "https://us.sandro-paris.com/en/p/le-mambo-suede-bag/3607172148942.html",
+              "availability": "https://schema.org/InStock",
+              "itemCondition": "https://schema.org/NewCondition",
+              "seller": {
+                "@type": "Organization",
+                "name": "Sandro – Official Website"
+              },
+              "priceCurrency": "USD",
+              "price": "525.00",
+              "shippingDetails": {
+                "@type": "OfferShippingDetails",
+                "shippingRate": {
+                  "@type": "MonetaryAmount",
+                  "currency": "USD",
+                  "value": 0
+                },
+                "deliveryTime": {
+                  "@type": "ShippingDeliveryTime",
+                  "transitTime": {
+                    "@type": "QuantitativeValue",
+                    "minValue": "1",
+                    "maxValue": "1",
+                    "unitCode": "DAY"
+                  }
+                },
+                "shippingDestination": {
+                  "@type": "DefinedRegion",
+                  "addressCountry": "\"US\""
+                }
+              }
+            }
+          },
+          {
+            "@context": "http://schema.org/",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://us.sandro-paris.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Women",
+                "item": "https://us.sandro-paris.com/en/womens/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Bags",
+                "item": "https://us.sandro-paris.com/en/womens/bags-and-accessories//"
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "Shoulder Bags",
+                "item": "https://us.sandro-paris.com/en/womens/bags-accessories/shoulder-bags/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 5,
+                "name": "LE MAMBO suede bag",
+                "item": "https://us.sandro-paris.com/en/p/le-mambo-suede-bag/3607172148942.html"
+              }
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "itemListElement": [
+              {
+                "@type": "ImageObject",
+                "name": "LE MAMBO suede bag",
+                "description": "Discover the must-have of the season: LE MAMBO suede bag in black / gray for women (3607172148942) on the official Sandro Paris website. Free delivery and exchanges.",
+                "caption": "LE MAMBO suede bag Sandro – Official Website",
+                "contentUrl": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf06b38c8/images/hi-res/Sandro_SFASA01638-20_F_1.jpg"
+              }
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "Corporation",
+                "name": "Sandro – Official Website",
+                "alternateName": "Sandro Paris",
+                "url": "https://us.sandro-paris.com/",
+                "logo": "https://us.sandro-paris.com/on/demandware.static/Sites-Sandro-US-Site/-/default/dwea89db75/images/brand-logo/logo-sandro-black.svg",
+                "sameAs": [
+                  "https://www.facebook.com/sandrofrance",
+                  "https://www.instagram.com/sandroparis/",
+                  "https://www.youtube.com/channel/UCFk8xiAaPK4B4p4vedRbOFg",
+                  "https://www.linkedin.com/company/sandro/?originalSubdomain=us",
+                  "https://fr.sandro-paris.com/",
+                  "https://pinterest.com/sandroofficial/"
+                ]
+              },
+              {
+                "@type": "WebSite",
+                "name": "Sandro – Official Website",
+                "url": "https://us.sandro-paris.com/",
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "Sandro – Official Website"
+                }
+              }
+            ]
+          }
+        ],
+        "rendered_with": "httpx",
+        "error": null
+      }
+    },
+    {
+      "step": "audit_pdp",
+      "input": {
+        "url": "https://us.sandro-paris.com/en/p/leather-loafers/SFACH01439_10.html"
+      },
+      "result": {
+        "url": "https://us.sandro-paris.com/en/p/leather-loafers/SFACH01439_10.html",
+        "images": [
+          "https://us.sandro-paris.com/on/demandware.static/Sites-Sandro-US-Site/-/default/dw3a9eac4a/images/brand-logo/logo-sandro-white.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwe35c00da/Megamenu/IN_MENU_JULY4_F.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwf03b8da9/Megamenu/HP_IM_PRECO_F.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwff7d96aa/Megamenu/IN_MENU_SUMMER_CLOTHING_F.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw0c286270/Megamenu/IN_MENU_SUMMER_SETS_F.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwda54cb70/Megamenu/HP_LOOKBOKK_IMAGEMENU-F-CHAUSSURE.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwbc9d9aa1/Megamenu/HP_IMMENU_SACS_FEMME.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwd0dfaee0/Megamenu/ACCESSOIRES_F_SS26.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw4459e043/Megamenu/INMENU_SECONDHAND.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw3e1cb74e/Megamenu/IN_MENU_JULY4_H.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw7ad061b4/Megamenu/HP_IM_PRECO_H.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwaaaee479/Megamenu/HP_SUMMER_IMAGEMENU-H_COLLECTION.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwce26ae98/Megamenu/IN_MENU_SUMMER_SHOES_H.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwdb867854/Megamenu/HP_IM_HOMME_SACS.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw1394ed0b/Megamenu/ACCESSOIRE_H.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwd1204967/Megamenu/CAMPAGNE-SS26_IMAGE-MENU_UNIVERS.png",
+          "https://us.sandro-paris.com/on/demandware.static/Sites-Sandro-US-Site/-/default/dwc3734760/images/accessibility.png",
+          "https://us.sandro-paris.com/on/demandware.static/Sites-Sandro-US-Site/-/default/dwea89db75/images/brand-logo/logo-sandro-black.svg",
+          "https://us.sandro-paris.com/on/demandware.static/Sites-Sandro-US-Site/-/default/dw1a773807/images/flags/US.png",
+          "https://us.sandro-paris.com/on/demandware.static/-/Sites/default/dw9e40405f/RSE/picto-RSE-vide.png",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf3fb7a5c/images/hi-res/Sandro_SFACH01439-10_F_1.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw4128e8ef/images/hi-res/Sandro_SFACH01439-10_F_2.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw4da930bc/images/hi-res/Sandro_SFACH01439-10_F_3.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0992f179/images/hi-res/Sandro_SFACH01439-10_F_4.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw4ad471f7/images/packshot/Sandro_SFACH01439-10_F_P.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf3fb7a5c/images/hi-res/Sandro_SFACH01439-10_F_1.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw4128e8ef/images/hi-res/Sandro_SFACH01439-10_F_2.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw4da930bc/images/hi-res/Sandro_SFACH01439-10_F_3.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0992f179/images/hi-res/Sandro_SFACH01439-10_F_4.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw4ad471f7/images/packshot/Sandro_SFACH01439-10_F_P.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwc4c0e68c/LWG_sandro.png",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwf97c1de2/Footer/freeshipping.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw306dabb4/Footer/freereturns.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwd0b752c6/Footer/securepayment.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwa0561347/Footer/ordertracking.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwc25f5913/Footer/instagram.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwf72bd805/Footer/tiktok.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwc587ade0/Footer/spotify.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw563001e0/Footer/pinterest.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw4cf9943f/Footer/facebook.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Sites/default/dwd6c2b31a/Footer/Vector-black.png",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf3fb7a5c/images/hi-res/Sandro_SFACH01439-10_F_1.jpg"
+        ],
+        "json_ld": [
+          {
+            "@context": "http://schema.org/",
+            "@type": "Product",
+            "name": "Leather loafers",
+            "description": "<p>Leather loafers with a foldable counter for two ways to wear.<br><br></p><ul><li>Sandro Women's leather loafers</li><li>Two ways to wear: classic or as mules</li><li>Slip-on</li><li>Flat soles</li></ul>",
+            "inProductGroupWithID": "SFACH01439_10",
+            "gtin14": "SFACH01439_10",
+            "sku": "SFACH01439_10",
+            "brand": {
+              "@type": "Brand",
+              "name": "Sandro – Official Website"
+            },
+            "color": "white",
+            "image": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf3fb7a5c/images/hi-res/Sandro_SFACH01439-10_F_1.jpg",
+            "offers": {
+              "@type": "Offer",
+              "url": "https://us.sandro-paris.com/en/p/leather-loafers/SFACH01439_10.html",
+              "availability": "https://schema.org/InStock",
+              "itemCondition": "https://schema.org/NewCondition",
+              "seller": {
+                "@type": "Organization",
+                "name": "Sandro – Official Website"
+              },
+              "priceCurrency": "USD",
+              "price": "229.60",
+              "shippingDetails": {
+                "@type": "OfferShippingDetails",
+                "shippingRate": {
+                  "@type": "MonetaryAmount",
+                  "currency": "USD",
+                  "value": 0
+                },
+                "deliveryTime": {
+                  "@type": "ShippingDeliveryTime",
+                  "transitTime": {
+                    "@type": "QuantitativeValue",
+                    "minValue": "1",
+                    "maxValue": "1",
+                    "unitCode": "DAY"
+                  }
+                },
+                "shippingDestination": {
+                  "@type": "DefinedRegion",
+                  "addressCountry": "\"US\""
+                }
+              }
+            }
+          },
+          {
+            "@context": "http://schema.org/",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://us.sandro-paris.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Women",
+                "item": "https://us.sandro-paris.com/en/womens/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Shoes",
+                "item": "https://us.sandro-paris.com/en/womens/shoes/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "Loafers & Flats",
+                "item": "https://us.sandro-paris.com/en/womens/shoes/loafers/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 5,
+                "name": "Leather loafers",
+                "item": "https://us.sandro-paris.com/en/p/leather-loafers/SFACH01439_10.html"
+              }
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "itemListElement": [
+              {
+                "@type": "ImageObject",
+                "name": "Leather loafers",
+                "description": "Discover the must-have of the season: Leather loafers in natural for women (SFACH01439_10) on the official Sandro Paris website. Free delivery and exchanges.",
+                "caption": "Leather loafers Sandro – Official Website",
+                "contentUrl": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf3fb7a5c/images/hi-res/Sandro_SFACH01439-10_F_1.jpg"
+              }
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "Corporation",
+                "name": "Sandro – Official Website",
+                "alternateName": "Sandro Paris",
+                "url": "https://us.sandro-paris.com/",
+                "logo": "https://us.sandro-paris.com/on/demandware.static/Sites-Sandro-US-Site/-/default/dwea89db75/images/brand-logo/logo-sandro-black.svg",
+                "sameAs": [
+                  "https://www.facebook.com/sandrofrance",
+                  "https://www.instagram.com/sandroparis/",
+                  "https://www.youtube.com/channel/UCFk8xiAaPK4B4p4vedRbOFg",
+                  "https://www.linkedin.com/company/sandro/?originalSubdomain=us",
+                  "https://fr.sandro-paris.com/",
+                  "https://pinterest.com/sandroofficial/"
+                ]
+              },
+              {
+                "@type": "WebSite",
+                "name": "Sandro – Official Website",
+                "url": "https://us.sandro-paris.com/",
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "Sandro – Official Website"
+                }
+              }
+            ]
+          }
+        ],
+        "rendered_with": "httpx",
+        "error": null
+      }
+    },
+    {
+      "step": "audit_pdp",
+      "input": {
+        "url": "https://us.sandro-paris.com/en/p/knit-bodysuit/SFPBD00028_40.html"
+      },
+      "result": {
+        "url": "https://us.sandro-paris.com/en/p/knit-bodysuit/SFPBD00028_40.html",
+        "images": [
+          "https://us.sandro-paris.com/on/demandware.static/Sites-Sandro-US-Site/-/default/dw3a9eac4a/images/brand-logo/logo-sandro-white.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwe35c00da/Megamenu/IN_MENU_JULY4_F.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwf03b8da9/Megamenu/HP_IM_PRECO_F.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwff7d96aa/Megamenu/IN_MENU_SUMMER_CLOTHING_F.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw0c286270/Megamenu/IN_MENU_SUMMER_SETS_F.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwda54cb70/Megamenu/HP_LOOKBOKK_IMAGEMENU-F-CHAUSSURE.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwbc9d9aa1/Megamenu/HP_IMMENU_SACS_FEMME.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwd0dfaee0/Megamenu/ACCESSOIRES_F_SS26.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw4459e043/Megamenu/INMENU_SECONDHAND.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw3e1cb74e/Megamenu/IN_MENU_JULY4_H.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw7ad061b4/Megamenu/HP_IM_PRECO_H.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwaaaee479/Megamenu/HP_SUMMER_IMAGEMENU-H_COLLECTION.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwce26ae98/Megamenu/IN_MENU_SUMMER_SHOES_H.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwdb867854/Megamenu/HP_IM_HOMME_SACS.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw1394ed0b/Megamenu/ACCESSOIRE_H.jpg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwd1204967/Megamenu/CAMPAGNE-SS26_IMAGE-MENU_UNIVERS.png",
+          "https://us.sandro-paris.com/on/demandware.static/Sites-Sandro-US-Site/-/default/dwc3734760/images/accessibility.png",
+          "https://us.sandro-paris.com/on/demandware.static/Sites-Sandro-US-Site/-/default/dwea89db75/images/brand-logo/logo-sandro-black.svg",
+          "https://us.sandro-paris.com/on/demandware.static/Sites-Sandro-US-Site/-/default/dw1a773807/images/flags/US.png",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw1968d0e0/images/hi-res/Sandro_SFPBD00028-40_F_1.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw3d473a5a/images/hi-res/Sandro_SFPBD00028-40_H_V.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwb4229d25/images/hi-res/Sandro_SFPBD00028-40_F_3.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwc44dc4e1/images/hi-res/Sandro_SFPBD00028-40_F_4.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw679512e6/images/hi-res/Sandro_SFPBD00028-40_F_5.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw882fc9dd/images/packshot/Sandro_SFPBD00028-40_F_P.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw1968d0e0/images/hi-res/Sandro_SFPBD00028-40_F_1.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw3d473a5a/images/hi-res/Sandro_SFPBD00028-40_H_V.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwb4229d25/images/hi-res/Sandro_SFPBD00028-40_F_3.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwc44dc4e1/images/hi-res/Sandro_SFPBD00028-40_F_4.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw679512e6/images/hi-res/Sandro_SFPBD00028-40_F_5.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw882fc9dd/images/packshot/Sandro_SFPBD00028-40_F_P.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwd87e6dbe/images/hi-res/Sandro_SFPBD00028-40_F_2.jpg?sw=50&sh=65",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw7f1862e1/images/packshot/Sandro_SFPSH00626-J002_F_P.jpg?sw=650&sh=650",
+          "https://us.sandro-paris.com/on/demandware.static/-/Sites/default/dw9e40405f/RSE/picto-RSE-vide.png",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwfe67a1a8/images/packshot/Sandro_SFASA01700-40_F_P.jpg?sw=650&sh=650",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw4ad471f7/images/packshot/Sandro_SFACH01439-10_F_P.jpg?sw=650&sh=650",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw55f53cf7/images/packshot/Sandro_SFACE00483-10_F_P.jpg?sw=650&sh=650",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwf97c1de2/Footer/freeshipping.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw306dabb4/Footer/freereturns.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwd0b752c6/Footer/securepayment.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwa0561347/Footer/ordertracking.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwc25f5913/Footer/instagram.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwf72bd805/Footer/tiktok.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dwc587ade0/Footer/spotify.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw563001e0/Footer/pinterest.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Library-Sites-Sandro-Shared/default/dw4cf9943f/Footer/facebook.svg",
+          "https://us.sandro-paris.com/on/demandware.static/-/Sites/default/dwd6c2b31a/Footer/Vector-black.png",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw1968d0e0/images/hi-res/Sandro_SFPBD00028-40_F_1.jpg"
+        ],
+        "json_ld": [
+          {
+            "@context": "http://schema.org/",
+            "@type": "Product",
+            "name": "Knit bodysuit",
+            "description": "Fine knit bodysuit with contrasting trim, with tone-on-tone 4S embroidery on the neckline. <br> <br><ul><li>Sandro Women's knit bodysuit  </li><li>Round neck     </li><li>Contrast trim       </li><li>4S embroidery       </li><li>Press-stud placket    </li><li>Designed for a slim fit</li></ul>",
+            "inProductGroupWithID": "SFPBD00028_40",
+            "gtin14": "SFPBD00028_40",
+            "sku": "SFPBD00028_40",
+            "brand": {
+              "@type": "Brand",
+              "name": "Sandro – Official Website"
+            },
+            "color": "Sky Blue",
+            "image": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw1968d0e0/images/hi-res/Sandro_SFPBD00028-40_F_1.jpg",
+            "offers": {
+              "@type": "Offer",
+              "url": "https://us.sandro-paris.com/en/p/knit-bodysuit/SFPBD00028_40.html",
+              "availability": "https://schema.org/InStock",
+              "itemCondition": "https://schema.org/NewCondition",
+              "seller": {
+                "@type": "Organization",
+                "name": "Sandro – Official Website"
+              },
+              "priceCurrency": "USD",
+              "price": "265.00",
+              "shippingDetails": {
+                "@type": "OfferShippingDetails",
+                "shippingRate": {
+                  "@type": "MonetaryAmount",
+                  "currency": "USD",
+                  "value": 0
+                },
+                "deliveryTime": {
+                  "@type": "ShippingDeliveryTime",
+                  "transitTime": {
+                    "@type": "QuantitativeValue",
+                    "minValue": "1",
+                    "maxValue": "1",
+                    "unitCode": "DAY"
+                  }
+                },
+                "shippingDestination": {
+                  "@type": "DefinedRegion",
+                  "addressCountry": "\"US\""
+                }
+              }
+            }
+          },
+          {
+            "@context": "http://schema.org/",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Accueil",
+                "item": "https://us.sandro-paris.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Women",
+                "item": "https://us.sandro-paris.com/en/womens/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Clothing",
+                "item": "https://us.sandro-paris.com/en/womens/clothing/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "Tops & Shirts",
+                "item": "https://us.sandro-paris.com/en/womens/clothing/tops-shirts/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 5,
+                "name": "Knit bodysuit",
+                "item": "https://us.sandro-paris.com/en/p/knit-bodysuit/SFPBD00028_40.html"
+              }
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "itemListElement": [
+              {
+                "@type": "ImageObject",
+                "name": "Knit bodysuit",
+                "description": "Discover the must-have of the season: Knit bodysuit in blue for women (SFPBD00028_40) on the official Sandro Paris website. Free delivery and exchanges.",
+                "caption": "Knit bodysuit Sandro – Official Website",
+                "contentUrl": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw1968d0e0/images/hi-res/Sandro_SFPBD00028-40_F_1.jpg"
+              }
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "VideoObject",
+            "name": "Knit bodysuit",
+            "description": "Fine knit bodysuit with contrasting trim, with tone-on-tone 4S embroidery on the neckline. <br> <br><ul><li>Sandro Women's knit bodysuit  </li><li>Round neck     </li><li>Contrast trim       </li><li>4S embroidery       </li><li>Press-stud placket    </li><li>Designed for a slim fit</li></ul>",
+            "uploadDate": "13-01-2026",
+            "contentUrl": "https://player.vimeo.com/progressive_redirect/playback/1185104105/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&signature=5bb560f0adc372650125800daa176aa4ddce0f0f9dae535e47054fceff1112b3",
+            "embedUrl": "https://us.sandro-paris.com/on/demandware.store/Sites-Sandro-US-Site/en_US/Product-Show?pid=SFPBD00028_40",
+            "publisher": {
+              "@type": "Organization",
+              "name": "Sandro – Official Website",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://us.sandro-paris.com/on/demandware.static/Sites-Sandro-US-Site/-/default/dwea89db75/images/brand-logo/logo-sandro-black.svg",
+                "width": 283,
+                "height": 599
+              }
+            },
+            "thumbnailUrl": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw1968d0e0/images/hi-res/Sandro_SFPBD00028-40_F_1.jpg"
+          },
+          {
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "Corporation",
+                "name": "Sandro – Official Website",
+                "alternateName": "Sandro Paris",
+                "url": "https://us.sandro-paris.com/",
+                "logo": "https://us.sandro-paris.com/on/demandware.static/Sites-Sandro-US-Site/-/default/dwea89db75/images/brand-logo/logo-sandro-black.svg",
+                "sameAs": [
+                  "https://www.facebook.com/sandrofrance",
+                  "https://www.instagram.com/sandroparis/",
+                  "https://www.youtube.com/channel/UCFk8xiAaPK4B4p4vedRbOFg",
+                  "https://www.linkedin.com/company/sandro/?originalSubdomain=us",
+                  "https://fr.sandro-paris.com/",
+                  "https://pinterest.com/sandroofficial/"
+                ]
+              },
+              {
+                "@type": "WebSite",
+                "name": "Sandro – Official Website",
+                "url": "https://us.sandro-paris.com/",
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "Sandro – Official Website"
+                }
+              }
+            ]
+          }
+        ],
+        "rendered_with": "httpx",
+        "error": null
+      }
+    },
+    {
+      "step": "classify_images",
+      "input": {
+        "image_urls": [
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwbbb0506d/images/hi-res/Sandro_SFPBL01286-20_F_1.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0301ae4d/images/hi-res/Sandro_SFPBL01286-20_F_3.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwc281e5db/images/packshot/Sandro_SFPBL01286-20_F_P.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf06b38c8/images/hi-res/Sandro_SFASA01638-20_F_1.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw30d5380f/images/hi-res/Sandro_SFASA01638-20_F_5.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwd4cc9b6f/images/packshot/Sandro_SFASA01638-20_F_P.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf3fb7a5c/images/hi-res/Sandro_SFACH01439-10_F_1.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw4ad471f7/images/packshot/Sandro_SFACH01439-10_F_P.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw1968d0e0/images/hi-res/Sandro_SFPBD00028-40_F_1.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwc44dc4e1/images/hi-res/Sandro_SFPBD00028-40_F_4.jpg?sw=2000&sh=2000",
+          "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw882fc9dd/images/packshot/Sandro_SFPBD00028-40_F_P.jpg?sw=2000&sh=2000"
+        ]
+      },
+      "result": {
+        "classifications": [
+          {
+            "url": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwbbb0506d/images/hi-res/Sandro_SFPBL01286-20_F_1.jpg?sw=2000&sh=2000",
+            "label": "on_model",
+            "model_present": true,
+            "background": "plain white",
+            "worn": true
+          },
+          {
+            "url": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0301ae4d/images/hi-res/Sandro_SFPBL01286-20_F_3.jpg?sw=2000&sh=2000",
+            "label": "detail",
+            "model_present": true,
+            "background": "plain white",
+            "worn": true
+          },
+          {
+            "url": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwc281e5db/images/packshot/Sandro_SFPBL01286-20_F_P.jpg?sw=2000&sh=2000",
+            "label": "ghost_mannequin",
+            "model_present": false,
+            "background": "studio grey",
+            "worn": false
+          },
+          {
+            "url": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf06b38c8/images/hi-res/Sandro_SFASA01638-20_F_1.jpg?sw=2000&sh=2000",
+            "label": "still_life",
+            "model_present": false,
+            "background": "studio grey",
+            "worn": false
+          },
+          {
+            "url": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw30d5380f/images/hi-res/Sandro_SFASA01638-20_F_5.jpg?sw=2000&sh=2000",
+            "label": "still_life",
+            "model_present": false,
+            "background": "studio grey",
+            "worn": false
+          },
+          {
+            "url": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwd4cc9b6f/images/packshot/Sandro_SFASA01638-20_F_P.jpg?sw=2000&sh=2000",
+            "label": "still_life",
+            "model_present": false,
+            "background": "studio grey",
+            "worn": false
+          },
+          {
+            "url": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf3fb7a5c/images/hi-res/Sandro_SFACH01439-10_F_1.jpg?sw=2000&sh=2000",
+            "label": "still_life",
+            "model_present": false,
+            "background": "plain white",
+            "worn": false
+          },
+          {
+            "url": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw4ad471f7/images/packshot/Sandro_SFACH01439-10_F_P.jpg?sw=2000&sh=2000",
+            "label": "still_life",
+            "model_present": false,
+            "background": "plain white",
+            "worn": false
+          },
+          {
+            "url": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw1968d0e0/images/hi-res/Sandro_SFPBD00028-40_F_1.jpg?sw=2000&sh=2000",
+            "label": "on_model",
+            "model_present": true,
+            "background": "studio grey",
+            "worn": true
+          },
+          {
+            "url": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dwc44dc4e1/images/hi-res/Sandro_SFPBD00028-40_F_4.jpg?sw=2000&sh=2000",
+            "label": "on_model",
+            "model_present": true,
+            "background": "studio grey",
+            "worn": true
+          },
+          {
+            "url": "https://us.sandro-paris.com/dw/image/v2/BCMW_PRD/on/demandware.static/-/Sites-master-catalog/default/dw882fc9dd/images/packshot/Sandro_SFPBD00028-40_F_P.jpg?sw=2000&sh=2000",
+            "label": "still_life",
+            "model_present": false,
+            "background": "studio grey",
+            "worn": false
+          }
+        ],
+        "summary": {
+          "avg_shots": 1.0,
+          "pct_on_model": 27.3,
+          "pct_still_life": 54.5,
+          "pct_video": 0.0,
+          "consistency": "medium"
+        },
+        "error": null
+      }
+    },
+    {
+      "step": "wayback_snapshots",
+      "input": {
+        "url": "https://us.sandro-paris.com/en/womens/clothing/jackets-blazers/"
+      },
+      "result": {
+        "snapshots": [],
+        "coverage": "no archive data retrieved",
+        "error": "wayback query failed: The read operation timed out"
+      }
+    },
+    {
+      "step": "enrich_people",
+      "input": {
+        "titles": [
+          "Head of E-commerce",
+          "Digital Content Director",
+          "Image Director",
+          "Head of Digital",
+          "Creative Content Director"
+        ],
+        "company_domain": "sandro-paris.com"
+      },
+      "result": {
+        "people": [
+          {
+            "name": "",
+            "title": "Head of E-commerce",
+            "linkedin": "",
+            "email_status": "unknown"
+          },
+          {
+            "name": "",
+            "title": "Digital Content Director",
+            "linkedin": "",
+            "email_status": "unknown"
+          },
+          {
+            "name": "",
+            "title": "Image Director",
+            "linkedin": "",
+            "email_status": "unknown"
+          },
+          {
+            "name": "",
+            "title": "Head of Digital",
+            "linkedin": "",
+            "email_status": "unknown"
+          },
+          {
+            "name": "",
+            "title": "Creative Content Director",
+            "linkedin": "",
+            "email_status": "unknown"
+          }
+        ],
+        "needs_human": true,
+        "error": "no people-data provider configured (set APOLLO_API_KEY to enable Apollo lookups); returning target titles only — names need a human"
+      }
+    },
+    {
+      "step": "compute_opportunity",
+      "input": {
+        "new_skus_per_year": 3000,
+        "shots_per_sku": 5.0,
+        "channel_variants": 3.0,
+        "refresh_factor": 0.3,
+        "carryover_skus": 1500,
+        "revenue_eur": 609000000,
+        "partner_multiplier": 4.0,
+        "tier": "accessible-luxury",
+        "assumptions": [
+          "New SKUs/yr (~3,000) is a tier-based estimate for accessible-luxury turnover; live US catalog sample ~2,176 URLs supports order of magnitude",
+          "shots/SKU=5.0 confirmed from live PDP audit: apparel 6-7 incl. video + ghost-mannequin packshot, accessories ~5 still-life",
+          "channel_variants=3.0 for DTC + wholesale + localized market sites (US/FR/EU/APAC)",
+          "refresh_factor=0.3 seasonal reshoot of carryover",
+          "carryover_skus=1,500 eligible for seasonal refresh",
+          "revenue_eur=608.8m Sandro brand FY2025 (SMCP) for top-down cross-check",
+          "partner_multiplier=4.0 = one relationship covering Sandro, Maje, Claudie Pierlot, Fursac under SMCP",
+          "tier=accessible-luxury per SMCP positioning and €525 bag / €1,130 jacket price points observed live"
+        ]
+      },
+      "result": {
+        "annual_images_range": {
+          "low": 48375.0,
+          "high": 51750.0,
+          "mid": 50062.5
+        },
+        "cost_today_range": {
+          "low": 2902500.0,
+          "high": 12937500.0,
+          "mid": 7920000.0
+        },
+        "cost_sartiq_range": {
+          "low": 580500.0,
+          "high": 2587500.0,
+          "mid": 1584000.0
+        },
+        "annual_opportunity_range": {
+          "low": 580500.0,
+          "high": 2587500.0,
+          "mid": 1584000.0
+        },
+        "partner_upside_range": {
+          "low": 1741500.0,
+          "high": 7762500.0,
+          "mid": 4752000.0
+        },
+        "topdown_range": {
+          "low": 609000.0,
+          "high": 2436000.0,
+          "mid": 1522500.0
+        },
+        "levers": [
+          "speed (weeks -> hours)",
+          "return-rate reduction (image accuracy)",
+          "localization at near-zero marginal cost"
+        ],
+        "assumptions": [
+          "New SKUs/yr (~3,000) is a tier-based estimate for accessible-luxury turnover; live US catalog sample ~2,176 URLs supports order of magnitude",
+          "shots/SKU=5.0 confirmed from live PDP audit: apparel 6-7 incl. video + ghost-mannequin packshot, accessories ~5 still-life",
+          "channel_variants=3.0 for DTC + wholesale + localized market sites (US/FR/EU/APAC)",
+          "refresh_factor=0.3 seasonal reshoot of carryover",
+          "carryover_skus=1,500 eligible for seasonal refresh",
+          "revenue_eur=608.8m Sandro brand FY2025 (SMCP) for top-down cross-check",
+          "partner_multiplier=4.0 = one relationship covering Sandro, Maje, Claudie Pierlot, Fursac under SMCP",
+          "tier=accessible-luxury per SMCP positioning and €525 bag / €1,130 jacket price points observed live"
+        ],
+        "sanity_ok": true,
+        "needs_human": false
+      }
+    },
+    {
+      "step": "emit_field",
+      "input": {
+        "name": "q1_who",
+        "value": "Sandro is an accessible-luxury Parisian ready-to-wear brand (Women & Men), the largest brand in the SMCP group (alongside Maje, Claudie Pierlot and Fursac). Positioning is premium \"Parisian chic\" priced below true luxury — live PDPs show ~$229 loafers, ~$525 leather bags and ~$1,130 leather jackets. Channel mix is DTC-led (own e-commerce + directly operated stores) with selective and growing wholesale/partner distribution. SMCP operates 1,600+ stores across 59 countries; Sandro alone had 547 directly operated points of sale (H1 2025). Founded 1984 by Evelyne Chetrite, who still provides creative direction.",
+        "confidence": "high",
+        "sources": [
+          {
+            "title": "SMCP 2025 FY Results press release (GlobeNewswire)",
+            "url": "https://www.globenewswire.com/news-release/2026/02/26/3245863/0/en/SMCP-2025-FY-Results.html",
+            "note": "4 brands, accessible luxury, 1,600+ stores, 59 countries, founders/creative direction"
+          },
+          {
+            "title": "SMCP Interim Financial Report H1 2025",
+            "url": "https://www.smcp.com/app/uploads/2025/07/interim-financial-report-2025.pdf",
+            "note": "547 Sandro directly operated POS; DTC + partner channel structure"
+          },
+          {
+            "title": "us.sandro-paris.com live PDPs",
+            "url": "https://us.sandro-paris.com",
+            "note": "price points confirming accessible-luxury tier"
+          }
+        ],
+        "is_estimate": false
+      },
+      "result": {
+        "stored": "q1_who",
+        "fields_emitted": [
+          "q1_who"
+        ]
+      }
+    },
+    {
+      "step": "emit_field",
+      "input": {
+        "name": "q2_direction",
+        "value": "AHEAD ON CRAFT — lead with consistency, not innovation-for-its-own-sake. Sandro's product imagery has been a tightly art-directed house look for years (Wayback homepage snapshots 2022→2026 confirm a stable premium aesthetic), and the live PDP audit confirms the same disciplined studio system today: clean plain-white / studio-grey backgrounds, on-model + detail + ghost-mannequin packshot for apparel, consistent still-life for accessories, and product video now embedded on apparel PDPs (VideoObject in PDP JSON-LD, uploaded 2025–2026). The trigger to watch is channel expansion: SMCP is aggressively adding wholesale/marketplace partners (10 new countries in 2025; Samsung distributing SMCP in South Korea from SS26), which is exactly where a tightly-controlled house look is hardest to hold. The opening is protecting that consistency across channels, not proposing a new direction — off-brand partner imagery is the risk.",
+        "confidence": "med",
+        "sources": [
+          {
+            "title": "Wayback snapshots — sandro-paris.com homepage 2022 vs 2026",
+            "url": "https://web.archive.org/web/20220106143233/http://sandro-paris.com/",
+            "note": "then; compared to live 2026 snapshot https://web.archive.org/web/20260120214058/http://www.sandro-paris.com/"
+          },
+          {
+            "title": "Live PDP audit — video embedded on apparel",
+            "url": "https://us.sandro-paris.com/en/p/smooth-leather-jacket/SFPBL01286_20.html",
+            "note": "VideoObject in JSON-LD, uploadDate 2025; bodysuit PDP video uploaded Jan 2026"
+          },
+          {
+            "title": "SMCP Q3 2025 results (WWD)",
+            "url": "https://wwd.com/business-news/financial/smcp-q3-2025-sales-growth-us-expansion-full-price-strategy-1238321928/",
+            "note": "Samsung Korea distribution + partner/market expansion trigger"
+          }
+        ],
+        "is_estimate": false
+      },
+      "result": {
+        "stored": "q2_direction",
+        "fields_emitted": [
+          "q1_who",
+          "q2_direction"
+        ]
+      }
+    },
+    {
+      "step": "emit_field",
+      "input": {
+        "name": "q3_momentum",
+        "value": "RECOVERING (with a SPLIT nuance — needs human validation). The Sandro brand is stable/resilient: FY2025 sales €608.8m, +2.0% organic, ~50% of group revenue. The SMCP parent returned to profit in 2025 — revenue €1,217m (+1.7% organic), net income €16.6m (vs −€24m in 2024), adjusted EBIT €95.2m (+80%, 7.8% margin), record free cash flow >€90m and net debt down 38% to <€150m. Recovery is driven by a strict full-price strategy (discount rate cut ~3pts to ~20%) and strength in Americas (+10%) and EMEA, offsetting a soft France (−1.6%) and China network optimization. SPLIT flag: ownership is in flux — majority holders are exploring a capital transaction (2026 guidance explicitly excludes exceptional costs \"related to a potential transaction on SMCP's capital\"), so brand health and shareholder/parent situation diverge. Mark needs_human.",
+        "confidence": "high",
+        "sources": [
+          {
+            "title": "Oui Speak Fashion — SMCP returns to profit 2025",
+            "url": "https://ouispeakfashion.com/smcp-parent-company-of-sandro-and-maje-returns-to-profit-in-2025/",
+            "note": "Sandro €608.8m +2.0%; group €1,217.4m +1.7%; EBIT €95.2m +80%; full-price 20% discount"
+          },
+          {
+            "title": "SMCP 2025 FY Results (GlobeNewswire)",
+            "url": "https://www.globenewswire.com/news-release/2026/02/26/3245863/0/en/SMCP-2025-FY-Results.html",
+            "note": "net income +; 2026 guidance excludes costs related to a potential capital transaction"
+          },
+          {
+            "title": "FashionUnited — SMCP returns to profit",
+            "url": "https://fashionunited.com/news/business/fashion-group-smcp-returns-to-profit-in-2025/2026022770837",
+            "note": "net profit €16.6m; shareholder 'saga'; France −1.6%; Asia −11.9%"
+          }
+        ],
+        "is_estimate": false,
+        "needs_human": true
+      },
+      "result": {
+        "stored": "q3_momentum",
+        "fields_emitted": [
+          "q1_who",
+          "q2_direction",
+          "q3_momentum"
+        ]
+      }
+    },
+    {
+      "step": "emit_field",
+      "input": {
+        "name": "q4_content_need",
+        "value": "Economic inputs supplied to compute_opportunity (model returns the counts/€, not me): new_skus_per_year=3,000; shots_per_sku=5.0; channel_variants=3.0; refresh_factor=0.3; carryover_skus=1,500; revenue_eur=608.8m (Sandro brand); partner_multiplier=4.0 (Sandro+Maje+Claudie Pierlot+Fursac under one SMCP relationship); tier=accessible-luxury. Model output: ~48,000–52,000 images/year (mid ~50,000); brand annual opportunity mid ~€1.58m (range €0.58m–2.59m), corroborated by the top-down revenue cross-check (mid ~€1.52m, sanity_ok=true); group/partner upside mid ~€4.75m. SKU volume is a tier-based estimate (live US catalog sample ~2,176 URLs supports order of magnitude); shots/SKU is grounded in the live PDP audit.",
+        "confidence": "med",
+        "sources": [
+          {
+            "title": "list_catalog — us.sandro-paris.com",
+            "url": "https://us.sandro-paris.com",
+            "note": "~2,176 product URLs (US site) — SKU order-of-magnitude"
+          },
+          {
+            "title": "Live PDP audit (4 PDPs)",
+            "url": "https://us.sandro-paris.com/en/p/smooth-leather-jacket/SFPBL01286_20.html",
+            "note": "5-9 shots/SKU incl. video + ghost-mannequin packshot"
+          },
+          {
+            "title": "Sandro FY2025 revenue €608.8m (Oui Speak Fashion)",
+            "url": "https://ouispeakfashion.com/smcp-parent-company-of-sandro-and-maje-returns-to-profit-in-2025/",
+            "note": "top-down revenue cross-check"
+          }
+        ],
+        "is_estimate": true,
+        "assumption": "SKU/refresh/channel-variant inputs are tier-based estimates; shots/SKU and revenue are sourced. compute_opportunity produced the image count and € ranges — not asserted by the agent.",
+        "needs_human": true
+      },
+      "result": {
+        "stored": "q4_content_need",
+        "fields_emitted": [
+          "q1_who",
+          "q2_direction",
+          "q3_momentum",
+          "q4_content_need"
+        ]
+      }
+    },
+    {
+      "step": "emit_field",
+      "input": {
+        "name": "q5_pdp",
+        "value": "Measured from a live audit of 4 PDPs across categories + classification of 11 primary images. Shots per SKU run 5–9 (bag 8 hi-res + packshot; jacket 6 + video + packshot; loafers 4 + packshot; bodysuit 5 + video + packshot). Image system is category-specific and highly disciplined: APPAREL = on-model lead shot + on-model detail crops + a ghost-mannequin/packshot, plus an embedded product video (Vimeo, in JSON-LD). ACCESSORIES (bags, shoes) = clean still-life/packshot on plain-white or studio-grey, no model. Across the classified sample the mix skewed still-life ~55% / on-model ~27% / detail + ghost-mannequin the remainder because accessories dominated the sample; on the apparel PDPs specifically the lead imagery is consistently on-model. Art direction is tight and coherent on the DTC site — consistency is the brand asset. The known weak point (not yet audited here) is wholesale/marketplace partner pages, where imagery is frequently downgraded or off-brand — a concrete, demoable gap.",
+        "confidence": "high",
+        "sources": [
+          {
+            "title": "classify_images — 11 Sandro PDP images",
+            "url": "https://us.sandro-paris.com",
+            "note": "on-model 27%, still-life 55%, consistent plain-white/studio-grey; sample accessory-weighted"
+          },
+          {
+            "title": "audit_pdp — jacket / bag / loafers / bodysuit",
+            "url": "https://us.sandro-paris.com/en/p/le-mambo-suede-bag/SFASA01638_20.html",
+            "note": "5-9 shots/SKU; video on apparel via VideoObject"
+          }
+        ],
+        "is_estimate": false
+      },
+      "result": {
+        "stored": "q5_pdp",
+        "fields_emitted": [
+          "q1_who",
+          "q2_direction",
+          "q3_momentum",
+          "q4_content_need",
+          "q5_pdp"
+        ]
+      }
+    },
+    {
+      "step": "emit_field",
+      "input": {
+        "name": "q6_decision_maker",
+        "value": "Target the group-level owner of digital/visual content, since one relationship spans all four SMCP brands. Priority roles: Group/Brand Head of E-commerce, and Image / Digital Content Director (or Creative Content Director). Enrichment returned target titles only — no names available from the configured provider, so specific individuals must be sourced and validated by a human (LinkedIn/SMCP org mapping). At group level, CEO Isabelle Guichot and CFO Patricia Huyghues Despointes are confirmed but are too senior to be the direct buyer; use them only for top-down context.",
+        "confidence": "low",
+        "sources": [
+          {
+            "title": "enrich_people — sandro-paris.com (titles only, no names)",
+            "url": "https://www.linkedin.com/company/sandro/",
+            "note": "provider returned target titles; names need human validation"
+          },
+          {
+            "title": "SMCP 2025 FY Results (GlobeNewswire)",
+            "url": "https://www.globenewswire.com/news-release/2026/02/26/3245863/0/en/SMCP-2025-FY-Results.html",
+            "note": "CEO Isabelle Guichot, CFO Patricia Huyghues Despointes"
+          }
+        ],
+        "is_estimate": true,
+        "assumption": "Role mapping inferred from function; no named individual sourced. Group-level digital owner assumed to be the economic buyer across the 4-brand portfolio.",
+        "needs_human": true
+      },
+      "result": {
+        "stored": "q6_decision_maker",
+        "fields_emitted": [
+          "q1_who",
+          "q2_direction",
+          "q3_momentum",
+          "q4_content_need",
+          "q5_pdp",
+          "q6_decision_maker"
+        ]
+      }
+    },
+    {
+      "step": "emit_field",
+      "input": {
+        "name": "q7_contact",
+        "value": "Cold entry — no evidenced warm path. Angle: because Sandro runs a strict full-price strategy, off-brand imagery is real money — every inconsistent marketplace/wholesale shot is markdown risk. Lead with garment fidelity + art-direction consistency held across on-model, still-life and localized channels at catalog scale (the thing generic self-serve AI cannot promise); price/efficiency is the second sentence, never the first. One relationship covers Sandro, Maje, Claudie Pierlot and Fursac. Concrete hook: screenshot a Sandro product on a marketplace partner next to the DTC PDP and show the mismatch. Route via LinkedIn to the Group/Brand Head of E-commerce or Image/Digital Content Director. No warm intro should be claimed without evidence.",
+        "confidence": "med",
+        "sources": [
+          {
+            "title": "SMCP full-price strategy (Oui Speak Fashion)",
+            "url": "https://ouispeakfashion.com/smcp-parent-company-of-sandro-and-maje-returns-to-profit-in-2025/",
+            "note": "strict full-price / discount discipline underpins the markdown-risk framing"
+          },
+          {
+            "title": "SMCP Q3 2025 partner/market expansion (WWD)",
+            "url": "https://wwd.com/business-news/financial/smcp-q3-2025-sales-growth-us-expansion-full-price-strategy-1238321928/",
+            "note": "wholesale/partner expansion = cross-channel consistency risk"
+          }
+        ],
+        "is_estimate": false,
+        "needs_human": true
+      },
+      "result": {
+        "stored": "q7_contact",
+        "fields_emitted": [
+          "q1_who",
+          "q2_direction",
+          "q3_momentum",
+          "q4_content_need",
+          "q5_pdp",
+          "q6_decision_maker",
+          "q7_contact"
+        ]
+      }
+    },
+    {
+      "step": "emit_field",
+      "input": {
+        "name": "gap",
+        "value": "Sandro's brand equity lives in consistent, accurate, tightly art-directed imagery — on-model for apparel, clean still-life for accessories, now with product video. That consistency is maintained on the DTC site but breaks the moment product hits wholesale and marketplace partners, and SMCP is expanding exactly that partner/localized footprint (10 new countries in 2025, Samsung Korea from SS26). Under a full-price strategy, every off-brand or downgraded partner image is markdown risk. The gap Sartiq closes: guaranteed garment fidelity and house art-direction at catalog scale across every channel and localized market — which generic self-serve AI imagery cannot promise.",
+        "confidence": "med",
+        "sources": [
+          {
+            "title": "classify_images / audit_pdp — DTC consistency",
+            "url": "https://us.sandro-paris.com",
+            "note": "tight, coherent house look on own site"
+          },
+          {
+            "title": "SMCP Q3 2025 partner expansion (WWD)",
+            "url": "https://wwd.com/business-news/financial/smcp-q3-2025-sales-growth-us-expansion-full-price-strategy-1238321928/",
+            "note": "growing wholesale/marketplace footprint where consistency breaks"
+          }
+        ],
+        "is_estimate": true,
+        "assumption": "Cross-channel imagery degradation is inferred from the brand's DTC discipline + rapid partner expansion; specific off-brand partner examples should be captured by a human for the demo.",
+        "needs_human": true
+      },
+      "result": {
+        "stored": "gap",
+        "fields_emitted": [
+          "gap",
+          "q1_who",
+          "q2_direction",
+          "q3_momentum",
+          "q4_content_need",
+          "q5_pdp",
+          "q6_decision_maker",
+          "q7_contact"
+        ]
+      }
+    },
+    {
+      "step": "emit_field",
+      "input": {
+        "name": "strategy",
+        "value": "Consistency-led (premium), with ROI/efficiency as the second beat (profit focus). Because Sandro is ahead on craft, do NOT pitch a new visual direction or lead with cost savings — lead with protecting brand-consistent garment fidelity across every channel and localized market, framed as markdown-risk reduction under the full-price strategy. Then layer the efficiency case: same house quality at a fraction of studio cost/time, localization at near-zero marginal cost, and faster speed-to-site. Sell at group level (one relationship = Sandro + Maje + Claudie Pierlot + Fursac) to the digital/image owner. Opening hook: the marketplace-vs-PDP screenshot mismatch.",
+        "confidence": "med",
+        "sources": [
+          {
+            "title": "SMCP full-price / profitability focus (FashionUnited)",
+            "url": "https://fashionunited.com/news/business/fashion-group-smcp-returns-to-profit-in-2025/2026022770837",
+            "note": "full-price + margin discipline supports ROI-without-quality-loss framing"
+          },
+          {
+            "title": "compute_opportunity — partner upside",
+            "url": "https://us.sandro-paris.com",
+            "note": "4-brand partner multiplier justifies group-level, consistency-led approach"
+          }
+        ],
+        "is_estimate": true,
+        "assumption": "Positioning strategy derived from sourced brand tier, full-price posture and measured imagery discipline; should be sharpened by a human before the meeting.",
+        "needs_human": true
+      },
+      "result": {
+        "stored": "strategy",
+        "fields_emitted": [
+          "gap",
+          "q1_who",
+          "q2_direction",
+          "q3_momentum",
+          "q4_content_need",
+          "q5_pdp",
+          "q6_decision_maker",
+          "q7_contact",
+          "strategy"
+        ]
+      }
+    }
+  ]
+}

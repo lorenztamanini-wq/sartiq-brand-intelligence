@@ -56,7 +56,8 @@ with st.sidebar:
                 )
                 review.publish(brief, OUT)  # write draft + refresh dashboard
                 status.update(label=f"Draft ready — {brief.brand}", state="complete")
-                st.session_state["selected"] = render._slug(brief)
+                st.session_state["review_choice"] = render._slug(brief)
+                st.rerun()  # re-open on the brand just dug (not the previous one)
             except Exception as exc:  # noqa: BLE001 — show the reason, don't crash the app
                 status.update(label=f"Dig failed: {exc}", state="error")
     if not settings.has_live:
@@ -71,9 +72,12 @@ if not drafts:
     st.stop()
 
 slugs = [p.stem for p in drafts]
-default = st.session_state.get("selected")
-idx = slugs.index(default) if default in slugs else 0
-choice = st.selectbox("Brief to review", slugs, index=idx)
+# Keep the dropdown on a valid brief and default to the newest dig — otherwise
+# Streamlit's selectbox sticks to its previous value even when a new draft is
+# added (which showed the wrong brand's fields in the review form).
+if st.session_state.get("review_choice") not in slugs:
+    st.session_state["review_choice"] = slugs[0]
+choice = st.selectbox("Brief to review", slugs, key="review_choice")
 brief = review.load_brief(f"{OUT}/{choice}.json")
 
 head_l, head_r = st.columns([4, 1])
@@ -100,17 +104,17 @@ with st.form("review_form"):
         if it.get("rationale"):
             st.caption(f"░ human ░ why — {it['rationale']}")
         edits[it["name"]] = st.text_area(
-            it["label"], value=it["value"], key=f"v_{it['name']}",
+            it["label"], value=it["value"], key=f"v_{choice}_{it['name']}",
             label_visibility="collapsed",
         )
         st.divider()
 
     ap = brief.approach
     st.markdown("**Approach — the play to get in**")
-    a_hook = st.text_input("Hook", ap.hook, key="ap_hook")
-    a_channel = st.text_input("Channel", ap.channel, key="ap_channel")
-    a_to = st.text_input("To whom", ap.to_whom, key="ap_to")
-    a_open = st.text_area("Opening message", ap.opening, key="ap_open")
+    a_hook = st.text_input("Hook", ap.hook, key=f"ap_{choice}_hook")
+    a_channel = st.text_input("Channel", ap.channel, key=f"ap_{choice}_channel")
+    a_to = st.text_input("To whom", ap.to_whom, key=f"ap_{choice}_to")
+    a_open = st.text_area("Opening message", ap.opening, key=f"ap_{choice}_open")
 
     submitted = st.form_submit_button("✓ Approve all & publish", type="primary")
 
