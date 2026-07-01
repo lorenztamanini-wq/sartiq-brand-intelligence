@@ -43,7 +43,9 @@ def assemble_offline(
         )
 
     bt = truth[slug]
-    econ = compute_opportunity(bt.econ_inputs, benchmarks)
+    # Feed the partner names in so the per-brand group breakdown populates.
+    econ_inputs = bt.econ_inputs.model_copy(update={"partners": list(bt.partners)})
+    econ = compute_opportunity(econ_inputs, benchmarks)
     human = set(bt.human_fields)
 
     brief = Brief(

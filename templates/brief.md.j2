@@ -35,9 +35,13 @@ Parent: {{ brief.parent_group }} · Markets: {{ brief.markets }}
 **4 · CONTENT NEED**{{ tags(brief.q4_content_need) }}
 {{ brief.q4_content_need.value }}{{ srcs(brief.q4_content_need) }}
 
-> **OPPORTUNITY (brand):** €{{ brief.economics.annual_opportunity_range.low | euro_range(brief.economics.annual_opportunity_range.high) }}/yr
-> **PARTNERS upside:** €{{ brief.economics.partner_upside_range.low | euro_range(brief.economics.partner_upside_range.high) }}/yr
-> Top-down cross-check: €{{ brief.economics.topdown_range.low | euro_range(brief.economics.topdown_range.high) }}/yr · sanity gate: {{ "OK" if brief.economics.sanity_ok else "⚑ DIVERGES — needs human" }}
+> **STUDIO SPEND (est.):** €{{ brief.economics.cost_today_range.low | euro_range(brief.economics.cost_today_range.high) }}/yr — what the brand spends on imagery today
+> **SARTIQ OPPORTUNITY (~20%):** €{{ brief.economics.annual_opportunity_range.low | euro_range(brief.economics.annual_opportunity_range.high) }}/yr — the max annual value of this account
+{% if brief.economics.partner_breakdown %}> **+ GROUP BRANDS** — est. Sartiq opportunity each (needs human):
+{% for p in brief.economics.partner_breakdown %}> · {{ p.name }} — €{{ p.opportunity.low | euro_range(p.opportunity.high) }}/yr
+{% endfor %}> = €{{ brief.economics.partner_upside_range.low | euro_range(brief.economics.partner_upside_range.high) }}/yr combined across the group
+{% else %}> **+ PARTNERS upside:** €{{ brief.economics.partner_upside_range.low | euro_range(brief.economics.partner_upside_range.high) }}/yr
+{% endif %}> Top-down cross-check: €{{ brief.economics.topdown_range.low | euro_range(brief.economics.topdown_range.high) }}/yr · sanity gate: {{ "OK" if brief.economics.sanity_ok else "⚑ DIVERGES — needs human" }}
 > Levers: {{ brief.economics.levers | join(" · ") }}
 {% if brief.economics.reframe_note %}>
 > ⟲ **AI draft —** €{{ brief.economics.draft_opportunity_range.low | euro_range(brief.economics.draft_opportunity_range.high) }}/yr (flat agency rate, tier-blind)

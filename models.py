@@ -110,6 +110,9 @@ class Benchmarks(BaseModel):
     cost_per_image_by_tier: dict[str, Range] = Field(default_factory=dict)
     on_model_per_sku: Range
     price_per_image_sartiq: Range
+    # Sartiq's addressable revenue as a share of the brand's (tier-aware) studio
+    # imagery spend — the headline opportunity is this fraction of that spend.
+    sartiq_capture_pct: float = 0.20
     images_per_pdp: Range
     return_rate: Range
     localization_multiplier: Range
@@ -134,15 +137,27 @@ class EconInputs(BaseModel):
     # studio costs a fraction of a luxury maison's on-model shoot). Without it
     # the model overstates value retail by applying agency rates.
     tier: str = "accessible-luxury"  # mass | accessible-luxury | luxury
+    # Group / wholesale brands the partner upside is split across (per-brand
+    # breakdown). Names only — sizing is an even split, flagged as an estimate.
+    partners: list[str] = Field(default_factory=list)
     assumptions: list[str] = Field(default_factory=list)
+
+
+class PartnerLine(BaseModel):
+    """One group/partner brand's estimated Sartiq opportunity (rough even split)."""
+
+    name: str
+    opportunity: Range
 
 
 class EconomicOpportunity(BaseModel):
     annual_images_range: Range  # headline = tier-aware (the human-reframed basis)
-    cost_today_range: Range
+    cost_today_range: Range  # the brand's own studio imagery spend (tier-aware)
     cost_sartiq_range: Range
-    annual_opportunity_range: Range
-    partner_upside_range: Range
+    annual_opportunity_range: Range  # SARTIQ's capture — the headline
+    partner_upside_range: Range  # the group's other brands + wholesale (combined)
+    # Per-brand split of the group upside — one line per attached brand (estimate).
+    partner_breakdown: list[PartnerLine] = Field(default_factory=list)
     topdown_range: Range
     levers: list[str]
     assumptions: list[str]

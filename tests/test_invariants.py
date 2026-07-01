@@ -38,15 +38,18 @@ class TestEconomicInvariants(unittest.TestCase):
         # factor) is caught even though the sanity gate would just shift.
         inp = self.truth["sandro"].econ_inputs
         econ = economics.compute_opportunity(inp, self.bm)
+        # Top-down is the studio-spend cross-check carried into Sartiq units (× capture).
         exp_low = (
             inp.revenue_eur
             * self.bm.visual_spend_pct_of_revenue.low
             * self.bm.ecom_imagery_subset_pct.low
+            * self.bm.sartiq_capture_pct
         )
         exp_high = (
             inp.revenue_eur
             * self.bm.visual_spend_pct_of_revenue.high
             * self.bm.ecom_imagery_subset_pct.high
+            * self.bm.sartiq_capture_pct
         )
         self.assertAlmostEqual(econ.topdown_range.low, exp_low, delta=_TOL)
         self.assertAlmostEqual(econ.topdown_range.high, exp_high, delta=_TOL)

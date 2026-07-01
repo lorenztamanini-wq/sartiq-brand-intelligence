@@ -2,7 +2,7 @@
 
 *Sartiq Founder-Associate challenge*
 
-An AI agent that digs a fashion brand down to a sourced, one-page **opportunity brief**: it answers the seven qualifying questions, measures the brand's actual content footprint, and lands a **quantified, partner-inclusive euro opportunity** — the spend Sartiq can displace across the brand, its parent group, and its wholesale partners. The agent gathers and sources the inputs; a **deterministic economics shell** turns those inputs into the number; and a **human judgment layer** picks the wedge, calls the strategy, and validates the named contact before anyone reaches out. Every field is either *sourced* or flagged as an *estimate with a stated assumption* — nothing is silently guessed, and nothing is fabricated.
+An AI agent that digs a fashion brand down to a sourced, one-page **opportunity brief**: it answers the seven qualifying questions, measures the brand's actual content footprint, and lands a **quantified, partner-inclusive euro opportunity** — what Sartiq can capture (~20% of the brand's estimated studio imagery spend) across the brand, its parent group, and its wholesale partners (each broken out, one line per brand). The agent gathers and sources the inputs; a **deterministic economics shell** turns those inputs into the number; and a **human judgment layer** picks the wedge, calls the strategy, and validates the named contact before anyone reaches out. Every field is either *sourced* or flagged as an *estimate with a stated assumption* — nothing is silently guessed, and nothing is fabricated.
 
 > **Want to see the output first?** Three finished example briefs (OVS, Sandro, Diesel) plus the ranked dashboard are committed under [`samples/`](samples/) — open `samples/index.html`.
 
@@ -192,9 +192,9 @@ Covers the economics ranges and tier-aware sanity gate, deterministic scoring (`
 Luca invited *"make a call yourself and tell me why."* Here are the six judgment calls baked into this build:
 
 - **Sampled 20–40 PDPs per brand, not the full catalog.** A representative sample across categories gives meaningful content stats fast; boiling the whole catalog buys precision I don't need to size the opportunity. Speed beats completeness here.
-- **Showed the € as a two-way range, never a point.** Bottom-up (measured shots × SKUs × channels × tier cost) triangulated against top-down (visual spend as a % of revenue). A false-precision single number would be *worse* than an honest band — and the sanity gate catches it when the two diverge.
+- **Sized the € as *Sartiq's* opportunity, not the studio's spend.** Estimate what the brand spends on imagery — bottom-up (measured shots × SKUs × channels × tier cost) triangulated against top-down (visual spend as a % of revenue) — then take the **~20% Sartiq can capture** at its price (it prices ~80% below the studio). Always a band, never a point; the sanity gate catches divergence.
 - **Contacts via an enrichment API plus human validation — never LinkedIn scraping.** ToS and accuracy both argue against scraping. The contact field stays `needs_human`, and the system never asserts a warm intro without evidence.
-- **Defined "partners" as group sister-brands + wholesale/marketplace.** That's where the real TAM lives. Sizing Sandro alone undersells it; sizing SMCP (×4 brands) reframes "a Sandro deal" into "an SMCP relationship."
+- **Defined "partners" as group sister-brands + wholesale/marketplace, broken out per brand.** That's where the real TAM lives. Sizing Sandro alone undersells it; sizing SMCP (×4 brands) reframes "a Sandro deal" into "an SMCP relationship" — and the brief lists each group brand's own estimated opportunity, flagged for the human.
 - **Split Diesel into brand-vs-group strategies.** Diesel-the-brand wants innovation; OTB-the-group wants efficiency. The machine reads the group P&L and calls it "struggling" — the operator knows the brand is having its best year in a decade. This is the single sharpest read in the set, and the machine wouldn't infer it.
 - **No hard Sartiq per-image price.** I model the *savings* as a range versus traditional cost, not a quoted unit price. Pricing isn't set, and a number I can't defend wouldn't survive scrutiny on a sales call.
 
@@ -219,3 +219,5 @@ Stdlib-first: every heavy library is lazy-imported and **live-mode only** — of
 ---
 
 *Internals and exact module signatures: [`CONTRACT.md`](CONTRACT.md).*
+
+i found a problem, on the economic opportunity, if in a normal studio the expense is the one that it says, but sartiq pricing has 80% less than that so the opportunity is lower, but also, in the opportunity of money all the brands attached should be displayed, for example diesel opportunity is x and the other controlled brand is y

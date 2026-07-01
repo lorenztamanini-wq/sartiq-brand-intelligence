@@ -25,6 +25,11 @@ on_model_per_sku: { low: 120, high: 250 }
 # AI on-model / still-life at catalog scale (€ per image).
 price_per_image_sartiq: { low: 0.10, high: 3.00 }
 
+# Sartiq's addressable revenue as a share of what the brand spends on its studio
+# imagery. Sartiq prices ~80% below the studio, so it can capture ~20% of that
+# spend — THIS is the headline opportunity ("what this account is worth to us").
+sartiq_capture_pct: 0.20
+
 # Most PDPs need 4-6 images (hero, back, detail, on-model, size ref);
 # 5+ images convert ~30-40% better.
 images_per_pdp: { low: 4, high: 6 }

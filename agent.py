@@ -386,21 +386,27 @@ def _assemble_from_ctx(
 
 
 def _resolve_economics(ctx, bt, benchmarks) -> EconomicOpportunity:
-    """Use the economics object the dispatcher stashed, else compute from inputs."""
-    existing = getattr(ctx, "economics", None)
-    if isinstance(existing, EconomicOpportunity):
-        return existing
+    """Compute the economics from the agent's supplied inputs (falling back to
+    seeded ground truth), with partner names injected so the per-brand group
+    breakdown populates. Deterministic — the agent supplies inputs, not the €."""
+    partners = list(bt.partners) if bt is not None else []
+    raw = getattr(ctx, "econ_inputs", None) or {}
 
-    inputs = getattr(ctx, "econ_inputs", None) or {}
-    if not inputs and bt is not None:
-        # Agent supplied no inputs — fall back to seeded ground-truth inputs.
-        return economics.compute_opportunity(bt.econ_inputs, benchmarks)
-    try:
-        econ_inputs = EconInputs.model_validate(inputs)
-    except Exception:
-        if bt is not None:
-            return economics.compute_opportunity(bt.econ_inputs, benchmarks)
-        raise
+    econ_inputs: Optional[EconInputs] = None
+    if raw:
+        try:
+            econ_inputs = EconInputs.model_validate(raw)
+        except Exception:  # noqa: BLE001 — bad inputs → fall back to ground truth
+            econ_inputs = None
+    if econ_inputs is None and bt is not None:
+        econ_inputs = bt.econ_inputs
+    if econ_inputs is None:
+        existing = getattr(ctx, "economics", None)
+        if isinstance(existing, EconomicOpportunity):
+            return existing
+        raise ValueError("no economic inputs available to compute the opportunity")
+
+    econ_inputs = econ_inputs.model_copy(update={"partners": partners})
     return economics.compute_opportunity(econ_inputs, benchmarks)
 
 

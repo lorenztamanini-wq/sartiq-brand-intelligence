@@ -153,6 +153,7 @@ python3 -m unittest discover -s tests   # 50 pass
 - **Contacts via enrichment API + human validation**, never LinkedIn scraping (ToS + accuracy).
 - **Vision model configurable** (`BRAND_BRIEF_VISION_MODEL`) — Haiku makes live runs much cheaper (vision is the cost driver); kept on Opus by default to protect classification + the visible self-consistency figure.
 - **Prompt caching + cost logging** — the loop caches the stable system+tools prefix and the growing message history (`cache_control: ephemeral`), so the ~20 re-sent turns bill at ~0.1×; zero quality change. Each live run now prints actual token usage + an estimated € (loop+synthesis; vision billed separately).
+- **Opportunity = SARTIQ's capture, not the studio spend** — the headline € is `sartiq_capture_pct` (0.20, tunable) × the brand's tier-aware studio imagery spend: "what this account is worth to us." The studio spend is shown as context; the group upside is broken out **one line per brand** (even split, flagged `needs human`). Re-centred the 0–5 score for the smaller basis. See `GUIDE.html` for the operator-facing explainer.
 
 ---
 

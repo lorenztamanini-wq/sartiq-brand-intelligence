@@ -16,7 +16,7 @@ from __future__ import annotations
 
 import math
 
-from models import Benchmarks, EconInputs, EconomicOpportunity, Range
+from models import Benchmarks, EconInputs, EconomicOpportunity, PartnerLine, Range
 
 # Bottom-up vs top-down must land within this factor to pass the sanity gate.
 ORDER_OF_MAGNITUDE = 10.0
@@ -27,11 +27,12 @@ ORDER_OF_MAGNITUDE = 10.0
 # gap. Winnability beyond that is the human layer's call, surfaced in the brief.
 SIZE_WEIGHT = 0.75
 FIT_WEIGHT = 0.25
-# Opportunity (€/yr, brand + partner) mapped onto 0..5 on a log scale spanning
-# the realistic brand+partner range so size differentiates without saturating.
+# SARTIQ opportunity (€/yr, brand + partner) mapped onto 0..5 on a log scale.
+# Re-centred for the capture-based headline (≈20% of studio spend), which is
+# ~5x smaller than the old studio-cost basis, so scores still spread across 0..5.
 # 10^SCORE_LOG_MIN € -> 0 ; 10^SCORE_LOG_MAX € -> 5.
-SCORE_LOG_MIN = 6.0  # €1m  — floor of a meaningful brand opportunity
-SCORE_LOG_MAX = 8.7  # ~€500m — top of the realistic brand + partner range
+SCORE_LOG_MIN = 5.3  # ~€200k — floor of a meaningful Sartiq opportunity
+SCORE_LOG_MAX = 8.0  # ~€100m — top of the realistic brand + partner range
 
 
 def _annual_images(inp: EconInputs) -> Range:
@@ -47,66 +48,66 @@ def _annual_images(inp: EconInputs) -> Range:
     return Range(low=base + refresh_low, high=base + refresh_high)
 
 
-def _opportunity(cost_today: Range, cost_sartiq: Range) -> Range:
-    """Traditional spend displaced, as a band (never below zero)."""
-    return Range(
-        low=max(0.0, cost_today.low - cost_sartiq.high),
-        high=max(0.0, cost_today.high - cost_sartiq.low),
-    )
-
-
 def compute_opportunity(inp: EconInputs, bm: Benchmarks) -> EconomicOpportunity:
-    """Triangulate the annual € opportunity for a brand (+ its partners).
+    """Compute SARTIQ's annual € opportunity for a brand (+ its partners).
 
-    The headline uses a **tier-aware** cost basis (the defensible number a
-    fashion operator recognises). A naive **flat agency-rate** basis is computed
-    alongside as the AI's draft, so the operator's reframe is visible — applying
-    €80-450/image to a value retailer with an in-house studio overstates it.
+    The brand spends an estimated amount on studio imagery (tier-aware); Sartiq,
+    pricing ~80% below the studio, can capture ``sartiq_capture_pct`` of that —
+    that share IS the headline ("what this account is worth to us"). A naive flat
+    agency-rate basis is computed alongside as the AI's draft so the operator's
+    tier reframe stays visible.
     """
     images = _annual_images(inp)
-    cost_sartiq = Range(
-        low=images.low * bm.price_per_image_sartiq.low,
-        high=images.high * bm.price_per_image_sartiq.high,
-    )
+    capture = bm.sartiq_capture_pct
 
-    # Draft basis: flat quoted rate x effective multiplier, applied tier-blind.
+    # Flat agency-rate studio cost (tier-blind) — the AI's naive DRAFT basis.
     flat_low = bm.cost_per_image_traditional.low * bm.effective_multiplier.low
     flat_high = bm.cost_per_image_traditional.high * bm.effective_multiplier.high
-    draft_cost_today = Range(low=images.low * flat_low, high=images.high * flat_high)
-    draft_opportunity = _opportunity(draft_cost_today, cost_sartiq)
+    studio_flat = Range(low=images.low * flat_low, high=images.high * flat_high)
 
-    # Headline basis: the tier-aware effective cost (falls back to flat).
+    # Tier-aware studio cost — the defensible estimate of what the brand spends.
     tier_band = bm.cost_per_image_by_tier.get(inp.tier) or Range(low=flat_low, high=flat_high)
-    cost_today = Range(low=images.low * tier_band.low, high=images.high * tier_band.high)
-    opportunity = _opportunity(cost_today, cost_sartiq)
+    studio_today = Range(low=images.low * tier_band.low, high=images.high * tier_band.high)
 
-    # Partner upside = the same wedge across the group + wholesale partners.
+    # THE HEADLINE — Sartiq's addressable revenue = its capture of that spend.
+    opportunity = Range(low=studio_today.low * capture, high=studio_today.high * capture)
+    draft_opportunity = Range(low=studio_flat.low * capture, high=studio_flat.high * capture)
+
+    # Partner upside = the same capture across the group + wholesale, then split
+    # one line per named brand (even split — an estimate, flagged in the brief).
     extra = max(0.0, inp.partner_multiplier - 1.0)
     partner_upside = Range(low=opportunity.low * extra, high=opportunity.high * extra)
+    partner_breakdown: list[PartnerLine] = []
+    if extra > 0 and inp.partners:
+        n = len(inp.partners)
+        per = Range(low=partner_upside.low / n, high=partner_upside.high / n)
+        partner_breakdown = [PartnerLine(name=p, opportunity=per) for p in inp.partners]
 
-    # Top-down cross-check: visual spend as % of revenue, then the e-com subset.
-    topdown = Range(
+    # Top-down cross-check: triangulate the STUDIO spend two ways (the sanity
+    # gate), then apply the same capture so the cross-check is in Sartiq units.
+    topdown_studio = Range(
         low=inp.revenue_eur * bm.visual_spend_pct_of_revenue.low * bm.ecom_imagery_subset_pct.low,
         high=inp.revenue_eur * bm.visual_spend_pct_of_revenue.high * bm.ecom_imagery_subset_pct.high,
     )
-    sanity_ok = _within_order_of_magnitude(opportunity, topdown)
+    sanity_ok = _within_order_of_magnitude(studio_today, topdown_studio)
+    topdown = Range(low=topdown_studio.low * capture, high=topdown_studio.high * capture)
 
     # A material draft-vs-headline gap is the operator's economics reframe.
     reframe_note: str | None = None
     if draft_opportunity.mid > 1.5 * max(opportunity.mid, 1.0):
         reframe_note = (
-            f"{inp.tier}-tier production runs "
-            f"€{tier_band.low:.0f}-{tier_band.high:.0f}/image, not the flat agency "
-            f"rate — so the defensible opportunity is the tier-aware band above, "
-            f"not the ~€{draft_opportunity.mid / 1e6:.0f}M draft."
+            f"{inp.tier}-tier production runs €{tier_band.low:.0f}-{tier_band.high:.0f}/image, "
+            f"not the flat agency rate — so the studio spend (and Sartiq's ~{capture * 100:.0f}% "
+            f"of it) rests on the tier-aware band, not the ~€{draft_opportunity.mid / 1e6:.0f}M draft."
         )
 
     return EconomicOpportunity(
         annual_images_range=images,
-        cost_today_range=cost_today,
-        cost_sartiq_range=cost_sartiq,
+        cost_today_range=studio_today,
+        cost_sartiq_range=opportunity,
         annual_opportunity_range=opportunity,
         partner_upside_range=partner_upside,
+        partner_breakdown=partner_breakdown,
         topdown_range=topdown,
         levers=[
             "speed (weeks -> hours)",

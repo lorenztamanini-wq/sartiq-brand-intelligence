@@ -54,12 +54,14 @@
     <div class="econ">
       <div class="big">
         <div class="figure">€{{ e.annual_opportunity_range.low | euro_range(e.annual_opportunity_range.high) }}</div>
-        <div class="cap">Opportunity · brand / yr</div>
+        <div class="cap">Sartiq opportunity · brand / yr</div>
+        <div class="cap" style="color:var(--muted);text-transform:none;letter-spacing:0">studio spend est. €{{ e.cost_today_range.low | euro_range(e.cost_today_range.high) }}/yr → ~20% capture</div>
       </div>
       <div class="big">
         <div class="figure">€{{ e.partner_upside_range.low | euro_range(e.partner_upside_range.high) }}</div>
-        <div class="cap">Partners upside / yr</div>
+        <div class="cap">+ group brands / yr</div>
       </div>
+      {% if e.partner_breakdown %}<div class="cross" style="grid-column:1 / -1"><b>Group brands</b> — est. Sartiq opportunity each (needs human): {% for p in e.partner_breakdown %}{{ p.name }} €{{ p.opportunity.low | euro_range(p.opportunity.high) }}{% if not loop.last %} · {% endif %}{% endfor %}</div>{% endif %}
       <div class="cross">
         Top-down cross-check €{{ e.topdown_range.low | euro_range(e.topdown_range.high) }}/yr ·
         sanity gate {% if e.sanity_ok %}<span class="gate-ok">OK</span>{% else %}<span class="gate-bad">diverges — needs human</span>{% endif %}

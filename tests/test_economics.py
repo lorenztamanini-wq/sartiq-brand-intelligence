@@ -62,6 +62,42 @@ class TestComputeOpportunity(unittest.TestCase):
                     delta=abs(expected) * _REL_TOL + 1e-6,
                 )
 
+    def test_headline_is_capture_of_studio_spend(self) -> None:
+        # The headline € is Sartiq's capture (~20%) of the brand's studio spend,
+        # NOT the studio spend itself.
+        cap = self.benchmarks.sartiq_capture_pct
+        for slug in _TARGET_SLUGS:
+            with self.subTest(slug=slug):
+                econ = compute_opportunity(self.truth[slug].econ_inputs, self.benchmarks)
+                self.assertAlmostEqual(
+                    econ.annual_opportunity_range.low, econ.cost_today_range.low * cap, delta=1.0
+                )
+                self.assertAlmostEqual(
+                    econ.annual_opportunity_range.high, econ.cost_today_range.high * cap, delta=1.0
+                )
+
+    def test_partner_breakdown_splits_the_group_upside(self) -> None:
+        inp = self.truth["diesel"].econ_inputs.model_copy(
+            update={"partners": ["A", "B", "C", "D"]}
+        )
+        econ = compute_opportunity(inp, self.benchmarks)
+        self.assertEqual([p.name for p in econ.partner_breakdown], ["A", "B", "C", "D"])
+        # even split → the lines sum to the combined partner upside
+        self.assertAlmostEqual(
+            sum(p.opportunity.low for p in econ.partner_breakdown),
+            econ.partner_upside_range.low,
+            delta=1.0,
+        )
+        self.assertAlmostEqual(
+            sum(p.opportunity.high for p in econ.partner_breakdown),
+            econ.partner_upside_range.high,
+            delta=1.0,
+        )
+
+    def test_no_partners_means_no_breakdown(self) -> None:
+        econ = compute_opportunity(self.truth["diesel"].econ_inputs, self.benchmarks)
+        self.assertEqual(econ.partner_breakdown, [])
+
     def test_sanity_ok_for_all_three_targets(self) -> None:
         for slug in _TARGET_SLUGS:
             with self.subTest(slug=slug):
