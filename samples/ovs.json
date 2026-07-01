@@ -313,7 +313,7 @@
   },
   "confidence_note": "Momentum and positioning are HIGH confidence (verified FY2025/Q1 financials, live PDP audit of 24 SKUs + 16-image vision classification). The direction/trajectory is MED — the packshot→on-model shift is inferred from digital-investment signals and the live NOW sample, NOT from a fresh THEN re-classification (archived CDN images weren't resolvable). Economics are a MED, upper-bound draft: the €1.87M–€8.5M range OVERSTATES pure cost displacement because OVS runs an in-house studio — reframe the value as studio scale, surge capacity and near-zero-cost localization, not cost savings. Decision-maker and contact path are LOW confidence and flagged needs_human: role mapping is inferred, no named person or email was sourced. NEEDS HUMAN before outreach: (1) the named decision-maker, (2) the contact path / any warm intro, (3) sign-off on reframing the € figure as scale-value rather than cost-cut. Vision spot-check: 92% classifier agreement on 12 labelled samples (held-out baseline).",
   "opportunity_score": 3.2,
-  "rank": null,
+  "rank": 2,
   "partners": [
     "Upim",
     "Piombo",

@@ -1,6 +1,6 @@
 # BRAND BRIEF — Diesel
 
-**Opportunity 3.6/5** · Denim-led, youth, repositioned as 'the true alternative to luxury'
+**Opportunity 3.6/5** · rank #1 · Denim-led, youth, repositioned as 'the true alternative to luxury'
 Parent: OTB Group (Diesel, Margiela, Marni, Jil Sander, Viktor&Rolf + Brave Kid) · Markets: Global; flagships opening (Berlin, Seoul); ~600+ stores (group)
 Partners / sister brands: Maison Margiela, Marni, Jil Sander, Viktor&Rolf, Brave Kid licensees (Diesel Kid, Dsquared², Marni, N21, Trussardi), Amiri (OTB strategic stake), wholesale partners
 ---

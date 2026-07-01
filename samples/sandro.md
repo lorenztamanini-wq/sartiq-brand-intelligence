@@ -1,6 +1,6 @@
 # BRAND BRIEF — Sandro
 
-**Opportunity 3.2/5** · Accessible-luxury Parisian ready-to-wear; full-price strategy
+**Opportunity 3.2/5** · rank #3 · Accessible-luxury Parisian ready-to-wear; full-price strategy
 Parent: SMCP Group (Sandro, Maje, Claudie Pierlot, Fursac) · Markets: France core; global DTC + wholesale; ~1,600 stores (group)
 Partners / sister brands: Maje, Claudie Pierlot, Fursac, wholesale partners in new markets
 ---

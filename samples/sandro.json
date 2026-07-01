@@ -280,7 +280,7 @@
   },
   "confidence_note": "Moderate overall. Brand identity, momentum and DTC imagery discipline are HIGH confidence and well-sourced. Weaker points: (1) the cross-channel degradation that anchors the whole wedge is INFERRED from strong DTC discipline plus rapid partner expansion — no off-brand partner example has been captured yet; a human must screenshot real mismatches before outreach. (2) The opportunity €-ranges rest on tier-based SKU/refresh/channel estimates (shots/SKU and revenue are sourced); treat as order-of-magnitude. (3) Decision-maker is a ROLE only — no named individual. (4) SPLIT/ownership flux (potential capital transaction) means brand health and shareholder situation diverge — validate timing before engaging. needs_human flags carried forward on: momentum/ownership (q3), opportunity sizing (q4), decision-maker name (q6), contact path (q7), and the gap's partner-imagery evidence. Vision self-consistency: 100% label agreement across two independent passes on 5 images from this run.",
   "opportunity_score": 3.2,
-  "rank": null,
+  "rank": 3,
   "partners": [
     "Maje",
     "Claudie Pierlot",

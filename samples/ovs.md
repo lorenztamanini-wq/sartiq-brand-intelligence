@@ -1,6 +1,6 @@
 # BRAND BRIEF — OVS
 
-**Opportunity 3.2/5** · Italy's leading value/mass apparel retailer, vertically integrated
+**Opportunity 3.2/5** · rank #2 · Italy's leading value/mass apparel retailer, vertically integrated
 Parent: OVS S.p.A. (standalone, Euronext Milan) · Markets: Italy core; franchise in Japan, Mexico, India
 Partners / sister brands: Upim, Piombo, Les Copains, Stefanel, Croff, Blukids, Goldenpoint, OVS Kids, franchise partners (Japan / Mexico / India)
 ---

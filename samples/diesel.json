@@ -295,7 +295,7 @@
   },
   "confidence_note": "Directional-to-firm. HIGH confidence on the core wedge: PDP audit is measured (6 shots/SKU, white studio, no video/lifestyle on two live PDPs) and the SPLIT (Diesel winning vs OTB margin-pressured) is sourced from FY2025 results. MEDIUM on the economics and direction: SKU volumes, channel variants, refresh and the €700m Diesel-brand revenue are ESTIMATES (Diesel is not separately disclosed within OTB's ~€1.7bn); only shots_per_sku is measured. The then-vs-now visual jump is inferred from dated editorial, not an archived snapshot — Wayback retrieval failed; a human should pull a diesel.com archive snapshot to confirm. NEEDS HUMAN: (1) validate the split framing before the call; (2) identify and confirm the named Diesel digital lead and OTB group digital owner — no people-data was resolved; (3) confirm the contact path / any warm intro before outreach. Vision self-consistency: 80% label agreement across two independent passes on 5 images from this run.",
   "opportunity_score": 3.6,
-  "rank": null,
+  "rank": 1,
   "partners": [
     "Maison Margiela",
     "Marni",
