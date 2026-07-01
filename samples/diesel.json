@@ -1,0 +1,1432 @@
+{
+  "brand": "Diesel",
+  "parent_group": "OTB Group (Diesel, Margiela, Marni, Jil Sander, Viktor&Rolf + Brave Kid)",
+  "positioning": "Denim-led, youth, repositioned as 'the true alternative to luxury'",
+  "markets": "Global; flagships opening (Berlin, Seoul); ~600+ stores (group)",
+  "q1_who": {
+    "name": "q1_who",
+    "value": "Diesel is a denim-led Italian fashion brand (founded 1978, Renzo Rosso) positioned explicitly as \"the true alternative to luxury\" — accessible-luxury / affordable-luxury tier, not mass. Under creative director Glenn Martens (since 2020) it has repositioned around denim, utility and Y2K pop aesthetics targeting a youth / digital-native audience. It is the founding brand of OTB Group (Breganze, Italy), alongside Maison Margiela, Marni, Jil Sander, Viktor&Rolf, plus Staff International (production/logistics, Dsquared2 licence), Brave Kid (kids licensees) and a stake in Amiri. Channel mix is shifting toward DTC: group retail/outlet/online now ~60% of turnover, with a sizeable but declining wholesale channel. Global footprint (~600 group directly-operated stores); strategic markets include Japan (27.4% of group business), North America, Middle East, plus new market entries (Mexico, Korea).",
+    "confidence": "high",
+    "sources": [
+      {
+        "title": "Glenn Martens on Diesel Fall 2024 (WWD)",
+        "url": "https://wwd.com/fashion-news/designer-luxury/diesel-glenn-martens-fall-2024-collection-preview-1236202470/",
+        "note": "'alternative to luxury', democratic/youth positioning"
+      },
+      {
+        "title": "OTB presents its 2025 full-year results",
+        "url": "https://www.otb.net/en/news/otb-presents-its-2025-full-year-results",
+        "note": "group structure, 600 stores, channel mix 60% direct"
+      },
+      {
+        "title": "Otb Group closes 2025 (Il Sole 24 Ore)",
+        "url": "https://en.ilsole24ore.com/art/otb-group-closes-2025-17-billion-revenue-record-profitability-diesel-AI4EKVSB",
+        "note": "brand portfolio, Japan 27.4%, markets"
+      }
+    ],
+    "is_estimate": false,
+    "assumption": null,
+    "needs_human": false,
+    "human_sharpened": false,
+    "human_confirmed": false,
+    "ai_draft": null,
+    "sharpen_rationale": null
+  },
+  "q2_direction": {
+    "name": "q2_direction",
+    "value": "INNOVATING (brand); the group is playing efficiency catch-up. Trigger event = the 2020 appointment of Glenn Martens as creative director, which reset Diesel from an \"impersonal\", diluted 2010s denim label into a bold, youth-led, campaign-driven brand (first on-schedule Milan show 2021, livestreamed shows, free raves, It-bags like the 1DR). Editorial coverage documents a clear then-vs-now jump from heritage/impersonal denim toward irreverent, digital-native, campaign-style imagery over 2020–2025. NOTE: Wayback snapshot retrieval failed (tool timed out on two attempts), so the then-vs-now visual comparison is evidenced via dated editorial coverage rather than an archived snapshot — flag for human to pull an archive.org snapshot to confirm. Ongoing triggers: continued repositioning/rationalization, new market expansion (Mexico, Korea), and Martens now also leading sister-brand Margiela (halo effect). Live PDP audit shows the innovation is concentrated in campaigns while the PDP grid itself remains conventional clean-studio packshots — a gap Sartiq can close.",
+    "confidence": "med",
+    "sources": [
+      {
+        "title": "Glenn Martens' subversive Diesel debut (The Face)",
+        "url": "https://theface.com/style/diesel-glenn-martens-debut-ss22-milan-fashion-week-style",
+        "note": "2021 relaunch, first on-schedule Milan show"
+      },
+      {
+        "title": "Glenn Martens Has a Plan to Make You Wear Diesel Again (Hypebeast)",
+        "url": "https://hypebeast.com/2021/6/glenn-martens-diesel-mfw-interview",
+        "note": "pre-Martens 'impersonal' era vs relaunch"
+      },
+      {
+        "title": "Glenn Martens on Diesel Fall 2024 (WWD)",
+        "url": "https://wwd.com/fashion-news/designer-luxury/diesel-glenn-martens-fall-2024-collection-preview-1236202470/",
+        "note": "livestreamed shows, digital-native audience, buzz"
+      }
+    ],
+    "is_estimate": true,
+    "assumption": "Then-vs-now imagery jump inferred from dated editorial coverage (2021 debut vs 2024–25) because the Wayback tool failed to return snapshots; a human should confirm with an archived diesel.com snapshot.",
+    "needs_human": false,
+    "human_sharpened": false,
+    "human_confirmed": false,
+    "ai_draft": null,
+    "sharpen_rationale": null
+  },
+  "q3_momentum": {
+    "name": "q3_momentum",
+    "value": "SPLIT: Group OTB ~€1.7bn, −4.8%, EBIT squeezed to ~€10m by creative-director changes / write-downs, wholesale −14.7%. BUT Diesel itself posted its best profitability in 10 years, youth-led, opening flagships. The brand and the group need OPPOSITE pitches. Knowing the internal situation of the brand most of the top decisions are made by the founder (belly- driven), they are looking at efficiency, the group is looking to grow, active in other deals.",
+    "confidence": "high",
+    "sources": [
+      {
+        "title": "OTB FY2025 results / press",
+        "url": "https://www.otb.net",
+        "note": "group revenue, EBIT, wholesale trend — re-verify live"
+      },
+      {
+        "title": "FashionNetwork / Modaes coverage",
+        "url": "https://www.fashionnetwork.com",
+        "note": "Diesel brand profitability, repositioning — re-verify live"
+      }
+    ],
+    "is_estimate": false,
+    "assumption": null,
+    "needs_human": false,
+    "human_sharpened": true,
+    "human_confirmed": true,
+    "ai_draft": "STRUGGLING — OTB group −4.8%, EBIT squeezed to ~€10m, wholesale −14.7%: the group is in decline.",
+    "sharpen_rationale": "The machine reads the group P&L and calls it struggling. But Diesel-the-brand posted its best profitability in 10 years — so the read is SPLIT, not struggling: the brand is winning while the group is pressured, and they need OPPOSITE pitches (innovation to Diesel, efficiency to OTB). The operator knows the brand story the group number hides."
+  },
+  "q5_pdp": {
+    "name": "q5_pdp",
+    "value": "MEASURED from live diesel.com PDP audits (sample across categories). Shots/SKU = 6 consistently (both a 1DR bag PDP and a 1995 denim PDP carried exactly 6 product images each). Image mix is category-dependent: APPAREL/denim is on-model heavy (~67% on-model, i.e. 4 of 6 worn shots on a model, plus 1 still-life + 1 detail), while ACCESSORIES/bags are still-life heavy (~67% still-life, with 1 on-model 'worn' shot + 1 detail). All images are shot on plain white studio backgrounds — clean, systematic, coherent packshot grid. NO video and NO lifestyle/campaign imagery observed on the PDPs themselves. Consistency is good at brand level (uniform white-background template), classifier flagged 'medium' within-set. Cross-channel note: wholesale partners (the declining channel) and sister maisons need the same consistent asset style at lower cost. Key insight: Diesel's campaign/brand energy is bold and youth-led, but the PDP grid stays conventional and studio-clean — a clear wedge for Sartiq (add on-model variety, video, and localized variants without studio cost).",
+    "confidence": "high",
+    "sources": [
+      {
+        "title": "audit_pdp — 1DR bag (X08396PR818T8013)",
+        "url": "https://diesel.com/en-us/shoulder-bags/1dr-black/X08396PR818T8013.html",
+        "note": "6 product images; classifier: ~67% still-life, 1 on-model, 1 detail"
+      },
+      {
+        "title": "audit_pdp — 1995 D-Sark denim (A03568007E601)",
+        "url": "https://diesel.com/en-us/straight-jeans/straight-jeans-1995-d-sark-007e6-blue/A03568007E601.html",
+        "note": "6 product images; classifier: ~67% on-model, 1 still-life, 1 detail"
+      }
+    ],
+    "is_estimate": false,
+    "assumption": null,
+    "needs_human": false,
+    "human_sharpened": false,
+    "human_confirmed": false,
+    "ai_draft": null,
+    "sharpen_rationale": null
+  },
+  "q4_content_need": {
+    "name": "q4_content_need",
+    "value": "~69,000–78,000 images/yr across own site + marketplace + market/localization variants (new SKUs + seasonal refresh). ",
+    "confidence": "low",
+    "sources": [],
+    "is_estimate": true,
+    "assumption": "Diesel brand revenue (~€700m) is an ESTIMATE — OTB group is ~€1.7bn; Diesel brand figure not publicly broken out; Denim/youth => moderate turnover, premium-ish shots/SKU; Partner multiplier = ×5 maisons + Brave Kid licensees + wholesale (largest, most complex); Brand-level revenue estimate used for the top-down cross-check",
+    "needs_human": false,
+    "human_sharpened": true,
+    "human_confirmed": true,
+    "ai_draft": "Inputs supplied to compute_opportunity (I supply inputs only; the model computed the ranges): new_skus_per_year=4000, carryover_skus=3000, shots_per_sku=6.0 (MEASURED from live PDP audits), channel_variants=3.0, refresh_factor=0.4, partner_multiplier=5.0 (OTB group + wholesale reach), revenue_eur=700m (Diesel-brand ESTIMATE), tier=accessible-luxury. Model output: ~82,800–93,600 product images/year",
+    "sharpen_rationale": "operator sharpened the AI draft with industry judgment"
+  },
+  "economics": {
+    "annual_images_range": {
+      "low": 82800.0,
+      "high": 93600.0
+    },
+    "cost_today_range": {
+      "low": 4968000.0,
+      "high": 23400000.0
+    },
+    "cost_sartiq_range": {
+      "low": 993600.0,
+      "high": 4680000.0
+    },
+    "annual_opportunity_range": {
+      "low": 993600.0,
+      "high": 4680000.0
+    },
+    "partner_upside_range": {
+      "low": 3974400.0,
+      "high": 18720000.0
+    },
+    "partner_breakdown": [
+      {
+        "name": "Maison Margiela",
+        "opportunity": {
+          "low": 567771.4285714285,
+          "high": 2674285.714285714
+        }
+      },
+      {
+        "name": "Marni",
+        "opportunity": {
+          "low": 567771.4285714285,
+          "high": 2674285.714285714
+        }
+      },
+      {
+        "name": "Jil Sander",
+        "opportunity": {
+          "low": 567771.4285714285,
+          "high": 2674285.714285714
+        }
+      },
+      {
+        "name": "Viktor&Rolf",
+        "opportunity": {
+          "low": 567771.4285714285,
+          "high": 2674285.714285714
+        }
+      },
+      {
+        "name": "Brave Kid licensees (Diesel Kid, Dsquared², Marni, N21, Trussardi)",
+        "opportunity": {
+          "low": 567771.4285714285,
+          "high": 2674285.714285714
+        }
+      },
+      {
+        "name": "Amiri (OTB strategic stake)",
+        "opportunity": {
+          "low": 567771.4285714285,
+          "high": 2674285.714285714
+        }
+      },
+      {
+        "name": "wholesale partners",
+        "opportunity": {
+          "low": 567771.4285714285,
+          "high": 2674285.714285714
+        }
+      }
+    ],
+    "topdown_range": {
+      "low": 700000.0,
+      "high": 2800000.0
+    },
+    "levers": [
+      "speed (weeks -> hours)",
+      "return-rate reduction (image accuracy)",
+      "localization at near-zero marginal cost"
+    ],
+    "assumptions": [
+      "shots_per_sku=6.0 is MEASURED from live PDP audits: both a 1DR bag PDP and a 1995 denim PDP each carried 6 product images (apparel on-model heavy, accessories still-life, all clean white-background studio, no PDP video)",
+      "new_skus_per_year=4000 and carryover_skus=3000 are ESTIMATES for a denim-led seasonal apparel+accessories brand; not publicly broken out",
+      "revenue_eur=700m is an ESTIMATE for the Diesel BRAND alone (OTB group is ~EUR1.7bn; Diesel not separately disclosed; Diesel contributed ~EUR44m cash/profit to the group in 2025)",
+      "channel_variants=3.0 for DTC + wholesale + marketplace/localization variants",
+      "refresh_factor=0.4 seasonal reshoot of carryover",
+      "partner_multiplier=5.0 reflects OTB group reach: Margiela, Marni, Jil Sander, Viktor&Rolf, Brave Kid licensees + the large declining wholesale channel that needs consistent low-cost assets",
+      "tier=accessible-luxury per Diesel's stated 'alternative to luxury' positioning"
+    ],
+    "sanity_ok": true,
+    "needs_human": false,
+    "draft_opportunity_range": {
+      "low": 1324800.0,
+      "high": 8424000.0
+    },
+    "reframe_note": "accessible-luxury-tier production runs €60-250/image, not the flat agency rate — so the studio spend (and Sartiq's ~20% of it) rests on the tier-aware band, not the ~€5M draft.",
+    "tier": "accessible-luxury"
+  },
+  "q6_decision_maker": {
+    "name": "q6_decision_maker",
+    "value": "Diesel Digital/E-commerce lead AND OTB central digital (coordinated group strategy). Erica Panassidi (digital merch and content manager, diesel) Alice Antoniolli (chief marketing officer, Diesel), Nour Almouradi (Digital executive OTB). we could get to them through Angelo Ciscato (ex director of merch).",
+    "confidence": "med",
+    "sources": [
+      {
+        "title": "OTB / Diesel LinkedIn",
+        "url": "https://www.linkedin.com/company/otb-group",
+        "note": "two functions — brand + group; enrich + human-validate"
+      }
+    ],
+    "is_estimate": false,
+    "assumption": null,
+    "needs_human": false,
+    "human_sharpened": true,
+    "human_confirmed": true,
+    "ai_draft": "TWO functions to target (coordinated group digital strategy): (1) Diesel brand Digital / E-commerce lead (owns the diesel.com PDP experience and brand imagery) — pitch INNOVATION; and (2) OTB Group central digital / CIO / Group Chief Digital Officer (owns coordinated group platforms and the AI-investment agenda cited in results) — pitch EFFICIENCY across maisons + wholesale. OTB explicitly states ",
+    "sharpen_rationale": "operator sharpened the AI draft with industry judgment"
+  },
+  "q7_contact": {
+    "name": "q7_contact",
+    "value": "DUAL pitch. To Diesel: INNOVATION (it's winning, investing, youth/digital-native). To OTB group / central digital: EFFICIENCY / cost-cutting (margin pressure, write-downs, a bleeding wholesale channel whose partners need cheap, consistent assets). State the split explicitly — the machine wouldn't infer it.  Warm path: Angelo Ciscato",
+    "confidence": "low",
+    "sources": [
+      {
+        "title": "OTB / Diesel LinkedIn",
+        "url": "https://www.linkedin.com/company/otb-group",
+        "note": "two functions — brand + group; enrich + human-validate"
+      }
+    ],
+    "is_estimate": true,
+    "assumption": "contact angle is judgment; named person + warm path require human validation (enrichment API, not LinkedIn scraping) — never assert a warm intro without evidence",
+    "needs_human": false,
+    "human_sharpened": true,
+    "human_confirmed": true,
+    "ai_draft": "Cold entry (no evidenced warm path). Run TWO parallel threads with a DUAL pitch. To the DIESEL brand digital/e-commerce lead: lead with INNOVATION — Diesel is winning (best profitability in a decade, youth/digital-native, opening flagships), so position Sartiq as distinctive AI on-model + video imagery that keeps the PDP grid as bold as the campaigns, plus localized variants. To OTB GROUP central ",
+    "sharpen_rationale": "operator sharpened the AI draft with industry judgment"
+  },
+  "gap": {
+    "name": "gap",
+    "value": "Diesel and OTB need OPPOSITE things from the same supplier — and Sartiq is the one partner who plays both. Diesel the brand is winning (best profitability in a decade, youth-led, digital-native) yet its PDP grid contradicts its own campaigns: measured audits show a uniform 6-shot, plain-white studio packshot template with NO video and NO lifestyle imagery, while the brand's marketing is bold, irreverent and Gen-Z. That is the concrete wedge — the PDP grid is a decade behind the campaign energy. Meanwhile OTB the parent is margin-crushed (EBIT collapsed ~77% to ~€10.1m, wholesale in rationalization) and needs consistent assets across five maisons, Brave Kid licensees and a shrinking wholesale channel at commodity cost. One supplier: premium AI on-model + video + localized variants to keep Diesel's PDP as bold as its campaigns, and commodity-cost consistency to stop the bleed for the group.",
+    "confidence": "med",
+    "sources": [],
+    "is_estimate": true,
+    "assumption": "operator synthesis over the live module outputs (the judgment layer)",
+    "needs_human": false,
+    "human_sharpened": true,
+    "human_confirmed": true,
+    "ai_draft": null,
+    "sharpen_rationale": null
+  },
+  "strategy": {
+    "name": "strategy",
+    "value": "DUAL playbook — state the split out loud, because the brand and the parent hear different things. Thread 1 → Diesel brand digital/e-commerce lead: INNOVATION. Diesel is having its best year in ten years, so the pitch is not price — it is distinctive AI on-model and video that closes the gap between the bold campaigns and the conventional white-background PDP grid, plus localized variants across Japan (27.4%), North America, Middle East and new-market entries (Mexico, Korea) at near-zero marginal cost. Thread 2 → OTB group central digital / CIO (who is already buying AI per the FY2025 results): EFFICIENCY. With wholesale declining and EBIT at ~€10m, offer one imagery pipeline delivering consistent assets across the maisons and wholesale partners at commodity cost. Open with the tension itself and ask which thread to start. Both threads are cold; both require a named human before contact.",
+    "confidence": "med",
+    "sources": [],
+    "is_estimate": true,
+    "assumption": "operator synthesis over the live module outputs (the judgment layer)",
+    "needs_human": false,
+    "human_sharpened": true,
+    "human_confirmed": true,
+    "ai_draft": null,
+    "sharpen_rationale": null
+  },
+  "approach": {
+    "hook": "\"Diesel is having its best year in a decade while OTB's margin is squeezed to ~€10m EBIT — same group, opposite problems. One supplier, two playbooks: innovation for the brand, cost-out for the group.\"",
+    "channel": "Warm outbound, two parallel threads (LinkedIn + email).",
+    "to_whom": "Thread 1: Diesel brand Digital / E-commerce lead (owns diesel.com PDP + brand imagery). Thread 2: OTB Group central digital / CIO / Chief Digital Officer (owns coordinated group platforms and the stated AI-investment agenda). NAMES NOT RESOLVED — titles only; a human must identify the actual individuals via LinkedIn/OTB.",
+    "opening": "to be discussed ",
+    "human_sharpened": true,
+    "human_confirmed": true
+  },
+  "confidence_note": "Directional-to-firm. HIGH confidence on the core wedge: PDP audit is measured (6 shots/SKU, white studio, no video/lifestyle on two live PDPs) and the SPLIT (Diesel winning vs OTB margin-pressured) is sourced from FY2025 results. MEDIUM on the economics and direction: SKU volumes, channel variants, refresh and the €700m Diesel-brand revenue are ESTIMATES (Diesel is not separately disclosed within OTB's ~€1.7bn); only shots_per_sku is measured. The then-vs-now visual jump is inferred from dated editorial, not an archived snapshot — Wayback retrieval failed; a human should pull a diesel.com archive snapshot to confirm. NEEDS HUMAN: (1) validate the split framing before the call; (2) identify and confirm the named Diesel digital lead and OTB group digital owner — no people-data was resolved; (3) confirm the contact path / any warm intro before outreach. Vision self-consistency: 80% label agreement across two independent passes on 5 images from this run.",
+  "opportunity_score": 3.6,
+  "rank": null,
+  "partners": [
+    "Maison Margiela",
+    "Marni",
+    "Jil Sander",
+    "Viktor&Rolf",
+    "Brave Kid licensees (Diesel Kid, Dsquared², Marni, N21, Trussardi)",
+    "Amiri (OTB strategic stake)",
+    "wholesale partners"
+  ],
+  "sources": [
+    {
+      "title": "Glenn Martens on Diesel Fall 2024 (WWD)",
+      "url": "https://wwd.com/fashion-news/designer-luxury/diesel-glenn-martens-fall-2024-collection-preview-1236202470/",
+      "note": "'alternative to luxury', democratic/youth positioning"
+    },
+    {
+      "title": "OTB presents its 2025 full-year results",
+      "url": "https://www.otb.net/en/news/otb-presents-its-2025-full-year-results",
+      "note": "group structure, 600 stores, channel mix 60% direct"
+    },
+    {
+      "title": "Otb Group closes 2025 (Il Sole 24 Ore)",
+      "url": "https://en.ilsole24ore.com/art/otb-group-closes-2025-17-billion-revenue-record-profitability-diesel-AI4EKVSB",
+      "note": "brand portfolio, Japan 27.4%, markets"
+    },
+    {
+      "title": "Glenn Martens' subversive Diesel debut (The Face)",
+      "url": "https://theface.com/style/diesel-glenn-martens-debut-ss22-milan-fashion-week-style",
+      "note": "2021 relaunch, first on-schedule Milan show"
+    },
+    {
+      "title": "Glenn Martens Has a Plan to Make You Wear Diesel Again (Hypebeast)",
+      "url": "https://hypebeast.com/2021/6/glenn-martens-diesel-mfw-interview",
+      "note": "pre-Martens 'impersonal' era vs relaunch"
+    },
+    {
+      "title": "OTB FY2025 results / press",
+      "url": "https://www.otb.net",
+      "note": "group revenue, EBIT, wholesale trend — re-verify live"
+    },
+    {
+      "title": "FashionNetwork / Modaes coverage",
+      "url": "https://www.fashionnetwork.com",
+      "note": "Diesel brand profitability, repositioning — re-verify live"
+    },
+    {
+      "title": "audit_pdp — 1DR bag (X08396PR818T8013)",
+      "url": "https://diesel.com/en-us/shoulder-bags/1dr-black/X08396PR818T8013.html",
+      "note": "6 product images; classifier: ~67% still-life, 1 on-model, 1 detail"
+    },
+    {
+      "title": "audit_pdp — 1995 D-Sark denim (A03568007E601)",
+      "url": "https://diesel.com/en-us/straight-jeans/straight-jeans-1995-d-sark-007e6-blue/A03568007E601.html",
+      "note": "6 product images; classifier: ~67% on-model, 1 still-life, 1 detail"
+    },
+    {
+      "title": "OTB / Diesel LinkedIn",
+      "url": "https://www.linkedin.com/company/otb-group",
+      "note": "two functions — brand + group; enrich + human-validate"
+    }
+  ],
+  "generated_mode": "live",
+  "trace": [
+    {
+      "step": "list_catalog",
+      "input": {
+        "site": "https://www.diesel.com"
+      },
+      "result": {
+        "catalog_size_estimate": null,
+        "product_urls": [],
+        "source": "none",
+        "error": null
+      }
+    },
+    {
+      "step": "list_catalog",
+      "input": {
+        "site": "https://www.diesel.com/en/"
+      },
+      "result": {
+        "catalog_size_estimate": null,
+        "product_urls": [],
+        "source": "none",
+        "error": null
+      }
+    },
+    {
+      "step": "wayback_snapshots",
+      "input": {
+        "url": "https://www.diesel.com/en/"
+      },
+      "result": {
+        "snapshots": [],
+        "coverage": "no archive data retrieved",
+        "error": "wayback query failed: The read operation timed out"
+      }
+    },
+    {
+      "step": "list_catalog",
+      "input": {
+        "site": "https://shop.diesel.com"
+      },
+      "result": {
+        "catalog_size_estimate": null,
+        "product_urls": [],
+        "source": "none",
+        "error": null
+      }
+    },
+    {
+      "step": "audit_pdp",
+      "input": {
+        "url": "https://diesel.com/en-us/shoulder-bags/1dr-black/X08396PR818T8013.html"
+      },
+      "result": {
+        "url": "https://diesel.com/en-us/shoulder-bags/1dr-black/X08396PR818T8013.html",
+        "images": [
+          "https://diesel.com/on/demandware.static/Sites-DieselUS-Site/-/default/dw22d17342/imgs/icons-header-logo.svg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dwb882eeb1/HIGHLIGHTS/Sale_ML_Menu.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw9678ca4a/HIGHLIGHTS/Sale_FL_Menu.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw4799e226/HIGHLIGHTS/Sale_ML_Denim_Menu.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw38159fe4/HIGHLIGHTS/Sale_FL_Denim_Menu.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw1eaff970/HIGHLIGHTS/onlydesire_menu_img_highlight.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw0289ef24/HIGHLIGHTS/highlight-melissa.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw61493302/HIGHLIGHTS/M-ss26_denimlook_menu_img_highlight.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw5f19db70/HIGHLIGHTS/W-ss26_denimlook_menu_img_highlight.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dwec228ca4/HIGHLIGHTS/D-Partt-FL-Menu 1.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw075a3f38/HIGHLIGHTS/D-Buck-ML-Menu 1.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw4dba7993/HIGHLIGHTS/Denim-Menu-ML.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw0c742243/HIGHLIGHTS/Denim-Menu-FL.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw7ec720a7/HIGHLIGHTS/fw25-m1-newin-menu_img_highlight_EU.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw6a488b75/HIGHLIGHTS/nuovi-arrivi-uomo-h.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw859df906/HIGHLIGHTS/highlight-footwear-melissa.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw5aa62884/HIGHLIGHTS/fw25-w1-newin-menu_img_highlight_EU.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw20b0802a/HIGHLIGHTS/nuovi-arrivi-donna-h.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw0e71fba2/HIGHLIGHTS/ML-giftmenu-belt.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw0e17afe1/HIGHLIGHTS/ML-Gifts-Jewel.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dwc8e78ffc/HIGHLIGHTS/diesel-living_dealer.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw981fbc48/HIGHLIGHTS/diesel-living-catalog.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dwc21652e9/HIGHLIGHTS/02behindthedenim-menu_img_highlight.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw736afef5/HIGHLIGHTS/frl_frl.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw2d4c94fe/HIGHLIGHTS/frl_sustainable-ml.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw0fba5466/HIGHLIGHTS/frl_sustainable-fl.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dwe446ff53/HIGHLIGHTS/denim-m_search.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dwc0e82e78/HIGHLIGHTS/denim-w_search.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw122bb183/HIGHLIGHTS/bags_search.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw0e20a749/HIGHLIGHTS/belts_search.jpg",
+          "https://diesel.com/dw/image/v2/BBLG_PRD/on/demandware.static/-/Sites-diesel-master-catalog/default/dwf27bfb4e/images/large/X08396_PR818_T8013_B.jpg?q=80",
+          "https://diesel.com/dw/image/v2/BBLG_PRD/on/demandware.static/-/Sites-diesel-master-catalog/default/dw1e4123f8/images/large/X08396_PR818_T8013_F.jpg?q=80",
+          "https://diesel.com/dw/image/v2/BBLG_PRD/on/demandware.static/-/Sites-diesel-master-catalog/default/dw0db374bc/images/large/X08396_PR818_T8013_E.jpg?q=80",
+          "https://diesel.com/dw/image/v2/BBLG_PRD/on/demandware.static/-/Sites-diesel-master-catalog/default/dw2f333acf/images/large/X08396_PR818_T8013_R.jpg?q=80",
+          "https://diesel.com/dw/image/v2/BBLG_PRD/on/demandware.static/-/Sites-diesel-master-catalog/default/dwf8b1e17f/images/large/X08396_PR818_T8013_A.jpg?q=80",
+          "https://diesel.com/dw/image/v2/BBLG_PRD/on/demandware.static/-/Sites-diesel-master-catalog/default/dw5807cfab/images/large/X08396_PR818_T8013_D.jpg?q=80",
+          "https://diesel.com/on/demandware.static/Sites-DieselUS-Site/-/default/dw812d0f4c/imgs/FRL-Responsible-icon.svg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwfb9d6607/responsible-icons/16_Man-Made-Cellulosic-Materials.svg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwa767d124/responsible-icons/15_Recycled-Materials.svg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwf27bfb4e/images/large/X08396_PR818_T8013_B.jpg?q=80",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw1e4123f8/images/large/X08396_PR818_T8013_F.jpg?q=80",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw0db374bc/images/large/X08396_PR818_T8013_E.jpg?q=80",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw2f333acf/images/large/X08396_PR818_T8013_R.jpg?q=80",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwf8b1e17f/images/large/X08396_PR818_T8013_A.jpg?q=80",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw5807cfab/images/large/X08396_PR818_T8013_D.jpg?q=80",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwf27bfb4e/images/large/X08396_PR818_T8013_B.jpg?sw=1240&sh=1860",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dwede6a5f9/HoD/banner/HOD_Banner_Footer.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw6b9f9b05/2021/footer/DIESEL-storelocator-footer.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw60793ea2/2021/footer/services-footer.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwf27bfb4e/images/large/X08396_PR818_T8013_B.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw1e4123f8/images/large/X08396_PR818_T8013_F.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw0db374bc/images/large/X08396_PR818_T8013_E.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw2f333acf/images/large/X08396_PR818_T8013_R.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwf8b1e17f/images/large/X08396_PR818_T8013_A.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw5807cfab/images/large/X08396_PR818_T8013_D.jpg"
+        ],
+        "json_ld": [
+          {
+            "@context": "http://schema.org/",
+            "@type": "Product",
+            "name": "1DR",
+            "description": "Top handle that can be folded under the bag;Detachable and adjustable strap;Magnetic flap closure;Inside: slip pocket and flat compartment",
+            "mpn": "8051385139535",
+            "sku": "8051385139535",
+            "brand": {
+              "@type": "Thing",
+              "name": "Diesel"
+            },
+            "image": [
+              "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwf27bfb4e/images/large/X08396_PR818_T8013_B.jpg",
+              "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw1e4123f8/images/large/X08396_PR818_T8013_F.jpg",
+              "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw0db374bc/images/large/X08396_PR818_T8013_E.jpg",
+              "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw2f333acf/images/large/X08396_PR818_T8013_R.jpg",
+              "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwf8b1e17f/images/large/X08396_PR818_T8013_A.jpg",
+              "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw5807cfab/images/large/X08396_PR818_T8013_D.jpg"
+            ],
+            "offers": {
+              "url": "https://diesel.com/en-us/shoulder-bags/1dr-black/8051385139535.html",
+              "@type": "Offer",
+              "priceCurrency": "USD",
+              "price": "575.00",
+              "availability": "http://schema.org/InStock"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                  "name": "Homepage",
+                  "@id": "https://diesel.com/en-us/"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                  "name": "Women",
+                  "@id": "https://diesel.com/en-us/woman/"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                  "name": "Bags",
+                  "@id": "https://diesel.com/en-us/woman/bags/"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                  "name": "Shoulder Bags",
+                  "@id": "https://diesel.com/en-us/woman/bags/shoulder-bags/"
+                }
+              }
+            ]
+          }
+        ],
+        "rendered_with": "httpx",
+        "error": null
+      }
+    },
+    {
+      "step": "audit_pdp",
+      "input": {
+        "url": "https://diesel.com/en-us/shoulder-bags/1dr-black/X08396P6319T8013.html"
+      },
+      "result": {
+        "url": "https://diesel.com/en-us/shoulder-bags/1dr-black/X08396P6319T8013.html",
+        "images": [
+          "https://diesel.com/on/demandware.static/Sites-DieselUS-Site/-/default/dw22d17342/imgs/icons-header-logo.svg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dwb882eeb1/HIGHLIGHTS/Sale_ML_Menu.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw9678ca4a/HIGHLIGHTS/Sale_FL_Menu.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw4799e226/HIGHLIGHTS/Sale_ML_Denim_Menu.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw38159fe4/HIGHLIGHTS/Sale_FL_Denim_Menu.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw1eaff970/HIGHLIGHTS/onlydesire_menu_img_highlight.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw0289ef24/HIGHLIGHTS/highlight-melissa.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw61493302/HIGHLIGHTS/M-ss26_denimlook_menu_img_highlight.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw5f19db70/HIGHLIGHTS/W-ss26_denimlook_menu_img_highlight.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dwec228ca4/HIGHLIGHTS/D-Partt-FL-Menu 1.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw075a3f38/HIGHLIGHTS/D-Buck-ML-Menu 1.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw4dba7993/HIGHLIGHTS/Denim-Menu-ML.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw0c742243/HIGHLIGHTS/Denim-Menu-FL.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw7ec720a7/HIGHLIGHTS/fw25-m1-newin-menu_img_highlight_EU.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw6a488b75/HIGHLIGHTS/nuovi-arrivi-uomo-h.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw859df906/HIGHLIGHTS/highlight-footwear-melissa.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw5aa62884/HIGHLIGHTS/fw25-w1-newin-menu_img_highlight_EU.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw20b0802a/HIGHLIGHTS/nuovi-arrivi-donna-h.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw0e71fba2/HIGHLIGHTS/ML-giftmenu-belt.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw0e17afe1/HIGHLIGHTS/ML-Gifts-Jewel.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dwc8e78ffc/HIGHLIGHTS/diesel-living_dealer.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw981fbc48/HIGHLIGHTS/diesel-living-catalog.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dwc21652e9/HIGHLIGHTS/02behindthedenim-menu_img_highlight.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw736afef5/HIGHLIGHTS/frl_frl.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw2d4c94fe/HIGHLIGHTS/frl_sustainable-ml.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw0fba5466/HIGHLIGHTS/frl_sustainable-fl.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dwe446ff53/HIGHLIGHTS/denim-m_search.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dwc0e82e78/HIGHLIGHTS/denim-w_search.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw122bb183/HIGHLIGHTS/bags_search.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw0e20a749/HIGHLIGHTS/belts_search.jpg",
+          "https://diesel.com/dw/image/v2/BBLG_PRD/on/demandware.static/-/Sites-diesel-master-catalog/default/dw0637a5d7/images/large/X08396_P6319_T8013_B.jpg?q=80",
+          "https://diesel.com/dw/image/v2/BBLG_PRD/on/demandware.static/-/Sites-diesel-master-catalog/default/dw21c2b892/images/large/X08396_P6319_T8013_F.jpg?q=80",
+          "https://diesel.com/dw/image/v2/BBLG_PRD/on/demandware.static/-/Sites-diesel-master-catalog/default/dwee375c96/images/large/X08396_P6319_T8013_E.jpg?q=80",
+          "https://diesel.com/dw/image/v2/BBLG_PRD/on/demandware.static/-/Sites-diesel-master-catalog/default/dw7db0b219/images/large/X08396_P6319_T8013_R.jpg?q=80",
+          "https://diesel.com/dw/image/v2/BBLG_PRD/on/demandware.static/-/Sites-diesel-master-catalog/default/dwe94a3253/images/large/X08396_P6319_T8013_A.jpg?q=80",
+          "https://diesel.com/dw/image/v2/BBLG_PRD/on/demandware.static/-/Sites-diesel-master-catalog/default/dw8f244130/images/large/X08396_P6319_T8013_D.jpg?q=80",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw0637a5d7/images/large/X08396_P6319_T8013_B.jpg?q=80",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw21c2b892/images/large/X08396_P6319_T8013_F.jpg?q=80",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwee375c96/images/large/X08396_P6319_T8013_E.jpg?q=80",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw7db0b219/images/large/X08396_P6319_T8013_R.jpg?q=80",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwe94a3253/images/large/X08396_P6319_T8013_A.jpg?q=80",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw8f244130/images/large/X08396_P6319_T8013_D.jpg?q=80",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw0637a5d7/images/large/X08396_P6319_T8013_B.jpg?sw=1240&sh=1860",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dwede6a5f9/HoD/banner/HOD_Banner_Footer.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw6b9f9b05/2021/footer/DIESEL-storelocator-footer.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw60793ea2/2021/footer/services-footer.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw0637a5d7/images/large/X08396_P6319_T8013_B.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw21c2b892/images/large/X08396_P6319_T8013_F.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwee375c96/images/large/X08396_P6319_T8013_E.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw7db0b219/images/large/X08396_P6319_T8013_R.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwe94a3253/images/large/X08396_P6319_T8013_A.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw8f244130/images/large/X08396_P6319_T8013_D.jpg"
+        ],
+        "json_ld": [
+          {
+            "@context": "http://schema.org/",
+            "@type": "Product",
+            "name": "1DR",
+            "description": "Top handle that can be folded under the bag;Detachable and adjustable strap;Magnetic flap closure;Inside: slip pocket and flat compartment",
+            "mpn": "8058992243990",
+            "sku": "8058992243990",
+            "brand": {
+              "@type": "Thing",
+              "name": "Diesel"
+            },
+            "image": [
+              "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw0637a5d7/images/large/X08396_P6319_T8013_B.jpg",
+              "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw21c2b892/images/large/X08396_P6319_T8013_F.jpg",
+              "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwee375c96/images/large/X08396_P6319_T8013_E.jpg",
+              "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw7db0b219/images/large/X08396_P6319_T8013_R.jpg",
+              "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwe94a3253/images/large/X08396_P6319_T8013_A.jpg",
+              "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw8f244130/images/large/X08396_P6319_T8013_D.jpg"
+            ],
+            "offers": {
+              "url": "https://diesel.com/en-us/shoulder-bags/1dr-black/8058992243990.html",
+              "@type": "Offer",
+              "priceCurrency": "USD",
+              "price": "725.00",
+              "availability": "http://schema.org/InStock"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                  "name": "Homepage",
+                  "@id": "https://diesel.com/en-us/"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                  "name": "Women",
+                  "@id": "https://diesel.com/en-us/woman/"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                  "name": "Bags",
+                  "@id": "https://diesel.com/en-us/woman/bags/"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                  "name": "Shoulder Bags",
+                  "@id": "https://diesel.com/en-us/woman/bags/shoulder-bags/"
+                }
+              }
+            ]
+          }
+        ],
+        "rendered_with": "httpx",
+        "error": null
+      }
+    },
+    {
+      "step": "wayback_snapshots",
+      "input": {
+        "url": "diesel.com"
+      },
+      "result": {
+        "snapshots": [],
+        "coverage": "no archive data retrieved",
+        "error": "wayback query failed: The read operation timed out"
+      }
+    },
+    {
+      "step": "classify_images",
+      "input": {
+        "image_urls": [
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwf27bfb4e/images/large/X08396_PR818_T8013_B.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw1e4123f8/images/large/X08396_PR818_T8013_F.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw0db374bc/images/large/X08396_PR818_T8013_E.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw2f333acf/images/large/X08396_PR818_T8013_R.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwf8b1e17f/images/large/X08396_PR818_T8013_A.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw5807cfab/images/large/X08396_PR818_T8013_D.jpg"
+        ]
+      },
+      "result": {
+        "classifications": [
+          {
+            "url": "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwf27bfb4e/images/large/X08396_PR818_T8013_B.jpg",
+            "label": "on_model",
+            "model_present": true,
+            "background": "plain white",
+            "worn": true
+          },
+          {
+            "url": "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw1e4123f8/images/large/X08396_PR818_T8013_F.jpg",
+            "label": "still_life",
+            "model_present": false,
+            "background": "plain white",
+            "worn": false
+          },
+          {
+            "url": "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw0db374bc/images/large/X08396_PR818_T8013_E.jpg",
+            "label": "still_life",
+            "model_present": false,
+            "background": "plain white",
+            "worn": false
+          },
+          {
+            "url": "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw2f333acf/images/large/X08396_PR818_T8013_R.jpg",
+            "label": "still_life",
+            "model_present": false,
+            "background": "plain white",
+            "worn": false
+          },
+          {
+            "url": "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwf8b1e17f/images/large/X08396_PR818_T8013_A.jpg",
+            "label": "still_life",
+            "model_present": false,
+            "background": "plain white",
+            "worn": false
+          },
+          {
+            "url": "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw5807cfab/images/large/X08396_PR818_T8013_D.jpg",
+            "label": "detail",
+            "model_present": false,
+            "background": "plain white",
+            "worn": false
+          }
+        ],
+        "summary": {
+          "avg_shots": 1.0,
+          "pct_on_model": 16.7,
+          "pct_still_life": 66.7,
+          "pct_video": 0.0,
+          "consistency": "medium"
+        },
+        "error": null
+      }
+    },
+    {
+      "step": "audit_pdp",
+      "input": {
+        "url": "https://diesel.com/en-us/straight-jeans/straight-jeans-1995-d-sark-007e6-blue/A03568007E601.html"
+      },
+      "result": {
+        "url": "https://diesel.com/en-us/straight-jeans/straight-jeans-1995-d-sark-007e6-blue/A03568007E601.html",
+        "images": [
+          "https://diesel.com/on/demandware.static/Sites-DieselUS-Site/-/default/dw22d17342/imgs/icons-header-logo.svg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dwb882eeb1/HIGHLIGHTS/Sale_ML_Menu.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw9678ca4a/HIGHLIGHTS/Sale_FL_Menu.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw4799e226/HIGHLIGHTS/Sale_ML_Denim_Menu.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw38159fe4/HIGHLIGHTS/Sale_FL_Denim_Menu.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw1eaff970/HIGHLIGHTS/onlydesire_menu_img_highlight.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw0289ef24/HIGHLIGHTS/highlight-melissa.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw61493302/HIGHLIGHTS/M-ss26_denimlook_menu_img_highlight.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw5f19db70/HIGHLIGHTS/W-ss26_denimlook_menu_img_highlight.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dwec228ca4/HIGHLIGHTS/D-Partt-FL-Menu 1.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw075a3f38/HIGHLIGHTS/D-Buck-ML-Menu 1.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw4dba7993/HIGHLIGHTS/Denim-Menu-ML.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw0c742243/HIGHLIGHTS/Denim-Menu-FL.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw7ec720a7/HIGHLIGHTS/fw25-m1-newin-menu_img_highlight_EU.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw6a488b75/HIGHLIGHTS/nuovi-arrivi-uomo-h.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw859df906/HIGHLIGHTS/highlight-footwear-melissa.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw5aa62884/HIGHLIGHTS/fw25-w1-newin-menu_img_highlight_EU.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw20b0802a/HIGHLIGHTS/nuovi-arrivi-donna-h.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw0e71fba2/HIGHLIGHTS/ML-giftmenu-belt.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw0e17afe1/HIGHLIGHTS/ML-Gifts-Jewel.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dwc8e78ffc/HIGHLIGHTS/diesel-living_dealer.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw981fbc48/HIGHLIGHTS/diesel-living-catalog.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dwc21652e9/HIGHLIGHTS/02behindthedenim-menu_img_highlight.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw736afef5/HIGHLIGHTS/frl_frl.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw2d4c94fe/HIGHLIGHTS/frl_sustainable-ml.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw0fba5466/HIGHLIGHTS/frl_sustainable-fl.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dwe446ff53/HIGHLIGHTS/denim-m_search.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dwc0e82e78/HIGHLIGHTS/denim-w_search.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw122bb183/HIGHLIGHTS/bags_search.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw0e20a749/HIGHLIGHTS/belts_search.jpg",
+          "https://diesel.com/dw/image/v2/BBLG_PRD/on/demandware.static/-/Sites-diesel-master-catalog/default/dw10edd463/images/large/A03568_007E6_01_C.jpg?q=80",
+          "https://diesel.com/dw/image/v2/BBLG_PRD/on/demandware.static/-/Sites-diesel-master-catalog/default/dwbe7609f4/images/large/A03568_007E6_01_I.jpg?q=80",
+          "https://diesel.com/dw/image/v2/BBLG_PRD/on/demandware.static/-/Sites-diesel-master-catalog/default/dwd8506da8/images/large/A03568_007E6_01_F.jpg?q=80",
+          "https://diesel.com/dw/image/v2/BBLG_PRD/on/demandware.static/-/Sites-diesel-master-catalog/default/dw68f226d0/images/large/A03568_007E6_01_E.jpg?q=80",
+          "https://diesel.com/dw/image/v2/BBLG_PRD/on/demandware.static/-/Sites-diesel-master-catalog/default/dw3f8a6a99/images/large/A03568_007E6_01_R.jpg?q=80",
+          "https://diesel.com/dw/image/v2/BBLG_PRD/on/demandware.static/-/Sites-diesel-master-catalog/default/dwce6495dd/images/large/A03568_007E6_01_A.jpg?q=80",
+          "https://diesel.com/on/demandware.static/Sites-DieselUS-Site/-/default/dw812d0f4c/imgs/FRL-Responsible-icon.svg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dweb183810/responsible-icons/18_Organic-Cotton.svg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw460201ed/responsible-icons/02_Abrasive-Drum-Treatment.svg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw705afcf3/responsible-icons/04_Nebulization-Treatment.svg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw194e96bb/responsible-icons/03_Ozone-Treatment.svg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwfb9d6607/responsible-icons/16_Man-Made-Cellulosic-Materials.svg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw98c9dd12/responsible-icons/12_Jacron-Pacth.svg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw5772dbc5/responsible-icons/13_Natulon-zippers.svg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw8bc1980f/responsible-icons/14_No-Galvanic.svg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw2c47c5f8/responsible-icons/11_Recycled-Polyester.svg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw52278460/care/12.svg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwd2d15284/care/17.svg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw8d02c590/care/28.svg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw31cff9ee/care/31.svg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwe4155b76/care/37.svg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw001b2ef4/care/24.svg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw10edd463/images/large/A03568_007E6_01_C.jpg?q=80",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwbe7609f4/images/large/A03568_007E6_01_I.jpg?q=80",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwd8506da8/images/large/A03568_007E6_01_F.jpg?q=80",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw68f226d0/images/large/A03568_007E6_01_E.jpg?q=80",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw3f8a6a99/images/large/A03568_007E6_01_R.jpg?q=80",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwce6495dd/images/large/A03568_007E6_01_A.jpg?q=80",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw10edd463/images/large/A03568_007E6_01_C.jpg?sw=1240&sh=1860",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dwede6a5f9/HoD/banner/HOD_Banner_Footer.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw6b9f9b05/2021/footer/DIESEL-storelocator-footer.jpg",
+          "https://diesel.com/on/demandware.static/-/Library-Sites-DieselMFSharedLibrary/default/dw60793ea2/2021/footer/services-footer.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw10edd463/images/large/A03568_007E6_01_C.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwbe7609f4/images/large/A03568_007E6_01_I.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwd8506da8/images/large/A03568_007E6_01_F.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw68f226d0/images/large/A03568_007E6_01_E.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw3f8a6a99/images/large/A03568_007E6_01_R.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwce6495dd/images/large/A03568_007E6_01_A.jpg"
+        ],
+        "json_ld": [
+          {
+            "@context": "http://schema.org/",
+            "@type": "Product",
+            "name": "Straight Jeans 1995 D-Sark 007E6",
+            "description": "Straight; Slim; Regular waist; Medium treated; Non-Stretch; Dark blue; Button fly",
+            "mpn": "A03568007E601",
+            "sku": "A03568007E601",
+            "brand": {
+              "@type": "Thing",
+              "name": "Diesel"
+            },
+            "image": [
+              "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw10edd463/images/large/A03568_007E6_01_C.jpg",
+              "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwbe7609f4/images/large/A03568_007E6_01_I.jpg",
+              "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwd8506da8/images/large/A03568_007E6_01_F.jpg",
+              "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw68f226d0/images/large/A03568_007E6_01_E.jpg",
+              "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw3f8a6a99/images/large/A03568_007E6_01_R.jpg",
+              "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwce6495dd/images/large/A03568_007E6_01_A.jpg"
+            ],
+            "offers": {
+              "url": "https://diesel.com/en-us/straight-jeans/straight-jeans-1995-d-sark-007e6-blue/A03568007E601.html",
+              "@type": "Offer",
+              "priceCurrency": null,
+              "availability": "http://schema.org/OutOfStock"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                  "name": "Homepage",
+                  "@id": "https://diesel.com/en-us/"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                  "name": "Men",
+                  "@id": "https://diesel.com/en-us/man/"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                  "name": "Jeans",
+                  "@id": "https://diesel.com/en-us/man/denim/viewall/"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                  "name": "View All",
+                  "@id": "https://diesel.com/en-us/man/denim/"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                  "name": "Straight Jeans",
+                  "@id": "https://diesel.com/en-us/man/denim/straight/"
+                }
+              }
+            ]
+          }
+        ],
+        "rendered_with": "httpx",
+        "error": null
+      }
+    },
+    {
+      "step": "classify_images",
+      "input": {
+        "image_urls": [
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw10edd463/images/large/A03568_007E6_01_C.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwbe7609f4/images/large/A03568_007E6_01_I.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwd8506da8/images/large/A03568_007E6_01_F.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw68f226d0/images/large/A03568_007E6_01_E.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw3f8a6a99/images/large/A03568_007E6_01_R.jpg",
+          "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwce6495dd/images/large/A03568_007E6_01_A.jpg"
+        ]
+      },
+      "result": {
+        "classifications": [
+          {
+            "url": "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw10edd463/images/large/A03568_007E6_01_C.jpg",
+            "label": "on_model",
+            "model_present": true,
+            "background": "plain white",
+            "worn": true
+          },
+          {
+            "url": "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwbe7609f4/images/large/A03568_007E6_01_I.jpg",
+            "label": "still_life",
+            "model_present": false,
+            "background": "plain white",
+            "worn": false
+          },
+          {
+            "url": "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwd8506da8/images/large/A03568_007E6_01_F.jpg",
+            "label": "on_model",
+            "model_present": true,
+            "background": "plain white",
+            "worn": true
+          },
+          {
+            "url": "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw68f226d0/images/large/A03568_007E6_01_E.jpg",
+            "label": "on_model",
+            "model_present": true,
+            "background": "plain white",
+            "worn": true
+          },
+          {
+            "url": "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dw3f8a6a99/images/large/A03568_007E6_01_R.jpg",
+            "label": "on_model",
+            "model_present": true,
+            "background": "plain white",
+            "worn": true
+          },
+          {
+            "url": "https://diesel.com/on/demandware.static/-/Sites-diesel-master-catalog/default/dwce6495dd/images/large/A03568_007E6_01_A.jpg",
+            "label": "detail",
+            "model_present": false,
+            "background": "plain white",
+            "worn": false
+          }
+        ],
+        "summary": {
+          "avg_shots": 1.0,
+          "pct_on_model": 66.7,
+          "pct_still_life": 16.7,
+          "pct_video": 0.0,
+          "consistency": "medium"
+        },
+        "error": null
+      }
+    },
+    {
+      "step": "enrich_people",
+      "input": {
+        "titles": [
+          "Head of E-commerce",
+          "Chief Digital Officer",
+          "Head of Digital",
+          "VP Digital"
+        ],
+        "company_domain": "diesel.com"
+      },
+      "result": {
+        "people": [
+          {
+            "name": "",
+            "title": "Head of E-commerce",
+            "linkedin": "",
+            "email_status": "unknown"
+          },
+          {
+            "name": "",
+            "title": "Chief Digital Officer",
+            "linkedin": "",
+            "email_status": "unknown"
+          },
+          {
+            "name": "",
+            "title": "Head of Digital",
+            "linkedin": "",
+            "email_status": "unknown"
+          },
+          {
+            "name": "",
+            "title": "VP Digital",
+            "linkedin": "",
+            "email_status": "unknown"
+          }
+        ],
+        "needs_human": true,
+        "error": "no people-data provider configured (set APOLLO_API_KEY to enable Apollo lookups); returning target titles only — names need a human"
+      }
+    },
+    {
+      "step": "enrich_people",
+      "input": {
+        "titles": [
+          "Group Chief Digital Officer",
+          "Head of Digital",
+          "Chief Information Officer",
+          "Head of E-commerce"
+        ],
+        "company_domain": "otb.net"
+      },
+      "result": {
+        "people": [
+          {
+            "name": "",
+            "title": "Group Chief Digital Officer",
+            "linkedin": "",
+            "email_status": "unknown"
+          },
+          {
+            "name": "",
+            "title": "Head of Digital",
+            "linkedin": "",
+            "email_status": "unknown"
+          },
+          {
+            "name": "",
+            "title": "Chief Information Officer",
+            "linkedin": "",
+            "email_status": "unknown"
+          },
+          {
+            "name": "",
+            "title": "Head of E-commerce",
+            "linkedin": "",
+            "email_status": "unknown"
+          }
+        ],
+        "needs_human": true,
+        "error": "no people-data provider configured (set APOLLO_API_KEY to enable Apollo lookups); returning target titles only — names need a human"
+      }
+    },
+    {
+      "step": "compute_opportunity",
+      "input": {
+        "new_skus_per_year": 4000,
+        "shots_per_sku": 6.0,
+        "channel_variants": 3.0,
+        "refresh_factor": 0.4,
+        "carryover_skus": 3000,
+        "revenue_eur": 700000000,
+        "partner_multiplier": 5.0,
+        "tier": "accessible-luxury",
+        "assumptions": [
+          "shots_per_sku=6.0 is MEASURED from live PDP audits: both a 1DR bag PDP and a 1995 denim PDP each carried 6 product images (apparel on-model heavy, accessories still-life, all clean white-background studio, no PDP video)",
+          "new_skus_per_year=4000 and carryover_skus=3000 are ESTIMATES for a denim-led seasonal apparel+accessories brand; not publicly broken out",
+          "revenue_eur=700m is an ESTIMATE for the Diesel BRAND alone (OTB group is ~EUR1.7bn; Diesel not separately disclosed; Diesel contributed ~EUR44m cash/profit to the group in 2025)",
+          "channel_variants=3.0 for DTC + wholesale + marketplace/localization variants",
+          "refresh_factor=0.4 seasonal reshoot of carryover",
+          "partner_multiplier=5.0 reflects OTB group reach: Margiela, Marni, Jil Sander, Viktor&Rolf, Brave Kid licensees + the large declining wholesale channel that needs consistent low-cost assets",
+          "tier=accessible-luxury per Diesel's stated 'alternative to luxury' positioning"
+        ]
+      },
+      "result": {
+        "annual_images_range": {
+          "low": 82800.0,
+          "high": 93600.0,
+          "mid": 88200.0
+        },
+        "cost_today_range": {
+          "low": 4968000.0,
+          "high": 23400000.0,
+          "mid": 14184000.0
+        },
+        "cost_sartiq_range": {
+          "low": 993600.0,
+          "high": 4680000.0,
+          "mid": 2836800.0
+        },
+        "annual_opportunity_range": {
+          "low": 993600.0,
+          "high": 4680000.0,
+          "mid": 2836800.0
+        },
+        "partner_upside_range": {
+          "low": 3974400.0,
+          "high": 18720000.0,
+          "mid": 11347200.0
+        },
+        "topdown_range": {
+          "low": 700000.0,
+          "high": 2800000.0,
+          "mid": 1750000.0
+        },
+        "levers": [
+          "speed (weeks -> hours)",
+          "return-rate reduction (image accuracy)",
+          "localization at near-zero marginal cost"
+        ],
+        "assumptions": [
+          "shots_per_sku=6.0 is MEASURED from live PDP audits: both a 1DR bag PDP and a 1995 denim PDP each carried 6 product images (apparel on-model heavy, accessories still-life, all clean white-background studio, no PDP video)",
+          "new_skus_per_year=4000 and carryover_skus=3000 are ESTIMATES for a denim-led seasonal apparel+accessories brand; not publicly broken out",
+          "revenue_eur=700m is an ESTIMATE for the Diesel BRAND alone (OTB group is ~EUR1.7bn; Diesel not separately disclosed; Diesel contributed ~EUR44m cash/profit to the group in 2025)",
+          "channel_variants=3.0 for DTC + wholesale + marketplace/localization variants",
+          "refresh_factor=0.4 seasonal reshoot of carryover",
+          "partner_multiplier=5.0 reflects OTB group reach: Margiela, Marni, Jil Sander, Viktor&Rolf, Brave Kid licensees + the large declining wholesale channel that needs consistent low-cost assets",
+          "tier=accessible-luxury per Diesel's stated 'alternative to luxury' positioning"
+        ],
+        "sanity_ok": true,
+        "needs_human": false
+      }
+    },
+    {
+      "step": "emit_field",
+      "input": {
+        "name": "q1_who",
+        "value": "Diesel is a denim-led Italian fashion brand (founded 1978, Renzo Rosso) positioned explicitly as \"the true alternative to luxury\" — accessible-luxury / affordable-luxury tier, not mass. Under creative director Glenn Martens (since 2020) it has repositioned around denim, utility and Y2K pop aesthetics targeting a youth / digital-native audience. It is the founding brand of OTB Group (Breganze, Italy), alongside Maison Margiela, Marni, Jil Sander, Viktor&Rolf, plus Staff International (production/logistics, Dsquared2 licence), Brave Kid (kids licensees) and a stake in Amiri. Channel mix is shifting toward DTC: group retail/outlet/online now ~60% of turnover, with a sizeable but declining wholesale channel. Global footprint (~600 group directly-operated stores); strategic markets include Japan (27.4% of group business), North America, Middle East, plus new market entries (Mexico, Korea).",
+        "confidence": "high",
+        "sources": [
+          {
+            "title": "Glenn Martens on Diesel Fall 2024 (WWD)",
+            "url": "https://wwd.com/fashion-news/designer-luxury/diesel-glenn-martens-fall-2024-collection-preview-1236202470/",
+            "note": "'alternative to luxury', democratic/youth positioning"
+          },
+          {
+            "title": "OTB presents its 2025 full-year results",
+            "url": "https://www.otb.net/en/news/otb-presents-its-2025-full-year-results",
+            "note": "group structure, 600 stores, channel mix 60% direct"
+          },
+          {
+            "title": "Otb Group closes 2025 (Il Sole 24 Ore)",
+            "url": "https://en.ilsole24ore.com/art/otb-group-closes-2025-17-billion-revenue-record-profitability-diesel-AI4EKVSB",
+            "note": "brand portfolio, Japan 27.4%, markets"
+          }
+        ]
+      },
+      "result": {
+        "stored": "q1_who",
+        "fields_emitted": [
+          "q1_who"
+        ]
+      }
+    },
+    {
+      "step": "emit_field",
+      "input": {
+        "name": "q2_direction",
+        "value": "INNOVATING (brand); the group is playing efficiency catch-up. Trigger event = the 2020 appointment of Glenn Martens as creative director, which reset Diesel from an \"impersonal\", diluted 2010s denim label into a bold, youth-led, campaign-driven brand (first on-schedule Milan show 2021, livestreamed shows, free raves, It-bags like the 1DR). Editorial coverage documents a clear then-vs-now jump from heritage/impersonal denim toward irreverent, digital-native, campaign-style imagery over 2020–2025. NOTE: Wayback snapshot retrieval failed (tool timed out on two attempts), so the then-vs-now visual comparison is evidenced via dated editorial coverage rather than an archived snapshot — flag for human to pull an archive.org snapshot to confirm. Ongoing triggers: continued repositioning/rationalization, new market expansion (Mexico, Korea), and Martens now also leading sister-brand Margiela (halo effect). Live PDP audit shows the innovation is concentrated in campaigns while the PDP grid itself remains conventional clean-studio packshots — a gap Sartiq can close.",
+        "confidence": "med",
+        "is_estimate": true,
+        "assumption": "Then-vs-now imagery jump inferred from dated editorial coverage (2021 debut vs 2024–25) because the Wayback tool failed to return snapshots; a human should confirm with an archived diesel.com snapshot.",
+        "sources": [
+          {
+            "title": "Glenn Martens' subversive Diesel debut (The Face)",
+            "url": "https://theface.com/style/diesel-glenn-martens-debut-ss22-milan-fashion-week-style",
+            "note": "2021 relaunch, first on-schedule Milan show"
+          },
+          {
+            "title": "Glenn Martens Has a Plan to Make You Wear Diesel Again (Hypebeast)",
+            "url": "https://hypebeast.com/2021/6/glenn-martens-diesel-mfw-interview",
+            "note": "pre-Martens 'impersonal' era vs relaunch"
+          },
+          {
+            "title": "Glenn Martens on Diesel Fall 2024 (WWD)",
+            "url": "https://wwd.com/fashion-news/designer-luxury/diesel-glenn-martens-fall-2024-collection-preview-1236202470/",
+            "note": "livestreamed shows, digital-native audience, buzz"
+          }
+        ]
+      },
+      "result": {
+        "stored": "q2_direction",
+        "fields_emitted": [
+          "q1_who",
+          "q2_direction"
+        ]
+      }
+    },
+    {
+      "step": "emit_field",
+      "input": {
+        "name": "q3_momentum",
+        "value": "SPLIT — the brand and its parent diverge and need opposite pitches. DIESEL (brand) is WINNING: OTB reports Diesel achieved its highest profitability level in the last ten years in 2025 and contributed ~€44m of cash/profit to the group, on continued repositioning and DTC expansion. OTB GROUP (parent) is PRESSURED: FY2025 turnover ~€1.7bn, down 4.8% (net sales €1.6bn, -5% cc); EBITDA €237.3m (-14%); EBIT collapsed to €10.1m from €44m (-77%), driven by wholesale rationalization, store-opening investment, AI/innovation spend, and write-downs/costs from creative-director changes at Margiela, Jil Sander and Marni. Wholesale remains the drag; direct channels grew (~60% of turnover). Do NOT average into \"stable\": brand momentum is positive, group margin is squeezed. NEEDS HUMAN validation of the split framing before the call.",
+        "confidence": "high",
+        "needs_human": true,
+        "sources": [
+          {
+            "title": "OTB presents its 2025 full-year results",
+            "url": "https://www.otb.net/en/news/otb-presents-its-2025-full-year-results",
+            "note": "EBITDA 237.3m, EBIT 10.1m, positive Diesel profitability"
+          },
+          {
+            "title": "OTB Experiences Downturn (Modaes)",
+            "url": "https://www.modaes.com/global/companies/otb-falls-again-the-company-shrinks-sales-in-2025-and-reduces-its-ebitda-by-14",
+            "note": "EBIT -77%, Diesel best in a decade, CD-change write-downs"
+          },
+          {
+            "title": "OTB Group 2025 Results (nss magazine)",
+            "url": "https://www.nssmag.com/en/fashion/44307/otb-group-2025-financial-results-margiela-diesel",
+            "note": "Diesel ~EUR44m cash contribution; wholesale rationalization"
+          },
+          {
+            "title": "Maison Margiela drives growth for OTB (FashionUnited)",
+            "url": "https://fashionunited.in/news/business/maison-margiela-drives-growth-for-otb-group-amidst-overall-revenue-decrease/2026021753261",
+            "note": "Diesel highest profitability in ten years"
+          }
+        ]
+      },
+      "result": {
+        "stored": "q3_momentum",
+        "fields_emitted": [
+          "q1_who",
+          "q2_direction",
+          "q3_momentum"
+        ]
+      }
+    },
+    {
+      "step": "emit_field",
+      "input": {
+        "name": "q4_content_need",
+        "value": "Inputs supplied to compute_opportunity (I supply inputs only; the model computed the ranges): new_skus_per_year=4000, carryover_skus=3000, shots_per_sku=6.0 (MEASURED from live PDP audits), channel_variants=3.0, refresh_factor=0.4, partner_multiplier=5.0 (OTB group + wholesale reach), revenue_eur=700m (Diesel-brand ESTIMATE), tier=accessible-luxury. Model output: ~82,800–93,600 product images/year (mid ~88,200); the bottom-up annual opportunity range and a larger partner/group upside range were returned and passed the top-down revenue sanity check. Key value levers flagged: speed (weeks→hours), return-rate reduction via image accuracy, and near-zero-marginal-cost localization across markets/channels — directly relevant given the multi-market, multi-maison, wholesale-heavy footprint.",
+        "confidence": "med",
+        "is_estimate": true,
+        "assumption": "SKU volumes, channel variants, refresh and Diesel-brand revenue (€700m) are estimates (group is ~€1.7bn; Diesel not separately disclosed). Only shots_per_sku=6.0 is measured from live PDPs. Euro figures are computed downstream by compute_opportunity, not asserted here.",
+        "sources": [
+          {
+            "title": "compute_opportunity (deterministic model output)",
+            "url": "",
+            "note": "images/yr mid ~88,200; opportunity + partner-upside ranges; sanity_ok=true"
+          },
+          {
+            "title": "OTB 2025 results (revenue basis for top-down check)",
+            "url": "https://www.otb.net/en/news/otb-presents-its-2025-full-year-results",
+            "note": "group ~EUR1.7bn; Diesel brand not broken out"
+          }
+        ]
+      },
+      "result": {
+        "stored": "q4_content_need",
+        "fields_emitted": [
+          "q1_who",
+          "q2_direction",
+          "q3_momentum",
+          "q4_content_need"
+        ]
+      }
+    },
+    {
+      "step": "emit_field",
+      "input": {
+        "name": "q5_pdp",
+        "value": "MEASURED from live diesel.com PDP audits (sample across categories). Shots/SKU = 6 consistently (both a 1DR bag PDP and a 1995 denim PDP carried exactly 6 product images each). Image mix is category-dependent: APPAREL/denim is on-model heavy (~67% on-model, i.e. 4 of 6 worn shots on a model, plus 1 still-life + 1 detail), while ACCESSORIES/bags are still-life heavy (~67% still-life, with 1 on-model 'worn' shot + 1 detail). All images are shot on plain white studio backgrounds — clean, systematic, coherent packshot grid. NO video and NO lifestyle/campaign imagery observed on the PDPs themselves. Consistency is good at brand level (uniform white-background template), classifier flagged 'medium' within-set. Cross-channel note: wholesale partners (the declining channel) and sister maisons need the same consistent asset style at lower cost. Key insight: Diesel's campaign/brand energy is bold and youth-led, but the PDP grid stays conventional and studio-clean — a clear wedge for Sartiq (add on-model variety, video, and localized variants without studio cost).",
+        "confidence": "high",
+        "sources": [
+          {
+            "title": "audit_pdp — 1DR bag (X08396PR818T8013)",
+            "url": "https://diesel.com/en-us/shoulder-bags/1dr-black/X08396PR818T8013.html",
+            "note": "6 product images; classifier: ~67% still-life, 1 on-model, 1 detail"
+          },
+          {
+            "title": "audit_pdp — 1995 D-Sark denim (A03568007E601)",
+            "url": "https://diesel.com/en-us/straight-jeans/straight-jeans-1995-d-sark-007e6-blue/A03568007E601.html",
+            "note": "6 product images; classifier: ~67% on-model, 1 still-life, 1 detail"
+          }
+        ]
+      },
+      "result": {
+        "stored": "q5_pdp",
+        "fields_emitted": [
+          "q1_who",
+          "q2_direction",
+          "q3_momentum",
+          "q4_content_need",
+          "q5_pdp"
+        ]
+      }
+    },
+    {
+      "step": "emit_field",
+      "input": {
+        "name": "q6_decision_maker",
+        "value": "TWO functions to target (coordinated group digital strategy): (1) Diesel brand Digital / E-commerce lead (owns the diesel.com PDP experience and brand imagery) — pitch INNOVATION; and (2) OTB Group central digital / CIO / Group Chief Digital Officer (owns coordinated group platforms and the AI-investment agenda cited in results) — pitch EFFICIENCY across maisons + wholesale. OTB explicitly states it is investing in AI across departments and supply chain, so a group-level digital/innovation owner is a live buyer. NAMES NOT RESOLVED: enrichment returned only target titles (no people-data provider configured); a human must identify and validate the actual individuals via LinkedIn/OTB.",
+        "confidence": "low",
+        "needs_human": true,
+        "is_estimate": true,
+        "assumption": "Roles inferred from org structure and OTB's stated AI/digital investment; specific names unavailable from enrichment and must be human-validated.",
+        "sources": [
+          {
+            "title": "OTB 2025 results — AI/digital investment across departments & supply chain",
+            "url": "https://www.otb.net/en/news/otb-presents-its-2025-full-year-results",
+            "note": "evidence a group digital/innovation owner exists and is buying AI"
+          },
+          {
+            "title": "enrich_people (diesel.com + otb.net)",
+            "url": "",
+            "note": "returned target titles only; needs_human=true"
+          }
+        ]
+      },
+      "result": {
+        "stored": "q6_decision_maker",
+        "fields_emitted": [
+          "q1_who",
+          "q2_direction",
+          "q3_momentum",
+          "q4_content_need",
+          "q5_pdp",
+          "q6_decision_maker"
+        ]
+      }
+    },
+    {
+      "step": "emit_field",
+      "input": {
+        "name": "q7_contact",
+        "value": "Cold entry (no evidenced warm path). Run TWO parallel threads with a DUAL pitch. To the DIESEL brand digital/e-commerce lead: lead with INNOVATION — Diesel is winning (best profitability in a decade, youth/digital-native, opening flagships), so position Sartiq as distinctive AI on-model + video imagery that keeps the PDP grid as bold as the campaigns, plus localized variants. To OTB GROUP central digital: lead with EFFICIENCY / cost-out — with wholesale in decline and EBIT squeezed to ~€10m, offer consistent, commodity-cost assets across maisons and wholesale partners. Hook: \"Diesel is having its best year in a decade while OTB's margin is squeezed — same group, opposite problems; one supplier, two playbooks.\" State the split explicitly. NEEDS HUMAN to confirm contacts and any warm intro before outreach.",
+        "confidence": "med",
+        "needs_human": true,
+        "sources": [
+          {
+            "title": "OTB 2025 results",
+            "url": "https://www.otb.net/en/news/otb-presents-its-2025-full-year-results",
+            "note": "EBIT 10.1m, wholesale rationalization, Diesel profitability — basis for dual pitch"
+          },
+          {
+            "title": "Modaes — OTB downturn",
+            "url": "https://www.modaes.com/global/companies/otb-falls-again-the-company-shrinks-sales-in-2025-and-reduces-its-ebitda-by-14",
+            "note": "margin pressure basis for efficiency angle"
+          }
+        ]
+      },
+      "result": {
+        "stored": "q7_contact",
+        "fields_emitted": [
+          "q1_who",
+          "q2_direction",
+          "q3_momentum",
+          "q4_content_need",
+          "q5_pdp",
+          "q6_decision_maker",
+          "q7_contact"
+        ]
+      }
+    },
+    {
+      "step": "emit_field",
+      "input": {
+        "name": "gap",
+        "value": "Diesel and OTB need OPPOSITE things from the same supplier. Diesel (winning, youth-led, digital-native) needs INNOVATION — its campaigns are bold but its PDP grid is conventional clean-studio packshots (measured: 6 white-background shots/SKU, no video, no lifestyle), so it needs distinctive on-model + video + localized imagery that keeps pace with a Gen-Z audience. OTB group (margin-pressured, EBIT ~€10m, wholesale declining) needs EFFICIENCY — cheap, consistent assets across five maisons, Brave Kid licensees and a bleeding wholesale channel. The gap is one partner that plays both: premium AI imagery to fuel Diesel's winning digital push, and commodity-cost consistency to stop the bleed for the group and its wholesale partners.",
+        "confidence": "med",
+        "needs_human": true,
+        "sources": [
+          {
+            "title": "PDP audits (diesel.com)",
+            "url": "https://diesel.com/en-us/straight-jeans/straight-jeans-1995-d-sark-007e6-blue/A03568007E601.html",
+            "note": "6 shots/SKU, white studio, no video — conventional PDP grid"
+          },
+          {
+            "title": "OTB 2025 results (nss magazine)",
+            "url": "https://www.nssmag.com/en/fashion/44307/otb-group-2025-financial-results-margiela-diesel",
+            "note": "wholesale rationalization + Diesel strength — the split"
+          }
+        ]
+      },
+      "result": {
+        "stored": "gap",
+        "fields_emitted": [
+          "gap",
+          "q1_who",
+          "q2_direction",
+          "q3_momentum",
+          "q4_content_need",
+          "q5_pdp",
+          "q6_decision_maker",
+          "q7_contact"
+        ]
+      }
+    },
+    {
+      "step": "emit_field",
+      "input": {
+        "name": "strategy",
+        "value": "DUAL playbook — state the split explicitly. Thread 1 (Diesel brand digital/e-commerce): INNOVATION. Opening: \"Diesel is winning — best profitability in ten years, youth-led, opening flagships — so we bring innovation: distinctive AI on-model and video that makes your PDP grid as bold as your campaigns, plus localized variants at near-zero marginal cost.\" Thread 2 (OTB central digital/CIO): EFFICIENCY. Opening: \"With wholesale down and EBIT squeezed to ~€10m, your maisons and wholesale partners need consistent assets at commodity cost — one pipeline across the group.\" One supplier, two playbooks; ask which thread to start. Both threads cold; both need human validation of named contacts. Leverage levers: speed (weeks→hours), return-rate reduction via accuracy, localization.",
+        "confidence": "med",
+        "needs_human": true,
+        "sources": [
+          {
+            "title": "OTB 2025 results",
+            "url": "https://www.otb.net/en/news/otb-presents-its-2025-full-year-results",
+            "note": "financials underpinning dual pitch"
+          },
+          {
+            "title": "WWD — Diesel youth/digital-native positioning",
+            "url": "https://wwd.com/fashion-news/designer-luxury/diesel-glenn-martens-fall-2024-collection-preview-1236202470/",
+            "note": "innovation angle for Diesel thread"
+          }
+        ]
+      },
+      "result": {
+        "stored": "strategy",
+        "fields_emitted": [
+          "gap",
+          "q1_who",
+          "q2_direction",
+          "q3_momentum",
+          "q4_content_need",
+          "q5_pdp",
+          "q6_decision_maker",
+          "q7_contact",
+          "strategy"
+        ]
+      }
+    }
+  ]
+}

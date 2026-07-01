@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brand Brief — Diesel</title>
+  <style>/* Brand Brief — editorial one-pager.
+   Swiss-International influence: a hard grid, a single accent, disciplined
+   type contrast. Tuned to fit A4 / Letter on one page for the PDF path. */
+
+:root {
+  --ink: #14110f;
+  --paper: #fbfaf7;
+  --muted: #6f6a63;
+  --hair: #d9d4cc;
+  --accent: #b5331f; /* oxide red */
+  --accent-soft: #f3e4df;
+  --flag: #9a6a00;
+  --human: #2c5f4f;
+
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --mono: "SF Mono", "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+
+@page {
+  size: A4;
+  margin: 12mm 14mm;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 9.4pt;
+  line-height: 1.4;
+}
+
+.sheet {
+  max-width: 200mm;
+  margin: 0 auto;
+  padding: 10mm 4mm;
+}
+
+/* ---- masthead ------------------------------------------------------------ */
+.masthead {
+  border-bottom: 2.5pt solid var(--ink);
+  padding-bottom: 6pt;
+  margin-bottom: 10pt;
+}
+
+.kicker {
+  font-family: var(--mono);
+  font-size: 7.5pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.masthead h1 {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 30pt;
+  line-height: 0.96;
+  margin: 2pt 0 5pt;
+  letter-spacing: -0.01em;
+}
+
+.scoreline {
+  display: flex;
+  align-items: baseline;
+  gap: 10pt;
+  flex-wrap: wrap;
+}
+
+.score {
+  font-family: var(--mono);
+  font-size: 12pt;
+  font-weight: 700;
+  color: var(--paper);
+  background: var(--accent);
+  padding: 1.5pt 6pt;
+  border-radius: 2pt;
+}
+
+.rank {
+  font-family: var(--mono);
+  font-size: 9pt;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+  text-transform: uppercase;
+}
+
+.positioning {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 11pt;
+  color: var(--ink);
+}
+
+.meta {
+  margin-top: 4pt;
+  font-size: 8.4pt;
+  color: var(--muted);
+}
+
+.meta .label {
+  font-family: var(--mono);
+  font-size: 7pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+/* ---- numbered answer grid ----------------------------------------------- */
+.answers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7pt 16pt;
+}
+
+.qa {
+  break-inside: avoid;
+  padding-bottom: 1pt;
+}
+
+.qa .num {
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 7.5pt;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  display: inline-block;
+  margin-right: 4pt;
+}
+
+.qa .label {
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 7.5pt;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.qa .body {
+  margin-top: 1.5pt;
+  font-size: 9pt;
+}
+
+.qa .src {
+  display: block;
+  margin-top: 1.5pt;
+  font-size: 7pt;
+  color: var(--muted);
+  font-style: italic;
+}
+
+/* tags ---------------------------------------------------------------------*/
+.tag {
+  font-family: var(--mono);
+  font-size: 6.5pt;
+  letter-spacing: 0.08em;
+  padding: 0.5pt 3pt;
+  border-radius: 2pt;
+  margin-left: 3pt;
+  vertical-align: 1pt;
+  white-space: nowrap;
+}
+
+.tag-human {
+  color: var(--human);
+  background: #e3efe9;
+}
+
+.tag-flag {
+  color: var(--paper);
+  background: var(--flag);
+}
+
+.tag-est {
+  color: var(--muted);
+  border: 0.5pt solid var(--hair);
+}
+
+/* ---- economics panel ----------------------------------------------------- */
+.econ {
+  grid-column: 1 / -1;
+  margin: 4pt 0;
+  border: 1pt solid var(--ink);
+  background: var(--accent-soft);
+  padding: 7pt 9pt;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3pt 14pt;
+  break-inside: avoid;
+}
+
+.econ .big {
+  grid-column: span 1;
+}
+
+.econ .figure {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 17pt;
+  line-height: 1;
+  color: var(--accent);
+}
+
+.econ .cap {
+  font-family: var(--mono);
+  font-size: 6.8pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.econ .cross {
+  grid-column: 1 / -1;
+  font-size: 7.6pt;
+  color: var(--muted);
+  border-top: 0.5pt dashed var(--hair);
+  padding-top: 3pt;
+}
+
+.gate-ok {
+  color: var(--human);
+  font-weight: 700;
+}
+
+.gate-bad {
+  color: var(--flag);
+  font-weight: 700;
+}
+
+/* ---- judgment block ------------------------------------------------------ */
+.judgment {
+  margin-top: 9pt;
+  border-top: 1.5pt solid var(--ink);
+  padding-top: 7pt;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7pt 16pt;
+}
+
+.block h2 {
+  font-family: var(--mono);
+  font-size: 8pt;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin: 0 0 2pt;
+  color: var(--accent);
+}
+
+.block p {
+  margin: 0;
+  font-size: 9pt;
+}
+
+.gap-wide,
+.approach-wide {
+  grid-column: 1 / -1;
+}
+
+.approach dl {
+  margin: 2pt 0 0;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 1.5pt 7pt;
+  font-size: 8.6pt;
+}
+
+.approach dt {
+  font-family: var(--mono);
+  font-size: 7pt;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.approach dd {
+  margin: 0;
+}
+
+.confidence {
+  grid-column: 1 / -1;
+  font-size: 8pt;
+  color: var(--muted);
+  border-top: 0.5pt dashed var(--hair);
+  padding-top: 5pt;
+}
+
+/* ---- footer / sources ---------------------------------------------------- */
+.colophon {
+  margin-top: 8pt;
+  border-top: 0.5pt solid var(--hair);
+  padding-top: 4pt;
+  font-size: 6.8pt;
+  color: var(--muted);
+  display: flex;
+  justify-content: space-between;
+  gap: 10pt;
+}
+
+.colophon .sources {
+  flex: 1;
+}
+
+.colophon .mode {
+  font-family: var(--mono);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* AI-draft -> human-override delta — the visible judgment moment (§11/§12b). */
+.delta {
+  margin-top: 5pt;
+  padding: 5pt 9pt;
+  border-left: 2.5pt solid var(--human);
+  background: #f3f6f4;
+}
+.delta .d-draft {
+  display: block;
+  color: var(--muted);
+  font-size: 8.6pt;
+  line-height: 1.36;
+}
+.delta .d-draft b,
+.delta .d-human b {
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+}
+.delta .d-draft b {
+  color: var(--muted);
+}
+.delta .d-human {
+  display: block;
+  margin-top: 3pt;
+  color: var(--human);
+  font-size: 8.8pt;
+  line-height: 1.38;
+}
+.econ-delta {
+  margin-top: 7pt;
+}
+
+/* operator-confirmed tag (the review form sets human_confirmed). */
+.tag-ok {
+  color: #1f7a4d;
+  border-color: #bfe0cd;
+  background: #eef7f1;
+}
+
+</style>
+</head>
+<body>
+<main class="sheet">
+
+  <header class="masthead">
+    <div class="kicker">Brand Brief</div>
+    <h1>Diesel</h1>
+    <div class="scoreline">
+      <span class="score">3.6/5</span>
+      <span class="positioning">Denim-led, youth, repositioned as &#39;the true alternative to luxury&#39;</span>
+    </div>
+    <div class="meta">
+      <span class="label">Parent</span> OTB Group (Diesel, Margiela, Marni, Jil Sander, Viktor&amp;Rolf + Brave Kid)
+      &nbsp;·&nbsp; <span class="label">Markets</span> Global; flagships opening (Berlin, Seoul); ~600+ stores (group)
+<br><span class="label">Partners</span> Maison Margiela, Marni, Jil Sander, Viktor&amp;Rolf, Brave Kid licensees (Diesel Kid, Dsquared², Marni, N21, Trussardi), Amiri (OTB strategic stake), wholesale partners    </div>
+  </header>
+
+  <section class="answers">
+    <div class="qa">
+  <div><span class="num">1</span><span class="label">Who</span></div>
+  <div class="body">Diesel is a denim-led Italian fashion brand (founded 1978, Renzo Rosso) positioned explicitly as &#34;the true alternative to luxury&#34; — accessible-luxury / affordable-luxury tier, not mass. Under creative director Glenn Martens (since 2020) it has repositioned around denim, utility and Y2K pop aesthetics targeting a youth / digital-native audience. It is the founding brand of OTB Group (Breganze, Italy), alongside Maison Margiela, Marni, Jil Sander, Viktor&amp;Rolf, plus Staff International (production/logistics, Dsquared2 licence), Brave Kid (kids licensees) and a stake in Amiri. Channel mix is shifting toward DTC: group retail/outlet/online now ~60% of turnover, with a sizeable but declining wholesale channel. Global footprint (~600 group directly-operated stores); strategic markets include Japan (27.4% of group business), North America, Middle East, plus new market entries (Mexico, Korea).</div>
+  <span class="src">Glenn Martens on Diesel Fall 2024 (WWD) — https://wwd.com/fashion-news/designer-luxury/diesel-glenn-martens-fall-2024-collection-preview-1236202470/ · OTB presents its 2025 full-year results — https://www.otb.net/en/news/otb-presents-its-2025-full-year-results · Otb Group closes 2025 (Il Sole 24 Ore) — https://en.ilsole24ore.com/art/otb-group-closes-2025-17-billion-revenue-record-profitability-diesel-AI4EKVSB</span>
+  
+</div>
+    <div class="qa">
+  <div><span class="num">2</span><span class="label">Direction</span><span class="tag tag-est">est</span></div>
+  <div class="body">INNOVATING (brand); the group is playing efficiency catch-up. Trigger event = the 2020 appointment of Glenn Martens as creative director, which reset Diesel from an &#34;impersonal&#34;, diluted 2010s denim label into a bold, youth-led, campaign-driven brand (first on-schedule Milan show 2021, livestreamed shows, free raves, It-bags like the 1DR). Editorial coverage documents a clear then-vs-now jump from heritage/impersonal denim toward irreverent, digital-native, campaign-style imagery over 2020–2025. NOTE: Wayback snapshot retrieval failed (tool timed out on two attempts), so the then-vs-now visual comparison is evidenced via dated editorial coverage rather than an archived snapshot — flag for human to pull an archive.org snapshot to confirm. Ongoing triggers: continued repositioning/rationalization, new market expansion (Mexico, Korea), and Martens now also leading sister-brand Margiela (halo effect). Live PDP audit shows the innovation is concentrated in campaigns while the PDP grid itself remains conventional clean-studio packshots — a gap Sartiq can close.</div>
+  <span class="src">Glenn Martens&#39; subversive Diesel debut (The Face) — https://theface.com/style/diesel-glenn-martens-debut-ss22-milan-fashion-week-style · Glenn Martens Has a Plan to Make You Wear Diesel Again (Hypebeast) — https://hypebeast.com/2021/6/glenn-martens-diesel-mfw-interview · Glenn Martens on Diesel Fall 2024 (WWD) — https://wwd.com/fashion-news/designer-luxury/diesel-glenn-martens-fall-2024-collection-preview-1236202470/</span>
+  
+</div>
+    <div class="qa">
+  <div><span class="num">3</span><span class="label">Momentum</span><span class="tag tag-human">░ human ░</span><span class="tag tag-ok">✓ confirmed</span></div>
+  <div class="body">SPLIT: Group OTB ~€1.7bn, −4.8%, EBIT squeezed to ~€10m by creative-director changes / write-downs, wholesale −14.7%. BUT Diesel itself posted its best profitability in 10 years, youth-led, opening flagships. The brand and the group need OPPOSITE pitches. Knowing the internal situation of the brand most of the top decisions are made by the founder (belly- driven), they are looking at efficiency, the group is looking to grow, active in other deals.</div>
+  <span class="src">OTB FY2025 results / press — https://www.otb.net · FashionNetwork / Modaes coverage — https://www.fashionnetwork.com</span>
+  <div class="delta"><span class="d-draft"><b>⟲ AI draft —</b> STRUGGLING — OTB group −4.8%, EBIT squeezed to ~€10m, wholesale −14.7%: the group is in decline.</span><span class="d-human"><b>░ human ░ why I changed it —</b> The machine reads the group P&amp;L and calls it struggling. But Diesel-the-brand posted its best profitability in 10 years — so the read is SPLIT, not struggling: the brand is winning while the group is pressured, and they need OPPOSITE pitches (innovation to Diesel, efficiency to OTB). The operator knows the brand story the group number hides.</span></div>
+</div>
+    <div class="qa">
+  <div><span class="num">5</span><span class="label">On the PDPs</span></div>
+  <div class="body">MEASURED from live diesel.com PDP audits (sample across categories). Shots/SKU = 6 consistently (both a 1DR bag PDP and a 1995 denim PDP carried exactly 6 product images each). Image mix is category-dependent: APPAREL/denim is on-model heavy (~67% on-model, i.e. 4 of 6 worn shots on a model, plus 1 still-life + 1 detail), while ACCESSORIES/bags are still-life heavy (~67% still-life, with 1 on-model &#39;worn&#39; shot + 1 detail). All images are shot on plain white studio backgrounds — clean, systematic, coherent packshot grid. NO video and NO lifestyle/campaign imagery observed on the PDPs themselves. Consistency is good at brand level (uniform white-background template), classifier flagged &#39;medium&#39; within-set. Cross-channel note: wholesale partners (the declining channel) and sister maisons need the same consistent asset style at lower cost. Key insight: Diesel&#39;s campaign/brand energy is bold and youth-led, but the PDP grid stays conventional and studio-clean — a clear wedge for Sartiq (add on-model variety, video, and localized variants without studio cost).</div>
+  <span class="src">audit_pdp — 1DR bag (X08396PR818T8013) — https://diesel.com/en-us/shoulder-bags/1dr-black/X08396PR818T8013.html · audit_pdp — 1995 D-Sark denim (A03568007E601) — https://diesel.com/en-us/straight-jeans/straight-jeans-1995-d-sark-007e6-blue/A03568007E601.html</span>
+  
+</div>
+    <div class="qa">
+  <div><span class="num">4</span><span class="label">Content need</span><span class="tag tag-human">░ human ░</span><span class="tag tag-ok">✓ confirmed</span><span class="tag tag-est">est</span></div>
+  <div class="body">~69,000–78,000 images/yr across own site + marketplace + market/localization variants (new SKUs + seasonal refresh). </div>
+  
+  <div class="delta"><span class="d-draft"><b>⟲ AI draft —</b> Inputs supplied to compute_opportunity (I supply inputs only; the model computed the ranges): new_skus_per_year=4000, carryover_skus=3000, shots_per_sku=6.0 (MEASURED from live PDP audits), channel_variants=3.0, refresh_factor=0.4, partner_multiplier=5.0 (OTB group + wholesale reach), revenue_eur=700m (Diesel-brand ESTIMATE), tier=accessible-luxury. Model output: ~82,800–93,600 product images/year</span><span class="d-human"><b>░ human ░ why I changed it —</b> operator sharpened the AI draft with industry judgment</span></div>
+</div>
+
+    <div class="econ">
+      <div class="big">
+        <div class="figure">€1.0-4.7M</div>
+        <div class="cap">Sartiq opportunity · brand / yr</div>
+        <div class="cap" style="color:var(--muted);text-transform:none;letter-spacing:0">studio spend est. €5.0-23.4M/yr → ~20% capture</div>
+      </div>
+      <div class="big">
+        <div class="figure">€4.0-18.7M</div>
+        <div class="cap">+ group brands / yr</div>
+      </div>
+<div class="cross" style="grid-column:1 / -1"><b>Group brands</b> — est. Sartiq opportunity each (needs human): Maison Margiela €0.6-2.7M · Marni €0.6-2.7M · Jil Sander €0.6-2.7M · Viktor&amp;Rolf €0.6-2.7M · Brave Kid licensees (Diesel Kid, Dsquared², Marni, N21, Trussardi) €0.6-2.7M · Amiri (OTB strategic stake) €0.6-2.7M · wholesale partners €0.6-2.7M</div>      <div class="cross">
+        Top-down cross-check €0.7-2.8M/yr ·
+        sanity gate <span class="gate-ok">OK</span>        · levers: speed (weeks -&gt; hours) · return-rate reduction (image accuracy) · localization at near-zero marginal cost
+      </div>
+<div class="delta econ-delta"><span class="d-draft"><b>⟲ AI draft —</b> €1.3-8.4M/yr (flat agency rate, tier-blind)</span><span class="d-human"><b>░ human ░ reframed —</b> accessible-luxury-tier production runs €60-250/image, not the flat agency rate — so the studio spend (and Sartiq&#39;s ~20% of it) rests on the tier-aware band, not the ~€5M draft.</span></div>    </div>
+
+    <div class="qa">
+  <div><span class="num">6</span><span class="label">Decision-maker</span><span class="tag tag-human">░ human ░</span><span class="tag tag-ok">✓ confirmed</span></div>
+  <div class="body">Diesel Digital/E-commerce lead AND OTB central digital (coordinated group strategy). Erica Panassidi (digital merch and content manager, diesel) Alice Antoniolli (chief marketing officer, Diesel), Nour Almouradi (Digital executive OTB). we could get to them through Angelo Ciscato (ex director of merch).</div>
+  <span class="src">OTB / Diesel LinkedIn — https://www.linkedin.com/company/otb-group</span>
+  <div class="delta"><span class="d-draft"><b>⟲ AI draft —</b> TWO functions to target (coordinated group digital strategy): (1) Diesel brand Digital / E-commerce lead (owns the diesel.com PDP experience and brand imagery) — pitch INNOVATION; and (2) OTB Group central digital / CIO / Group Chief Digital Officer (owns coordinated group platforms and the AI-investment agenda cited in results) — pitch EFFICIENCY across maisons + wholesale. OTB explicitly states </span><span class="d-human"><b>░ human ░ why I changed it —</b> operator sharpened the AI draft with industry judgment</span></div>
+</div>
+    <div class="qa">
+  <div><span class="num">7</span><span class="label">Contact</span><span class="tag tag-human">░ human ░</span><span class="tag tag-ok">✓ confirmed</span><span class="tag tag-est">est</span></div>
+  <div class="body">DUAL pitch. To Diesel: INNOVATION (it&#39;s winning, investing, youth/digital-native). To OTB group / central digital: EFFICIENCY / cost-cutting (margin pressure, write-downs, a bleeding wholesale channel whose partners need cheap, consistent assets). State the split explicitly — the machine wouldn&#39;t infer it.  Warm path: Angelo Ciscato</div>
+  <span class="src">OTB / Diesel LinkedIn — https://www.linkedin.com/company/otb-group</span>
+  <div class="delta"><span class="d-draft"><b>⟲ AI draft —</b> Cold entry (no evidenced warm path). Run TWO parallel threads with a DUAL pitch. To the DIESEL brand digital/e-commerce lead: lead with INNOVATION — Diesel is winning (best profitability in a decade, youth/digital-native, opening flagships), so position Sartiq as distinctive AI on-model + video imagery that keeps the PDP grid as bold as the campaigns, plus localized variants. To OTB GROUP central </span><span class="d-human"><b>░ human ░ why I changed it —</b> operator sharpened the AI draft with industry judgment</span></div>
+</div>
+  </section>
+
+  <section class="judgment">
+    <div class="block gap-wide">
+      <h2>The gap we fill <span class="tag tag-human">░ human ░</span> <span class="tag tag-ok">✓ confirmed</span></h2>
+      <p>Diesel and OTB need OPPOSITE things from the same supplier — and Sartiq is the one partner who plays both. Diesel the brand is winning (best profitability in a decade, youth-led, digital-native) yet its PDP grid contradicts its own campaigns: measured audits show a uniform 6-shot, plain-white studio packshot template with NO video and NO lifestyle imagery, while the brand&#39;s marketing is bold, irreverent and Gen-Z. That is the concrete wedge — the PDP grid is a decade behind the campaign energy. Meanwhile OTB the parent is margin-crushed (EBIT collapsed ~77% to ~€10.1m, wholesale in rationalization) and needs consistent assets across five maisons, Brave Kid licensees and a shrinking wholesale channel at commodity cost. One supplier: premium AI on-model + video + localized variants to keep Diesel&#39;s PDP as bold as its campaigns, and commodity-cost consistency to stop the bleed for the group.</p>
+      
+    </div>
+    <div class="block">
+      <h2>Strategy <span class="tag tag-human">░ human ░</span> <span class="tag tag-ok">✓ confirmed</span></h2>
+      <p>DUAL playbook — state the split out loud, because the brand and the parent hear different things. Thread 1 → Diesel brand digital/e-commerce lead: INNOVATION. Diesel is having its best year in ten years, so the pitch is not price — it is distinctive AI on-model and video that closes the gap between the bold campaigns and the conventional white-background PDP grid, plus localized variants across Japan (27.4%), North America, Middle East and new-market entries (Mexico, Korea) at near-zero marginal cost. Thread 2 → OTB group central digital / CIO (who is already buying AI per the FY2025 results): EFFICIENCY. With wholesale declining and EBIT at ~€10m, offer one imagery pipeline delivering consistent assets across the maisons and wholesale partners at commodity cost. Open with the tension itself and ask which thread to start. Both threads are cold; both require a named human before contact.</p>
+      
+    </div>
+    <div class="block approach">
+      <h2>Approach <span class="tag tag-human">░ human ░</span> <span class="tag tag-ok">✓ confirmed</span></h2>
+      <dl>
+        <dt>Hook</dt><dd>&#34;Diesel is having its best year in a decade while OTB&#39;s margin is squeezed to ~€10m EBIT — same group, opposite problems. One supplier, two playbooks: innovation for the brand, cost-out for the group.&#34;</dd>
+        <dt>Channel</dt><dd>Warm outbound, two parallel threads (LinkedIn + email).</dd>
+        <dt>To whom</dt><dd>Thread 1: Diesel brand Digital / E-commerce lead (owns diesel.com PDP + brand imagery). Thread 2: OTB Group central digital / CIO / Chief Digital Officer (owns coordinated group platforms and the stated AI-investment agenda). NAMES NOT RESOLVED — titles only; a human must identify the actual individuals via LinkedIn/OTB.</dd>
+        <dt>Opening</dt><dd>to be discussed </dd>
+      </dl>
+    </div>
+    <div class="confidence">
+      <strong>Confidence —</strong> Directional-to-firm. HIGH confidence on the core wedge: PDP audit is measured (6 shots/SKU, white studio, no video/lifestyle on two live PDPs) and the SPLIT (Diesel winning vs OTB margin-pressured) is sourced from FY2025 results. MEDIUM on the economics and direction: SKU volumes, channel variants, refresh and the €700m Diesel-brand revenue are ESTIMATES (Diesel is not separately disclosed within OTB&#39;s ~€1.7bn); only shots_per_sku is measured. The then-vs-now visual jump is inferred from dated editorial, not an archived snapshot — Wayback retrieval failed; a human should pull a diesel.com archive snapshot to confirm. NEEDS HUMAN: (1) validate the split framing before the call; (2) identify and confirm the named Diesel digital lead and OTB group digital owner — no people-data was resolved; (3) confirm the contact path / any warm intro before outreach. Vision self-consistency: 80% label agreement across two independent passes on 5 images from this run.
+    </div>
+  </section>
+
+  <footer class="colophon">
+    <div class="sources">
+<strong>Sources:</strong>
+Glenn Martens on Diesel Fall 2024 (WWD) (https://wwd.com/fashion-news/designer-luxury/diesel-glenn-martens-fall-2024-collection-preview-1236202470/) · OTB presents its 2025 full-year results (https://www.otb.net/en/news/otb-presents-its-2025-full-year-results) · Otb Group closes 2025 (Il Sole 24 Ore) (https://en.ilsole24ore.com/art/otb-group-closes-2025-17-billion-revenue-record-profitability-diesel-AI4EKVSB) · Glenn Martens&#39; subversive Diesel debut (The Face) (https://theface.com/style/diesel-glenn-martens-debut-ss22-milan-fashion-week-style) · Glenn Martens Has a Plan to Make You Wear Diesel Again (Hypebeast) (https://hypebeast.com/2021/6/glenn-martens-diesel-mfw-interview) · OTB FY2025 results / press (https://www.otb.net) · FashionNetwork / Modaes coverage (https://www.fashionnetwork.com) · audit_pdp — 1DR bag (X08396PR818T8013) (https://diesel.com/en-us/shoulder-bags/1dr-black/X08396PR818T8013.html) · audit_pdp — 1995 D-Sark denim (A03568007E601) (https://diesel.com/en-us/straight-jeans/straight-jeans-1995-d-sark-007e6-blue/A03568007E601.html) · OTB / Diesel LinkedIn (https://www.linkedin.com/company/otb-group)    </div>
+    <div class="mode">Mode · live</div>
+  </footer>
+
+</main>
+</body>
+</html>
