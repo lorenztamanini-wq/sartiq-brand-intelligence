@@ -56,7 +56,7 @@ python cli.py "OVS" --out mydir --no-open
 ## Where the output lands
 Everything is written to **`output/`**: each brief as `.md` / `.html` / `.json`,
 plus **`index.html`** (the ranked "prioritization dashboard") and a CSV/MD sheet.
-Example briefs are checked in under **`samples/`**.
+Run `make demo` to generate a set for OVS / Sandro / Diesel.
 
 ## Configuration (optional, via `.env`)
 | Variable | Default | What it does |
@@ -68,11 +68,6 @@ Example briefs are checked in under **`samples/`**.
 | `BRAND_BRIEF_MAX_TOOL_CALLS` | `25` | agent guardrail |
 | `BRAND_BRIEF_WALL_CLOCK_S` | `300` | agent time budget |
 | `BRAND_BRIEF_PDP_SAMPLE` | `30` | product pages sampled per brand |
-
-## Tests
-```bash
-make test       # 80 tests, no key/network required
-```
 
 ---
 *Offline mode always works (no key, no network). Live mode digs with Claude when a key

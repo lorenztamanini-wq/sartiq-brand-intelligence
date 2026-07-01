@@ -71,6 +71,16 @@
     flex-wrap:wrap;gap:10px}
   footer .mono{background:none;padding:0}
   @media(max-width:560px){.qgrid,.run{grid-template-columns:1fr}}
+  /* print / PDF — keep the cream paper, accents and diagrams; avoid ugly splits */
+  @page{size:A4;margin:13mm 14mm}
+  @media print{
+    html,body{background:var(--paper)}
+    *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    .page{max-width:none;padding:0}
+    figure,.tech,.q,.run>div,ol.steps li,pre{break-inside:avoid}
+    h1,h2{break-after:avoid}
+    section{break-inside:avoid}
+  }
 </style>
 </head>
 <body>
