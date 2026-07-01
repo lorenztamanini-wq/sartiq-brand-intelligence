@@ -35,13 +35,20 @@ def brand_slug(brand: str) -> str:
 def rank_briefs(briefs: list[Brief]) -> list[Brief]:
     """Sort briefs by `opportunity_score` desc (stable) and set 1-based `rank`.
 
-    Returns the sorted list. Ties keep their original relative order so the
-    ranking is deterministic for equal scores.
+    Only *grounded* briefs are ranked. A brief whose brand the live run could
+    not establish (blocked site, no ground truth) is left unranked
+    (`rank = None`) and pushed to the end, so a default-derived number can
+    never occupy a slot on the priority list. Ties keep their original relative
+    order so the ranking is deterministic for equal scores.
     """
-    ranked = sorted(briefs, key=lambda b: b.opportunity_score, reverse=True)
+    grounded = [b for b in briefs if b.is_grounded]
+    ungrounded = [b for b in briefs if not b.is_grounded]
+    ranked = sorted(grounded, key=lambda b: b.opportunity_score, reverse=True)
     for i, brief in enumerate(ranked, start=1):
         brief.rank = i
-    return ranked
+    for brief in ungrounded:
+        brief.rank = None
+    return ranked + ungrounded
 
 
 def _eur_range(low: float, high: float) -> str:

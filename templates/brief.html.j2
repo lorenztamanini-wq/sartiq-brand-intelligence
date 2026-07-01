@@ -31,11 +31,20 @@
   <header class="masthead">
     <div class="kicker">Brand Brief</div>
     <h1>{{ brief.brand }}</h1>
+    {% if brief.is_grounded %}
     <div class="scoreline">
       <span class="score">{{ brief.opportunity_score }}/5</span>
       {% if brief.rank %}<span class="rank">Rank #{{ brief.rank }}</span>{% endif %}
       <span class="positioning">{{ brief.positioning }}</span>
     </div>
+    {% else %}
+    <div class="scoreline" style="color:var(--accent)">
+      <span class="positioning">⚠ Insufficient live data — not ranked. The site
+      blocked automated research and the brand couldn't be established; any score
+      and € below are provisional estimates over an unread brand. Re-run or
+      complete by hand.</span>
+    </div>
+    {% endif %}
     <div class="meta">
       <span class="label">Parent</span> {{ brief.parent_group }}
       &nbsp;·&nbsp; <span class="label">Markets</span> {{ brief.markets }}

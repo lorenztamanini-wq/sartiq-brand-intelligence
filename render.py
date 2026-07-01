@@ -129,8 +129,15 @@ def render_index(briefs: list[Brief]) -> str:
             "mode": b.generated_mode,
         }
         for b in briefs
+        if b.is_grounded
     ]
-    return env.get_template("index.html.j2").render(rows=rows)
+    # Briefs the live run couldn't establish are listed but never ranked.
+    unranked = [
+        {"brand": b.brand, "slug": _slug(b)}
+        for b in briefs
+        if not b.is_grounded
+    ]
+    return env.get_template("index.html.j2").render(rows=rows, unranked=unranked)
 
 
 def write_index(briefs: list[Brief], out_dir: str) -> str:

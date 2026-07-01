@@ -14,7 +14,9 @@
 {%- endmacro -%}
 # BRAND BRIEF — {{ brief.brand }}
 
-**Opportunity {{ brief.opportunity_score }}/5**{% if brief.rank %} · rank #{{ brief.rank }}{% endif %} · {{ brief.positioning }}
+{% if not brief.is_grounded %}> ⚠ **Insufficient live data — not ranked.** The site blocked automated research and no ground truth was available, so the brand couldn't be established. Any score and € below are provisional estimates over an unread brand — re-run or complete by hand.
+
+{% endif %}**Opportunity {{ brief.opportunity_score }}/5**{% if brief.rank %} · rank #{{ brief.rank }}{% endif %} · {{ brief.positioning }}
 Parent: {{ brief.parent_group }} · Markets: {{ brief.markets }}
 {% if brief.partners %}Partners / sister brands: {{ brief.partners | join(", ") }}{% endif %}
 

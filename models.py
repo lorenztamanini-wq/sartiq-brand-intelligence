@@ -289,3 +289,19 @@ class Brief(BaseModel):
             self.gap,
             self.strategy,
         ]
+
+    @property
+    def is_grounded(self) -> bool:
+        """True when the run actually established the brand's identity.
+
+        A bot-blocked or unenumerable site with no ground-truth fallback leaves
+        the identity fields as "not established" placeholders (see agent.py).
+        Such a brief must not present a confident score or hold a rank — the €
+        would be a default/estimate over an *unread* brand, not a real
+        prioritization signal. The display surfaces flag it and unrank it.
+        """
+        marker = "not established"
+        return (
+            marker not in self.positioning.lower()
+            and marker not in self.q1_who.value.lower()
+        )

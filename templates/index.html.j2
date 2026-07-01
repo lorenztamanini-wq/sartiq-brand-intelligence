@@ -68,6 +68,14 @@
   </div>
   {% endfor %}
 
+  {% if unranked %}
+  <div class="rule"></div>
+  <p class="sub" style="color:var(--accent)">⚠ Insufficient live data — not ranked.
+  The site blocked automated research or the brand couldn't be established, so no
+  trustworthy score could be computed. Re-run or complete by hand:
+  {% for u in unranked %}<a href="{{ u.slug }}.html" style="color:var(--accent)">{{ u.brand }}</a>{% if not loop.last %} · {% endif %}{% endfor %}.</p>
+  {% endif %}
+
   <footer>
     {{ rows | length }} brand{{ "s" if rows | length != 1 else "" }} ·
     mode: {{ rows[0].mode if rows else "—" }} ·

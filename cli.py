@@ -158,8 +158,10 @@ def main(argv: list[str] | None = None) -> int:
     for b in ranked:
         opp = b.economics.annual_opportunity_range
         par = b.economics.partner_upside_range
+        rank = f"{b.rank:>4}" if b.rank is not None else "   —"
+        score = f"{b.opportunity_score:>5}" if b.is_grounded else "  n/a"
         print(
-            f"{b.rank:>4}  {b.opportunity_score:>5}  {b.brand:<10}  "
+            f"{rank}  {score}  {b.brand:<10}  "
             f"€{opp.low/1e6:.1f}–{opp.high/1e6:.1f}M  /  +€{par.low/1e6:.1f}–{par.high/1e6:.1f}M"
         )
     print("=" * 64)

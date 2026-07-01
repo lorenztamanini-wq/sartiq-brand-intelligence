@@ -83,12 +83,21 @@ brief = review.load_brief(f"{OUT}/{choice}.json")
 head_l, head_r = st.columns([4, 1])
 head_l.subheader(brief.brand)
 head_l.caption(f"{brief.positioning} · {brief.parent_group}")
-head_r.metric("Score", f"{brief.opportunity_score}/5")
-st.markdown(
-    f"**Mode:** `{brief.generated_mode}` · "
-    f"**Opportunity:** €{brief.economics.annual_opportunity_range.low / 1e6:.1f}"
-    f"–{brief.economics.annual_opportunity_range.high / 1e6:.1f}M/yr"
-)
+if brief.is_grounded:
+    head_r.metric("Score", f"{brief.opportunity_score}/5")
+    st.markdown(
+        f"**Mode:** `{brief.generated_mode}` · "
+        f"**Opportunity:** €{brief.economics.annual_opportunity_range.low / 1e6:.1f}"
+        f"–{brief.economics.annual_opportunity_range.high / 1e6:.1f}M/yr"
+    )
+else:
+    head_r.metric("Score", "—")
+    st.warning(
+        "⚠ Insufficient live data — not ranked. The site blocked automated "
+        "research and no ground truth was available, so the brand couldn't be "
+        "established. The score and € are provisional estimates over an unread "
+        "brand — re-run or complete by hand before trusting them."
+    )
 
 items = review.reviewable_fields(brief)
 if not items and not review.approach_pending(brief):
