@@ -153,6 +153,7 @@
       "low": 12499200.0,
       "high": 62377920.0
     },
+    "partner_breakdown": [],
     "topdown_range": {
       "low": 3500000.0,
       "high": 14000000.0
@@ -254,7 +255,7 @@
   },
   "confidence_note": "Strategic read is HIGH confidence: the brand-winning / parent-pressured split is directly evidenced in OTB FY2025 results (Diesel best profitability in a decade; group operating profit -77%, EBITDA -14%, wholesale ~-15%). Weaker spots carried forward: (1) direction is inferred — the 2022 Wayback homepage resolved to a country-selector, so THEN imagery was not classified directly (med). (2) PDP audit is a 24-image/6-SKU menswear-denim sample; womenswear/accessories/footwear not separately measured (med). (3) Economics rest on a ~€700m brand-revenue ESTIMATE (OTB does not break out Diesel) and estimated SKU/variant/refresh/partner inputs — only shots/SKU (4.0) is directly measured; model sanity_ok=true. NEEDS HUMAN before outreach: named decision-makers on both threads (only role titles found, no people-data provider), the contact path (cold, unvalidated), and human sign-off on the brand-vs-group split framing (q3/q4/q6/q7 all flagged). Vision self-consistency: 100% label agreement across two independent passes on 5 images from this run.",
   "opportunity_score": 3.3,
-  "rank": null,
+  "rank": 1,
   "partners": [
     "Maison Margiela",
     "Marni",

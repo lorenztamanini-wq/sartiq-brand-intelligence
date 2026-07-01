@@ -5,23 +5,18 @@
   "markets": "Italy core; franchise in Japan, Mexico, India",
   "q1_who": {
     "name": "q1_who",
-    "value": "OVS S.p.A. is Italy's leading value/mass apparel retailer (menswear, womenswear, kidswear, plus underwear, beauty and home decor), running a vertically integrated model across the full value chain with a platform of proprietary brands. Tier: MASS / value (price points e.g. dresses €15–35 for the OVS core line, with premium sub-brands like GAP/PIOMBO reaching €80–100). Channel mix: DTC-led via 2,600+ stores (mostly OVS, Upim, Goldenpoint banners) plus e-commerce and franchise/wholesale. Markets: Italy core, with international franchise expansion (Japan, Mexico, India, Dubai). Listed on Euronext Milan since 2015; standalone group (no parent), >9,000 employees. Own-brand portfolio includes PIOMBO, OVS Kids, Blukids, Stefanel, Les Copains, Shaka and CROFF.",
+    "value": "Italy's leading value/mass apparel retailer, vertically integrated. Tier: mass. DTC-led (~2,600 stores) + e-commerce + franchise/wholesale. Parent: OVS S.p.A. (standalone, Euronext Milan). Markets: Italy core; franchise in Japan, Mexico, India.",
     "confidence": "high",
     "sources": [
       {
-        "title": "OVS Corporate — Chi siamo / About us",
-        "url": "https://www.ovscorporate.it/en/about-us/ovs-group",
-        "note": "positioning, vertical integration, banners, brand portfolio, store count"
-      },
-      {
-        "title": "OVS Corporate homepage (FY2025 key figures)",
+        "title": "OVS corporate / investor relations",
         "url": "https://www.ovscorporate.it",
-        "note": "2,600+ stores, 9,000+ employees, Euronext Milan since 2015"
+        "note": "positioning, store count, banners — re-verify live"
       },
       {
-        "title": "ovs.it live category (women's dresses) — price points",
-        "url": "https://www.ovs.it/it/it/c/donna/abbigliamento/abiti-e-jumpsuits/abiti/",
-        "note": "OVS core €15-35, GAP/premium up to ~€100"
+        "title": "Wikipedia: OVS (company)",
+        "url": "https://en.wikipedia.org/wiki/OVS_(company)",
+        "note": "background"
       }
     ],
     "is_estimate": false,
@@ -34,27 +29,22 @@
   },
   "q2_direction": {
     "name": "q2_direction",
-    "value": "Direction: INNOVATING / INVESTING — copy-what-works, then propose scale. Live PDP imagery (Jan 2026 sample) is a clean, structured, on-model-led shot set: ~3 on-model views per SKU (L/F/R) on consistent studio-grey/white backgrounds, plus 1–2 still-life packshots and occasional short-form video (_V1). This is markedly more on-model and more consistent than the largely packshot/category-tile presentation visible in the ~2023 Wayback snapshot. OVS is clearly putting money into imagery and digital, not lagging — reinforced by a €33m Puglia technology/innovation hub explicitly targeting digital transformation, AI and cybersecurity. Triggers: ongoing digital-innovation capex, Goldenpoint integration, new sub-brand launches (B.Angel, Utopja, Altavia) and international franchise expansion (India, Dubai). Recommendation: do NOT pitch a visual overhaul; lead with scale/throughput on an already-good visual system.",
+    "value": "ahead / investing — copy what works, then propose scale — Wayback then-vs-now: OVS PDP imagery moved from largely packshot/still-life (~2022-23) toward more on-model and lifestyle shots with cleaner, more consistent art direction (2024-25) — a brand investing in its imagery, not behind. So: copy what works, lead with scale rather than a visual overhaul.",
     "confidence": "med",
     "sources": [
       {
-        "title": "Wayback snapshot — ovs.it (Jan 2023)",
-        "url": "https://web.archive.org/web/20230102220404/http://ovs.it/",
-        "note": "THEN: packshot/category-tile led homepage presentation"
+        "title": "OVS digital/AI hub announcement",
+        "url": "https://www.ovscorporate.it",
+        "note": "Puglia innovation hub — re-verify live"
       },
       {
-        "title": "ovs.it live PDP JSON-LD + image classification (Jan 2026)",
-        "url": "https://www.ovs.it/it/it/c/donna/abbigliamento/abiti-e-jumpsuits/abiti/",
-        "note": "NOW: structured on-model-led sets, ~67% on-model / 33% still-life, consistent backgrounds"
-      },
-      {
-        "title": "OVS Group — Puglia innovation hub (digital/AI), €33m",
-        "url": "https://www.ovscorporate.it/en/about-us/ovs-group",
-        "note": "evidence of digital/AI investment trajectory"
+        "title": "Wayback snapshot — ovs.it ~2023 vs live ~2025",
+        "url": "https://web.archive.org/web/2023/https://www.ovs.it/",
+        "note": "then-vs-now imagery trend; the live agent re-runs this comparison"
       }
     ],
-    "is_estimate": true,
-    "assumption": "Then-vs-now is partly inferred: the live shot set is measured directly via classifier, but the 2023 'more packshot' read is from the archived homepage layout (PDP-level THEN imagery not classified). Confidence med pending a THEN PDP image sample.",
+    "is_estimate": false,
+    "assumption": null,
     "needs_human": false,
     "human_sharpened": false,
     "human_confirmed": false,
@@ -63,28 +53,13 @@
   },
   "q3_momentum": {
     "name": "q3_momentum",
-    "value": "GROWING (brand and group aligned — OVS is standalone, so no brand-vs-parent split). FY2025 (year to Jan 2026): net sales €1,746M, up ~7% YoY (≈3% organic + Goldenpoint acquisition), adjusted EBITDA €218M, up ~20%. Growth is broad-based: Q3 2025 net sales +9% YoY, 9M 2025 +5.8%; womenswear (Les Copains, PIOMBO) and beauty (doubled since 2021, now ~8% of OVS sales) outperforming; international franchise (India, Dubai) delivering strong density. Cash generation guided up ~20% to €80–85M. One watch-item: the Kasanova acquisition was allowed to lapse (conditions unmet), and management flags a still-uncertain market. Net financial position adjusted ~€(146)M — manageable at ~0.8x EBITDA leverage.",
+    "value": "GROWING: ~€1.74bn revenue, +7% (≈3% organic + Goldenpoint acquisition), EBITDA ~€216-218m. Already investing ~€33m in a digital/AI/innovation hub in Puglia.",
     "confidence": "high",
     "sources": [
       {
-        "title": "OVS Corporate — Investor overview (FY2025 key figures)",
-        "url": "https://www.ovscorporate.it/en/investors/overview",
-        "note": "€1,746M sales, €218.2M adj EBITDA, NFP €(145.9)M"
-      },
-      {
-        "title": "FashionNetwork — OVS 2025 revenue +7% to €1.74bn, Kasanova deal lapses",
-        "url": "https://ww.fashionnetwork.com/news/Ovs-2025-revenue-rises-7-to-1-74-billion-kasanova-deal-falls-through,1804963.html",
-        "note": "revenue +7%, EBITDA +20% to €218-219M, cash gen +20%"
-      },
-      {
-        "title": "Quartr — OVS Q3/9M 2025 results",
-        "url": "https://quartr.com/companies/ovs-s-p-a_14090",
-        "note": "Q3 +9%, 9M +5.8%, 2,660 stores, India/Dubai expansion"
-      },
-      {
-        "title": "Alpha Spread — OVS IR summary (H1 2025)",
-        "url": "https://www.alphaspread.com/security/mil/ovs/investor-relations",
-        "note": "beauty doubled since 2021, womenswear outperformance"
+        "title": "OVS FY2025 results (investor relations)",
+        "url": "https://www.ovscorporate.it",
+        "note": "revenue, EBITDA, growth — re-verify live"
       }
     ],
     "is_estimate": false,
@@ -97,23 +72,18 @@
   },
   "q5_pdp": {
     "name": "q5_pdp",
-    "value": "Current PDP imagery is a structured, on-model-led studio system on a Salesforce Commerce Cloud (Demandware) platform. Per-SKU shot set (from JSON-LD + live classification of a 21-image women's-dress sample): ~3 on-model views (L/F/R) + 1–2 still-life packshots (FSTILL/D1STILL) + 1–3 detail shots (D1/D2/D3), with occasional short-form video (_V1) — roughly 6–7 raw images, of which ~5 are AI-amenable on-model/still-life. Mix among classified shots: ~67% on-model, ~33% still-life, video present but rare. Backgrounds are consistent studio-grey / plain-white; consistency rated medium (some variance grey vs white across SKUs). Cross-channel note: same DC-hosted images are reused on marketplaces/banners, with occasional quality downgrade vs own site. Net: quality is already good and on-model-heavy — the constraint is throughput/volume and localization, not visual quality.",
-    "confidence": "med",
+    "value": "~4 shots/SKU · 45% on-model / 45% still-life / 5% video · consistency: moderate — high throughput, some variance across banners · cross-channel: imagery reused on marketplaces; occasional downgrade vs own site",
+    "confidence": "low",
     "sources": [
       {
-        "title": "ovs.it PDP JSON-LD (women's dresses) — image sets per SKU",
-        "url": "https://www.ovs.it/it/it/p/backless-mini-dress-vintage-grey-002401056.html",
-        "note": "L/F/R + FSTILL/D1STILL + D detail + V1 video naming convention"
-      },
-      {
-        "title": "Sartiq classifier summary on 21-image live sample",
-        "url": "https://www.ovs.it/it/it/c/donna/abbigliamento/abiti-e-jumpsuits/abiti/",
-        "note": "67% on-model / 33% still-life, consistency medium"
+        "title": "ovs.it live product pages",
+        "url": "https://www.ovs.it",
+        "note": "PDP audit target — sampled live; offline profile is a tier-based estimate"
       }
     ],
     "is_estimate": true,
-    "assumption": "Sample is one category (women's dresses, ~21 images across 7 SKUs); kids/men/beauty mixes likely differ (e.g. more flat-lay/ghost-mannequin in kids/intimo). Cross-channel downgrade is inferred from standard SFCC image reuse, not directly audited on a marketplace.",
-    "needs_human": true,
+    "assumption": "offline content profile is a tier-based estimate; live mode measures it via PDP audit (Playwright/JSON-LD) + the Claude vision classifier",
+    "needs_human": false,
     "human_sharpened": false,
     "human_confirmed": false,
     "ai_draft": null,
@@ -127,35 +97,100 @@
     "is_estimate": true,
     "assumption": "Value retailer => high catalog turnover; ~40k new SKUs/yr is a tier-based estimate; AI-amenable shots/SKU = on-model + still-life; pure editorial hero excluded; Partner multiplier = multi-banner portfolio + franchise/wholesale (×2.2); Brand-level revenue used for the top-down cross-check; HUMAN-REFRAME: the headline range applies standard agency-rate benchmarks to a value retailer that runs an in-house studio, so it OVERSTATES pure cost displacement. The real OVS opportunity is studio scale, new-arrival surge capacity and near-zero-cost localization — not raw cost savings. Treat the € as an upper-bound draft for the human to reframe.",
     "needs_human": true,
-    "human_sharpened": true,
+    "human_sharpened": false,
     "human_confirmed": false,
-    "ai_draft": "Inputs supplied to compute_opportunity (model returns the image count and €, not me): new_skus_per_year=40,000; shots_per_sku=5.0 (AI-amenable on-model + still-life, from live audit); channel_variants=3.0 (OVS/Upim/Goldenpoint banners + marketplace + localization); refresh_factor=0.5; carryover_skus=25,000; revenue_eur=€1,746,000,000 (FY2025 confirmed); partner_multiplier=2.2 (multi-brand portfoli",
-    "sharpen_rationale": "operator sharpened the AI draft with industry judgment"
+    "ai_draft": null,
+    "sharpen_rationale": null
   },
   "economics": {
     "annual_images_range": {
-      "low": 693750.0,
-      "high": 787500.0
+      "low": 555000.0,
+      "high": 630000.0
     },
     "cost_today_range": {
-      "low": 10406250.0,
-      "high": 47250000.0
+      "low": 8325000.0,
+      "high": 37800000.0
     },
     "cost_sartiq_range": {
-      "low": 69375.0,
-      "high": 2362500.0
+      "low": 1665000.0,
+      "high": 7560000.0
     },
     "annual_opportunity_range": {
-      "low": 8043750.0,
-      "high": 47180625.0
+      "low": 1665000.0,
+      "high": 7560000.0
     },
     "partner_upside_range": {
-      "low": 9652500.000000002,
-      "high": 56616750.00000001
+      "low": 1998000.0000000002,
+      "high": 9072000.000000002
     },
+    "partner_breakdown": [
+      {
+        "name": "Upim",
+        "opportunity": {
+          "low": 222000.00000000003,
+          "high": 1008000.0000000002
+        }
+      },
+      {
+        "name": "Piombo",
+        "opportunity": {
+          "low": 222000.00000000003,
+          "high": 1008000.0000000002
+        }
+      },
+      {
+        "name": "Les Copains",
+        "opportunity": {
+          "low": 222000.00000000003,
+          "high": 1008000.0000000002
+        }
+      },
+      {
+        "name": "Stefanel",
+        "opportunity": {
+          "low": 222000.00000000003,
+          "high": 1008000.0000000002
+        }
+      },
+      {
+        "name": "Croff",
+        "opportunity": {
+          "low": 222000.00000000003,
+          "high": 1008000.0000000002
+        }
+      },
+      {
+        "name": "Blukids",
+        "opportunity": {
+          "low": 222000.00000000003,
+          "high": 1008000.0000000002
+        }
+      },
+      {
+        "name": "Goldenpoint",
+        "opportunity": {
+          "low": 222000.00000000003,
+          "high": 1008000.0000000002
+        }
+      },
+      {
+        "name": "OVS Kids",
+        "opportunity": {
+          "low": 222000.00000000003,
+          "high": 1008000.0000000002
+        }
+      },
+      {
+        "name": "franchise partners (Japan / Mexico / India)",
+        "opportunity": {
+          "low": 222000.00000000003,
+          "high": 1008000.0000000002
+        }
+      }
+    ],
     "topdown_range": {
-      "low": 8730000.0,
-      "high": 34920000.0
+      "low": 1740000.0,
+      "high": 6960000.0
     },
     "levers": [
       "speed (weeks -> hours)",
@@ -163,22 +198,19 @@
       "localization at near-zero marginal cost"
     ],
     "assumptions": [
-      "FY2025 net sales €1,746M confirmed via OVS corporate IR page",
-      "Value retailer with very high catalog turnover; donna>abbigliamento category alone shows 3,563 live SKUs, supporting ~40k new SKUs/yr (tier-based estimate)",
-      "Live PDP audit (abiti sample) shows ~5 AI-amenable shots/SKU (3 on-model L/F/R + 1-2 still-life), excluding pure detail shots and editorial hero",
-      "On-model ~67% / still-life ~33% in live sample; video present but rare (one _V1 found)",
-      "Channel variants x3 for multi-banner (OVS/Upim/Goldenpoint) + marketplace + localization",
-      "Partner multiplier x2.2 for multi-brand portfolio + franchise (Japan/Mexico/India) + wholesale/marketplace",
-      "Brand/group-level revenue used for top-down cross-check",
-      "HUMAN-REFRAME: OVS runs an in-house studio (vertically integrated), so standard agency-rate benchmarks OVERSTATE pure cost displacement. Real value is studio scale, new-arrival surge capacity and near-zero-cost localization. Treat € as upper-bound draft."
+      "Value retailer => high catalog turnover; ~40k new SKUs/yr is a tier-based estimate",
+      "AI-amenable shots/SKU = on-model + still-life; pure editorial hero excluded",
+      "Partner multiplier = multi-banner portfolio + franchise/wholesale (×2.2)",
+      "Brand-level revenue used for the top-down cross-check",
+      "HUMAN-REFRAME: the headline range applies standard agency-rate benchmarks to a value retailer that runs an in-house studio, so it OVERSTATES pure cost displacement. The real OVS opportunity is studio scale, new-arrival surge capacity and near-zero-cost localization — not raw cost savings. Treat the € as an upper-bound draft for the human to reframe."
     ],
     "sanity_ok": true,
     "needs_human": false,
     "draft_opportunity_range": {
-      "low": 53137500.0,
-      "high": 354305625.0
+      "low": 8880000.0,
+      "high": 56700000.0
     },
-    "reframe_note": "mass-tier production runs €15-60/image, not the flat agency rate — so the defensible opportunity is the tier-aware band above, not the ~€204M draft.",
+    "reframe_note": "mass-tier production runs €15-60/image, not the flat agency rate — so the studio spend (and Sartiq's ~20% of it) rests on the tier-aware band, not the ~€33M draft.",
     "tier": "mass"
   },
   "q6_decision_maker": {
@@ -197,8 +229,8 @@
     "needs_human": true,
     "human_sharpened": true,
     "human_confirmed": false,
-    "ai_draft": "Target role: the digital/e-commerce owner plus the in-house Image/Studio Production lead. Because OVS is vertically integrated with a centralized studio, the budget owner likely sits closer to e-commerce/operations than to brand-creative. Priority titles to validate: Head of E-commerce / E-commerce Director, Chief Digital Officer / Digital Director, and Head of Studio / Image (Photo) Production Ma",
-    "sharpen_rationale": "operator sharpened the AI draft with industry judgment"
+    "ai_draft": null,
+    "sharpen_rationale": null
   },
   "q7_contact": {
     "name": "q7_contact",
@@ -216,29 +248,29 @@
     "needs_human": true,
     "human_sharpened": true,
     "human_confirmed": false,
-    "ai_draft": "Cold entry — no evidenced warm path. Recommended channel: direct email/LinkedIn to the Head of E-commerce, copying or sequencing to the Studio/Image Production lead. Angle (do NOT pitch 'replace your shoots' — they have an in-house studio): position Sartiq as elastic overflow capacity that absorbs new-arrival surges and spins up marketplace/banner/localized variants at near-zero marginal cost, fre",
-    "sharpen_rationale": "operator sharpened the AI draft with industry judgment"
-  },
-  "gap": {
-    "name": "gap",
-    "value": "THROUGHPUT, not quality — and that's the whole point with OVS. They already shoot a clean, on-model-led studio set (~5 AI-amenable shots/SKU, ~67% on-model, consistent grey/white backgrounds) in-house, so 'cut your photo budget' is the wrong wedge: per-image cost is already low. The real constraint is volume velocity — ~3,563 live women's-apparel SKUs and an estimated ~40k new SKUs/yr feeding an in-house, vertically integrated studio that is structurally at capacity, while three banners (OVS/Upim/Goldenpoint) plus franchise markets (Japan, Mexico, India, Dubai) each need their own variants. Sartiq's single wedge: elastic AI on-model + still-life capacity that absorbs new-arrival surges and produces marketplace/banner/localized variants at near-zero marginal cost, freeing the studio to lead on craft instead of grinding on volume.",
-    "confidence": "med",
-    "sources": [],
-    "is_estimate": true,
-    "assumption": "operator synthesis over the live module outputs (the judgment layer)",
-    "needs_human": false,
-    "human_sharpened": true,
-    "human_confirmed": false,
     "ai_draft": null,
     "sharpen_rationale": null
   },
-  "strategy": {
-    "name": "strategy",
-    "value": "Scale-the-studio play (mass/value retailer, brand and group aligned, both GROWING — OVS is standalone, no parent split). Do NOT pitch a visual overhaul or cost displacement: their imagery is already good and their studio is in-house, so the modeled €8.0–47.2M is an agency-rate upper bound that overstates pure savings. Sell speed and localization, not savings. Position Sartiq as overflow capacity on top of an already-good visual system. Anchor credibility to OVS's own €33m Puglia digital/AI hub — they're already buying into AI-enabled operations, so this is an extension of stated strategy, not a leap. Open the relationship on new-arrival surge velocity and zero-marginal-cost localization across banners and franchise markets as the concrete, sizable levers.",
+  "gap": {
+    "name": "gap",
+    "value": "OVS runs the largest, fastest-turning catalog of the three with an in-house studio at capacity — the gap is throughput, not quality: AI on-model + still-life to absorb new-arrival surges and marketplace localization at near-zero marginal cost.",
     "confidence": "med",
     "sources": [],
     "is_estimate": true,
-    "assumption": "operator synthesis over the live module outputs (the judgment layer)",
+    "assumption": "operator synthesis over the module outputs (the judgment layer)",
+    "needs_human": false,
+    "human_sharpened": true,
+    "human_confirmed": false,
+    "ai_draft": "OVS spends heavily on product photography — Sartiq can cut that cost.",
+    "sharpen_rationale": "Wrong wedge. OVS runs an in-house studio, so 'cut your photo budget' doesn't land — their per-image cost is already low (see the € reframe). From retail ops the real pain is throughput and new-arrival velocity, so the wedge is studio SCALE + near-zero-cost localization, not cost savings."
+  },
+  "strategy": {
+    "name": "strategy",
+    "value": "innovation / scale (brand and group aligned — both GROWING)",
+    "confidence": "med",
+    "sources": [],
+    "is_estimate": true,
+    "assumption": "operator synthesis over the module outputs (the judgment layer)",
     "needs_human": false,
     "human_sharpened": true,
     "human_confirmed": false,
@@ -247,15 +279,15 @@
   },
   "approach": {
     "hook": "Your studio is the bottleneck on new-arrival velocity, not the budget.",
-    "channel": "Cold direct email / LinkedIn — no warm path evidenced. Sequence to Head of E-commerce first, copying the Studio/Image Production lead.",
-    "to_whom": "Head of E-commerce / Digital Director as budget owner, plus the in-house Studio / Image Production lead as technical co-owner. No named individual sourced — titles only (enrichment provider not configured); names need human validation via OVS LinkedIn.",
-    "opening": "You ship more new SKUs per week than almost anyone in Italian retail, and your in-house studio is the constraint — not your photo budget. We add elastic on-model and still-life capacity that absorbs new-arrival surges and spins up marketplace and localized variants for OVS/Upim/Goldenpoint and your franchise markets at near-zero marginal cost, so the studio leads on craft instead of grinding on volume. It's the same logic behind your Puglia AI hub. Worth 20 minutes?",
+    "channel": "warm intro if available, else direct email to Head of E-commerce",
+    "to_whom": "Head of E-commerce / Studio & Image Production lead",
+    "opening": "\"You ship more new SKUs per week than almost anyone in Italian retail, and your in-house studio is the constraint. We add elastic on-model and still-life capacity that absorbs new-arrival surges and spins up marketplace/localized variants at ~zero marginal cost — so the studio leads on craft instead of grinding on volume. Worth 20 minutes?\"",
     "human_sharpened": true,
     "human_confirmed": false
   },
-  "confidence_note": "Medium overall. Strong on WHO (high), MOMENTUM (high, FY2025 +7% sales / +20% EBITDA confirmed), and DIRECTION (investing/growing). Weaker, human-dependent on the execution layer: (1) NO named decision-maker and NO warm contact path — both are flagged needs_human and must be resolved before any outreach. (2) The 'in-house studio at capacity' premise — the core of the wedge — is INFERRED from vertical integration plus catalog velocity, not a sourced operational fact; validate in discovery. (3) The economics (€8.0–47.2M base, €9.7–56.6M with partner multiplier) apply agency-rate benchmarks and OVERSTATE savings given the in-house studio — treat as an upper-bound draft; lead with speed/localization, not the €. (4) Shots/SKU and image mix are measured from a single women's-dresses sample (~21 images / 7 SKUs); kids/men/beauty likely differ. (5) Then-vs-now imagery read is partly inferred from a 2023 homepage layout, not a THEN PDP sample. Vision spot-check: 92% classifier agreement on 12 labelled samples (held-out baseline).",
-  "opportunity_score": 3.2,
-  "rank": 1,
+  "confidence_note": "Solid: positioning, momentum and parent/partner structure are sourced. Estimated: SKU volume, shots/SKU and therefore the € figure are estimates with stated assumptions (bands, not points). Economics: bottom-up and top-down agree within an order of magnitude. Caveats: PDP/vision profile is a tier estimate offline (measured live); decision-maker and contact need human validation before any outreach. Vision spot-check: 92% classifier agreement on 12 labelled samples (held-out baseline).",
+  "opportunity_score": 3.1,
+  "rank": 3,
   "partners": [
     "Upim",
     "Piombo",
@@ -269,64 +301,34 @@
   ],
   "sources": [
     {
-      "title": "OVS Corporate — Chi siamo / About us",
-      "url": "https://www.ovscorporate.it/en/about-us/ovs-group",
-      "note": "positioning, vertical integration, banners, brand portfolio, store count"
-    },
-    {
-      "title": "OVS Corporate homepage (FY2025 key figures)",
+      "title": "OVS corporate / investor relations",
       "url": "https://www.ovscorporate.it",
-      "note": "2,600+ stores, 9,000+ employees, Euronext Milan since 2015"
+      "note": "positioning, store count, banners — re-verify live"
     },
     {
-      "title": "ovs.it live category (women's dresses) — price points",
-      "url": "https://www.ovs.it/it/it/c/donna/abbigliamento/abiti-e-jumpsuits/abiti/",
-      "note": "OVS core €15-35, GAP/premium up to ~€100"
+      "title": "Wikipedia: OVS (company)",
+      "url": "https://en.wikipedia.org/wiki/OVS_(company)",
+      "note": "background"
     },
     {
-      "title": "Wayback snapshot — ovs.it (Jan 2023)",
-      "url": "https://web.archive.org/web/20230102220404/http://ovs.it/",
-      "note": "THEN: packshot/category-tile led homepage presentation"
+      "title": "OVS digital/AI hub announcement",
+      "url": "https://www.ovscorporate.it",
+      "note": "Puglia innovation hub — re-verify live"
     },
     {
-      "title": "ovs.it live PDP JSON-LD + image classification (Jan 2026)",
-      "url": "https://www.ovs.it/it/it/c/donna/abbigliamento/abiti-e-jumpsuits/abiti/",
-      "note": "NOW: structured on-model-led sets, ~67% on-model / 33% still-life, consistent backgrounds"
+      "title": "Wayback snapshot — ovs.it ~2023 vs live ~2025",
+      "url": "https://web.archive.org/web/2023/https://www.ovs.it/",
+      "note": "then-vs-now imagery trend; the live agent re-runs this comparison"
     },
     {
-      "title": "OVS Group — Puglia innovation hub (digital/AI), €33m",
-      "url": "https://www.ovscorporate.it/en/about-us/ovs-group",
-      "note": "evidence of digital/AI investment trajectory"
+      "title": "OVS FY2025 results (investor relations)",
+      "url": "https://www.ovscorporate.it",
+      "note": "revenue, EBITDA, growth — re-verify live"
     },
     {
-      "title": "OVS Corporate — Investor overview (FY2025 key figures)",
-      "url": "https://www.ovscorporate.it/en/investors/overview",
-      "note": "€1,746M sales, €218.2M adj EBITDA, NFP €(145.9)M"
-    },
-    {
-      "title": "FashionNetwork — OVS 2025 revenue +7% to €1.74bn, Kasanova deal lapses",
-      "url": "https://ww.fashionnetwork.com/news/Ovs-2025-revenue-rises-7-to-1-74-billion-kasanova-deal-falls-through,1804963.html",
-      "note": "revenue +7%, EBITDA +20% to €218-219M, cash gen +20%"
-    },
-    {
-      "title": "Quartr — OVS Q3/9M 2025 results",
-      "url": "https://quartr.com/companies/ovs-s-p-a_14090",
-      "note": "Q3 +9%, 9M +5.8%, 2,660 stores, India/Dubai expansion"
-    },
-    {
-      "title": "Alpha Spread — OVS IR summary (H1 2025)",
-      "url": "https://www.alphaspread.com/security/mil/ovs/investor-relations",
-      "note": "beauty doubled since 2021, womenswear outperformance"
-    },
-    {
-      "title": "ovs.it PDP JSON-LD (women's dresses) — image sets per SKU",
-      "url": "https://www.ovs.it/it/it/p/backless-mini-dress-vintage-grey-002401056.html",
-      "note": "L/F/R + FSTILL/D1STILL + D detail + V1 video naming convention"
-    },
-    {
-      "title": "Sartiq classifier summary on 21-image live sample",
-      "url": "https://www.ovs.it/it/it/c/donna/abbigliamento/abiti-e-jumpsuits/abiti/",
-      "note": "67% on-model / 33% still-life, consistency medium"
+      "title": "ovs.it live product pages",
+      "url": "https://www.ovs.it",
+      "note": "PDP audit target — sampled live; offline profile is a tier-based estimate"
     },
     {
       "title": "OVS LinkedIn company page",
@@ -334,1158 +336,23 @@
       "note": "function mapping — enrich to a named person via Apollo, human-validate"
     }
   ],
-  "generated_mode": "live",
+  "generated_mode": "offline",
   "trace": [
     {
-      "step": "fetch_page",
-      "input": {
-        "url": "https://www.ovscorporate.it"
-      },
-      "result": {
-        "url": "https://www.ovscorporate.it",
-        "status": 200,
-        "title": "OVS | OVS Corporate",
-        "text": "OVS | OVS Corporate Salta al contenuto principale en Navigazione principale Chi siamo Gruppo OVS Mission e valori Storia OVS Innovazione e Sostenibilità srl Brand Sostenibilità Il nostro percorso Prodotto e circolarità Produzione responsabile Le persone in OVS Scelte più consapevoli Il nostro impatto Documenti Governance Sistema di Governance Modello Statuto Documenti e procedure Assemblea degli Azionisti Consiglio di Amministrazione Comitati endoconsiliari Comitato Controllo e Rischi e Sostenibilità Comitato Nomine e Remunerazione Comitato Operazioni Parti Correlate Collegio Sindacale Società di Revisione Dirigente Preposto Organismo di Vigilanza Modello 231 e Codice Etico Sistema di segnalazione Internal Dealing Informazioni Regolamentate Investors Overview Highlights finanziari Risultati Comunicati stampa e Presentazioni Copertura analisti e Consenso Informazioni sul titolo Andamento del titolo Capitale sociale e Azionariato Offerta Pubblica Iniziale 2015 Aumento di Capitale 2022 Debito Posizione Finanziaria Netta Sustainability-linked Bond 2021-2027 Calendario finanziario IR contact E-mail alert People Life at OVS Group Wear your chance Share your chance Comunicati stampa Navigazione principale mobile Chi siamo Gruppo OVS Mission e valori Storia OVS Innovazione e Sostenibilità srl Brand Sostenibilità Il nostro percorso Prodotto e circolarità Produzione responsabile Le persone in OVS Scelte più consapevoli Il nostro impatto Documenti Governance Sistema di Governance Modello Statuto Documenti e procedure Assemblea degli Azionisti Consiglio di Amministrazione Comitati endoconsiliari Comitato Controllo e Rischi e Sostenibilità Comitato Nomine e Remunerazione Comitato Operazioni Parti Correlate Collegio Sindacale Società di Revisione Dirigente Preposto Organismo di Vigilanza Modello 231 e Codice Etico Sistema di segnalazione Internal Dealing Informazioni Regolamentate Investors Overview Highlights finanziari Risultati Comunicati stampa e Presentazioni Copertura analisti e Consenso Informazioni sul titolo Andamento del titolo Capitale sociale e Azionariato Offerta Pubblica Iniziale 2015 Aumento di Capitale 2022 Debito Posizione Finanziaria Netta Sustainability-linked Bond 2021-2027 Calendario finanziario IR contact E-mail alert People Life at OVS Group Wear your chance Share your chance Comunicati stampa Termine cercato: Cerca SVG ovs SVG SVG brands/piombo SVG upim SVG blukids SVG brands/les-copains SVG croff SVG SVG SVG logo goldenpoint@1x Chi siamo OVS S.p.A. è il principale gruppo italiano di abbigliamento uomo, donna, bambino, attivo anche nei segmenti underwear, beauty e home decoration. Opera con un modello di business verticalmente integrato, presidiando l'intera catena del valore, con una piattaforma che ospita brand propri capaci di soddisfare stili di vita e clientele diversi. Quotato all'Euronext Milan dal 2015, il gruppo nel 2025 ha registrato vendite per 1.746 milioni di Euro e realizzato un EBITDA di 218 milioni di Euro. Con una rete di oltre 2.600 negozi in Italia e all'estero, la maggior parte dei quali ad insegna OVS, Upim e Goldenpoint, il gruppo propone un’ampia gamma di brand propri tra cui PIOMBO, OVS Kids, Blukids, Stefanel, Les Copains, Shaka e CROFF. Scopri di più € 1.746 M Vendite nette FY2025 € 218 M EBITDA rettificato FY2025 > 2.600 Negozi nel mondo > 9.000 Dipendenti nel mondo COMUNICATI STAMPA Tutti i comunicati Finanziari 17 Giugno 2026 - 17:53 APPROVATI I RISULTATI DEL PRIMO TRIMESTRE 2026 Finanziari 29 Maggio 2026 - 16:23 ASSEMBLEA DEGLI AZIONISTI 2026 Finanziari 16 Aprile 2026 - 21:16 APPROVATI I RISULTATI DELL'ESERCIZIO 2025 Sostenibilità Ci impegniamo ogni giorno a rendere accessibile a tutti una moda più sostenibile. Comunichiamo con trasparenza le nostre scelte in modo che tutti possano comprenderle e fare acquisti con una maggiore consapevolezza. Scopri di più Talenti Le persone sono il nostro successo, per questo crediamo nella continua formazione dei dipendenti e nella promozione di una cultura della condivisione e della partecipazione. In questo modo possiamo garantire un futuro di reale crescita. Scopri di più Footer menu Privacy policy Note legali Dichiarazione di Accessibilità Cookie policy Contatti E-mail alert Personalizza cookie Copyright © OVS S.p.A, p.iva 04240010274 Capitale sociale 290.923.470,00 Euro",
-        "json_ld": [],
-        "error": null
-      }
-    },
-    {
-      "step": "list_catalog",
-      "input": {
-        "site": "https://www.ovs.it"
-      },
-      "result": {
-        "catalog_size_estimate": null,
-        "product_urls": [
-          "https://www.ovs.it/it/it/p/accessibilita/accessibility.html"
-        ],
-        "source": "category_scrape",
-        "error": null
-      }
-    },
-    {
-      "step": "wayback_snapshots",
-      "input": {
-        "url": "https://www.ovs.it/"
-      },
-      "result": {
-        "snapshots": [
-          {
-            "year": 2022,
-            "timestamp": "20220118170107",
-            "url": "https://web.archive.org/web/20220118170107/https://www.ovs.it/"
-          },
-          {
-            "year": 2023,
-            "timestamp": "20230102220404",
-            "url": "https://web.archive.org/web/20230102220404/http://ovs.it/"
-          },
-          {
-            "year": 2024,
-            "timestamp": "20240101110903",
-            "url": "https://web.archive.org/web/20240101110903/http://ovs.it/"
-          },
-          {
-            "year": 2025,
-            "timestamp": "20250113025737",
-            "url": "https://web.archive.org/web/20250113025737/http://ovs.it/"
-          },
-          {
-            "year": 2026,
-            "timestamp": "20260103230636",
-            "url": "https://web.archive.org/web/20260103230636/https://www.ovs.it/"
-          }
-        ],
-        "coverage": "5 yearly snapshots (2022–2026)",
-        "error": null
-      }
-    },
-    {
-      "step": "fetch_page",
-      "input": {
-        "url": "https://web.archive.org/web/20230102220404/http://ovs.it/"
-      },
-      "result": {
-        "url": "https://web.archive.org/web/20230105204309/https://www.ovs.it/",
-        "status": 200,
-        "title": "Abbigliamento, Shopping e saldi online | OVS",
-        "text": "Abbigliamento, Shopping e saldi online | OVS it IT NON E' POSSIBILE SPEDIRE NEL TUO PAESE Conferma Scegli il Paese Vai al contenuto principale Vai al footer Scegli il tuo negozio Lista Mappa SELEZIONA NEGOZIO ! Attenzione ! Attenzione Spedizione gratuita a partire da 50 € Ritiro in negozio gratuito Reso sempre gratuito con corriere e in negozio Negozi Customer care OVS ♥ friends Menu Saldi Saldi Donna Saldi Uomo Saldi Bambino Donna Nuovi arrivi Family time Love Therapy Homewear Back to Work Essentials Curvy Xmas Jumper STC Collezione Capispalla Giacche Gilet Abiti Gonne Camicie e bluse T-shirt e top Maglieria Felpe Pantaloni Jeans Shorts e bermuda Leggings Scarpe Borse Accessori Costumi da bagno Moda Mare Abbigliamento sportivo Abbigliamento Yoga Pigiami e camicie da notte Intimo Taglie Comode Tutto su Collezione Wellness Accessori Tutto su Wellness Accessori Borse Scarpe Tutto su Accessori Mascherine Mascherine Lavabili Mascherine Monouso Mascherine FFP2 Tutto su Mascherine Altri Brand Baby Angel GAP Tally Weijl Lovable Everlast Nobody's Child PIOMBO Hybrid Mya The Body Shop Canadian Peak NEW Geographical Norway NEW Crocs Jansport French Connection Tutti i brand Donna Sostenibilità Bio Cotton Essential Viscosa sostenibile Editorials Party Look new Altavia new Love Therapy Back to work Less Is Better NEW Eco Denim Donna Promozioni Uomo Nuovi arrivi Family time Homewear Back to Work Personalizzazioni Essentials Xmas Jumper STC Collezione Capispalla Giacche Abiti Maglieria Camicie casual Camicie eleganti T-shirt Felpe Pantaloni Chino Jeans Scarpe Pigiami Intimo Accessori Abbigliamento sportivo Moda Mare Costumi da bagno Tutto su Collezione Active Abbigliamento Fitness Abbigliamento Tennis Uomo Tutto su Active Mascherine Mascherine Lavabili Mascherine Monouso Tutto su Mascherine altri brand GAP Everlast Grand & Hills Maui and Sons Utopja PIOMBO The Body Shop Canadian Peak NEW Geographical Norway NEW Crocs Jansport Tutti i brand uomo Sostenibilità Bio Cotton Essential Editorials Party Look new Altavia new Back to work Less Is Better NEW Eco Denim Uomo Promozioni Bambino Nuovi arrivi Family time Homewear Personalizzazioni Essentials Multipack Xmas Jumper STC Neonato 0 - 9 Mesi Giubbotti e Giacche Completini T-Shirt e Top Pantaloni Accessori Body Pannolini Tutine e Salopette Maglioni e Felpe Tutto su Collezione Neonato 9 - 36 mesi Capispalla Maglieria Felpe Tute e pantaloni-tuta Magliette Camicie Jeans Pantaloni Pantaloni corti Scarpe Accessori Costumi mare Pigiami Intimo Pannolini Body Tutine e pagliaccetti Polo Tutto su Collezione Bambino 3 - 10 anni Capispalla Tute e pantaloni tuta Maglieria Felpe Magliette Polo Camicie Jeans Pantaloni Chino Pantaloni corti Scarpe Accessori Costumi mare Pigiami Intimo Grembiulini Tutto su Collezione Ragazzo 10 - 15 anni Capispalla Tute e pantaloni tuta Maglieria Felpe Magliette Camicie Jeans Pantaloni Pantaloni corti Scarpe Accessori Costumi mare Pigiami Intimo Grembiuli Tutto su Collezione Cartoons Flash new Batman Disney Manga Looney Tunes Marvel Mickey & Friends Spiderman Tom&Jerry Super Pets Tutti i personaggi Mascherine Mascherine Lavabili Mascherine Monouso Altri brand GAP Iana Everlast Maui and Sons Thun Trudi Lillydoo Eastpak Converse Chicco Canadian Peak NEW Geographical Norway NEW New Balance Crocs Lego NEW Tutti i brand bambino Sostenibilità Bio Cotton Essential Editorials Party Look new Altavia new Benvenuto al mondo Eco Denim Bambino Abbigliamento Tennis Bambino Promozioni 0-9 Mesi 9-36 Mesi 3-10 Anni 10-15 Anni Bambina Nuovi arrivi Family time Homewear Love Therapy personalizzazioni Essentials Multipack Xmas Jumper STC Neonata 0 - 9 Mesi Giubbotti e Giacche Vestiti Completini Pantaloni T-Shirt e Top Tutine e Salopette Maglioni e Felpe Accessori Body Pannolini Tutto su Collezione Neonata 9 - 36 mesi Capispalla Completini Tutine e pagliaccetti Vestitini Gonne Maglieria Felpe T-shirt Polo Camicie Jeans Pantaloni Pannolini Tute e pantaloni tuta Scarpe Accessori Pigiami Intimo Body Pantaloni corti Tutto su Collezione Bambina 3 - 10 anni Capispalla Giacche Completi Vestitini Gonne Magliette Canotte Maglieria Felpe Camicie Jeans Pantaloni Shorts Leggings e jeggings Tute e pantaloni-tuta Scarpe Accessori Costumi mare Pigiami Intimo Grembiulini Mini Me Tutto su Collezione Ragazza 10 - 15 anni Capispalla Giacche Vestiti Gonne Maglieria Felpe Magliette Canotte Camicie Jeans Pantaloni Shorts Leggings e jeggings Tute e pantaloni tuta Scarpe Accessori Costumi mare Pigiami Intimo Grembiuli Tutto su Collezione Cartoons Titti Disney Looney Tunes Mickey & Friends Minnie Tom&Jerry Tutti i personaggi mascherine Mascherine Lavabili Mascherine Monouso Mascherine FFP2 Altri brand GAP Iana Thun Trudi Maui and Sons Lillydoo Eastpak Converse Chicco Canadian Peak NEW Geographical Norway NEW New Balance Crocs Lego new Tutti i brand bambina Sostenibilità Bio Cotton Essential Editorials Party Look new Altavia new Love Therapy Benvenuto al mondo Eco Denim Bambina Abbigliamento Tennis Bambina Promozioni 0-9 Mesi 9-36 Mesi Bambina 3 - 10 anni 10-15 Anni PIOMBO The Van Collezione Uomo Collezione Donna Fragranze Chi è Massimo Piombo Piombo le donne Collezione Piombo Uomo Giacche Maglioni e Felpe Giacconi e Capispalla Camicie T-shirt e Polo Pantaloni Intimo Scarpe e Accessori Fragranze e Profumi new Tutto su Collezione Collezione Piombo Donna Abiti e Gonne Giacche e Capispalla Maglioni e Felpe Camicie e Bluse Scarpe e Accessori T-shirt e Top Pantaloni Fragranze e Profumi new Tutto su Collezione GAP THE CAMPAIGN DONNA UOMO KIDS Altri Brand Tutti i brand Converse Utopja Jansport New Balance Eastpak Iana PIOMBO The Body Shop Grand & Hills Chicco French Connection NEW Lovable Tally Weijl Nobody's Child Mya Lego NEW Thun Lillydoo Croff Geographical Norway NEW Crocs GAP Everlast Baby Angel Hybrid Canadian Peak NEW Beauty Collezioni Travel set Cosmetica naturale SPA at home Maschere viso Prodotti di Bellezza Make Up Trattamenti Viso Cura del Corpo Fragranze e Profumi Cofanetti e Idee Regalo Accessori Beauty Igienizzanti Tutto su bellezza Brand SHAKA THE BODY SHOP MAKE UP REVOLUTION MISS KAY SKIN PROUD SIGMA NEW Tutti i brand Trend Casa collezione accessori tessile brand croff Wishlist OVS ♥ friends Customer care Negozi La mia area personale Lista desideri I miei acquisti Esci 0 ABBIGLIAMENTO ONLINE OVS: STILE TRENDY E CASUAL PER UOMO, DONNA E BAMBINO OVS è uno dei brand leader nell' abbigliamento donna, uomo e bambino perché offre stile e qualità Made in Italy al miglior prezzo.\nScopri tutte le collezioni negli oltre 900 negozi in Italia e all’estero, oppure scegli lo shopping online su OVS.it. Scopri di più NUOVA COLLEZIONE DONNA AUTUNNO/INVERNO La collezione donna AUTUNNO/INVERNO di OVS propone capi imperdibili: abiti, gonne, t-shirt, camicie, jeans, intimo e molto altro, anche per taglie comode. Gli abiti donna OVS sono versatili e adatti a chi ama lo stile casual, ma con il giusto accessorio possono trasformarsi nel capo perfetto per un’occasione speciale. Oltre agli abiti, da OVS trovi camicie donna e bluse in tanti modelli, tessuti e stili: dalla classica camicia bianca, un evergreen da abbinare con classe a gonne e pantaloni OVS,\nalle bluse in georgette dalle fantasie floreali. E a tutte le amanti del denim, la collezione di jeans donna propone tantissimi modelli: scopri online la collezione di jeans boyfriend, a vita alta, a zampa, strappati, push-up, skinny, regular, elasticizzati e stretch. Pratica e versatile è la collezione intimo OVS, che con i suoi reggiseni push-up, balconette, bralette, a fascia e a triangolo - imbottiti o non imbottiti – da abbinare a slip, perizomi, tanga e culottes, può diventare anche molto romantica, sensuale e femminile. Scopri anche i pigiami e le camicie da notte e acquista online la collezione intimo donna. Non perderti tutte le novità della collezione AUTUNNO/INVERNO 2022! ABBIGLIAMENTO ONLINE: SCOPRI LA NUOVA COLLEZIONE UOMO AUTUNNO/INVERNO La collezione uomo AUTUNNO/INVERNO è pensata per l’uomo dallo s",
-        "json_ld": [],
-        "error": null
-      }
-    },
-    {
-      "step": "fetch_page",
-      "input": {
-        "url": "https://www.ovs.it/it/it/c/donna/abbigliamento/abiti-e-jumpsuits/abiti/"
-      },
-      "result": {
-        "url": "https://www.ovs.it/it/it/c/donna/abbigliamento/abiti-e-jumpsuits/abiti/",
-        "status": 200,
-        "title": "Abiti e Vestiti Donna: Eleganti, Casual, Estivi e Invernali | OVS",
-        "text": "Abiti e Vestiti Donna: Eleganti, Casual, Estivi e Invernali | OVS Spedizione Gratuita oltre i 60€ Acquista ora, paga a rate Resi sempre gratuiti Spedizione Gratuita oltre i 60€ Spedizione Gratuita per ordini oltre i 60€. Ricevi il tuo shopping gratuitamente anche nel weekend. Per ulteriori informazioni, visita le FAQ. Scopri di più Acquista ora, paga a rate Utilizza la nostra modalità di pagamento a rate per fare shopping senza pensieri. Scegli la modalità che più preferisci in fase di checkout. Resi sempre gratuiti Compra oggi e rendi senza fretta! Hai 30 giorni di tempo dal giorno di ricezione dell'ordine per effettuare il reso. Consulta le modalità nelle FAQ. Scopri di più navigation.aria.gotomaincontent navigation.aria.gotofooter Donna Uomo 0-36 mesi 3-10 anni Teen PIOMBO LES COPAINS SHAKA Torna alla collezione Donna Torna alla collezione Uomo Torna alla collezione 0-36 mesi Torna alla collezione 3-10 anni Torna alla collezione Teen Torna alla collezione PIOMBO Torna alla collezione LES COPAINS Torna alla collezione SHAKA Scopri il mondo Donna Abbigliamento Intimo e pigiami Accessori Brand Moda mare Shop by Look Sport Scopri il mondo Uomo Abbigliamento Intimo e pigiami Accessori Brand Moda mare Shop by Look Sport Scopri il mondo 0-36 mesi Neonato 0-9 mesi Neonata 0-9 mesi Bimbo 9-36 mesi Bimba 9-36 mesi Brand Moda mare Shop by Look Personaggi Scopri il mondo 3-10 anni Bambino 3-10 anni Bambina 3-10 anni Brand Moda mare Shop by Look Personaggi Scopri il mondo Teen Ragazzo 10-15 anni Ragazza 10-15 anni Brand Moda mare Shop by Look Personaggi Scopri il mondo PIOMBO PIOMBO Donna PIOMBO Uomo PIOMBO Kids Scopri il mondo LES COPAINS Abbigliamento Accessori e intimo Scopri il mondo SHAKA Skincare Makeup Corpo & Haircare Profumi Brand Piacere di conoscerti! Crea il tuo account OVS o accedi per vivere un’esperienza di acquisto personalizzata. Accedi / Registrati Acquista Giftcard Trova ordine/reso Hai bisogno di aiuto? Sostenibilità Wishlist Trova ordine/reso Hai bisogno di aiuto? Store Locator Acquista Giftcard Sostenibilità Scopri il programma fedeltà Abbigliamento COLLEZIONE T-shirt, polo e top Best seller Camicie e bluse Abiti e jumpsuits Trend Costumi e beachwear New In Pantaloni e leggings Shorts e bermuda Jeans Gonne Maglieria Felpe Blazer e gilet Giacche, cappotti e piumini Set e completi coordinati Vedi tutto Set e completi coordinati Vedi tutto IN EVIDENZA IN EVIDENZA The Iconic Essentials Nuova collezione FW26 New In TOP BRAND TOP BRAND Altavia Studio Altavia Utopja Hot on social B.Angel GAP Les Copains PIOMBO Scopri i migliori Brand House of Linen Esplora i key item nella fibra di stagione. Intimo e pigiami INTIMO E PIGIAMI Pigiami Camicie da notte T-shirt e canottiere intime Reggiseni Mutande e Slip Calze e calzini Vedi tutto IN EVIDENZA IN EVIDENZA The One PROMOZIONI PROMOZIONI Reggiseni Mix & Match - 2 x 18,95€ Slip Mix & Match - 2 x 8,95€ Nude Effect Mix & Match - 5 x 19,95€ Calze e calzini Mix & Match - 4 x 9,95€ Vedi tutto TOP BRAND TOP BRAND Les Copains Intimo e Pigiami Eleganza e comfort per il tuo everyday. Accessori ACCESSORI E CALZATURE Borse e zaini Portachiavi & Charms Teli mare New In Sciarpe e foulard Cappelli Cinture Accessori per capelli Scarpe Ciabatte Vedi tutto BIGIOTTERIA BIGIOTTERIA Orecchini Collane CASA E CANCELLERIA CASA E CANCELLERIA Cancelleria Accessori casa Accessori viaggio TOP BRAND TOP BRAND Urban Commuter C'est Fou Accessori mare Essenziali da portare con te Brand ABBIGLIAMENTO Altavia Altavia Court Altavia Sailing Altavia Studio B.Angel C'est Fou Coralife In promo Everlast GAP Hybrid Jansport Les Copains Mya Dalla taglia 39 alla 51 Nicol Caramel PIOMBO PIOMBO Contemporary Tally Weijl Terraviva Design Urban Commuter Utopja Hot on social Scopri i migliori Brand PIOMBO PIOMBO Contemporary Tally Weijl Terraviva Design Urban Commuter Utopja Hot on social Scopri i migliori Brand SELEZIONE BEAUTY SELEZIONE BEAUTY Amuse Arencia Beauty of Joseon Beauty Routine B.Lab Ciglissime COSRX Essential PINK Giovanardi Farmaceutici Mamonde Revolution Scopri il mondo Beauty Utopja Summer 26 Tra silhouette second-skin e summer basics rivisitati. Moda mare COLLEZIONE MARE Bikini Costumi interi Borse e accessori mare Abbigliamento da spiaggia Abbigliamento in lino Abbigliamento in crochet Vedi tutto TROVA IL TUO STILE TROVA IL TUO STILE Rodeo Texas Coastal Paradise Earthly Harmony Basic Elevated Summer Party Coastal Joy Nautical Elegance Vedi tutto TOP BRAND TOP BRAND OVS Altavia Sailing New In B.Angel PIOMBO Vedi tutto Moda mare La selezione perfetta per la tua estate Shop by Look TROVA IL TUO LOOK Ufficio Cerimonie ed eventi Per le feste Anti-pioggia Loungewear Vedi tutto Sport ABBIGLIAMENTO SPORTIVO Yoga e Fitness Altavia Studio Hiking e Outdoor Altavia by D. Compagnoni Tennis e Padel Altavia Court Vela & Nautica Altavia Sailing Ciclismo Altavia Abbigliamento protezione solare Calzature e accessori Scopri tutti gli sport ALTAVIA CREW ALTAVIA CREW Puntata 1: Deborah Compagnoni Puntata 2: Giulio Bosca Puntata 3: Emil Zulian Puntata 4: Virna Toppi New In Altavia Court Per chi ama il tennis, il padel e il loro stile innato. Abbigliamento COLLEZIONE T-shirt Best seller Polo Camicie Pantaloni Pantaloncini e bermuda Trend Jeans Costumi New In Felpe Maglieria Blazer Giacche, cappotti e piumini Abiti Vedi tutto IN EVIDENZA IN EVIDENZA Collezione Lino The Iconic Essentials Nuova collezione FW26 New In TOP BRAND TOP BRAND Utopja Hot on social Altavia B.Angel GAP PIOMBO Scopri i migliori Brand House of Linen Esplora i key item nella fibra di stagione. Intimo e pigiami INTIMO E PIGIAMI Pigiami T-shirt intime Canottiere intime Mutande e slip Boxer Calze e calzini Vedi tutto PROMOZIONI PROMOZIONI Calze e calzini Mix & Match - 4 x 9,95€ Mix&Match Promo Scopri la promozione sulle calze Accessori ACCESSORI E CALZATURE Borse e zaini Marsupi Cappelli e Berretti Teli mare Cinture e bretelle Cravatte Guanti Bracciali Sciarpe e foulard Scarpe Ciabatte Vedi tutto TOP BRAND TOP BRAND Urban Commuter Accessori mare Essenziali da portare con te Brand ABBIGLIAMENTO Altavia Altavia Court Altavia Sailing B.Angel Coralife In promo Everlast GAP Jansport Jeep Maui and Sons NBA PIOMBO PIOMBO Contemporary PIOMBO Tech Terraviva Design Urban Commuter Utopja Hot on social Scopri i migliori Brand Terraviva Design Urban Commuter Utopja Hot on social Scopri i migliori Brand Utopja Summer 26 Riscrivi i tuoi summer codes con i bestseller Utopja. Moda mare COLLEZIONE MARE Costume slip Costume bermuda Borse e accessori mare Abbigliamento in lino Vedi tutto TOP BRAND TOP BRAND OVS Altavia Sailing New In Everlast PIOMBO Maui & Sons Vedi tutto Moda Mare La selezione perfetta per la tua estate Shop by Look TROVA IL TUO LOOK Ufficio Casual Cerimonie ed eventi Lauree Anti-pioggia Vedi tutto Sport ABBIGLIAMENTO SPORTIVO Hiking e Outdoor Altavia by D. Compagnoni Tennis e Padel Altavia Court Vela & Nautica Altavia Sailing Ciclismo Altavia Abbigliamento protezione solare Calzature e accessori Scopri tutti gli sport ALTAVIA CREW ALTAVIA CREW Puntata 1: Deborah Compagnoni Puntata 2: Giulio Bosca Puntata 3: Emil Zulian Puntata 4: Virna Toppi New In Altavia Court Per chi ama il tennis, il padel e il loro stile innato. Neonato COLLEZIONE Completi, tutine e pagliaccetti Body Best seller Giubini e Giacche Leggere Maglieria Magliette, top e camicie Felpe Pantaloni e jeans Pigiami Best seller Accessori Vedi tutto IN EVIDENZA IN EVIDENZA Lasciati ispirare Nuova collezione FW26 New In TOP BRAND TOP BRAND Fagottino GAP Kids Iana Il primo corredino Tutto il necessario per un arrivo confortevole. Neonata COLLEZIONE Completi, tutine e pagliaccetti Body Best seller Maglieria Magliette, top e camicie Vestitini e Gonne Felpe Pantaloni e jeans Pigiami Best seller Accessori Vedi tutto IN EVIDENZA IN EVIDENZA Lasciati ispirare Nuova collezione FW26 New In TOP BRAND TOP BRAND Fagottino GAP Kids Iana Il primo corredino Tutto il necessario per un arrivo confortevole. Bimbo COLLEZIONE Completi, tute e pagliac",
-        "json_ld": [
-          {
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "item": {
-                  "id": "https://www.ovs.it/it/it/",
-                  "name": "Home"
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "item": {
-                  "id": "https://www.ovs.ithttps://www.ovs.it/it/it/c/donna/",
-                  "name": "Donna"
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "item": {
-                  "id": "https://www.ovs.ithttps://www.ovs.it/it/it/c/donna/abbigliamento/",
-                  "name": "Abbigliamento"
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 4,
-                "item": {
-                  "id": "https://www.ovs.ithttps://www.ovs.it/it/it/c/donna/abbigliamento/abiti-e-jumpsuits/",
-                  "name": "Abiti e jumpsuits"
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 5,
-                "item": {
-                  "id": "https://www.ovs.ithttps://www.ovs.it/it/it/c/donna/abbigliamento/abiti-e-jumpsuits/abiti/",
-                  "name": "Abiti"
-                }
-              }
-            ]
-          },
-          {
-            "@context": "https://schema.org",
-            "@type": "ItemList",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "item": {
-                  "@type": "Product",
-                  "name": "Backless Mini Dress Vintage Grey",
-                  "image": [
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwb5cdda80/media/products/002/401/002401056_L.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwdc774d1d/media/products/002/401/002401056_R.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw2b3b34cd/media/products/002/401/002401056_F.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw000f69b8/media/products/002/401/002401056_D2.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw070129e0/media/products/002/401/002401056_D1.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw3692b13d/media/products/002/401/002401056_FSTILL.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwc69395c8/media/products/002/401/002401056_D1STILL.jpg"
-                  ],
-                  "offers": {
-                    "@type": "Offer",
-                    "price": 24.95,
-                    "priceCurrency": "EUR"
-                  },
-                  "url": "https://www.ovs.it/it/it/p/backless-mini-dress-vintage-grey-002401056.html"
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "item": {
-                  "@type": "Product",
-                  "name": "Abito corto con fantasia limoni",
-                  "image": [
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwbf84b28b/media/products/004/361/004361806_L.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw9604b18a/media/products/004/361/004361806_F.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwb631e43d/media/products/004/361/004361806_R.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw60f17a6c/media/products/004/361/004361806_D1.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw5e637056/media/products/004/361/004361806_D2.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwe30c196b/media/products/004/361/004361806_FSTILL.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwb644048e/media/products/004/361/004361806_D1STILL.jpg"
-                  ],
-                  "offers": {
-                    "@type": "Offer",
-                    "price": 89.95,
-                    "priceCurrency": "EUR"
-                  },
-                  "url": "https://www.ovs.it/it/it/p/abito-corto-con-fantasia-limoni-004361806.html"
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 3,
-                "item": {
-                  "@type": "Product",
-                  "name": "Backless Mini Dress Black",
-                  "image": [
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw1e45a2d4/media/products/002/401/002401060_L.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw9a26307b/media/products/002/401/002401060_R.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwcde70f49/media/products/002/401/002401060_F.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwad9bcafb/media/products/002/401/002401060_D2.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw1a7b1a93/media/products/002/401/002401060_D1.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwef96f2a5/media/products/002/401/002401060_FSTILL.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw53c27ee7/media/products/002/401/002401060_D1STILL.jpg"
-                  ],
-                  "offers": {
-                    "@type": "Offer",
-                    "price": 24.95,
-                    "priceCurrency": "EUR"
-                  },
-                  "url": "https://www.ovs.it/it/it/p/backless-mini-dress-black-002401060.html"
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 4,
-                "item": {
-                  "@type": "Product",
-                  "name": "Mock-Neck Mini Dress Black",
-                  "image": [
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwa8dbfb11/media/products/002/472/002472971_L.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw226ec1b8/media/products/002/472/002472971_R.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw01be6576/media/products/002/472/002472971_F.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw43ab2554/media/products/002/472/002472971_D1.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw3f59af47/media/products/002/472/002472971_D2.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw181b6c95/media/products/002/472/002472971_FSTILL.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwfba6244b/media/products/002/472/002472971_D1STILL.jpg"
-                  ],
-                  "offers": {
-                    "@type": "Offer",
-                    "price": 15,
-                    "priceCurrency": "EUR"
-                  },
-                  "url": "https://www.ovs.it/it/it/p/mock-neck-mini-dress-black-002472971.html"
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 5,
-                "item": {
-                  "@type": "Product",
-                  "name": "Abito corto con stampa ciliegie",
-                  "image": [
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwa846c775/media/products/004/360/004360366_L.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw672860a6/media/products/004/360/004360366_F.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw99eb81fd/media/products/004/360/004360366_R.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw2dbf6849/media/products/004/360/004360366_D1.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw2dc927fe/media/products/004/360/004360366_D2.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw49239661/media/products/004/360/004360366_FSTILL.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw1152fe7d/media/products/004/360/004360366_D1STILL.jpg"
-                  ],
-                  "offers": {
-                    "@type": "Offer",
-                    "price": 79.95,
-                    "priceCurrency": "EUR"
-                  },
-                  "url": "https://www.ovs.it/it/it/p/abito-corto-con-stampa-ciliegie-004360366.html"
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 6,
-                "item": {
-                  "@type": "Product",
-                  "name": "Abito lungo nero con scollo a V e schiena aperta",
-                  "image": [
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw119b9e09/media/products/004/362/004362803_L.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwf592f419/media/products/004/362/004362803_F.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwbb5d93ac/media/products/004/362/004362803_R.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw6ddc6d80/media/products/004/362/004362803_D3.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw9aba56b1/media/products/004/362/004362803_D1.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwa7b006da/media/products/004/362/004362803_D2.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw6bcfbbce/media/products/004/362/004362803_FSTILL.jpg"
-                  ],
-                  "offers": {
-                    "@type": "Offer",
-                    "price": 89.95,
-                    "priceCurrency": "EUR"
-                  },
-                  "url": "https://www.ovs.it/it/it/p/abito-lungo-nero-con-scollo-a-v-e-schiena-aperta-004362803.html"
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 7,
-                "item": {
-                  "@type": "Product",
-                  "name": "Abito denim nero con bottoni Gap",
-                  "image": [
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw5edb73b4/media/products/004/360/004360497_L.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwae7b8d46/media/products/004/360/004360497_F.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw68a7ce16/media/products/004/360/004360497_R.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw3c48b561/media/products/004/360/004360497_D3.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwbb16b864/media/products/004/360/004360497_D1.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwd9999c96/media/products/004/360/004360497_D2.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwe9db9914/media/products/004/360/004360497_FSTILL.jpg"
-                  ],
-                  "offers": {
-                    "@type": "Offer",
-                    "price": 89.95,
-                    "priceCurrency": "EUR"
-                  },
-                  "url": "https://www.ovs.it/it/it/p/abito-denim-nero-con-bottoni-gap-004360497.html"
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 8,
-                "item": {
-                  "@type": "Product",
-                  "name": "Abito in cotone",
-                  "image": [
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw8cdd6663/media/products/004/367/004367901_L.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw87a85c57/media/products/004/367/004367901_R.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw737c653b/media/products/004/367/004367901_D1.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw83a47e64/media/products/004/367/004367901_FSTILL.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw4fa25ad7/media/products/004/367/004367901_D1STILL.jpg"
-                  ],
-                  "offers": {
-                    "@type": "Offer",
-                    "price": 89.95,
-                    "priceCurrency": "EUR"
-                  },
-                  "url": "https://www.ovs.it/it/it/p/abito-in-cotone-004367901.html"
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 9,
-                "item": {
-                  "@type": "Product",
-                  "name": "Vestito lungo smanicato crochet",
-                  "image": [
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwcffdc8b6/media/products/002/362/002362723_V1.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw82ba706e/media/products/002/362/002362723_L.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwf987ed41/media/products/002/362/002362723_F.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwa9a30b68/media/products/002/362/002362723_R.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwd9cf612b/media/products/002/362/002362723_FSTILL.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw9779be2a/media/products/002/362/002362723_D1STILL.jpg"
-                  ],
-                  "offers": {
-                    "@type": "Offer",
-                    "price": 34.95,
-                    "priceCurrency": "EUR"
-                  },
-                  "url": "https://www.ovs.it/it/it/p/vestito-lungo-smanicato-crochet-002362723.html"
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 10,
-                "item": {
-                  "@type": "Product",
-                  "name": "Abito in denim",
-                  "image": [
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw1051698e/media/products/004/356/004356754_L.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwf61e1e5f/media/products/004/356/004356754_F.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwd2fc057d/media/products/004/356/004356754_R.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw34694e7c/media/products/004/356/004356754_D2.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwbbe59d82/media/products/004/356/004356754_D1.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw06194360/media/products/004/356/004356754_D3.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw8cbe2b91/media/products/004/356/004356754_FSTILL.jpg"
-                  ],
-                  "offers": {
-                    "@type": "Offer",
-                    "price": 89.95,
-                    "priceCurrency": "EUR"
-                  },
-                  "url": "https://www.ovs.it/it/it/p/abito-in-denim-004356754.html"
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 11,
-                "item": {
-                  "@type": "Product",
-                  "name": "Abito lungo a fiori",
-                  "image": [
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw2661fd4a/media/products/004/360/004360541_L.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw3c04ea5c/media/products/004/360/004360541_F.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwe3ccd133/media/products/004/360/004360541_R.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwa5618ac8/media/products/004/360/004360541_D1.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw5e16a31d/media/products/004/360/004360541_D2.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw606b21d6/media/products/004/360/004360541_FSTILL.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw0e85cebf/media/products/004/360/004360541_D1STILL.jpg"
-                  ],
-                  "offers": {
-                    "@type": "Offer",
-                    "price": 99.95,
-                    "priceCurrency": "EUR"
-                  },
-                  "url": "https://www.ovs.it/it/it/p/abito-lungo-a-fiori-004360541.html"
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 12,
-                "item": {
-                  "@type": "Product",
-                  "name": "Vestito con stampa floreale",
-                  "image": [
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwf027269b/media/products/004/368/004368365_L.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw9c9655cb/media/products/004/368/004368365_R.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw1204fb0e/media/products/004/368/004368365_D1.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwb8b839af/media/products/004/368/004368365_FSTILL.jpg"
-                  ],
-                  "offers": {
-                    "@type": "Offer",
-                    "price": 89.95,
-                    "priceCurrency": "EUR"
-                  },
-                  "url": "https://www.ovs.it/it/it/p/vestito-con-stampa-floreale-004368365.html"
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 13,
-                "item": {
-                  "@type": "Product",
-                  "name": "Abito midi a maniche corte",
-                  "image": [
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw4c9ccee5/media/products/004/362/004362809_L.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwf97539ce/media/products/004/362/004362809_R.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw8f97324a/media/products/004/362/004362809_D3.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwf315327d/media/products/004/362/004362809_D1.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwe47b34d9/media/products/004/362/004362809_D2.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw66ade643/media/products/004/362/004362809_FSTILL.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwa00cbcfb/media/products/004/362/004362809_F.jpg"
-                  ],
-                  "offers": {
-                    "@type": "Offer",
-                    "price": 89.95,
-                    "priceCurrency": "EUR"
-                  },
-                  "url": "https://www.ovs.it/it/it/p/abito-midi-a-maniche-corte-004362809.html"
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 14,
-                "item": {
-                  "@type": "Product",
-                  "name": "Vestito lungo nero con fantasia floreale",
-                  "image": [
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwc163cc04/media/products/004/360/004360535_L.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw8b17860d/media/products/004/360/004360535_F.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw335d5f4f/media/products/004/360/004360535_R.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwb08cbc96/media/products/004/360/004360535_D1.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw0aeb209c/media/products/004/360/004360535_D2.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw6b29e170/media/products/004/360/004360535_FSTILL.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw4af172c7/media/products/004/360/004360535_D1STILL.jpg"
-                  ],
-                  "offers": {
-                    "@type": "Offer",
-                    "price": 99.95,
-                    "priceCurrency": "EUR"
-                  },
-                  "url": "https://www.ovs.it/it/it/p/vestito-lungo-nero-con-fantasia-floreale-004360535.html"
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 15,
-                "item": {
-                  "@type": "Product",
-                  "name": "Abito in denim con bottoni",
-                  "image": [
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw179fabad/media/products/004/356/004356747_L.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwd8eb3d6b/media/products/004/356/004356747_F.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw016c0716/media/products/004/356/004356747_R.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw8a47549a/media/products/004/356/004356747_D2.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw6f1a2cb1/media/products/004/356/004356747_D1.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw26191126/media/products/004/356/004356747_D3.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw099c0c9d/media/products/004/356/004356747_FSTILL.jpg"
-                  ],
-                  "offers": {
-                    "@type": "Offer",
-                    "price": 89.95,
-                    "priceCurrency": "EUR"
-                  },
-                  "url": "https://www.ovs.it/it/it/p/abito-in-denim-con-bottoni-004356747.html"
-                }
-              },
-              {
-                "@type": "ListItem",
-                "position": 16,
-                "item": {
-                  "@type": "Product",
-                  "name": "Abito chemisier in denim",
-                  "image": [
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw59d3756c/media/products/002/199/002199811_L.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw096266d9/media/products/002/199/002199811_F.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwc34e66a5/media/products/002/199/002199811_R.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw0d5839aa/media/products/002/199/002199811_D1.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw875ef6e2/media/products/002/199/002199811_FSTILL.jpg",
-                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw5293439f/media/products/002/199/002199811_D1STILL.jpg"
-                  ],
-                  "offers": {
-                    "@type": "Offer",
-                    "price": 49.95,
-                    "priceCurrency": "EUR"
-                  },
-                  "url": "https://www.ovs.it/it/it/p/abito-chemisier-in-denim-002199811.html"
-                }
-              }
-            ]
-          }
-        ],
-        "error": null
-      }
-    },
-    {
-      "step": "enrich_people",
-      "input": {
-        "company_domain": "ovs.it",
-        "titles": [
-          "Head of E-commerce",
-          "Digital Director",
-          "Chief Digital Officer",
-          "Head of Studio",
-          "Image Production Manager",
-          "Ecommerce Director"
-        ]
-      },
-      "result": {
-        "people": [
-          {
-            "name": "",
-            "title": "Head of E-commerce",
-            "linkedin": "",
-            "email_status": "unknown"
-          },
-          {
-            "name": "",
-            "title": "Digital Director",
-            "linkedin": "",
-            "email_status": "unknown"
-          },
-          {
-            "name": "",
-            "title": "Chief Digital Officer",
-            "linkedin": "",
-            "email_status": "unknown"
-          },
-          {
-            "name": "",
-            "title": "Head of Studio",
-            "linkedin": "",
-            "email_status": "unknown"
-          },
-          {
-            "name": "",
-            "title": "Image Production Manager",
-            "linkedin": "",
-            "email_status": "unknown"
-          },
-          {
-            "name": "",
-            "title": "Ecommerce Director",
-            "linkedin": "",
-            "email_status": "unknown"
-          }
-        ],
-        "needs_human": true,
-        "error": "no people-data provider configured (set APOLLO_API_KEY to enable Apollo lookups); returning target titles only — names need a human"
-      }
-    },
-    {
-      "step": "classify_images",
-      "input": {
-        "image_urls": [
-          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwb5cdda80/media/products/002/401/002401056_L.jpg",
-          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw2b3b34cd/media/products/002/401/002401056_F.jpg",
-          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw3692b13d/media/products/002/401/002401056_FSTILL.jpg",
-          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwbf84b28b/media/products/004/361/004361806_L.jpg",
-          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw9604b18a/media/products/004/361/004361806_F.jpg",
-          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwe30c196b/media/products/004/361/004361806_FSTILL.jpg",
-          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwa846c775/media/products/004/360/004360366_L.jpg",
-          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw672860a6/media/products/004/360/004360366_F.jpg",
-          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw49239661/media/products/004/360/004360366_FSTILL.jpg",
-          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwcffdc8b6/media/products/002/362/002362723_V1.jpg",
-          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw82ba706e/media/products/002/362/002362723_L.jpg",
-          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwf987ed41/media/products/002/362/002362723_F.jpg",
-          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwd9cf612b/media/products/002/362/002362723_FSTILL.jpg",
-          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw2661fd4a/media/products/004/360/004360541_L.jpg",
-          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw3c04ea5c/media/products/004/360/004360541_F.jpg",
-          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw606b21d6/media/products/004/360/004360541_FSTILL.jpg",
-          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw4c9ccee5/media/products/004/362/004362809_L.jpg",
-          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw66ade643/media/products/004/362/004362809_FSTILL.jpg",
-          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw59d3756c/media/products/002/199/002199811_L.jpg",
-          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw096266d9/media/products/002/199/002199811_F.jpg",
-          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw875ef6e2/media/products/002/199/002199811_FSTILL.jpg"
-        ]
-      },
-      "result": {
-        "classifications": [
-          {
-            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwb5cdda80/media/products/002/401/002401056_L.jpg",
-            "label": "on_model",
-            "model_present": true,
-            "background": "studio grey",
-            "worn": true
-          },
-          {
-            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw2b3b34cd/media/products/002/401/002401056_F.jpg",
-            "label": "on_model",
-            "model_present": true,
-            "background": "studio grey",
-            "worn": true
-          },
-          {
-            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw3692b13d/media/products/002/401/002401056_FSTILL.jpg",
-            "label": "still_life",
-            "model_present": false,
-            "background": "studio grey",
-            "worn": false
-          },
-          {
-            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwbf84b28b/media/products/004/361/004361806_L.jpg",
-            "label": "on_model",
-            "model_present": true,
-            "background": "plain white",
-            "worn": true
-          },
-          {
-            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw9604b18a/media/products/004/361/004361806_F.jpg",
-            "label": "on_model",
-            "model_present": true,
-            "background": "plain white",
-            "worn": true
-          },
-          {
-            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwe30c196b/media/products/004/361/004361806_FSTILL.jpg",
-            "label": "still_life",
-            "model_present": false,
-            "background": "plain white",
-            "worn": false
-          },
-          {
-            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwa846c775/media/products/004/360/004360366_L.jpg",
-            "label": "on_model",
-            "model_present": true,
-            "background": "studio grey",
-            "worn": true
-          },
-          {
-            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw672860a6/media/products/004/360/004360366_F.jpg",
-            "label": "on_model",
-            "model_present": true,
-            "background": "studio grey",
-            "worn": true
-          },
-          {
-            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw49239661/media/products/004/360/004360366_FSTILL.jpg",
-            "label": "still_life",
-            "model_present": false,
-            "background": "plain white",
-            "worn": false
-          },
-          {
-            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwcffdc8b6/media/products/002/362/002362723_V1.jpg",
-            "label": "on_model",
-            "model_present": true,
-            "background": "plain white",
-            "worn": true
-          },
-          {
-            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw82ba706e/media/products/002/362/002362723_L.jpg",
-            "label": "on_model",
-            "model_present": true,
-            "background": "studio / plain wall with wood floor",
-            "worn": true
-          },
-          {
-            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwf987ed41/media/products/002/362/002362723_F.jpg",
-            "label": "on_model",
-            "model_present": true,
-            "background": "plain white",
-            "worn": true
-          },
-          {
-            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwd9cf612b/media/products/002/362/002362723_FSTILL.jpg",
-            "label": "still_life",
-            "model_present": false,
-            "background": "plain white",
-            "worn": false
-          },
-          {
-            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw2661fd4a/media/products/004/360/004360541_L.jpg",
-            "label": "on_model",
-            "model_present": true,
-            "background": "studio grey",
-            "worn": true
-          },
-          {
-            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw3c04ea5c/media/products/004/360/004360541_F.jpg",
-            "label": "on_model",
-            "model_present": true,
-            "background": "plain white",
-            "worn": true
-          },
-          {
-            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw606b21d6/media/products/004/360/004360541_FSTILL.jpg",
-            "label": "still_life",
-            "model_present": false,
-            "background": "plain white",
-            "worn": false
-          },
-          {
-            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw4c9ccee5/media/products/004/362/004362809_L.jpg",
-            "label": "on_model",
-            "model_present": true,
-            "background": "plain white",
-            "worn": true
-          },
-          {
-            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw66ade643/media/products/004/362/004362809_FSTILL.jpg",
-            "label": "still_life",
-            "model_present": false,
-            "background": "studio grey",
-            "worn": false
-          },
-          {
-            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw59d3756c/media/products/002/199/002199811_L.jpg",
-            "label": "on_model",
-            "model_present": true,
-            "background": "studio grey",
-            "worn": true
-          },
-          {
-            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw096266d9/media/products/002/199/002199811_F.jpg",
-            "label": "on_model",
-            "model_present": true,
-            "background": "studio grey",
-            "worn": true
-          },
-          {
-            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw875ef6e2/media/products/002/199/002199811_FSTILL.jpg",
-            "label": "still_life",
-            "model_present": false,
-            "background": "plain white",
-            "worn": false
-          }
-        ],
-        "summary": {
-          "avg_shots": 1.0,
-          "pct_on_model": 66.7,
-          "pct_still_life": 33.3,
-          "pct_video": 0.0,
-          "consistency": "medium"
-        },
-        "error": null
-      }
-    },
-    {
-      "step": "fetch_page",
-      "input": {
-        "url": "https://web.archive.org/web/20230102220404/http://ovs.it/"
-      },
-      "result": {
-        "url": "https://web.archive.org/web/20230105204309/https://www.ovs.it/",
-        "status": 200,
-        "title": "Abbigliamento, Shopping e saldi online | OVS",
-        "text": "Abbigliamento, Shopping e saldi online | OVS it IT NON E' POSSIBILE SPEDIRE NEL TUO PAESE Conferma Scegli il Paese Vai al contenuto principale Vai al footer Scegli il tuo negozio Lista Mappa SELEZIONA NEGOZIO ! Attenzione ! Attenzione Spedizione gratuita a partire da 50 € Ritiro in negozio gratuito Reso sempre gratuito con corriere e in negozio Negozi Customer care OVS ♥ friends Menu Saldi Saldi Donna Saldi Uomo Saldi Bambino Donna Nuovi arrivi Family time Love Therapy Homewear Back to Work Essentials Curvy Xmas Jumper STC Collezione Capispalla Giacche Gilet Abiti Gonne Camicie e bluse T-shirt e top Maglieria Felpe Pantaloni Jeans Shorts e bermuda Leggings Scarpe Borse Accessori Costumi da bagno Moda Mare Abbigliamento sportivo Abbigliamento Yoga Pigiami e camicie da notte Intimo Taglie Comode Tutto su Collezione Wellness Accessori Tutto su Wellness Accessori Borse Scarpe Tutto su Accessori Mascherine Mascherine Lavabili Mascherine Monouso Mascherine FFP2 Tutto su Mascherine Altri Brand Baby Angel GAP Tally Weijl Lovable Everlast Nobody's Child PIOMBO Hybrid Mya The Body Shop Canadian Peak NEW Geographical Norway NEW Crocs Jansport French Connection Tutti i brand Donna Sostenibilità Bio Cotton Essential Viscosa sostenibile Editorials Party Look new Altavia new Love Therapy Back to work Less Is Better NEW Eco Denim Donna Promozioni Uomo Nuovi arrivi Family time Homewear Back to Work Personalizzazioni Essentials Xmas Jumper STC Collezione Capispalla Giacche Abiti Maglieria Camicie casual Camicie eleganti T-shirt Felpe Pantaloni Chino Jeans Scarpe Pigiami Intimo Accessori Abbigliamento sportivo Moda Mare Costumi da bagno Tutto su Collezione Active Abbigliamento Fitness Abbigliamento Tennis Uomo Tutto su Active Mascherine Mascherine Lavabili Mascherine Monouso Tutto su Mascherine altri brand GAP Everlast Grand & Hills Maui and Sons Utopja PIOMBO The Body Shop Canadian Peak NEW Geographical Norway NEW Crocs Jansport Tutti i brand uomo Sostenibilità Bio Cotton Essential Editorials Party Look new Altavia new Back to work Less Is Better NEW Eco Denim Uomo Promozioni Bambino Nuovi arrivi Family time Homewear Personalizzazioni Essentials Multipack Xmas Jumper STC Neonato 0 - 9 Mesi Giubbotti e Giacche Completini T-Shirt e Top Pantaloni Accessori Body Pannolini Tutine e Salopette Maglioni e Felpe Tutto su Collezione Neonato 9 - 36 mesi Capispalla Maglieria Felpe Tute e pantaloni-tuta Magliette Camicie Jeans Pantaloni Pantaloni corti Scarpe Accessori Costumi mare Pigiami Intimo Pannolini Body Tutine e pagliaccetti Polo Tutto su Collezione Bambino 3 - 10 anni Capispalla Tute e pantaloni tuta Maglieria Felpe Magliette Polo Camicie Jeans Pantaloni Chino Pantaloni corti Scarpe Accessori Costumi mare Pigiami Intimo Grembiulini Tutto su Collezione Ragazzo 10 - 15 anni Capispalla Tute e pantaloni tuta Maglieria Felpe Magliette Camicie Jeans Pantaloni Pantaloni corti Scarpe Accessori Costumi mare Pigiami Intimo Grembiuli Tutto su Collezione Cartoons Flash new Batman Disney Manga Looney Tunes Marvel Mickey & Friends Spiderman Tom&Jerry Super Pets Tutti i personaggi Mascherine Mascherine Lavabili Mascherine Monouso Altri brand GAP Iana Everlast Maui and Sons Thun Trudi Lillydoo Eastpak Converse Chicco Canadian Peak NEW Geographical Norway NEW New Balance Crocs Lego NEW Tutti i brand bambino Sostenibilità Bio Cotton Essential Editorials Party Look new Altavia new Benvenuto al mondo Eco Denim Bambino Abbigliamento Tennis Bambino Promozioni 0-9 Mesi 9-36 Mesi 3-10 Anni 10-15 Anni Bambina Nuovi arrivi Family time Homewear Love Therapy personalizzazioni Essentials Multipack Xmas Jumper STC Neonata 0 - 9 Mesi Giubbotti e Giacche Vestiti Completini Pantaloni T-Shirt e Top Tutine e Salopette Maglioni e Felpe Accessori Body Pannolini Tutto su Collezione Neonata 9 - 36 mesi Capispalla Completini Tutine e pagliaccetti Vestitini Gonne Maglieria Felpe T-shirt Polo Camicie Jeans Pantaloni Pannolini Tute e pantaloni tuta Scarpe Accessori Pigiami Intimo Body Pantaloni corti Tutto su Collezione Bambina 3 - 10 anni Capispalla Giacche Completi Vestitini Gonne Magliette Canotte Maglieria Felpe Camicie Jeans Pantaloni Shorts Leggings e jeggings Tute e pantaloni-tuta Scarpe Accessori Costumi mare Pigiami Intimo Grembiulini Mini Me Tutto su Collezione Ragazza 10 - 15 anni Capispalla Giacche Vestiti Gonne Maglieria Felpe Magliette Canotte Camicie Jeans Pantaloni Shorts Leggings e jeggings Tute e pantaloni tuta Scarpe Accessori Costumi mare Pigiami Intimo Grembiuli Tutto su Collezione Cartoons Titti Disney Looney Tunes Mickey & Friends Minnie Tom&Jerry Tutti i personaggi mascherine Mascherine Lavabili Mascherine Monouso Mascherine FFP2 Altri brand GAP Iana Thun Trudi Maui and Sons Lillydoo Eastpak Converse Chicco Canadian Peak NEW Geographical Norway NEW New Balance Crocs Lego new Tutti i brand bambina Sostenibilità Bio Cotton Essential Editorials Party Look new Altavia new Love Therapy Benvenuto al mondo Eco Denim Bambina Abbigliamento Tennis Bambina Promozioni 0-9 Mesi 9-36 Mesi Bambina 3 - 10 anni 10-15 Anni PIOMBO The Van Collezione Uomo Collezione Donna Fragranze Chi è Massimo Piombo Piombo le donne Collezione Piombo Uomo Giacche Maglioni e Felpe Giacconi e Capispalla Camicie T-shirt e Polo Pantaloni Intimo Scarpe e Accessori Fragranze e Profumi new Tutto su Collezione Collezione Piombo Donna Abiti e Gonne Giacche e Capispalla Maglioni e Felpe Camicie e Bluse Scarpe e Accessori T-shirt e Top Pantaloni Fragranze e Profumi new Tutto su Collezione GAP THE CAMPAIGN DONNA UOMO KIDS Altri Brand Tutti i brand Converse Utopja Jansport New Balance Eastpak Iana PIOMBO The Body Shop Grand & Hills Chicco French Connection NEW Lovable Tally Weijl Nobody's Child Mya Lego NEW Thun Lillydoo Croff Geographical Norway NEW Crocs GAP Everlast Baby Angel Hybrid Canadian Peak NEW Beauty Collezioni Travel set Cosmetica naturale SPA at home Maschere viso Prodotti di Bellezza Make Up Trattamenti Viso Cura del Corpo Fragranze e Profumi Cofanetti e Idee Regalo Accessori Beauty Igienizzanti Tutto su bellezza Brand SHAKA THE BODY SHOP MAKE UP REVOLUTION MISS KAY SKIN PROUD SIGMA NEW Tutti i brand Trend Casa collezione accessori tessile brand croff Wishlist OVS ♥ friends Customer care Negozi La mia area personale Lista desideri I miei acquisti Esci 0 ABBIGLIAMENTO ONLINE OVS: STILE TRENDY E CASUAL PER UOMO, DONNA E BAMBINO OVS è uno dei brand leader nell' abbigliamento donna, uomo e bambino perché offre stile e qualità Made in Italy al miglior prezzo.\nScopri tutte le collezioni negli oltre 900 negozi in Italia e all’estero, oppure scegli lo shopping online su OVS.it. Scopri di più NUOVA COLLEZIONE DONNA AUTUNNO/INVERNO La collezione donna AUTUNNO/INVERNO di OVS propone capi imperdibili: abiti, gonne, t-shirt, camicie, jeans, intimo e molto altro, anche per taglie comode. Gli abiti donna OVS sono versatili e adatti a chi ama lo stile casual, ma con il giusto accessorio possono trasformarsi nel capo perfetto per un’occasione speciale. Oltre agli abiti, da OVS trovi camicie donna e bluse in tanti modelli, tessuti e stili: dalla classica camicia bianca, un evergreen da abbinare con classe a gonne e pantaloni OVS,\nalle bluse in georgette dalle fantasie floreali. E a tutte le amanti del denim, la collezione di jeans donna propone tantissimi modelli: scopri online la collezione di jeans boyfriend, a vita alta, a zampa, strappati, push-up, skinny, regular, elasticizzati e stretch. Pratica e versatile è la collezione intimo OVS, che con i suoi reggiseni push-up, balconette, bralette, a fascia e a triangolo - imbottiti o non imbottiti – da abbinare a slip, perizomi, tanga e culottes, può diventare anche molto romantica, sensuale e femminile. Scopri anche i pigiami e le camicie da notte e acquista online la collezione intimo donna. Non perderti tutte le novità della collezione AUTUNNO/INVERNO 2022! ABBIGLIAMENTO ONLINE: SCOPRI LA NUOVA COLLEZIONE UOMO AUTUNNO/INVERNO La collezione uomo AUTUNNO/INVERNO è pensata per l’uomo dallo s",
-        "json_ld": [],
-        "error": null
-      }
+      "step": "load_ground_truth",
+      "note": "seeded brand 'ovs'"
     },
     {
       "step": "compute_opportunity",
-      "input": {
-        "new_skus_per_year": 40000,
-        "shots_per_sku": 5.0,
-        "channel_variants": 3.0,
-        "refresh_factor": 0.5,
-        "carryover_skus": 25000,
-        "revenue_eur": 1746000000,
-        "partner_multiplier": 2.2,
-        "tier": "mass",
-        "assumptions": [
-          "FY2025 net sales €1,746M confirmed via OVS corporate IR page",
-          "Value retailer with very high catalog turnover; donna>abbigliamento category alone shows 3,563 live SKUs, supporting ~40k new SKUs/yr (tier-based estimate)",
-          "Live PDP audit (abiti sample) shows ~5 AI-amenable shots/SKU (3 on-model L/F/R + 1-2 still-life), excluding pure detail shots and editorial hero",
-          "On-model ~67% / still-life ~33% in live sample; video present but rare (one _V1 found)",
-          "Channel variants x3 for multi-banner (OVS/Upim/Goldenpoint) + marketplace + localization",
-          "Partner multiplier x2.2 for multi-brand portfolio + franchise (Japan/Mexico/India) + wholesale/marketplace",
-          "Brand/group-level revenue used for top-down cross-check",
-          "HUMAN-REFRAME: OVS runs an in-house studio (vertically integrated), so standard agency-rate benchmarks OVERSTATE pure cost displacement. Real value is studio scale, new-arrival surge capacity and near-zero-cost localization. Treat € as upper-bound draft."
-        ]
-      },
-      "result": {
-        "annual_images_range": {
-          "low": 693750.0,
-          "high": 787500.0,
-          "mid": 740625.0
-        },
-        "cost_today_range": {
-          "low": 10406250.0,
-          "high": 47250000.0,
-          "mid": 28828125.0
-        },
-        "cost_sartiq_range": {
-          "low": 69375.0,
-          "high": 2362500.0,
-          "mid": 1215937.5
-        },
-        "annual_opportunity_range": {
-          "low": 8043750.0,
-          "high": 47180625.0,
-          "mid": 27612187.5
-        },
-        "partner_upside_range": {
-          "low": 9652500.000000002,
-          "high": 56616750.00000001,
-          "mid": 33134625.000000004
-        },
-        "topdown_range": {
-          "low": 8730000.0,
-          "high": 34920000.0,
-          "mid": 21825000.0
-        },
-        "levers": [
-          "speed (weeks -> hours)",
-          "return-rate reduction (image accuracy)",
-          "localization at near-zero marginal cost"
-        ],
-        "assumptions": [
-          "FY2025 net sales €1,746M confirmed via OVS corporate IR page",
-          "Value retailer with very high catalog turnover; donna>abbigliamento category alone shows 3,563 live SKUs, supporting ~40k new SKUs/yr (tier-based estimate)",
-          "Live PDP audit (abiti sample) shows ~5 AI-amenable shots/SKU (3 on-model L/F/R + 1-2 still-life), excluding pure detail shots and editorial hero",
-          "On-model ~67% / still-life ~33% in live sample; video present but rare (one _V1 found)",
-          "Channel variants x3 for multi-banner (OVS/Upim/Goldenpoint) + marketplace + localization",
-          "Partner multiplier x2.2 for multi-brand portfolio + franchise (Japan/Mexico/India) + wholesale/marketplace",
-          "Brand/group-level revenue used for top-down cross-check",
-          "HUMAN-REFRAME: OVS runs an in-house studio (vertically integrated), so standard agency-rate benchmarks OVERSTATE pure cost displacement. Real value is studio scale, new-arrival surge capacity and near-zero-cost localization. Treat € as upper-bound draft."
-        ],
-        "sanity_ok": true,
-        "needs_human": false
-      }
+      "note": "deterministic economic model"
     },
     {
-      "step": "emit_field",
-      "input": {
-        "name": "q1_who",
-        "value": "OVS S.p.A. is Italy's leading value/mass apparel retailer (menswear, womenswear, kidswear, plus underwear, beauty and home decor), running a vertically integrated model across the full value chain with a platform of proprietary brands. Tier: MASS / value (price points e.g. dresses €15–35 for the OVS core line, with premium sub-brands like GAP/PIOMBO reaching €80–100). Channel mix: DTC-led via 2,600+ stores (mostly OVS, Upim, Goldenpoint banners) plus e-commerce and franchise/wholesale. Markets: Italy core, with international franchise expansion (Japan, Mexico, India, Dubai). Listed on Euronext Milan since 2015; standalone group (no parent), >9,000 employees. Own-brand portfolio includes PIOMBO, OVS Kids, Blukids, Stefanel, Les Copains, Shaka and CROFF.",
-        "confidence": "high",
-        "sources": [
-          {
-            "title": "OVS Corporate — Chi siamo / About us",
-            "url": "https://www.ovscorporate.it/en/about-us/ovs-group",
-            "note": "positioning, vertical integration, banners, brand portfolio, store count"
-          },
-          {
-            "title": "OVS Corporate homepage (FY2025 key figures)",
-            "url": "https://www.ovscorporate.it",
-            "note": "2,600+ stores, 9,000+ employees, Euronext Milan since 2015"
-          },
-          {
-            "title": "ovs.it live category (women's dresses) — price points",
-            "url": "https://www.ovs.it/it/it/c/donna/abbigliamento/abiti-e-jumpsuits/abiti/",
-            "note": "OVS core €15-35, GAP/premium up to ~€100"
-          }
-        ],
-        "is_estimate": false,
-        "needs_human": false
-      },
-      "result": {
-        "stored": "q1_who",
-        "fields_emitted": [
-          "q1_who"
-        ]
-      }
+      "step": "score",
+      "note": "opportunity score 3.1/5"
     },
     {
-      "step": "emit_field",
-      "input": {
-        "name": "q2_direction",
-        "value": "Direction: INNOVATING / INVESTING — copy-what-works, then propose scale. Live PDP imagery (Jan 2026 sample) is a clean, structured, on-model-led shot set: ~3 on-model views per SKU (L/F/R) on consistent studio-grey/white backgrounds, plus 1–2 still-life packshots and occasional short-form video (_V1). This is markedly more on-model and more consistent than the largely packshot/category-tile presentation visible in the ~2023 Wayback snapshot. OVS is clearly putting money into imagery and digital, not lagging — reinforced by a €33m Puglia technology/innovation hub explicitly targeting digital transformation, AI and cybersecurity. Triggers: ongoing digital-innovation capex, Goldenpoint integration, new sub-brand launches (B.Angel, Utopja, Altavia) and international franchise expansion (India, Dubai). Recommendation: do NOT pitch a visual overhaul; lead with scale/throughput on an already-good visual system.",
-        "confidence": "med",
-        "sources": [
-          {
-            "title": "Wayback snapshot — ovs.it (Jan 2023)",
-            "url": "https://web.archive.org/web/20230102220404/http://ovs.it/",
-            "note": "THEN: packshot/category-tile led homepage presentation"
-          },
-          {
-            "title": "ovs.it live PDP JSON-LD + image classification (Jan 2026)",
-            "url": "https://www.ovs.it/it/it/c/donna/abbigliamento/abiti-e-jumpsuits/abiti/",
-            "note": "NOW: structured on-model-led sets, ~67% on-model / 33% still-life, consistent backgrounds"
-          },
-          {
-            "title": "OVS Group — Puglia innovation hub (digital/AI), €33m",
-            "url": "https://www.ovscorporate.it/en/about-us/ovs-group",
-            "note": "evidence of digital/AI investment trajectory"
-          }
-        ],
-        "is_estimate": true,
-        "assumption": "Then-vs-now is partly inferred: the live shot set is measured directly via classifier, but the 2023 'more packshot' read is from the archived homepage layout (PDP-level THEN imagery not classified). Confidence med pending a THEN PDP image sample.",
-        "needs_human": false
-      },
-      "result": {
-        "stored": "q2_direction",
-        "fields_emitted": [
-          "q1_who",
-          "q2_direction"
-        ]
-      }
-    },
-    {
-      "step": "emit_field",
-      "input": {
-        "name": "q3_momentum",
-        "value": "GROWING (brand and group aligned — OVS is standalone, so no brand-vs-parent split). FY2025 (year to Jan 2026): net sales €1,746M, up ~7% YoY (≈3% organic + Goldenpoint acquisition), adjusted EBITDA €218M, up ~20%. Growth is broad-based: Q3 2025 net sales +9% YoY, 9M 2025 +5.8%; womenswear (Les Copains, PIOMBO) and beauty (doubled since 2021, now ~8% of OVS sales) outperforming; international franchise (India, Dubai) delivering strong density. Cash generation guided up ~20% to €80–85M. One watch-item: the Kasanova acquisition was allowed to lapse (conditions unmet), and management flags a still-uncertain market. Net financial position adjusted ~€(146)M — manageable at ~0.8x EBITDA leverage.",
-        "confidence": "high",
-        "sources": [
-          {
-            "title": "OVS Corporate — Investor overview (FY2025 key figures)",
-            "url": "https://www.ovscorporate.it/en/investors/overview",
-            "note": "€1,746M sales, €218.2M adj EBITDA, NFP €(145.9)M"
-          },
-          {
-            "title": "FashionNetwork — OVS 2025 revenue +7% to €1.74bn, Kasanova deal lapses",
-            "url": "https://ww.fashionnetwork.com/news/Ovs-2025-revenue-rises-7-to-1-74-billion-kasanova-deal-falls-through,1804963.html",
-            "note": "revenue +7%, EBITDA +20% to €218-219M, cash gen +20%"
-          },
-          {
-            "title": "Quartr — OVS Q3/9M 2025 results",
-            "url": "https://quartr.com/companies/ovs-s-p-a_14090",
-            "note": "Q3 +9%, 9M +5.8%, 2,660 stores, India/Dubai expansion"
-          },
-          {
-            "title": "Alpha Spread — OVS IR summary (H1 2025)",
-            "url": "https://www.alphaspread.com/security/mil/ovs/investor-relations",
-            "note": "beauty doubled since 2021, womenswear outperformance"
-          }
-        ],
-        "is_estimate": false,
-        "needs_human": false
-      },
-      "result": {
-        "stored": "q3_momentum",
-        "fields_emitted": [
-          "q1_who",
-          "q2_direction",
-          "q3_momentum"
-        ]
-      }
-    },
-    {
-      "step": "emit_field",
-      "input": {
-        "name": "q4_content_need",
-        "value": "Inputs supplied to compute_opportunity (model returns the image count and €, not me): new_skus_per_year=40,000; shots_per_sku=5.0 (AI-amenable on-model + still-life, from live audit); channel_variants=3.0 (OVS/Upim/Goldenpoint banners + marketplace + localization); refresh_factor=0.5; carryover_skus=25,000; revenue_eur=€1,746,000,000 (FY2025 confirmed); partner_multiplier=2.2 (multi-brand portfolio + franchise + wholesale); tier=mass. The model returned a defensible annual image volume in the high-six-figure range with a bottom-up € opportunity that cross-checks against the top-down revenue band (sanity_ok=true). IMPORTANT REFRAME for the human: OVS runs an in-house studio (vertically integrated), so the headline € applies agency-rate benchmarks and OVERSTATES pure cost savings — the real wedge is studio throughput/surge capacity and near-zero-cost localization, so treat the € as an upper-bound draft.",
-        "confidence": "med",
-        "sources": [
-          {
-            "title": "OVS Corporate — FY2025 net sales €1,746M",
-            "url": "https://www.ovscorporate.it/en/investors/overview",
-            "note": "revenue input for top-down cross-check"
-          },
-          {
-            "title": "ovs.it live category counts (women's apparel = 3,563 SKUs)",
-            "url": "https://www.ovs.it/it/it/c/donna/abbigliamento/",
-            "note": "supports high catalog turnover / ~40k new SKUs/yr estimate"
-          },
-          {
-            "title": "ovs.it PDP JSON-LD + classifier (shots/SKU & mix)",
-            "url": "https://www.ovs.it/it/it/c/donna/abbigliamento/abiti-e-jumpsuits/abiti/",
-            "note": "~5 AI-amenable shots/SKU, 67% on-model / 33% still-life"
-          }
-        ],
-        "is_estimate": true,
-        "assumption": "new_skus_per_year (40k) and partner_multiplier (2.2) are tier/structure-based estimates, not disclosed figures; shots/SKU and image mix are measured from a single-category live sample and assumed representative. € is an upper-bound given OVS's in-house studio.",
-        "needs_human": true
-      },
-      "result": {
-        "stored": "q4_content_need",
-        "fields_emitted": [
-          "q1_who",
-          "q2_direction",
-          "q3_momentum",
-          "q4_content_need"
-        ]
-      }
-    },
-    {
-      "step": "emit_field",
-      "input": {
-        "name": "q5_pdp",
-        "value": "Current PDP imagery is a structured, on-model-led studio system on a Salesforce Commerce Cloud (Demandware) platform. Per-SKU shot set (from JSON-LD + live classification of a 21-image women's-dress sample): ~3 on-model views (L/F/R) + 1–2 still-life packshots (FSTILL/D1STILL) + 1–3 detail shots (D1/D2/D3), with occasional short-form video (_V1) — roughly 6–7 raw images, of which ~5 are AI-amenable on-model/still-life. Mix among classified shots: ~67% on-model, ~33% still-life, video present but rare. Backgrounds are consistent studio-grey / plain-white; consistency rated medium (some variance grey vs white across SKUs). Cross-channel note: same DC-hosted images are reused on marketplaces/banners, with occasional quality downgrade vs own site. Net: quality is already good and on-model-heavy — the constraint is throughput/volume and localization, not visual quality.",
-        "confidence": "med",
-        "sources": [
-          {
-            "title": "ovs.it PDP JSON-LD (women's dresses) — image sets per SKU",
-            "url": "https://www.ovs.it/it/it/p/backless-mini-dress-vintage-grey-002401056.html",
-            "note": "L/F/R + FSTILL/D1STILL + D detail + V1 video naming convention"
-          },
-          {
-            "title": "Sartiq classifier summary on 21-image live sample",
-            "url": "https://www.ovs.it/it/it/c/donna/abbigliamento/abiti-e-jumpsuits/abiti/",
-            "note": "67% on-model / 33% still-life, consistency medium"
-          }
-        ],
-        "is_estimate": true,
-        "assumption": "Sample is one category (women's dresses, ~21 images across 7 SKUs); kids/men/beauty mixes likely differ (e.g. more flat-lay/ghost-mannequin in kids/intimo). Cross-channel downgrade is inferred from standard SFCC image reuse, not directly audited on a marketplace.",
-        "needs_human": true
-      },
-      "result": {
-        "stored": "q5_pdp",
-        "fields_emitted": [
-          "q1_who",
-          "q2_direction",
-          "q3_momentum",
-          "q4_content_need",
-          "q5_pdp"
-        ]
-      }
-    },
-    {
-      "step": "emit_field",
-      "input": {
-        "name": "q6_decision_maker",
-        "value": "Target role: the digital/e-commerce owner plus the in-house Image/Studio Production lead. Because OVS is vertically integrated with a centralized studio, the budget owner likely sits closer to e-commerce/operations than to brand-creative. Priority titles to validate: Head of E-commerce / E-commerce Director, Chief Digital Officer / Digital Director, and Head of Studio / Image (Photo) Production Manager. Group context: product is run by product managers/merchandisers under a creative director (per OVS group page), so a creative-director-level contact is a secondary route. No named individual was sourced — the enrichment provider returned target titles only (no Apollo key configured), so names must be obtained and validated by a human (e.g. via OVS LinkedIn company page).",
-        "confidence": "low",
-        "sources": [
-          {
-            "title": "enrich_people — target titles returned, no names (provider not configured)",
-            "url": "https://www.ovs.it",
-            "note": "Head of E-commerce / Digital Director / CDO / Head of Studio / Image Production Manager — names need human validation"
-          },
-          {
-            "title": "OVS Group page — product run by PMs/merchandisers under a creative director",
-            "url": "https://www.ovscorporate.it/en/about-us/ovs-group",
-            "note": "org context for where image/content sits"
-          }
-        ],
-        "is_estimate": true,
-        "assumption": "Role mapping inferred from vertically integrated structure; no named person sourced. Enrichment returned titles only.",
-        "needs_human": true
-      },
-      "result": {
-        "stored": "q6_decision_maker",
-        "fields_emitted": [
-          "q1_who",
-          "q2_direction",
-          "q3_momentum",
-          "q4_content_need",
-          "q5_pdp",
-          "q6_decision_maker"
-        ]
-      }
-    },
-    {
-      "step": "emit_field",
-      "input": {
-        "name": "q7_contact",
-        "value": "Cold entry — no evidenced warm path. Recommended channel: direct email/LinkedIn to the Head of E-commerce, copying or sequencing to the Studio/Image Production lead. Angle (do NOT pitch 'replace your shoots' — they have an in-house studio): position Sartiq as elastic overflow capacity that absorbs new-arrival surges and spins up marketplace/banner/localized variants at near-zero marginal cost, freeing the studio to lead on craft. Hook: 'Your studio is the bottleneck on new-arrival velocity, not the budget.' Tie to their stated digital/AI investment (Puglia hub) as proof they're already buying into AI-enabled operations.",
-        "confidence": "low",
-        "sources": [
-          {
-            "title": "OVS Group — €33m Puglia digital/AI innovation hub",
-            "url": "https://www.ovscorporate.it/en/about-us/ovs-group",
-            "note": "credible hook: brand already investing in AI/digital ops"
-          }
-        ],
-        "is_estimate": true,
-        "assumption": "No warm path found in open sources; defaulting to cold entry. Contact angle is strategy, not a sourced fact.",
-        "needs_human": true
-      },
-      "result": {
-        "stored": "q7_contact",
-        "fields_emitted": [
-          "q1_who",
-          "q2_direction",
-          "q3_momentum",
-          "q4_content_need",
-          "q5_pdp",
-          "q6_decision_maker",
-          "q7_contact"
-        ]
-      }
-    },
-    {
-      "step": "emit_field",
-      "input": {
-        "name": "gap",
-        "value": "The gap is THROUGHPUT, not quality. OVS runs the largest, fastest-turning catalog among comparable Italian retailers (women's apparel alone ≈3,563 live SKUs; ~40k new SKUs/yr est.) on an in-house, vertically integrated studio that is structurally at capacity. Its imagery is already good and on-model-led, so 'cut your photo budget' is the WRONG wedge — per-image cost is already low. The real pain: absorbing new-arrival surges fast enough, and producing marketplace/banner/localized variants (OVS/Upim/Goldenpoint + franchise markets Japan/Mexico/India/Dubai) at scale. Sartiq's wedge = elastic AI on-model + still-life capacity for surge throughput and near-zero-marginal-cost localization, so the studio leads on craft instead of grinding on volume.",
-        "confidence": "med",
-        "sources": [
-          {
-            "title": "ovs.it live category SKU counts",
-            "url": "https://www.ovs.it/it/it/c/donna/abbigliamento/",
-            "note": "3,563 women's apparel SKUs — catalog scale"
-          },
-          {
-            "title": "OVS Group — vertically integrated, multi-banner, franchise markets",
-            "url": "https://www.ovscorporate.it/en/about-us/ovs-group",
-            "note": "in-house studio implied; localization need across banners/markets"
-          }
-        ],
-        "is_estimate": true,
-        "assumption": "In-house studio 'at capacity' is inferred from vertical integration + catalog velocity, not a sourced operational fact.",
-        "needs_human": true
-      },
-      "result": {
-        "stored": "gap",
-        "fields_emitted": [
-          "gap",
-          "q1_who",
-          "q2_direction",
-          "q3_momentum",
-          "q4_content_need",
-          "q5_pdp",
-          "q6_decision_maker",
-          "q7_contact"
-        ]
-      }
-    },
-    {
-      "step": "emit_field",
-      "input": {
-        "name": "strategy",
-        "value": "Innovation / scale play — brand and group aligned, both GROWING. Lead with studio scale and new-arrival surge capacity, not cost displacement or a visual rebrand. Hook: 'Your studio is the bottleneck on new-arrival velocity, not the budget.' To whom: Head of E-commerce + Studio/Image Production lead (cold entry, no warm path evidenced). Opening: 'You ship more new SKUs per week than almost anyone in Italian retail, and your in-house studio is the constraint. We add elastic on-model and still-life capacity that absorbs new-arrival surges and spins up marketplace/localized variants at ~zero marginal cost — so the studio leads on craft instead of grinding on volume. Worth 20 minutes?' Anchor credibility to OVS's own €33m Puglia digital/AI hub. Treat the modeled € as an upper-bound; sell speed + localization, not savings.",
-        "confidence": "med",
-        "sources": [
-          {
-            "title": "OVS Corporate — GROWING (FY2025 +7% sales, +20% EBITDA)",
-            "url": "https://www.ovscorporate.it/en/investors/overview",
-            "note": "momentum supports an innovation/scale (not turnaround) pitch"
-          },
-          {
-            "title": "OVS Group — €33m digital/AI Puglia hub",
-            "url": "https://www.ovscorporate.it/en/about-us/ovs-group",
-            "note": "credibility anchor: already investing in AI ops"
-          }
-        ],
-        "is_estimate": true,
-        "assumption": "Strategy/approach is recommended positioning for the human to sharpen and confirm, not a sourced fact.",
-        "needs_human": true
-      },
-      "result": {
-        "stored": "strategy",
-        "fields_emitted": [
-          "gap",
-          "q1_who",
-          "q2_direction",
-          "q3_momentum",
-          "q4_content_need",
-          "q5_pdp",
-          "q6_decision_maker",
-          "q7_contact",
-          "strategy"
-        ]
-      }
+      "step": "assemble",
+      "note": "offline — no live tool calls"
     }
   ]
 }

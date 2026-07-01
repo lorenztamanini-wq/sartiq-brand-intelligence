@@ -1,6 +1,6 @@
 # BRAND BRIEF — Diesel
 
-**Opportunity 3.3/5** · Denim-led, youth, repositioned as 'the true alternative to luxury'
+**Opportunity 3.3/5** · rank #1 · Denim-led, youth, repositioned as 'the true alternative to luxury'
 Parent: OTB Group (Diesel, Margiela, Marni, Jil Sander, Viktor&Rolf + Brave Kid) · Markets: Global; flagships opening (Berlin, Seoul); ~600+ stores (group)
 Partners / sister brands: Maison Margiela, Marni, Jil Sander, Viktor&Rolf, Brave Kid licensees (Diesel Kid, Dsquared², Marni, N21, Trussardi), Amiri (OTB strategic stake), wholesale partners
 ---
@@ -24,8 +24,9 @@ Measured from a live sample of 6 denim SKUs (24 product images classified): ~4 i
 **4 · CONTENT NEED** ░ human ░ ✓ confirmed ~est
 ~69,000–78,000 images/yr across own site + marketplace + market/localization variants (new SKUs + seasonal refresh) + all other brands opportunity
 
-> **OPPORTUNITY (brand):** €3.1-15.6M/yr
-> **PARTNERS upside:** €12.5-62.4M/yr
+> **STUDIO SPEND (est.):** €3.3-15.6M/yr — what the brand spends on imagery today
+> **SARTIQ OPPORTUNITY (~20%):** €3.1-15.6M/yr — the max annual value of this account
+> **+ PARTNERS upside:** €12.5-62.4M/yr
 > Top-down cross-check: €3.5-14.0M/yr · sanity gate: OK
 > Levers: speed (weeks -> hours) · return-rate reduction (image accuracy) · localization at near-zero marginal cost
 >
