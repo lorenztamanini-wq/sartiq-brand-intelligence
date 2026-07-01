@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brand Brief — OVS</title>
+  <style>/* Brand Brief — editorial one-pager.
+   Swiss-International influence: a hard grid, a single accent, disciplined
+   type contrast. Tuned to fit A4 / Letter on one page for the PDF path. */
+
+:root {
+  --ink: #14110f;
+  --paper: #fbfaf7;
+  --muted: #6f6a63;
+  --hair: #d9d4cc;
+  --accent: #b5331f; /* oxide red */
+  --accent-soft: #f3e4df;
+  --flag: #9a6a00;
+  --human: #2c5f4f;
+
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --mono: "SF Mono", "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+
+@page {
+  size: A4;
+  margin: 12mm 14mm;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 9.4pt;
+  line-height: 1.4;
+}
+
+.sheet {
+  max-width: 200mm;
+  margin: 0 auto;
+  padding: 10mm 4mm;
+}
+
+/* ---- masthead ------------------------------------------------------------ */
+.masthead {
+  border-bottom: 2.5pt solid var(--ink);
+  padding-bottom: 6pt;
+  margin-bottom: 10pt;
+}
+
+.kicker {
+  font-family: var(--mono);
+  font-size: 7.5pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.masthead h1 {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 30pt;
+  line-height: 0.96;
+  margin: 2pt 0 5pt;
+  letter-spacing: -0.01em;
+}
+
+.scoreline {
+  display: flex;
+  align-items: baseline;
+  gap: 10pt;
+  flex-wrap: wrap;
+}
+
+.score {
+  font-family: var(--mono);
+  font-size: 12pt;
+  font-weight: 700;
+  color: var(--paper);
+  background: var(--accent);
+  padding: 1.5pt 6pt;
+  border-radius: 2pt;
+}
+
+.rank {
+  font-family: var(--mono);
+  font-size: 9pt;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+  text-transform: uppercase;
+}
+
+.positioning {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 11pt;
+  color: var(--ink);
+}
+
+.meta {
+  margin-top: 4pt;
+  font-size: 8.4pt;
+  color: var(--muted);
+}
+
+.meta .label {
+  font-family: var(--mono);
+  font-size: 7pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+/* ---- numbered answer grid ----------------------------------------------- */
+.answers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7pt 16pt;
+}
+
+.qa {
+  break-inside: avoid;
+  padding-bottom: 1pt;
+}
+
+.qa .num {
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 7.5pt;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  display: inline-block;
+  margin-right: 4pt;
+}
+
+.qa .label {
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 7.5pt;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.qa .body {
+  margin-top: 1.5pt;
+  font-size: 9pt;
+}
+
+.qa .src {
+  display: block;
+  margin-top: 1.5pt;
+  font-size: 7pt;
+  color: var(--muted);
+  font-style: italic;
+}
+
+/* tags ---------------------------------------------------------------------*/
+.tag {
+  font-family: var(--mono);
+  font-size: 6.5pt;
+  letter-spacing: 0.08em;
+  padding: 0.5pt 3pt;
+  border-radius: 2pt;
+  margin-left: 3pt;
+  vertical-align: 1pt;
+  white-space: nowrap;
+}
+
+.tag-human {
+  color: var(--human);
+  background: #e3efe9;
+}
+
+.tag-flag {
+  color: var(--paper);
+  background: var(--flag);
+}
+
+.tag-est {
+  color: var(--muted);
+  border: 0.5pt solid var(--hair);
+}
+
+/* ---- economics panel ----------------------------------------------------- */
+.econ {
+  grid-column: 1 / -1;
+  margin: 4pt 0;
+  border: 1pt solid var(--ink);
+  background: var(--accent-soft);
+  padding: 7pt 9pt;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3pt 14pt;
+  break-inside: avoid;
+}
+
+.econ .big {
+  grid-column: span 1;
+}
+
+.econ .figure {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 17pt;
+  line-height: 1;
+  color: var(--accent);
+}
+
+.econ .cap {
+  font-family: var(--mono);
+  font-size: 6.8pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.econ .cross {
+  grid-column: 1 / -1;
+  font-size: 7.6pt;
+  color: var(--muted);
+  border-top: 0.5pt dashed var(--hair);
+  padding-top: 3pt;
+}
+
+.gate-ok {
+  color: var(--human);
+  font-weight: 700;
+}
+
+.gate-bad {
+  color: var(--flag);
+  font-weight: 700;
+}
+
+/* ---- judgment block ------------------------------------------------------ */
+.judgment {
+  margin-top: 9pt;
+  border-top: 1.5pt solid var(--ink);
+  padding-top: 7pt;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7pt 16pt;
+}
+
+.block h2 {
+  font-family: var(--mono);
+  font-size: 8pt;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin: 0 0 2pt;
+  color: var(--accent);
+}
+
+.block p {
+  margin: 0;
+  font-size: 9pt;
+}
+
+.gap-wide,
+.approach-wide {
+  grid-column: 1 / -1;
+}
+
+.approach dl {
+  margin: 2pt 0 0;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 1.5pt 7pt;
+  font-size: 8.6pt;
+}
+
+.approach dt {
+  font-family: var(--mono);
+  font-size: 7pt;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.approach dd {
+  margin: 0;
+}
+
+.confidence {
+  grid-column: 1 / -1;
+  font-size: 8pt;
+  color: var(--muted);
+  border-top: 0.5pt dashed var(--hair);
+  padding-top: 5pt;
+}
+
+/* ---- footer / sources ---------------------------------------------------- */
+.colophon {
+  margin-top: 8pt;
+  border-top: 0.5pt solid var(--hair);
+  padding-top: 4pt;
+  font-size: 6.8pt;
+  color: var(--muted);
+  display: flex;
+  justify-content: space-between;
+  gap: 10pt;
+}
+
+.colophon .sources {
+  flex: 1;
+}
+
+.colophon .mode {
+  font-family: var(--mono);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* AI-draft -> human-override delta — the visible judgment moment (§11/§12b). */
+.delta {
+  margin-top: 5pt;
+  padding: 5pt 9pt;
+  border-left: 2.5pt solid var(--human);
+  background: #f3f6f4;
+}
+.delta .d-draft {
+  display: block;
+  color: var(--muted);
+  font-size: 8.6pt;
+  line-height: 1.36;
+}
+.delta .d-draft b,
+.delta .d-human b {
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+}
+.delta .d-draft b {
+  color: var(--muted);
+}
+.delta .d-human {
+  display: block;
+  margin-top: 3pt;
+  color: var(--human);
+  font-size: 8.8pt;
+  line-height: 1.38;
+}
+.econ-delta {
+  margin-top: 7pt;
+}
+
+/* operator-confirmed tag (the review form sets human_confirmed). */
+.tag-ok {
+  color: #1f7a4d;
+  border-color: #bfe0cd;
+  background: #eef7f1;
+}
+
+</style>
+</head>
+<body>
+<main class="sheet">
+
+  <header class="masthead">
+    <div class="kicker">Brand Brief</div>
+    <h1>OVS</h1>
+    <div class="scoreline">
+      <span class="score">3.2/5</span>
+      <span class="positioning">Italy&#39;s leading value/mass apparel retailer, vertically integrated</span>
+    </div>
+    <div class="meta">
+      <span class="label">Parent</span> OVS S.p.A. (standalone, Euronext Milan)
+      &nbsp;·&nbsp; <span class="label">Markets</span> Italy core; franchise in Japan, Mexico, India
+<br><span class="label">Partners</span> Upim, Piombo, Les Copains, Stefanel, Croff, Blukids, Goldenpoint, OVS Kids, franchise partners (Japan / Mexico / India)    </div>
+  </header>
+
+  <section class="answers">
+    <div class="qa">
+  <div><span class="num">1</span><span class="label">Who</span></div>
+  <div class="body">OVS S.p.A. is Italy&#39;s leading value/mass apparel retailer for men, women and children (also underwear, beauty, home decor), running a vertically integrated model across a portfolio of proprietary brands. Listed on Euronext Milan since 2015. Tier: MASS — live PDP price points observed €7–30. Channel mix: DTC-led via 2,600+ stores (primarily OVS, Upim, Goldenpoint banners) plus e-commerce and franchise/wholesale abroad. Standalone group (no parent); banners include PIOMBO, OVS Kids, Blukids, Stefanel, Les Copains, Shaka, CROFF. Markets: Italy core, with franchise expansion in Japan, Mexico and India.</div>
+  <span class="src">OVS Group | OVS Corporate — https://www.ovscorporate.it/en/about-us/ovs-group · OVS Investor Overview — https://www.ovscorporate.it/en/investors/overview · ovs.it live PDP (t-shirt/top category JSON-LD) — https://www.ovs.it/it/it/c/donna/abbigliamento/t-shirt-polo-e-top/</span>
+  
+</div>
+    <div class="qa">
+  <div><span class="num">2</span><span class="label">Direction</span><span class="tag tag-est">est</span></div>
+  <div class="body">Direction: INVESTING / ahead — play &#34;copy what works, then propose scale,&#34; not a visual overhaul. OVS is actively funding digital/AI: a €33m technology innovation hub in Puglia (&#34;OVS Innovazione e Sostenibilità&#34;) for digital transformation, AI and a circular-economy multifunction centre, recruiting 125 digital specialists. Live NOW imagery is clean, studio-based on-model + still-life with reasonably modern art direction. Wayback shows continuous yearly refreshes of ovs.it (2022→2026). Trigger to note: the Puglia AI/digital-ops build-out signals appetite for tech-enabled content tooling. NOTE: the THEN (2023) imagery was not re-classified this run (archived CDN image URLs weren&#39;t resolvable), so the &#34;moved from packshot toward on-model&#34; trajectory is asserted from the seed + investment signals rather than a fresh side-by-side classification.</div>
+  <span class="src">OVS Group — Puglia innovation/AI hub — https://www.ovscorporate.it/en/about-us/ovs-group · Wayback snapshot — ovs.it 2023 — https://web.archive.org/web/20230102220404/http://ovs.it/ · Wayback snapshot — ovs.it 2026 (NOW) — https://web.archive.org/web/20260103230636/https://www.ovs.it/</span>
+  
+</div>
+    <div class="qa">
+  <div><span class="num">3</span><span class="label">Momentum</span></div>
+  <div class="body">GROWING. FY2025 net sales €1,746M, up ~7% (≈3% organic + Goldenpoint acquisition), with adjusted EBITDA up ~20% to €218–219M. Momentum continued into FY2026: Q1 sales +0.6% to €354.4m, organic +7.5% YoY driving EBITDA +27% to €35.7m (9.4% margin); leverage improved to ~1.19x. Beauty doubling since 2021 (now ~8% of OVS sales), women&#39;s brands (Les Copains, PIOMBO) outperforming, and franchise expansion (Japan/Mexico/India). Brand and group are aligned (OVS is standalone) — no brand-vs-parent SPLIT. Management guides to further sales/EBITDA/cash growth.</div>
+  <span class="src">Ovs&#39; 2025 revenue rises 7% to €1.74 billion — FashionNetwork — https://ww.fashionnetwork.com/news/Ovs-2025-revenue-rises-7-to-1-74-billion-kasanova-deal-falls-through,1804963.html · OVS Investor Overview — https://www.ovscorporate.it/en/investors/overview · OVS earnings summary — Quartr — https://quartr.com/companies/ovs-s-p-a_14090</span>
+  
+</div>
+    <div class="qa">
+  <div><span class="num">5</span><span class="label">On the PDPs</span></div>
+  <div class="body">Measured live (24-SKU JSON-LD sample + 16-image vision classification on the women&#39;s t-shirt/top category): ~5.5 listed images per SKU. Image mix on the classified sample: ~56% on-model, ~38% still-life/packshot, plus occasional ghost-mannequin; 0% video. Shots per SKU vary meaningfully (2 to 7 images) — some SKUs carry full on-model + still sets, others are still-life only. Consistency = MEDIUM: backgrounds alternate between studio grey and plain white across SKUs, and shot count is uneven. Imagery is reused across marketplaces (e.g. Lyst carries OVS product shots). Net: solid, high-throughput catalog imagery with mixed on-model/still-life coverage but variable per-SKU depth and background consistency — the gap is throughput/uniformity, not baseline quality.</div>
+  <span class="src">ovs.it live PDP JSON-LD sample — https://www.ovs.it/it/it/c/donna/abbigliamento/t-shirt-polo-e-top/ · Sartiq vision classification (16 live OVS images) — https://www.ovs.it/it/it/c/donna/abbigliamento/t-shirt-polo-e-top/</span>
+  
+</div>
+    <div class="qa">
+  <div><span class="num">4</span><span class="label">Content need</span><span class="tag tag-human">░ human ░</span><span class="tag tag-ok">✓ confirmed</span><span class="tag tag-est">est</span></div>
+  <div class="body">~555,000–630,000 images/yr across own site + marketplace + market/localization variants (new SKUs + seasonal refresh)</div>
+  
+  <div class="delta"><span class="d-draft"><b>⟲ AI draft —</b> Inputs supplied to compute_opportunity (agent does not state €/image counts): new_skus_per_year=40,000 (tier-based estimate across banners); shots_per_sku=4.5 (live-measured ~5.5 listed images/SKU, ~94% AI-amenable on-model+still-life); channel_variants=3.0 (own site + marketplaces + localized franchise markets); refresh_factor=0.5; carryover_skus=25,000; revenue_eur=1,746,000,000 (confirmed FY202</span><span class="d-human"><b>░ human ░ why I changed it —</b> operator sharpened the AI draft with industry judgment</span></div>
+</div>
+
+    <div class="econ">
+      <div class="big">
+        <div class="figure">€1.9-8.5M</div>
+        <div class="cap">Sartiq opportunity · brand / yr</div>
+        <div class="cap" style="color:var(--muted);text-transform:none;letter-spacing:0">studio spend est. €9.4-42.5M/yr → ~20% capture</div>
+      </div>
+      <div class="big">
+        <div class="figure">€2.2-10.2M</div>
+        <div class="cap">+ group brands / yr</div>
+      </div>
+<div class="cross" style="grid-column:1 / -1"><b>Group brands</b> — est. Sartiq opportunity each (needs human): Upim €0.2-1.1M · Piombo €0.2-1.1M · Les Copains €0.2-1.1M · Stefanel €0.2-1.1M · Croff €0.2-1.1M · Blukids €0.2-1.1M · Goldenpoint €0.2-1.1M · OVS Kids €0.2-1.1M · franchise partners (Japan / Mexico / India) €0.2-1.1M</div>      <div class="cross">
+        Top-down cross-check €1.7-7.0M/yr ·
+        sanity gate <span class="gate-ok">OK</span>        · levers: speed (weeks -&gt; hours) · return-rate reduction (image accuracy) · localization at near-zero marginal cost
+      </div>
+<div class="delta econ-delta"><span class="d-draft"><b>⟲ AI draft —</b> €10.0-63.8M/yr (flat agency rate, tier-blind)</span><span class="d-human"><b>░ human ░ reframed —</b> mass-tier production runs €15-60/image, not the flat agency rate — so the studio spend (and Sartiq&#39;s ~20% of it) rests on the tier-aware band, not the ~€37M draft.</span></div>    </div>
+
+    <div class="qa">
+  <div><span class="num">6</span><span class="label">Decision-maker</span><span class="tag tag-human">░ human ░</span><span class="tag tag-ok">✓ confirmed</span></div>
+  <div class="body">Chief Marketing officer (Claudio Perna), Matteo Cataldi (Global digital production)</div>
+  <span class="src">OVS LinkedIn company page — https://www.linkedin.com/company/ovs-spa</span>
+  <div class="delta"><span class="d-draft"><b>⟲ AI draft —</b> Target role: Head of E-commerce / Digital (owns online catalog throughput and marketplace/localization) plus the Image &amp; Studio Production lead (owns the in-house studio that is the actual bottleneck). Given the vertically integrated model and the Puglia digital/AI hub, the budget owner sits closer to digital-operations than to brand creative. No named person could be verified — the enrichment pro</span><span class="d-human"><b>░ human ░ why I changed it —</b> operator sharpened the AI draft with industry judgment</span></div>
+</div>
+    <div class="qa">
+  <div><span class="num">7</span><span class="label">Contact</span><span class="tag tag-human">░ human ░</span><span class="tag tag-ok">✓ confirmed</span><span class="tag tag-est">est</span></div>
+  <div class="body">Vertically integrated =&gt; almost certainly an in-house studio. Do NOT pitch &#39;replace your shoots&#39; — pitch &#39;scale and speed up your studio&#39; (overflow capacity, new-arrival surges, marketplace variants). Budget owner sits closer to operations than creative.  Warm path: cold entry (no known warm path with evidence).</div>
+  <span class="src">OVS LinkedIn company page — https://www.linkedin.com/company/ovs-spa</span>
+  <div class="delta"><span class="d-draft"><b>⟲ AI draft —</b> Cold entry (no evidence of a warm path). Recommended channel: direct email to the Head of E-commerce/Digital, cc/loop the Studio &amp; Image Production lead. Angle: do NOT pitch &#34;replace your shoots&#34; — OVS is vertically integrated with an in-house studio, so per-image cost is already low. Pitch elastic studio SCALE: absorb new-arrival surges, spin up marketplace and localized franchise-market (Japan/M</span><span class="d-human"><b>░ human ░ why I changed it —</b> operator sharpened the AI draft with industry judgment</span></div>
+</div>
+  </section>
+
+  <section class="judgment">
+    <div class="block gap-wide">
+      <h2>The gap we fill <span class="tag tag-human">░ human ░</span> <span class="tag tag-ok">✓ confirmed</span></h2>
+      <p>THROUGHPUT and UNIFORMITY at studio scale — not baseline quality, and emphatically not cost. OVS runs Italy&#39;s largest, fastest-turning value catalog through an in-house studio that is effectively at capacity. The live audit proves the pain: on-model/still-life coverage is solid but per-SKU depth swings from 2 to 7 shots and backgrounds alternate between studio grey and plain white across SKUs (medium consistency). The single wedge is elastic AI on-model + still-life capacity that (a) absorbs new-arrival surges the in-house studio can&#39;t flex to, (b) standardizes shot-count and background across the OVS/Upim/Goldenpoint/PIOMBO banners, and (c) spins up marketplace and localized franchise-market variants at near-zero marginal cost. A &#39;cut your photo budget&#39; framing misses — their in-house per-image cost is already low.</p>
+      
+    </div>
+    <div class="block">
+      <h2>Strategy <span class="tag tag-human">░ human ░</span> <span class="tag tag-ok">✓ confirmed</span></h2>
+      <p>Scale-the-studio play, not replace-the-studio. Brand and group are aligned and both GROWING (FY2025 sales +7% to €1.75bn, EBITDA +20%), so this is a velocity/innovation pitch, not a turnaround or a cost-cutting wedge. Lead with the constraint: OVS ships more new SKUs per week than almost any Italian retailer and the in-house studio — not the budget — is the bottleneck on new-arrival velocity. Sartiq adds surge capacity that frees the studio to lead on craft, standardizes uniformity across banners, and unlocks the concrete localization lever: Japan/Mexico/India franchise imagery at near-zero marginal cost. Ride their existing digital/AI investment narrative (the €33m Puglia innovation hub) rather than proposing a visual overhaul — position Sartiq as the content-tooling layer that fits the transformation they&#39;re already funding.</p>
+      
+    </div>
+    <div class="block approach">
+      <h2>Approach <span class="tag tag-human">░ human ░</span> <span class="tag tag-ok">✓ confirmed</span></h2>
+      <dl>
+        <dt>Hook</dt><dd>Your in-house studio is the bottleneck on new-arrival velocity — not your budget. Sartiq gives it elastic capacity so it leads on craft instead of grinding volume.</dd>
+        <dt>Channel</dt><dd>Cold direct email — no warm path found. Route to the Head of E-commerce/Digital, cc/loop the Studio &amp; Image Production lead. Contact path and any warm intro must be human-verified before send.</dd>
+        <dt>To whom</dt><dd>Claudio Perna, Matteo Cataldi</dd>
+        <dt>Opening</dt><dd>Open on a side-by-side of OVS&#39;s own imagery: the uneven 2-to-7-shot depth and the grey-vs-white background inconsistency across their women&#39;s category, paired with the franchise-market localization gap (Japan/Mexico/India). Frame it as &#39;you&#39;re already investing in digital transformation via Puglia — here&#39;s the content layer that lets the studio keep up with your SKU velocity and go localized at zero marginal cost.&#39;</dd>
+      </dl>
+    </div>
+    <div class="confidence">
+      <strong>Confidence —</strong> Momentum and positioning are HIGH confidence (verified FY2025/Q1 financials, live PDP audit of 24 SKUs + 16-image vision classification). The direction/trajectory is MED — the packshot→on-model shift is inferred from digital-investment signals and the live NOW sample, NOT from a fresh THEN re-classification (archived CDN images weren&#39;t resolvable). Economics are a MED, upper-bound draft: the €1.87M–€8.5M range OVERSTATES pure cost displacement because OVS runs an in-house studio — reframe the value as studio scale, surge capacity and near-zero-cost localization, not cost savings. Decision-maker and contact path are LOW confidence and flagged needs_human: role mapping is inferred, no named person or email was sourced. NEEDS HUMAN before outreach: (1) the named decision-maker, (2) the contact path / any warm intro, (3) sign-off on reframing the € figure as scale-value rather than cost-cut. Vision spot-check: 92% classifier agreement on 12 labelled samples (held-out baseline).
+    </div>
+  </section>
+
+  <footer class="colophon">
+    <div class="sources">
+<strong>Sources:</strong>
+OVS Group | OVS Corporate (https://www.ovscorporate.it/en/about-us/ovs-group) · OVS Investor Overview (https://www.ovscorporate.it/en/investors/overview) · ovs.it live PDP (t-shirt/top category JSON-LD) (https://www.ovs.it/it/it/c/donna/abbigliamento/t-shirt-polo-e-top/) · OVS Group — Puglia innovation/AI hub (https://www.ovscorporate.it/en/about-us/ovs-group) · Wayback snapshot — ovs.it 2023 (https://web.archive.org/web/20230102220404/http://ovs.it/) · Wayback snapshot — ovs.it 2026 (NOW) (https://web.archive.org/web/20260103230636/https://www.ovs.it/) · Ovs&#39; 2025 revenue rises 7% to €1.74 billion — FashionNetwork (https://ww.fashionnetwork.com/news/Ovs-2025-revenue-rises-7-to-1-74-billion-kasanova-deal-falls-through,1804963.html) · OVS earnings summary — Quartr (https://quartr.com/companies/ovs-s-p-a_14090) · ovs.it live PDP JSON-LD sample (https://www.ovs.it/it/it/c/donna/abbigliamento/t-shirt-polo-e-top/) · Sartiq vision classification (16 live OVS images) (https://www.ovs.it/it/it/c/donna/abbigliamento/t-shirt-polo-e-top/) · OVS LinkedIn company page (https://www.linkedin.com/company/ovs-spa)    </div>
+    <div class="mode">Mode · live</div>
+  </footer>
+
+</main>
+</body>
+</html>

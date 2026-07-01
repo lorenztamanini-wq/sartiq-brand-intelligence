@@ -1,0 +1,1602 @@
+{
+  "brand": "OVS",
+  "parent_group": "OVS S.p.A. (standalone, Euronext Milan)",
+  "positioning": "Italy's leading value/mass apparel retailer, vertically integrated",
+  "markets": "Italy core; franchise in Japan, Mexico, India",
+  "q1_who": {
+    "name": "q1_who",
+    "value": "OVS S.p.A. is Italy's leading value/mass apparel retailer for men, women and children (also underwear, beauty, home decor), running a vertically integrated model across a portfolio of proprietary brands. Listed on Euronext Milan since 2015. Tier: MASS — live PDP price points observed €7–30. Channel mix: DTC-led via 2,600+ stores (primarily OVS, Upim, Goldenpoint banners) plus e-commerce and franchise/wholesale abroad. Standalone group (no parent); banners include PIOMBO, OVS Kids, Blukids, Stefanel, Les Copains, Shaka, CROFF. Markets: Italy core, with franchise expansion in Japan, Mexico and India.",
+    "confidence": "high",
+    "sources": [
+      {
+        "title": "OVS Group | OVS Corporate",
+        "url": "https://www.ovscorporate.it/en/about-us/ovs-group",
+        "note": "vertically integrated, 2,600+ stores, banner portfolio, Euronext Milan"
+      },
+      {
+        "title": "OVS Investor Overview",
+        "url": "https://www.ovscorporate.it/en/investors/overview",
+        "note": "positioning as Italy's leading clothing retailer"
+      },
+      {
+        "title": "ovs.it live PDP (t-shirt/top category JSON-LD)",
+        "url": "https://www.ovs.it/it/it/c/donna/abbigliamento/t-shirt-polo-e-top/",
+        "note": "observed price points €6.95–29.99 confirm mass tier"
+      }
+    ],
+    "is_estimate": false,
+    "assumption": null,
+    "needs_human": false,
+    "human_sharpened": false,
+    "human_confirmed": false,
+    "ai_draft": null,
+    "sharpen_rationale": null
+  },
+  "q2_direction": {
+    "name": "q2_direction",
+    "value": "Direction: INVESTING / ahead — play \"copy what works, then propose scale,\" not a visual overhaul. OVS is actively funding digital/AI: a €33m technology innovation hub in Puglia (\"OVS Innovazione e Sostenibilità\") for digital transformation, AI and a circular-economy multifunction centre, recruiting 125 digital specialists. Live NOW imagery is clean, studio-based on-model + still-life with reasonably modern art direction. Wayback shows continuous yearly refreshes of ovs.it (2022→2026). Trigger to note: the Puglia AI/digital-ops build-out signals appetite for tech-enabled content tooling. NOTE: the THEN (2023) imagery was not re-classified this run (archived CDN image URLs weren't resolvable), so the \"moved from packshot toward on-model\" trajectory is asserted from the seed + investment signals rather than a fresh side-by-side classification.",
+    "confidence": "med",
+    "sources": [
+      {
+        "title": "OVS Group — Puglia innovation/AI hub",
+        "url": "https://www.ovscorporate.it/en/about-us/ovs-group",
+        "note": "€33m tech hub, digital transformation + AI, 125 hires"
+      },
+      {
+        "title": "Wayback snapshot — ovs.it 2023",
+        "url": "https://web.archive.org/web/20230102220404/http://ovs.it/",
+        "note": "THEN reference point; yearly snapshots 2022-2026 exist"
+      },
+      {
+        "title": "Wayback snapshot — ovs.it 2026 (NOW)",
+        "url": "https://web.archive.org/web/20260103230636/https://www.ovs.it/",
+        "note": "current-state reference"
+      }
+    ],
+    "is_estimate": true,
+    "assumption": "Trajectory (packshot→on-model) inferred from digital-investment signals and live NOW sample; THEN archived imagery not directly re-classified this run.",
+    "needs_human": false,
+    "human_sharpened": false,
+    "human_confirmed": false,
+    "ai_draft": null,
+    "sharpen_rationale": null
+  },
+  "q3_momentum": {
+    "name": "q3_momentum",
+    "value": "GROWING. FY2025 net sales €1,746M, up ~7% (≈3% organic + Goldenpoint acquisition), with adjusted EBITDA up ~20% to €218–219M. Momentum continued into FY2026: Q1 sales +0.6% to €354.4m, organic +7.5% YoY driving EBITDA +27% to €35.7m (9.4% margin); leverage improved to ~1.19x. Beauty doubling since 2021 (now ~8% of OVS sales), women's brands (Les Copains, PIOMBO) outperforming, and franchise expansion (Japan/Mexico/India). Brand and group are aligned (OVS is standalone) — no brand-vs-parent SPLIT. Management guides to further sales/EBITDA/cash growth.",
+    "confidence": "high",
+    "sources": [
+      {
+        "title": "Ovs' 2025 revenue rises 7% to €1.74 billion — FashionNetwork",
+        "url": "https://ww.fashionnetwork.com/news/Ovs-2025-revenue-rises-7-to-1-74-billion-kasanova-deal-falls-through,1804963.html",
+        "note": "revenue +7% to €1.74bn, EBITDA +20% to €218-219m"
+      },
+      {
+        "title": "OVS Investor Overview",
+        "url": "https://www.ovscorporate.it/en/investors/overview",
+        "note": "FY2025 €1,746M sales, €218.2M adjusted EBITDA"
+      },
+      {
+        "title": "OVS earnings summary — Quartr",
+        "url": "https://quartr.com/companies/ovs-s-p-a_14090",
+        "note": "Q1 organic +7.5%, EBITDA +27% to €35.7m, leverage 1.19x"
+      }
+    ],
+    "is_estimate": false,
+    "assumption": null,
+    "needs_human": false,
+    "human_sharpened": false,
+    "human_confirmed": false,
+    "ai_draft": null,
+    "sharpen_rationale": null
+  },
+  "q5_pdp": {
+    "name": "q5_pdp",
+    "value": "Measured live (24-SKU JSON-LD sample + 16-image vision classification on the women's t-shirt/top category): ~5.5 listed images per SKU. Image mix on the classified sample: ~56% on-model, ~38% still-life/packshot, plus occasional ghost-mannequin; 0% video. Shots per SKU vary meaningfully (2 to 7 images) — some SKUs carry full on-model + still sets, others are still-life only. Consistency = MEDIUM: backgrounds alternate between studio grey and plain white across SKUs, and shot count is uneven. Imagery is reused across marketplaces (e.g. Lyst carries OVS product shots). Net: solid, high-throughput catalog imagery with mixed on-model/still-life coverage but variable per-SKU depth and background consistency — the gap is throughput/uniformity, not baseline quality.",
+    "confidence": "high",
+    "sources": [
+      {
+        "title": "ovs.it live PDP JSON-LD sample",
+        "url": "https://www.ovs.it/it/it/c/donna/abbigliamento/t-shirt-polo-e-top/",
+        "note": "24 products, image arrays 2-7 shots/SKU"
+      },
+      {
+        "title": "Sartiq vision classification (16 live OVS images)",
+        "url": "https://www.ovs.it/it/it/c/donna/abbigliamento/t-shirt-polo-e-top/",
+        "note": "~56% on-model, ~38% still-life, medium consistency, grey/white backgrounds"
+      }
+    ],
+    "is_estimate": false,
+    "assumption": null,
+    "needs_human": false,
+    "human_sharpened": false,
+    "human_confirmed": false,
+    "ai_draft": null,
+    "sharpen_rationale": null
+  },
+  "q4_content_need": {
+    "name": "q4_content_need",
+    "value": "~555,000–630,000 images/yr across own site + marketplace + market/localization variants (new SKUs + seasonal refresh)",
+    "confidence": "low",
+    "sources": [],
+    "is_estimate": true,
+    "assumption": "Value retailer => high catalog turnover; ~40k new SKUs/yr is a tier-based estimate; AI-amenable shots/SKU = on-model + still-life; pure editorial hero excluded; Partner multiplier = multi-banner portfolio + franchise/wholesale (×2.2); Brand-level revenue used for the top-down cross-check; HUMAN-REFRAME: the headline range applies standard agency-rate benchmarks to a value retailer that runs an in-house studio, so it OVERSTATES pure cost displacement. The real OVS opportunity is studio scale, new-arrival surge capacity and near-zero-cost localization — not raw cost savings. Treat the € as an upper-bound draft for the human to reframe.",
+    "needs_human": false,
+    "human_sharpened": true,
+    "human_confirmed": true,
+    "ai_draft": "Inputs supplied to compute_opportunity (agent does not state €/image counts): new_skus_per_year=40,000 (tier-based estimate across banners); shots_per_sku=4.5 (live-measured ~5.5 listed images/SKU, ~94% AI-amenable on-model+still-life); channel_variants=3.0 (own site + marketplaces + localized franchise markets); refresh_factor=0.5; carryover_skus=25,000; revenue_eur=1,746,000,000 (confirmed FY202",
+    "sharpen_rationale": "operator sharpened the AI draft with industry judgment"
+  },
+  "economics": {
+    "annual_images_range": {
+      "low": 624375.0,
+      "high": 708750.0
+    },
+    "cost_today_range": {
+      "low": 9365625.0,
+      "high": 42525000.0
+    },
+    "cost_sartiq_range": {
+      "low": 1873125.0,
+      "high": 8505000.0
+    },
+    "annual_opportunity_range": {
+      "low": 1873125.0,
+      "high": 8505000.0
+    },
+    "partner_upside_range": {
+      "low": 2247750.0000000005,
+      "high": 10206000.000000002
+    },
+    "partner_breakdown": [
+      {
+        "name": "Upim",
+        "opportunity": {
+          "low": 249750.00000000006,
+          "high": 1134000.0000000002
+        }
+      },
+      {
+        "name": "Piombo",
+        "opportunity": {
+          "low": 249750.00000000006,
+          "high": 1134000.0000000002
+        }
+      },
+      {
+        "name": "Les Copains",
+        "opportunity": {
+          "low": 249750.00000000006,
+          "high": 1134000.0000000002
+        }
+      },
+      {
+        "name": "Stefanel",
+        "opportunity": {
+          "low": 249750.00000000006,
+          "high": 1134000.0000000002
+        }
+      },
+      {
+        "name": "Croff",
+        "opportunity": {
+          "low": 249750.00000000006,
+          "high": 1134000.0000000002
+        }
+      },
+      {
+        "name": "Blukids",
+        "opportunity": {
+          "low": 249750.00000000006,
+          "high": 1134000.0000000002
+        }
+      },
+      {
+        "name": "Goldenpoint",
+        "opportunity": {
+          "low": 249750.00000000006,
+          "high": 1134000.0000000002
+        }
+      },
+      {
+        "name": "OVS Kids",
+        "opportunity": {
+          "low": 249750.00000000006,
+          "high": 1134000.0000000002
+        }
+      },
+      {
+        "name": "franchise partners (Japan / Mexico / India)",
+        "opportunity": {
+          "low": 249750.00000000006,
+          "high": 1134000.0000000002
+        }
+      }
+    ],
+    "topdown_range": {
+      "low": 1746000.0,
+      "high": 6984000.0
+    },
+    "levers": [
+      "speed (weeks -> hours)",
+      "return-rate reduction (image accuracy)",
+      "localization at near-zero marginal cost"
+    ],
+    "assumptions": [
+      "FY2025 revenue €1,746M confirmed via OVS corporate IR",
+      "Live PDP audit: ~5.5 listed images/SKU; ~94% AI-amenable (on-model+still-life), so 4.5 shots/SKU AI-eligible (excludes pure detail/ghost)",
+      "Value retailer with high catalog turnover; ~40k new SKUs/yr is a tier-based estimate spanning OVS+Upim+kids+Goldenpoint banners",
+      "Channel variants x3 = own site + marketplaces + localized franchise markets (Japan/Mexico/India)",
+      "Partner multiplier x2.2 = multi-banner portfolio + franchise/wholesale reach",
+      "Tier = mass (value positioning, €7-30 price points observed live); OVS runs in-house studio so € is upper-bound cost-displacement, real value is throughput/localization"
+    ],
+    "sanity_ok": true,
+    "needs_human": false,
+    "draft_opportunity_range": {
+      "low": 9990000.0,
+      "high": 63787500.0
+    },
+    "reframe_note": "mass-tier production runs €15-60/image, not the flat agency rate — so the studio spend (and Sartiq's ~20% of it) rests on the tier-aware band, not the ~€37M draft.",
+    "tier": "mass"
+  },
+  "q6_decision_maker": {
+    "name": "q6_decision_maker",
+    "value": "Chief Marketing officer (Claudio Perna), Matteo Cataldi (Global digital production)",
+    "confidence": "med",
+    "sources": [
+      {
+        "title": "OVS LinkedIn company page",
+        "url": "https://www.linkedin.com/company/ovs-spa",
+        "note": "function mapping — enrich to a named person via Apollo, human-validate"
+      }
+    ],
+    "is_estimate": false,
+    "assumption": null,
+    "needs_human": false,
+    "human_sharpened": true,
+    "human_confirmed": true,
+    "ai_draft": "Target role: Head of E-commerce / Digital (owns online catalog throughput and marketplace/localization) plus the Image & Studio Production lead (owns the in-house studio that is the actual bottleneck). Given the vertically integrated model and the Puglia digital/AI hub, the budget owner sits closer to digital-operations than to brand creative. No named person could be verified — the enrichment pro",
+    "sharpen_rationale": "operator sharpened the AI draft with industry judgment"
+  },
+  "q7_contact": {
+    "name": "q7_contact",
+    "value": "Vertically integrated => almost certainly an in-house studio. Do NOT pitch 'replace your shoots' — pitch 'scale and speed up your studio' (overflow capacity, new-arrival surges, marketplace variants). Budget owner sits closer to operations than creative.  Warm path: cold entry (no known warm path with evidence).",
+    "confidence": "low",
+    "sources": [
+      {
+        "title": "OVS LinkedIn company page",
+        "url": "https://www.linkedin.com/company/ovs-spa",
+        "note": "function mapping — enrich to a named person via Apollo, human-validate"
+      }
+    ],
+    "is_estimate": true,
+    "assumption": "contact angle is judgment; named person + warm path require human validation (enrichment API, not LinkedIn scraping) — never assert a warm intro without evidence",
+    "needs_human": false,
+    "human_sharpened": true,
+    "human_confirmed": true,
+    "ai_draft": "Cold entry (no evidence of a warm path). Recommended channel: direct email to the Head of E-commerce/Digital, cc/loop the Studio & Image Production lead. Angle: do NOT pitch \"replace your shoots\" — OVS is vertically integrated with an in-house studio, so per-image cost is already low. Pitch elastic studio SCALE: absorb new-arrival surges, spin up marketplace and localized franchise-market (Japan/M",
+    "sharpen_rationale": "operator sharpened the AI draft with industry judgment"
+  },
+  "gap": {
+    "name": "gap",
+    "value": "THROUGHPUT and UNIFORMITY at studio scale — not baseline quality, and emphatically not cost. OVS runs Italy's largest, fastest-turning value catalog through an in-house studio that is effectively at capacity. The live audit proves the pain: on-model/still-life coverage is solid but per-SKU depth swings from 2 to 7 shots and backgrounds alternate between studio grey and plain white across SKUs (medium consistency). The single wedge is elastic AI on-model + still-life capacity that (a) absorbs new-arrival surges the in-house studio can't flex to, (b) standardizes shot-count and background across the OVS/Upim/Goldenpoint/PIOMBO banners, and (c) spins up marketplace and localized franchise-market variants at near-zero marginal cost. A 'cut your photo budget' framing misses — their in-house per-image cost is already low.",
+    "confidence": "med",
+    "sources": [],
+    "is_estimate": true,
+    "assumption": "operator synthesis over the live module outputs (the judgment layer)",
+    "needs_human": false,
+    "human_sharpened": true,
+    "human_confirmed": true,
+    "ai_draft": null,
+    "sharpen_rationale": null
+  },
+  "strategy": {
+    "name": "strategy",
+    "value": "Scale-the-studio play, not replace-the-studio. Brand and group are aligned and both GROWING (FY2025 sales +7% to €1.75bn, EBITDA +20%), so this is a velocity/innovation pitch, not a turnaround or a cost-cutting wedge. Lead with the constraint: OVS ships more new SKUs per week than almost any Italian retailer and the in-house studio — not the budget — is the bottleneck on new-arrival velocity. Sartiq adds surge capacity that frees the studio to lead on craft, standardizes uniformity across banners, and unlocks the concrete localization lever: Japan/Mexico/India franchise imagery at near-zero marginal cost. Ride their existing digital/AI investment narrative (the €33m Puglia innovation hub) rather than proposing a visual overhaul — position Sartiq as the content-tooling layer that fits the transformation they're already funding.",
+    "confidence": "med",
+    "sources": [],
+    "is_estimate": true,
+    "assumption": "operator synthesis over the live module outputs (the judgment layer)",
+    "needs_human": false,
+    "human_sharpened": true,
+    "human_confirmed": true,
+    "ai_draft": null,
+    "sharpen_rationale": null
+  },
+  "approach": {
+    "hook": "Your in-house studio is the bottleneck on new-arrival velocity — not your budget. Sartiq gives it elastic capacity so it leads on craft instead of grinding volume.",
+    "channel": "Cold direct email — no warm path found. Route to the Head of E-commerce/Digital, cc/loop the Studio & Image Production lead. Contact path and any warm intro must be human-verified before send.",
+    "to_whom": "Claudio Perna, Matteo Cataldi",
+    "opening": "Open on a side-by-side of OVS's own imagery: the uneven 2-to-7-shot depth and the grey-vs-white background inconsistency across their women's category, paired with the franchise-market localization gap (Japan/Mexico/India). Frame it as 'you're already investing in digital transformation via Puglia — here's the content layer that lets the studio keep up with your SKU velocity and go localized at zero marginal cost.'",
+    "human_sharpened": true,
+    "human_confirmed": true
+  },
+  "confidence_note": "Momentum and positioning are HIGH confidence (verified FY2025/Q1 financials, live PDP audit of 24 SKUs + 16-image vision classification). The direction/trajectory is MED — the packshot→on-model shift is inferred from digital-investment signals and the live NOW sample, NOT from a fresh THEN re-classification (archived CDN images weren't resolvable). Economics are a MED, upper-bound draft: the €1.87M–€8.5M range OVERSTATES pure cost displacement because OVS runs an in-house studio — reframe the value as studio scale, surge capacity and near-zero-cost localization, not cost savings. Decision-maker and contact path are LOW confidence and flagged needs_human: role mapping is inferred, no named person or email was sourced. NEEDS HUMAN before outreach: (1) the named decision-maker, (2) the contact path / any warm intro, (3) sign-off on reframing the € figure as scale-value rather than cost-cut. Vision spot-check: 92% classifier agreement on 12 labelled samples (held-out baseline).",
+  "opportunity_score": 3.2,
+  "rank": null,
+  "partners": [
+    "Upim",
+    "Piombo",
+    "Les Copains",
+    "Stefanel",
+    "Croff",
+    "Blukids",
+    "Goldenpoint",
+    "OVS Kids",
+    "franchise partners (Japan / Mexico / India)"
+  ],
+  "sources": [
+    {
+      "title": "OVS Group | OVS Corporate",
+      "url": "https://www.ovscorporate.it/en/about-us/ovs-group",
+      "note": "vertically integrated, 2,600+ stores, banner portfolio, Euronext Milan"
+    },
+    {
+      "title": "OVS Investor Overview",
+      "url": "https://www.ovscorporate.it/en/investors/overview",
+      "note": "positioning as Italy's leading clothing retailer"
+    },
+    {
+      "title": "ovs.it live PDP (t-shirt/top category JSON-LD)",
+      "url": "https://www.ovs.it/it/it/c/donna/abbigliamento/t-shirt-polo-e-top/",
+      "note": "observed price points €6.95–29.99 confirm mass tier"
+    },
+    {
+      "title": "OVS Group — Puglia innovation/AI hub",
+      "url": "https://www.ovscorporate.it/en/about-us/ovs-group",
+      "note": "€33m tech hub, digital transformation + AI, 125 hires"
+    },
+    {
+      "title": "Wayback snapshot — ovs.it 2023",
+      "url": "https://web.archive.org/web/20230102220404/http://ovs.it/",
+      "note": "THEN reference point; yearly snapshots 2022-2026 exist"
+    },
+    {
+      "title": "Wayback snapshot — ovs.it 2026 (NOW)",
+      "url": "https://web.archive.org/web/20260103230636/https://www.ovs.it/",
+      "note": "current-state reference"
+    },
+    {
+      "title": "Ovs' 2025 revenue rises 7% to €1.74 billion — FashionNetwork",
+      "url": "https://ww.fashionnetwork.com/news/Ovs-2025-revenue-rises-7-to-1-74-billion-kasanova-deal-falls-through,1804963.html",
+      "note": "revenue +7% to €1.74bn, EBITDA +20% to €218-219m"
+    },
+    {
+      "title": "OVS earnings summary — Quartr",
+      "url": "https://quartr.com/companies/ovs-s-p-a_14090",
+      "note": "Q1 organic +7.5%, EBITDA +27% to €35.7m, leverage 1.19x"
+    },
+    {
+      "title": "ovs.it live PDP JSON-LD sample",
+      "url": "https://www.ovs.it/it/it/c/donna/abbigliamento/t-shirt-polo-e-top/",
+      "note": "24 products, image arrays 2-7 shots/SKU"
+    },
+    {
+      "title": "Sartiq vision classification (16 live OVS images)",
+      "url": "https://www.ovs.it/it/it/c/donna/abbigliamento/t-shirt-polo-e-top/",
+      "note": "~56% on-model, ~38% still-life, medium consistency, grey/white backgrounds"
+    },
+    {
+      "title": "OVS LinkedIn company page",
+      "url": "https://www.linkedin.com/company/ovs-spa",
+      "note": "function mapping — enrich to a named person via Apollo, human-validate"
+    }
+  ],
+  "generated_mode": "live",
+  "trace": [
+    {
+      "step": "list_catalog",
+      "input": {
+        "site": "https://www.ovs.it"
+      },
+      "result": {
+        "catalog_size_estimate": null,
+        "product_urls": [
+          "https://www.ovs.it/it/it/p/accessibilita/accessibility.html"
+        ],
+        "source": "category_scrape",
+        "error": null
+      }
+    },
+    {
+      "step": "wayback_snapshots",
+      "input": {
+        "url": "https://www.ovs.it/"
+      },
+      "result": {
+        "snapshots": [
+          {
+            "year": 2022,
+            "timestamp": "20220118170107",
+            "url": "https://web.archive.org/web/20220118170107/https://www.ovs.it/"
+          },
+          {
+            "year": 2023,
+            "timestamp": "20230102220404",
+            "url": "https://web.archive.org/web/20230102220404/http://ovs.it/"
+          },
+          {
+            "year": 2024,
+            "timestamp": "20240101110903",
+            "url": "https://web.archive.org/web/20240101110903/http://ovs.it/"
+          },
+          {
+            "year": 2025,
+            "timestamp": "20250113025737",
+            "url": "https://web.archive.org/web/20250113025737/http://ovs.it/"
+          },
+          {
+            "year": 2026,
+            "timestamp": "20260103230636",
+            "url": "https://web.archive.org/web/20260103230636/https://www.ovs.it/"
+          }
+        ],
+        "coverage": "5 yearly snapshots (2022–2026)",
+        "error": null
+      }
+    },
+    {
+      "step": "list_catalog",
+      "input": {
+        "site": "https://www.ovs.it/it/it"
+      },
+      "result": {
+        "catalog_size_estimate": null,
+        "product_urls": [
+          "https://www.ovs.it/it/it/p/accessibilita/accessibility.html"
+        ],
+        "source": "category_scrape",
+        "error": null
+      }
+    },
+    {
+      "step": "fetch_page",
+      "input": {
+        "url": "https://www.ovs.it/it/it/c/donna/abbigliamento/t-shirt-polo-e-top/"
+      },
+      "result": {
+        "url": "https://www.ovs.it/it/it/c/donna/abbigliamento/t-shirt-polo-e-top/",
+        "status": 200,
+        "title": "T-shirt, polo e top da Donna | OVS",
+        "text": "T-shirt, polo e top da Donna | OVS Spedizione Gratuita oltre i 60€ Acquista ora, paga a rate Resi sempre gratuiti Spedizione Gratuita oltre i 60€ Spedizione Gratuita per ordini oltre i 60€. Ricevi il tuo shopping gratuitamente anche nel weekend. Per ulteriori informazioni, visita le FAQ. Scopri di più Acquista ora, paga a rate Utilizza la nostra modalità di pagamento a rate per fare shopping senza pensieri. Scegli la modalità che più preferisci in fase di checkout. Resi sempre gratuiti Compra oggi e rendi senza fretta! Hai 30 giorni di tempo dal giorno di ricezione dell'ordine per effettuare il reso. Consulta le modalità nelle FAQ. Scopri di più navigation.aria.gotomaincontent navigation.aria.gotofooter Fino al -70% Donna Uomo 0-36 mesi 3-10 anni Teen PIOMBO LES COPAINS SHAKA Torna alla collezione Fino al -70% Torna alla collezione Donna Torna alla collezione Uomo Torna alla collezione 0-36 mesi Torna alla collezione 3-10 anni Torna alla collezione Teen Torna alla collezione PIOMBO Torna alla collezione LES COPAINS Torna alla collezione SHAKA Scopri i Vantaggi Donna Uomo 0-36 mesi 3-10 anni Teen Scopri il mondo Donna Abbigliamento Intimo e pigiami Accessori Brand Fino al -70% Moda mare Shop by Look Sport Scopri il mondo Uomo Abbigliamento Intimo e pigiami Accessori Brand Fino al -70% Moda mare Shop by Look Sport Scopri il mondo 0-36 mesi Neonato 0-9 mesi Neonata 0-9 mesi Bimbo 9-36 mesi Bimba 9-36 mesi Brand Fino al -70% Moda mare Shop by Look Personaggi Scopri il mondo 3-10 anni Bambino 3-10 anni Bambina 3-10 anni Brand Fino al -70% Moda mare Shop by Look Personaggi Scopri il mondo Teen Ragazzo 10-15 anni Ragazza 10-15 anni Brand Fino al -70% Moda mare Shop by Look Personaggi Scopri il mondo PIOMBO PIOMBO Donna PIOMBO Uomo PIOMBO Kids Fino al -70% Scopri il mondo LES COPAINS Abbigliamento Accessori e intimo Fino al -70% Scopri il mondo SHAKA Skincare Makeup Corpo & Haircare Profumi Brand Piacere di conoscerti! Crea il tuo account OVS o accedi per vivere un’esperienza di acquisto personalizzata. Accedi / Registrati Acquista Giftcard Trova ordine/reso Hai bisogno di aiuto? Sostenibilità Wishlist Trova ordine/reso Hai bisogno di aiuto? Store Locator Acquista Giftcard Sostenibilità Scopri il programma fedeltà Donna VANTAGGI FINO AL -70% Vedi tutto T-shirt, polo e top Camicie e bluse Abiti e jumpsuits Costumi e beachwear Pantaloni e leggings Shorts e bermuda Jeans Gonne Maglieria Felpe Blazer e gilet Giacche, cappotti e piumini Scarpe, borse e accessori Intimo Premaman Curvy Intimo Premaman Curvy PROMOZIONI BEAUTY PROMOZIONI BEAUTY Love this price Accedi o registrati: -30% Last Beauty Call Accedi o registrati : -50% TOP BRAND IN SCONTO TOP BRAND IN SCONTO OVS PIOMBO Les Copains B.Angel Utopja Mya Uomo VANTAGGI FINO AL -70% Vedi tutto Maglieria T-shirt e polo Camicie Abiti Giacche e blazer Cappotti, piumini e smanicati Pantaloncini e bermuda Costumi e beachwear Pantaloni Jeans Scarpe, borse e accessori Intimo TOP BRAND IN SCONTO TOP BRAND IN SCONTO OVS PIOMBO B.Angel Utopja Maui 0-36 mesi VANTAGGI FINO AL -70% Neonato 0-9 mesi Neonata 0-9 mesi Bimbo 9-36 mesi Bimba 9-36 mesi TOP BRAND IN SCONTO TOP BRAND IN SCONTO Fagottino IANA 3-10 anni VANTAGGI FINO AL -70% Bambino 3-10 anni Bambina 3-10 anni TOP BRAND IN SCONTO TOP BRAND IN SCONTO OVS PIOMBO Kids Love Therapy GAP Teen VANTAGGI FINO AL -70% Ragazzo 10-15 anni Ragazza 10-15 anni TOP BRAND IN SCONTO TOP BRAND IN SCONTO OVS Maui GAP Abbigliamento COLLEZIONE T-shirt, polo e top Best seller Camicie e bluse Abiti e jumpsuits Trend Costumi e beachwear New In Pantaloni e leggings Shorts e bermuda Jeans Gonne Maglieria Felpe Blazer e gilet Giacche, cappotti e piumini Set e completi coordinati Vedi tutto Set e completi coordinati Vedi tutto IN EVIDENZA IN EVIDENZA The Iconic Essentials Nuova collezione FW26 New In TOP BRAND TOP BRAND Altavia Studio Altavia Utopja Hot on social B.Angel GAP Les Copains PIOMBO Scopri i migliori Brand House of Linen Esplora i key item nella fibra di stagione. Intimo e pigiami INTIMO E PIGIAMI Pigiami Camicie da notte T-shirt e canottiere intime Reggiseni Mutande e Slip Calze e calzini Vedi tutto IN EVIDENZA IN EVIDENZA The One PROMOZIONI PROMOZIONI Reggiseni Mix & Match - 2 x 18,95€ Slip Mix & Match - 2 x 8,95€ Nude Effect Mix & Match - 5 x 19,95€ Vedi tutto TOP BRAND TOP BRAND Les Copains Intimo e Pigiami Eleganza e comfort per il tuo everyday. Accessori ACCESSORI E CALZATURE Borse e zaini Portachiavi & Charms Teli mare New In Sciarpe e foulard Cappelli Cinture Accessori per capelli Scarpe Ciabatte Vedi tutto BIGIOTTERIA BIGIOTTERIA Orecchini Collane CASA E CANCELLERIA CASA E CANCELLERIA Cancelleria Accessori casa Accessori viaggio TOP BRAND TOP BRAND Urban Commuter C'est Fou Accessori mare Essenziali da portare con te Brand ABBIGLIAMENTO Altavia Altavia Court Altavia Sailing Altavia Studio B.Angel C'est Fou Coralife In promo Everlast GAP Hybrid Jansport Les Copains Mya Dalla taglia 39 alla 51 Nicol Caramel PIOMBO PIOMBO Contemporary Tally Weijl Terraviva Design Urban Commuter Utopja Hot on social Scopri i migliori Brand PIOMBO PIOMBO Contemporary Tally Weijl Terraviva Design Urban Commuter Utopja Hot on social Scopri i migliori Brand SELEZIONE BEAUTY SELEZIONE BEAUTY Amuse Arencia Beauty of Joseon Beauty Routine B.Lab Ciglissime COSRX Essential PINK Giovanardi Farmaceutici Mamonde Revolution Scopri il mondo Beauty Utopja Summer 26 Tra silhouette second-skin e summer basics rivisitati. Fino al -70% VANTAGGI FINO AL -70% Vedi tutto T-shirt, polo e top Camicie e bluse Abiti e Jumpsuits Costumi e beachwear Pantaloni e leggings Shorts e bermuda Jeans Gonne Maglieria Felpe Giacche e blazer Cappotti, piumini e smanicati Scarpe, borse e accessori Intimo Pigiami Abbigliamento sportivo Premaman Curvy Intimo Pigiami Abbigliamento sportivo Premaman Curvy TOP BRAND IN SCONTO TOP BRAND IN SCONTO PIOMBO OVS Les Copains B.Angel Mya Moda mare COLLEZIONE MARE Bikini Costumi interi Borse e accessori mare Abbigliamento da spiaggia Abbigliamento in lino Abbigliamento in crochet Vedi tutto TROVA IL TUO STILE TROVA IL TUO STILE Rodeo Texas Coastal Paradise Earthly Harmony Basic Elevated Summer Party Coastal Joy Nautical Elegance Vedi tutto TOP BRAND TOP BRAND OVS Altavia Sailing New In B.Angel PIOMBO Vedi tutto Moda mare La selezione perfetta per la tua estate Shop by Look TROVA IL TUO LOOK Ufficio Cerimonie ed eventi Per le feste Anti-pioggia Loungewear Vedi tutto Sport ABBIGLIAMENTO SPORTIVO Yoga e Fitness Altavia Studio Hiking e Outdoor Altavia by D. Compagnoni Tennis e Padel Altavia Court Vela & Nautica Altavia Sailing Ciclismo Altavia Abbigliamento protezione solare Calzature e accessori Scopri tutti gli sport ALTAVIA CREW ALTAVIA CREW Puntata 1: Deborah Compagnoni Puntata 2: Giulio Bosca Puntata 3: Emil Zulian Puntata 4: Virna Toppi Altavia Court Per chi ama il tennis, il padel e il loro stile innato. Abbigliamento COLLEZIONE T-shirt Best seller Polo Camicie Pantaloni Pantaloncini e bermuda Trend Jeans Costumi New In Felpe Maglieria Blazer Giacche, cappotti e piumini Abiti Vedi tutto IN EVIDENZA IN EVIDENZA Collezione Lino The Iconic Essentials Nuova collezione FW26 New In TOP BRAND TOP BRAND Utopja Hot on social Altavia B.Angel GAP PIOMBO Scopri i migliori Brand House of Linen Esplora i key item nella fibra di stagione. Intimo e pigiami INTIMO E PIGIAMI Pigiami T-shirt intime Canottiere intime Mutande e slip Boxer Calze e calzini Vedi tutto PROMOZIONI PROMOZIONI Calze e calzini Mix & Match - 4 x 9,95€ Mix&Match Promo Scopri la promozione sulle calze Accessori ACCESSORI E CALZATURE Borse e zaini Marsupi Cappelli e Berretti Teli mare Cinture e bretelle Cravatte Guanti Bracciali Sciarpe e foulard Scarpe Ciabatte Vedi tutto TOP BRAND TOP BRAND Urban Commuter Accessori mare Essenziali da portare con te Brand ABBIGLIAMENTO Altavia Altavia Court Altavia Sailing B.Angel Coralife In promo Everlast GAP Jansport Jeep Maui and Sons NBA PIOMBO PIOMBO Contemporary PIOMBO Tech Terraviva Design Urban Commuter ",
+        "json_ld": [
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                  "id": "https://www.ovs.it/it/it/",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                  "id": "https://www.ovs.ithttps://www.ovs.it/it/it/c/donna/",
+                  "name": "Donna"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                  "id": "https://www.ovs.ithttps://www.ovs.it/it/it/c/donna/abbigliamento/",
+                  "name": "Abbigliamento"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                  "id": "https://www.ovs.ithttps://www.ovs.it/it/it/c/donna/abbigliamento/t-shirt-polo-e-top/",
+                  "name": "T-shirt, polo e top"
+                }
+              }
+            ]
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                  "@type": "Product",
+                  "name": "Tank top nero in cotone elasticizzato a costine fitted",
+                  "image": [
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw3a9db36d/media/products/002/654/002654153_FSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw240d221c/media/products/002/654/002654153_D1STILL.jpg"
+                  ],
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 12.95,
+                    "priceCurrency": "EUR"
+                  },
+                  "url": "https://www.ovs.it/it/it/p/tank-top-nero-in-cotone-elasticizzato-a-costine-fitted-002654153.html"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                  "@type": "Product",
+                  "name": "Blusa blu a maniche lunghe in misto viscosa regular fit",
+                  "image": [
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw6758dbab/media/products/002/699/002699133_V1.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwe1f89bcd/media/products/002/699/002699133_L.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw7adb6dc3/media/products/002/699/002699133_F.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwb27d0afd/media/products/002/699/002699133_R.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwf993c5b2/media/products/002/699/002699133_FSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw81761f7d/media/products/002/699/002699133_D1STILL.jpg"
+                  ],
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 29.99,
+                    "priceCurrency": "EUR"
+                  },
+                  "url": "https://www.ovs.it/it/it/p/blusa-blu-a-maniche-lunghe-in-misto-viscosa-regular-fit-002699133.html"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                  "@type": "Product",
+                  "name": "T-shirt relaxed fit marrone in puro cotone a maniche corte",
+                  "image": [
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwf2004966/media/products/002/767/002767412_F.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw60790d63/media/products/002/767/002767412_L.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwc5582582/media/products/002/767/002767412_D1.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw1b348e9f/media/products/002/767/002767412_R.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw421ad5ca/media/products/002/767/002767412_FSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw6be52688/media/products/002/767/002767412_RSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwb20a4771/media/products/002/767/002767412_D1STILL.jpg"
+                  ],
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 14.95,
+                    "priceCurrency": "EUR"
+                  },
+                  "url": "https://www.ovs.it/it/it/p/t-shirt-relaxed-fit-marrone-in-puro-cotone-a-maniche-corte-002767412.html"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                  "@type": "Product",
+                  "name": "T-shirt bianca relaxed fit in puro cotone con scritta sul petto",
+                  "image": [
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw7560c6db/media/products/002/698/002698164_FSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw3eeed198/media/products/002/698/002698164_RSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwdb784aac/media/products/002/698/002698164_D1STILL.jpg"
+                  ],
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 9.95,
+                    "priceCurrency": "EUR"
+                  },
+                  "url": "https://www.ovs.it/it/it/p/t-shirt-bianca-relaxed-fit-in-puro-cotone-con-scritta-sul-petto-002698164.html"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                  "@type": "Product",
+                  "name": "T-shirt blu in pura viscosa con scollo a V regular fit",
+                  "image": [
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw8e1ebf9f/media/products/002/696/002696366_FSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw98fac624/media/products/002/696/002696366_RSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwf82ab8a4/media/products/002/696/002696366_D1STILL.jpg"
+                  ],
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 19.95,
+                    "priceCurrency": "EUR"
+                  },
+                  "url": "https://www.ovs.it/it/it/p/t-shirt-blu-in-pura-viscosa-con-scollo-a-v-regular-fit-002696366.html"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 6,
+                "item": {
+                  "@type": "Product",
+                  "name": "T-shirt bianca in puro cotone a righe blu regular fit",
+                  "image": [
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwb08eba3a/media/products/002/767/002767392_V1.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw53db5406/media/products/002/767/002767392_L.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw41408319/media/products/002/767/002767392_F.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw3d075507/media/products/002/767/002767392_R.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw54474219/media/products/002/767/002767392_FSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw466cd261/media/products/002/767/002767392_RSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwc27af06f/media/products/002/767/002767392_D1STILL.jpg"
+                  ],
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 6.95,
+                    "priceCurrency": "EUR"
+                  },
+                  "url": "https://www.ovs.it/it/it/p/t-shirt-bianca-in-puro-cotone-a-righe-blu-regular-fit-002767392.html"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 7,
+                "item": {
+                  "@type": "Product",
+                  "name": "Mock Neck Tank Top White",
+                  "image": [
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw5b4205d4/media/products/002/566/002566974_F.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw3943536f/media/products/002/566/002566974_R.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwa06e66d3/media/products/002/566/002566974_D1.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw8f4c96d1/media/products/002/566/002566974_D2.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw191b8947/media/products/002/566/002566974_L.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwd408e77b/media/products/002/566/002566974_FSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw18505abd/media/products/002/566/002566974_D1STILL.jpg"
+                  ],
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 14.95,
+                    "priceCurrency": "EUR"
+                  },
+                  "url": "https://www.ovs.it/it/it/p/mock-neck-tank-top-white-002566974.html"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 8,
+                "item": {
+                  "@type": "Product",
+                  "name": "Tank top bianco in cotone elasticizzato fitted",
+                  "image": [
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwc82b69aa/media/products/002/615/002615801_V1.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw547d6356/media/products/002/615/002615801_L.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw03d30763/media/products/002/615/002615801_F.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw9673a821/media/products/002/615/002615801_R.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwbb1bbfb9/media/products/002/615/002615801_FSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwc8c7addf/media/products/002/615/002615801_D1STILL.jpg"
+                  ],
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 7.95,
+                    "priceCurrency": "EUR"
+                  },
+                  "url": "https://www.ovs.it/it/it/p/tank-top-bianco-in-cotone-elasticizzato-fitted-002615801.html"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 9,
+                "item": {
+                  "@type": "Product",
+                  "name": "Top blu in viscosa elasticizzato regular fit",
+                  "image": [
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw48f244c6/media/products/002/691/002691542_V1.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwbaca0826/media/products/002/691/002691542_L.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwbc6f3d3a/media/products/002/691/002691542_F.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw91123cab/media/products/002/691/002691542_R.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw1e2f2324/media/products/002/691/002691542_FSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwe319ba96/media/products/002/691/002691542_D1STILL.jpg"
+                  ],
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 10.95,
+                    "priceCurrency": "EUR"
+                  },
+                  "url": "https://www.ovs.it/it/it/p/top-blu-in-viscosa-elasticizzato-regular-fit-002691542.html"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 10,
+                "item": {
+                  "@type": "Product",
+                  "name": "Tank top in puro cotone multicolor regular fit con spalline sottili",
+                  "image": [
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw8236604d/media/products/002/576/002576533_V1.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwe6a4e6de/media/products/002/576/002576533_F.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw02067677/media/products/002/576/002576533_L.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwd5bc4c0d/media/products/002/576/002576533_R.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwec5780be/media/products/002/576/002576533_FSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwe602f865/media/products/002/576/002576533_D1STILL.jpg"
+                  ],
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 14.95,
+                    "priceCurrency": "EUR"
+                  },
+                  "url": "https://www.ovs.it/it/it/p/tank-top-in-puro-cotone-multicolor-regular-fit-con-spalline-sottili-002576533.html"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 11,
+                "item": {
+                  "@type": "Product",
+                  "name": "T-shirt rosa relaxed fit in puro cotone con stampa",
+                  "image": [
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw22cb2374/media/products/002/698/002698194_FSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwd4fcda29/media/products/002/698/002698194_RSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwb1d42dea/media/products/002/698/002698194_D1STILL.jpg"
+                  ],
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 9.95,
+                    "priceCurrency": "EUR"
+                  },
+                  "url": "https://www.ovs.it/it/it/p/t-shirt-rosa-relaxed-fit-in-puro-cotone-con-stampa-002698194.html"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 12,
+                "item": {
+                  "@type": "Product",
+                  "name": "T-shirt grigia in puro cotone over fit con scritta sul petto",
+                  "image": [
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwe278eb0b/media/products/002/698/002698128_FSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw3020a86d/media/products/002/698/002698128_RSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw507e4974/media/products/002/698/002698128_D1STILL.jpg"
+                  ],
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 14.95,
+                    "priceCurrency": "EUR"
+                  },
+                  "url": "https://www.ovs.it/it/it/p/t-shirt-grigia-in-puro-cotone-over-fit-con-scritta-sul-petto-002698128.html"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 13,
+                "item": {
+                  "@type": "Product",
+                  "name": "T-shirt rosa a maniche corte in puro cotone",
+                  "image": [
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw819151ef/media/products/002/617/002617310_F.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw5368e5c1/media/products/002/617/002617310_L.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwaf00447b/media/products/002/617/002617310_R.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwa486fc56/media/products/002/617/002617310_D1.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwe7158881/media/products/002/617/002617310_FSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw4593e335/media/products/002/617/002617310_D1STILL.jpg"
+                  ],
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 14.95,
+                    "priceCurrency": "EUR"
+                  },
+                  "url": "https://www.ovs.it/it/it/p/t-shirt-rosa-a-maniche-corte-in-puro-cotone-002617310.html"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 14,
+                "item": {
+                  "@type": "Product",
+                  "name": "Tank top rosso in cotone elasticizzato con bottoni regular fit",
+                  "image": [
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw70ee5072/media/products/002/767/002767338_V1.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwe6070372/media/products/002/767/002767338_L.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwaedb0c24/media/products/002/767/002767338_F.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwce6c81b8/media/products/002/767/002767338_R.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw93400f82/media/products/002/767/002767338_FSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw71487b94/media/products/002/767/002767338_RSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw563876b6/media/products/002/767/002767338_D1STILL.jpg"
+                  ],
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 7.95,
+                    "priceCurrency": "EUR"
+                  },
+                  "url": "https://www.ovs.it/it/it/p/tank-top-rosso-in-cotone-elasticizzato-con-bottoni-regular-fit-002767338.html"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 15,
+                "item": {
+                  "@type": "Product",
+                  "name": "Tank top bianco in puro cotone con spalline sottili regular fit",
+                  "image": [
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw9df74516/media/products/002/658/002658525_V1.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwd46b00d4/media/products/002/658/002658525_L.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwa2d1a922/media/products/002/658/002658525_D1.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwc7a3f9b3/media/products/002/658/002658525_F.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwfa7e867d/media/products/002/658/002658525_R.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw13360409/media/products/002/658/002658525_FSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw95b6d8a4/media/products/002/658/002658525_D1STILL.jpg"
+                  ],
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 22.95,
+                    "priceCurrency": "EUR"
+                  },
+                  "url": "https://www.ovs.it/it/it/p/tank-top-bianco-in-puro-cotone-con-spalline-sottili-regular-fit-002658525.html"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 16,
+                "item": {
+                  "@type": "Product",
+                  "name": "T-shirt beige in pura viscosa con scollo a V regular fit",
+                  "image": [
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwb0eeaac1/media/products/002/696/002696378_FSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw824a12a4/media/products/002/696/002696378_RSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw64a51d77/media/products/002/696/002696378_D1STILL.jpg"
+                  ],
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 19.95,
+                    "priceCurrency": "EUR"
+                  },
+                  "url": "https://www.ovs.it/it/it/p/t-shirt-beige-in-pura-viscosa-con-scollo-a-v-regular-fit-002696378.html"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 17,
+                "item": {
+                  "@type": "Product",
+                  "name": "T-shirt viola in puro cotone relaxed fit",
+                  "image": [
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw5a1e7ea0/media/products/002/767/002767407_V1.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw7a723c13/media/products/002/767/002767407_L.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw43099366/media/products/002/767/002767407_F.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw6077955c/media/products/002/767/002767407_R.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw2b169a7e/media/products/002/767/002767407_FSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw0db731d7/media/products/002/767/002767407_RSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwa0a29164/media/products/002/767/002767407_D1STILL.jpg"
+                  ],
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 14.95,
+                    "priceCurrency": "EUR"
+                  },
+                  "url": "https://www.ovs.it/it/it/p/t-shirt-viola-in-puro-cotone-relaxed-fit-002767407.html"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 18,
+                "item": {
+                  "@type": "Product",
+                  "name": "T-shirt relaxed fit nera in puro cotone a maniche corte",
+                  "image": [
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw3a233dee/media/products/002/767/002767427_V1.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw52f49daf/media/products/002/767/002767427_L.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dweb197d2c/media/products/002/767/002767427_F.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwf8b3e003/media/products/002/767/002767427_R.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw398a80ca/media/products/002/767/002767427_FSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwe723b885/media/products/002/767/002767427_RSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwac98f32c/media/products/002/767/002767427_D1STILL.jpg"
+                  ],
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 14.95,
+                    "priceCurrency": "EUR"
+                  },
+                  "url": "https://www.ovs.it/it/it/p/t-shirt-relaxed-fit-nera-in-puro-cotone-a-maniche-corte-002767427.html"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 19,
+                "item": {
+                  "@type": "Product",
+                  "name": "Top bianco a righe con spalline",
+                  "image": [
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw6bddcb91/media/products/002/655/002655194_V1.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwe1e298e3/media/products/002/655/002655194_L.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw6f92c06f/media/products/002/655/002655194_F.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwda729427/media/products/002/655/002655194_R.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dweed6c4a9/media/products/002/655/002655194_FSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw52b1a48d/media/products/002/655/002655194_D1STILL.jpg"
+                  ],
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 14.95,
+                    "priceCurrency": "EUR"
+                  },
+                  "url": "https://www.ovs.it/it/it/p/top-bianco-a-righe-con-spalline-002655194.html"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 20,
+                "item": {
+                  "@type": "Product",
+                  "name": "Tube Top White",
+                  "image": [
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwdcf5745d/media/products/002/617/002617915_F.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw35e48645/media/products/002/617/002617915_R.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw7dcd8a5a/media/products/002/617/002617915_D1.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwd2cc14c1/media/products/002/617/002617915_L.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw6b8032e2/media/products/002/617/002617915_FSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwbce00813/media/products/002/617/002617915_RSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw6590be07/media/products/002/617/002617915_D1STILL.jpg"
+                  ],
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 12.95,
+                    "priceCurrency": "EUR"
+                  },
+                  "url": "https://www.ovs.it/it/it/p/tube-top-white-002617915.html"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 21,
+                "item": {
+                  "@type": "Product",
+                  "name": "Blusa multicolor in pura viscosa con stampa geometrica regular fit",
+                  "image": [
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwda8ca047/media/products/002/855/002855723_F.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw2ce5fb66/media/products/002/855/002855723_L.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwc5900098/media/products/002/855/002855723_R.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw3e61346d/media/products/002/855/002855723_D1.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwcba2f5d3/media/products/002/855/002855723_FSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw5bc6f7f6/media/products/002/855/002855723_D1STILL.jpg"
+                  ],
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 29.99,
+                    "priceCurrency": "EUR"
+                  },
+                  "url": "https://www.ovs.it/it/it/p/blusa-multicolor-in-pura-viscosa-con-stampa-geometrica-regular-fit-002855723.html"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 22,
+                "item": {
+                  "@type": "Product",
+                  "name": "T-shirt relaxed fit rosa in puro cotone a maniche corte",
+                  "image": [
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwe7c6aa7a/media/products/002/767/002767422_F.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw81ca9a4e/media/products/002/767/002767422_L.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwbab5b3eb/media/products/002/767/002767422_D1.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw629e1582/media/products/002/767/002767422_R.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw3e37560e/media/products/002/767/002767422_FSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw3ceb6cb0/media/products/002/767/002767422_RSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwd464cdd5/media/products/002/767/002767422_D1STILL.jpg"
+                  ],
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 14.95,
+                    "priceCurrency": "EUR"
+                  },
+                  "url": "https://www.ovs.it/it/it/p/t-shirt-relaxed-fit-rosa-in-puro-cotone-a-maniche-corte-002767422.html"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 23,
+                "item": {
+                  "@type": "Product",
+                  "name": "T-shirt viola relaxed fit a righe in puro cotone con ricamo cuore",
+                  "image": [
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw53526d37/media/products/002/698/002698176_FSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw1da545c3/media/products/002/698/002698176_RSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwe34ff358/media/products/002/698/002698176_D1STILL.jpg"
+                  ],
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 9.95,
+                    "priceCurrency": "EUR"
+                  },
+                  "url": "https://www.ovs.it/it/it/p/t-shirt-viola-relaxed-fit-a-righe-in-puro-cotone-con-ricamo-cuore-002698176.html"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": 24,
+                "item": {
+                  "@type": "Product",
+                  "name": "Canotta in cotone bianco regular fit con logo Hard Rock Cafe",
+                  "image": [
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw6768775c/media/products/002/497/002497166_F.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw13d463b3/media/products/002/497/002497166_L.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw3df1e50c/media/products/002/497/002497166_R.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw61c85f33/media/products/002/497/002497166_D1.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwa98bbdae/media/products/002/497/002497166_FSTILL.jpg",
+                    "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw049db955/media/products/002/497/002497166_D1STILL.jpg"
+                  ],
+                  "offers": {
+                    "@type": "Offer",
+                    "price": 14.95,
+                    "priceCurrency": "EUR"
+                  },
+                  "url": "https://www.ovs.it/it/it/p/canotta-in-cotone-bianco-regular-fit-con-logo-hard-rock-cafe-002497166.html"
+                }
+              }
+            ]
+          }
+        ],
+        "error": null
+      }
+    },
+    {
+      "step": "classify_images",
+      "input": {
+        "image_urls": [
+          "https://web.archive.org/web/20230102220404im_/https://www.ovs.it/on/demandware.static/-/Sites-ovs-master-catalog/default/dw8e9c9c9c/images/large/000_1.jpg"
+        ]
+      },
+      "result": {
+        "classifications": [],
+        "summary": {
+          "avg_shots": 0.0,
+          "pct_on_model": 0.0,
+          "pct_still_life": 0.0,
+          "pct_video": 0.0,
+          "consistency": "unknown"
+        },
+        "error": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Unable to download the file. Please verify the URL and try again.'}, 'request_id': 'req_011CcbEwhVvmoGKv6MiaQKdd'}"
+      }
+    },
+    {
+      "step": "classify_images",
+      "input": {
+        "image_urls": [
+          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw7adb6dc3/media/products/002/699/002699133_F.jpg",
+          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwf993c5b2/media/products/002/699/002699133_FSTILL.jpg",
+          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwf2004966/media/products/002/767/002767412_F.jpg",
+          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwc5582582/media/products/002/767/002767412_D1.jpg",
+          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw421ad5ca/media/products/002/767/002767412_FSTILL.jpg",
+          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw5b4205d4/media/products/002/566/002566974_F.jpg",
+          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw3943536f/media/products/002/566/002566974_R.jpg",
+          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwd408e77b/media/products/002/566/002566974_FSTILL.jpg",
+          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw03d30763/media/products/002/615/002615801_F.jpg",
+          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwbb1bbfb9/media/products/002/615/002615801_FSTILL.jpg",
+          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw3a9db36d/media/products/002/654/002654153_FSTILL.jpg",
+          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw03d30763/media/products/002/658/002658525_F.jpg",
+          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwda8ca047/media/products/002/855/002855723_F.jpg",
+          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwcba2f5d3/media/products/002/855/002855723_FSTILL.jpg",
+          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw6768775c/media/products/002/497/002497166_F.jpg",
+          "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwa98bbdae/media/products/002/497/002497166_FSTILL.jpg"
+        ]
+      },
+      "result": {
+        "classifications": [
+          {
+            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw7adb6dc3/media/products/002/699/002699133_F.jpg",
+            "label": "on_model",
+            "model_present": true,
+            "background": "studio grey",
+            "worn": true
+          },
+          {
+            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwf993c5b2/media/products/002/699/002699133_FSTILL.jpg",
+            "label": "ghost_mannequin",
+            "model_present": false,
+            "background": "studio grey",
+            "worn": false
+          },
+          {
+            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwf2004966/media/products/002/767/002767412_F.jpg",
+            "label": "on_model",
+            "model_present": true,
+            "background": "plain white",
+            "worn": true
+          },
+          {
+            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwc5582582/media/products/002/767/002767412_D1.jpg",
+            "label": "on_model",
+            "model_present": true,
+            "background": "studio grey",
+            "worn": true
+          },
+          {
+            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw421ad5ca/media/products/002/767/002767412_FSTILL.jpg",
+            "label": "still_life",
+            "model_present": false,
+            "background": "plain white",
+            "worn": false
+          },
+          {
+            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw5b4205d4/media/products/002/566/002566974_F.jpg",
+            "label": "on_model",
+            "model_present": true,
+            "background": "studio grey",
+            "worn": true
+          },
+          {
+            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw3943536f/media/products/002/566/002566974_R.jpg",
+            "label": "on_model",
+            "model_present": true,
+            "background": "studio grey",
+            "worn": true
+          },
+          {
+            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwd408e77b/media/products/002/566/002566974_FSTILL.jpg",
+            "label": "still_life",
+            "model_present": false,
+            "background": "studio grey",
+            "worn": false
+          },
+          {
+            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw03d30763/media/products/002/615/002615801_F.jpg",
+            "label": "on_model",
+            "model_present": true,
+            "background": "plain white",
+            "worn": true
+          },
+          {
+            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwbb1bbfb9/media/products/002/615/002615801_FSTILL.jpg",
+            "label": "still_life",
+            "model_present": false,
+            "background": "studio grey",
+            "worn": false
+          },
+          {
+            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw3a9db36d/media/products/002/654/002654153_FSTILL.jpg",
+            "label": "still_life",
+            "model_present": false,
+            "background": "studio grey",
+            "worn": false
+          },
+          {
+            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw03d30763/media/products/002/658/002658525_F.jpg",
+            "label": "on_model",
+            "model_present": true,
+            "background": "plain white",
+            "worn": true
+          },
+          {
+            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwda8ca047/media/products/002/855/002855723_F.jpg",
+            "label": "on_model",
+            "model_present": true,
+            "background": "plain white",
+            "worn": true
+          },
+          {
+            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwcba2f5d3/media/products/002/855/002855723_FSTILL.jpg",
+            "label": "still_life",
+            "model_present": false,
+            "background": "plain white",
+            "worn": false
+          },
+          {
+            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dw6768775c/media/products/002/497/002497166_F.jpg",
+            "label": "on_model",
+            "model_present": true,
+            "background": "plain white",
+            "worn": true
+          },
+          {
+            "url": "https://www.ovs.it/dw/image/v2/BKML_PRD/on/demandware.static/-/Sites-ovs-master/default/dwa98bbdae/media/products/002/497/002497166_FSTILL.jpg",
+            "label": "still_life",
+            "model_present": false,
+            "background": "plain white",
+            "worn": false
+          }
+        ],
+        "summary": {
+          "avg_shots": 1.0,
+          "pct_on_model": 56.2,
+          "pct_still_life": 37.5,
+          "pct_video": 0.0,
+          "consistency": "medium"
+        },
+        "error": null
+      }
+    },
+    {
+      "step": "enrich_people",
+      "input": {
+        "titles": [
+          "Head of E-commerce",
+          "Digital Director",
+          "Head of Digital",
+          "Studio Manager",
+          "Head of Creative Content"
+        ],
+        "company_domain": "ovs.it"
+      },
+      "result": {
+        "people": [
+          {
+            "name": "",
+            "title": "Head of E-commerce",
+            "linkedin": "",
+            "email_status": "unknown"
+          },
+          {
+            "name": "",
+            "title": "Digital Director",
+            "linkedin": "",
+            "email_status": "unknown"
+          },
+          {
+            "name": "",
+            "title": "Head of Digital",
+            "linkedin": "",
+            "email_status": "unknown"
+          },
+          {
+            "name": "",
+            "title": "Studio Manager",
+            "linkedin": "",
+            "email_status": "unknown"
+          },
+          {
+            "name": "",
+            "title": "Head of Creative Content",
+            "linkedin": "",
+            "email_status": "unknown"
+          }
+        ],
+        "needs_human": true,
+        "error": "no people-data provider configured (set APOLLO_API_KEY to enable Apollo lookups); returning target titles only — names need a human"
+      }
+    },
+    {
+      "step": "compute_opportunity",
+      "input": {
+        "new_skus_per_year": 40000,
+        "shots_per_sku": 4.5,
+        "channel_variants": 3.0,
+        "refresh_factor": 0.5,
+        "carryover_skus": 25000,
+        "revenue_eur": 1746000000,
+        "partner_multiplier": 2.2,
+        "tier": "mass",
+        "assumptions": [
+          "FY2025 revenue €1,746M confirmed via OVS corporate IR",
+          "Live PDP audit: ~5.5 listed images/SKU; ~94% AI-amenable (on-model+still-life), so 4.5 shots/SKU AI-eligible (excludes pure detail/ghost)",
+          "Value retailer with high catalog turnover; ~40k new SKUs/yr is a tier-based estimate spanning OVS+Upim+kids+Goldenpoint banners",
+          "Channel variants x3 = own site + marketplaces + localized franchise markets (Japan/Mexico/India)",
+          "Partner multiplier x2.2 = multi-banner portfolio + franchise/wholesale reach",
+          "Tier = mass (value positioning, €7-30 price points observed live); OVS runs in-house studio so € is upper-bound cost-displacement, real value is throughput/localization"
+        ]
+      },
+      "result": {
+        "annual_images_range": {
+          "low": 624375.0,
+          "high": 708750.0,
+          "mid": 666562.5
+        },
+        "cost_today_range": {
+          "low": 9365625.0,
+          "high": 42525000.0,
+          "mid": 25945312.5
+        },
+        "cost_sartiq_range": {
+          "low": 1873125.0,
+          "high": 8505000.0,
+          "mid": 5189062.5
+        },
+        "annual_opportunity_range": {
+          "low": 1873125.0,
+          "high": 8505000.0,
+          "mid": 5189062.5
+        },
+        "partner_upside_range": {
+          "low": 2247750.0000000005,
+          "high": 10206000.000000002,
+          "mid": 6226875.000000001
+        },
+        "topdown_range": {
+          "low": 1746000.0,
+          "high": 6984000.0,
+          "mid": 4365000.0
+        },
+        "levers": [
+          "speed (weeks -> hours)",
+          "return-rate reduction (image accuracy)",
+          "localization at near-zero marginal cost"
+        ],
+        "assumptions": [
+          "FY2025 revenue €1,746M confirmed via OVS corporate IR",
+          "Live PDP audit: ~5.5 listed images/SKU; ~94% AI-amenable (on-model+still-life), so 4.5 shots/SKU AI-eligible (excludes pure detail/ghost)",
+          "Value retailer with high catalog turnover; ~40k new SKUs/yr is a tier-based estimate spanning OVS+Upim+kids+Goldenpoint banners",
+          "Channel variants x3 = own site + marketplaces + localized franchise markets (Japan/Mexico/India)",
+          "Partner multiplier x2.2 = multi-banner portfolio + franchise/wholesale reach",
+          "Tier = mass (value positioning, €7-30 price points observed live); OVS runs in-house studio so € is upper-bound cost-displacement, real value is throughput/localization"
+        ],
+        "sanity_ok": true,
+        "needs_human": false
+      }
+    },
+    {
+      "step": "emit_field",
+      "input": {
+        "name": "q1_who",
+        "value": "OVS S.p.A. is Italy's leading value/mass apparel retailer for men, women and children (also underwear, beauty, home decor), running a vertically integrated model across a portfolio of proprietary brands. Listed on Euronext Milan since 2015. Tier: MASS — live PDP price points observed €7–30. Channel mix: DTC-led via 2,600+ stores (primarily OVS, Upim, Goldenpoint banners) plus e-commerce and franchise/wholesale abroad. Standalone group (no parent); banners include PIOMBO, OVS Kids, Blukids, Stefanel, Les Copains, Shaka, CROFF. Markets: Italy core, with franchise expansion in Japan, Mexico and India.",
+        "confidence": "high",
+        "sources": [
+          {
+            "title": "OVS Group | OVS Corporate",
+            "url": "https://www.ovscorporate.it/en/about-us/ovs-group",
+            "note": "vertically integrated, 2,600+ stores, banner portfolio, Euronext Milan"
+          },
+          {
+            "title": "OVS Investor Overview",
+            "url": "https://www.ovscorporate.it/en/investors/overview",
+            "note": "positioning as Italy's leading clothing retailer"
+          },
+          {
+            "title": "ovs.it live PDP (t-shirt/top category JSON-LD)",
+            "url": "https://www.ovs.it/it/it/c/donna/abbigliamento/t-shirt-polo-e-top/",
+            "note": "observed price points €6.95–29.99 confirm mass tier"
+          }
+        ]
+      },
+      "result": {
+        "stored": "q1_who",
+        "fields_emitted": [
+          "q1_who"
+        ]
+      }
+    },
+    {
+      "step": "emit_field",
+      "input": {
+        "name": "q2_direction",
+        "value": "Direction: INVESTING / ahead — play \"copy what works, then propose scale,\" not a visual overhaul. OVS is actively funding digital/AI: a €33m technology innovation hub in Puglia (\"OVS Innovazione e Sostenibilità\") for digital transformation, AI and a circular-economy multifunction centre, recruiting 125 digital specialists. Live NOW imagery is clean, studio-based on-model + still-life with reasonably modern art direction. Wayback shows continuous yearly refreshes of ovs.it (2022→2026). Trigger to note: the Puglia AI/digital-ops build-out signals appetite for tech-enabled content tooling. NOTE: the THEN (2023) imagery was not re-classified this run (archived CDN image URLs weren't resolvable), so the \"moved from packshot toward on-model\" trajectory is asserted from the seed + investment signals rather than a fresh side-by-side classification.",
+        "confidence": "med",
+        "is_estimate": true,
+        "assumption": "Trajectory (packshot→on-model) inferred from digital-investment signals and live NOW sample; THEN archived imagery not directly re-classified this run.",
+        "sources": [
+          {
+            "title": "OVS Group — Puglia innovation/AI hub",
+            "url": "https://www.ovscorporate.it/en/about-us/ovs-group",
+            "note": "€33m tech hub, digital transformation + AI, 125 hires"
+          },
+          {
+            "title": "Wayback snapshot — ovs.it 2023",
+            "url": "https://web.archive.org/web/20230102220404/http://ovs.it/",
+            "note": "THEN reference point; yearly snapshots 2022-2026 exist"
+          },
+          {
+            "title": "Wayback snapshot — ovs.it 2026 (NOW)",
+            "url": "https://web.archive.org/web/20260103230636/https://www.ovs.it/",
+            "note": "current-state reference"
+          }
+        ]
+      },
+      "result": {
+        "stored": "q2_direction",
+        "fields_emitted": [
+          "q1_who",
+          "q2_direction"
+        ]
+      }
+    },
+    {
+      "step": "emit_field",
+      "input": {
+        "name": "q3_momentum",
+        "value": "GROWING. FY2025 net sales €1,746M, up ~7% (≈3% organic + Goldenpoint acquisition), with adjusted EBITDA up ~20% to €218–219M. Momentum continued into FY2026: Q1 sales +0.6% to €354.4m, organic +7.5% YoY driving EBITDA +27% to €35.7m (9.4% margin); leverage improved to ~1.19x. Beauty doubling since 2021 (now ~8% of OVS sales), women's brands (Les Copains, PIOMBO) outperforming, and franchise expansion (Japan/Mexico/India). Brand and group are aligned (OVS is standalone) — no brand-vs-parent SPLIT. Management guides to further sales/EBITDA/cash growth.",
+        "confidence": "high",
+        "sources": [
+          {
+            "title": "Ovs' 2025 revenue rises 7% to €1.74 billion — FashionNetwork",
+            "url": "https://ww.fashionnetwork.com/news/Ovs-2025-revenue-rises-7-to-1-74-billion-kasanova-deal-falls-through,1804963.html",
+            "note": "revenue +7% to €1.74bn, EBITDA +20% to €218-219m"
+          },
+          {
+            "title": "OVS Investor Overview",
+            "url": "https://www.ovscorporate.it/en/investors/overview",
+            "note": "FY2025 €1,746M sales, €218.2M adjusted EBITDA"
+          },
+          {
+            "title": "OVS earnings summary — Quartr",
+            "url": "https://quartr.com/companies/ovs-s-p-a_14090",
+            "note": "Q1 organic +7.5%, EBITDA +27% to €35.7m, leverage 1.19x"
+          }
+        ]
+      },
+      "result": {
+        "stored": "q3_momentum",
+        "fields_emitted": [
+          "q1_who",
+          "q2_direction",
+          "q3_momentum"
+        ]
+      }
+    },
+    {
+      "step": "emit_field",
+      "input": {
+        "name": "q4_content_need",
+        "value": "Inputs supplied to compute_opportunity (agent does not state €/image counts): new_skus_per_year=40,000 (tier-based estimate across banners); shots_per_sku=4.5 (live-measured ~5.5 listed images/SKU, ~94% AI-amenable on-model+still-life); channel_variants=3.0 (own site + marketplaces + localized franchise markets); refresh_factor=0.5; carryover_skus=25,000; revenue_eur=1,746,000,000 (confirmed FY2025); partner_multiplier=2.2 (multi-banner + franchise/wholesale); tier=mass. Model returned an annual image-volume range and € opportunity range with sanity check passed; the bottom-up sits above the top-down revenue cross-check, so treat the higher end as an upper bound. HUMAN REFRAME REQUIRED: OVS runs an in-house studio, so per-image cost is already low — the € figure overstates pure cost displacement; the real value is studio scale, new-arrival surge capacity and near-zero-cost localization.",
+        "confidence": "med",
+        "is_estimate": true,
+        "assumption": "SKU/year and channel-variant figures are tier-based estimates; shots/SKU measured live from a 24-product JSON-LD sample + 16-image classification. € is an upper-bound cost-displacement draft given in-house studio.",
+        "needs_human": true,
+        "sources": [
+          {
+            "title": "ovs.it live PDP JSON-LD (shots/SKU + image mix)",
+            "url": "https://www.ovs.it/it/it/c/donna/abbigliamento/t-shirt-polo-e-top/",
+            "note": "24-product sample: ~5.5 images/SKU"
+          },
+          {
+            "title": "OVS Investor Overview (revenue cross-check)",
+            "url": "https://www.ovscorporate.it/en/investors/overview",
+            "note": "FY2025 €1,746M"
+          }
+        ]
+      },
+      "result": {
+        "stored": "q4_content_need",
+        "fields_emitted": [
+          "q1_who",
+          "q2_direction",
+          "q3_momentum",
+          "q4_content_need"
+        ]
+      }
+    },
+    {
+      "step": "emit_field",
+      "input": {
+        "name": "q5_pdp",
+        "value": "Measured live (24-SKU JSON-LD sample + 16-image vision classification on the women's t-shirt/top category): ~5.5 listed images per SKU. Image mix on the classified sample: ~56% on-model, ~38% still-life/packshot, plus occasional ghost-mannequin; 0% video. Shots per SKU vary meaningfully (2 to 7 images) — some SKUs carry full on-model + still sets, others are still-life only. Consistency = MEDIUM: backgrounds alternate between studio grey and plain white across SKUs, and shot count is uneven. Imagery is reused across marketplaces (e.g. Lyst carries OVS product shots). Net: solid, high-throughput catalog imagery with mixed on-model/still-life coverage but variable per-SKU depth and background consistency — the gap is throughput/uniformity, not baseline quality.",
+        "confidence": "high",
+        "sources": [
+          {
+            "title": "ovs.it live PDP JSON-LD sample",
+            "url": "https://www.ovs.it/it/it/c/donna/abbigliamento/t-shirt-polo-e-top/",
+            "note": "24 products, image arrays 2-7 shots/SKU"
+          },
+          {
+            "title": "Sartiq vision classification (16 live OVS images)",
+            "url": "https://www.ovs.it/it/it/c/donna/abbigliamento/t-shirt-polo-e-top/",
+            "note": "~56% on-model, ~38% still-life, medium consistency, grey/white backgrounds"
+          }
+        ]
+      },
+      "result": {
+        "stored": "q5_pdp",
+        "fields_emitted": [
+          "q1_who",
+          "q2_direction",
+          "q3_momentum",
+          "q4_content_need",
+          "q5_pdp"
+        ]
+      }
+    },
+    {
+      "step": "emit_field",
+      "input": {
+        "name": "q6_decision_maker",
+        "value": "Target role: Head of E-commerce / Digital (owns online catalog throughput and marketplace/localization) plus the Image & Studio Production lead (owns the in-house studio that is the actual bottleneck). Given the vertically integrated model and the Puglia digital/AI hub, the budget owner sits closer to digital-operations than to brand creative. No named person could be verified — the enrichment provider returned target titles only, no names/emails. A human must source and validate the individual (e.g. via OVS LinkedIn company page / Apollo).",
+        "confidence": "low",
+        "is_estimate": true,
+        "assumption": "Role mapping inferred from vertically-integrated org + digital/AI investment; no named individual sourced this run.",
+        "needs_human": true,
+        "sources": [
+          {
+            "title": "OVS Group — vertically integrated, product/digital org",
+            "url": "https://www.ovscorporate.it/en/about-us/ovs-group",
+            "note": "in-house product + digital ops; Puglia AI hub"
+          },
+          {
+            "title": "enrich_people (ovs.it) — titles only",
+            "url": "https://www.ovs.it",
+            "note": "no people-data provider configured; names need human"
+          }
+        ]
+      },
+      "result": {
+        "stored": "q6_decision_maker",
+        "fields_emitted": [
+          "q1_who",
+          "q2_direction",
+          "q3_momentum",
+          "q4_content_need",
+          "q5_pdp",
+          "q6_decision_maker"
+        ]
+      }
+    },
+    {
+      "step": "emit_field",
+      "input": {
+        "name": "q7_contact",
+        "value": "Cold entry (no evidence of a warm path). Recommended channel: direct email to the Head of E-commerce/Digital, cc/loop the Studio & Image Production lead. Angle: do NOT pitch \"replace your shoots\" — OVS is vertically integrated with an in-house studio, so per-image cost is already low. Pitch elastic studio SCALE: absorb new-arrival surges, spin up marketplace and localized franchise-market (Japan/Mexico/India) variants at ~zero marginal cost, so the in-house studio leads on craft instead of grinding volume. This aligns with their existing digital/AI investment narrative (Puglia hub). Any warm intro must be human-verified before use — none found.",
+        "confidence": "low",
+        "is_estimate": true,
+        "assumption": "Cold-entry default; contact angle derived from in-house-studio + franchise-localization evidence.",
+        "needs_human": true,
+        "sources": [
+          {
+            "title": "OVS Group — vertically integrated / franchise markets",
+            "url": "https://www.ovscorporate.it/en/about-us/ovs-group",
+            "note": "in-house studio implied; franchise Japan/Mexico/India → localization angle"
+          }
+        ]
+      },
+      "result": {
+        "stored": "q7_contact",
+        "fields_emitted": [
+          "q1_who",
+          "q2_direction",
+          "q3_momentum",
+          "q4_content_need",
+          "q5_pdp",
+          "q6_decision_maker",
+          "q7_contact"
+        ]
+      }
+    },
+    {
+      "step": "emit_field",
+      "input": {
+        "name": "gap",
+        "value": "The gap is THROUGHPUT and UNIFORMITY, not baseline quality. OVS runs the largest, fastest-turning catalog of its peer set with an in-house studio effectively at capacity: live audit shows solid on-model/still-life imagery but uneven per-SKU depth (2–7 shots) and mixed grey/white backgrounds (medium consistency). The wedge is AI on-model + still-life to (1) absorb new-arrival surges, (2) standardize background/shot-count consistency across banners, and (3) generate marketplace and localized franchise-market variants at near-zero marginal cost. NOT a \"cut your photo budget\" pitch — their in-house per-image cost is already low, so cost-savings framing misses; lead with studio scale and velocity.",
+        "confidence": "med",
+        "sources": [
+          {
+            "title": "ovs.it live PDP audit + classification",
+            "url": "https://www.ovs.it/it/it/c/donna/abbigliamento/t-shirt-polo-e-top/",
+            "note": "uneven shots/SKU, medium background consistency"
+          },
+          {
+            "title": "OVS Group — vertically integrated in-house studio",
+            "url": "https://www.ovscorporate.it/en/about-us/ovs-group",
+            "note": "in-house production → throughput not cost is the pain"
+          }
+        ]
+      },
+      "result": {
+        "stored": "gap",
+        "fields_emitted": [
+          "gap",
+          "q1_who",
+          "q2_direction",
+          "q3_momentum",
+          "q4_content_need",
+          "q5_pdp",
+          "q6_decision_maker",
+          "q7_contact"
+        ]
+      }
+    },
+    {
+      "step": "emit_field",
+      "input": {
+        "name": "strategy",
+        "value": "Innovation / scale play — brand and group are aligned and both GROWING, so lead with scale, not a turnaround. Hook: \"Your studio is the bottleneck on new-arrival velocity, not the budget.\" Open with: OVS ships more new SKUs per week than almost anyone in Italian retail and the in-house studio is the constraint; Sartiq adds elastic on-model + still-life capacity that absorbs new-arrival surges and spins up marketplace/localized variants at ~zero marginal cost, freeing the studio to lead on craft. Ride their existing digital/AI investment narrative (Puglia hub) rather than proposing a visual overhaul. Route to Head of E-commerce/Digital + Studio lead; cold email default.",
+        "confidence": "med",
+        "needs_human": true,
+        "sources": [
+          {
+            "title": "OVS FY2025 results (GROWING, aligned)",
+            "url": "https://ww.fashionnetwork.com/news/Ovs-2025-revenue-rises-7-to-1-74-billion-kasanova-deal-falls-through,1804963.html",
+            "note": "+7% revenue, +20% EBITDA — scale not turnaround"
+          },
+          {
+            "title": "OVS Puglia AI/digital hub",
+            "url": "https://www.ovscorporate.it/en/about-us/ovs-group",
+            "note": "tech-investment narrative to ride"
+          }
+        ]
+      },
+      "result": {
+        "stored": "strategy",
+        "fields_emitted": [
+          "gap",
+          "q1_who",
+          "q2_direction",
+          "q3_momentum",
+          "q4_content_need",
+          "q5_pdp",
+          "q6_decision_maker",
+          "q7_contact",
+          "strategy"
+        ]
+      }
+    }
+  ]
+}
